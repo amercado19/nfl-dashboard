@@ -1,13 +1,13 @@
 {
 "version": "nfl-picks 0.20.17",
-"generated_at": "2026-09-14T20:58:46Z",
+"generated_at": "2026-09-14T22:51:58Z",
 "season": 2026,
 "week": 1,
 "game_type": "REG",
 "deploy": {
 "version": "nfl-picks 0.20.17",
-"commit": "d7f6d104b149",
-"built_at": "2026-09-14T20:58:46Z",
+"commit": "4cc226bbae54",
+"built_at": "2026-09-14T22:51:58Z",
 "repo_url": "https://github.com/amercado19/nfl-pipeline",
 "issues_url": "https://github.com/amercado19/nfl-pipeline/issues/new/choose",
 "actions_url": "https://github.com/amercado19/nfl-pipeline/actions",
@@ -32,17 +32,17 @@
 "game_lines": {
 "label": "Game lines (free ESPN/DK)",
 "state": "LIVE",
-"detail": "192 rows, last 2026-09-14T20:58:29Z"
+"detail": "192 rows, last 2026-09-14T22:51:47Z"
 },
 "prop_odds": {
 "label": "Player prop odds (Odds API)",
 "state": "LIVE",
-"detail": "last pull 2026-09-14T20:33:42Z"
+"detail": "last pull 2026-09-14T22:51:39Z"
 },
 "api_lines": {
 "label": "Multi-book game odds (Odds API)",
 "state": "LIVE",
-"detail": "last pull 2026-09-14T20:33:42Z"
+"detail": "last pull 2026-09-14T22:51:39Z"
 },
 "futures_odds": {
 "label": "Futures odds (Odds API)",
@@ -55,7 +55,7 @@
 "detail": "value never shown"
 }
 },
-"last_success": "2026-09-14T20:58:26Z",
+"last_success": "2026-09-14T22:51:39Z",
 "last_failure": "2026-09-14T01:07:27Z",
 "last_failure_errors": [
 "props WAS@DAL: NOT_FOUND"
@@ -68,24 +68,23 @@
 },
 "prop_odds_health": {
 "state": "AVAILABLE",
-"detail": "5472 priced prop rows across 27 games",
+"detail": "5481 priced prop rows across 27 games",
 "critical": false,
 "last_request": {
-"at": "2026-09-14T20:33:42Z",
+"at": "2026-09-14T22:51:39Z",
 "status": "ok",
-"credits": 12,
+"credits": 4,
 "books": [
-"fanduel",
-"draftkings"
+"fanduel"
 ],
 "note": "5ad8135dc2b5f27de0b777acd317855a"
 },
-"requests_this_month": 318,
+"requests_this_month": 320,
 "failed_requests": 22,
 "events_in_window": 15,
 "events_with_props": 27,
-"raw_rows": 5472,
-"mapped_rows": 5472,
+"raw_rows": 5481,
+"mapped_rows": 5481,
 "unmapped_rows": 0,
 "published_priced_propositions": 97,
 "books": [
@@ -107,14 +106,14 @@
 "rushing_attempts",
 "rushing_yards"
 ],
-"freshest_line": "2026-09-14T20:33:42Z",
+"freshest_line": "2026-09-14T22:51:38Z",
 "oldest_line": "2026-09-09T18:36:34Z",
 "budget_policy": "NORMAL",
 "budget_policy_display": "NORMAL",
 "credits": {
-"combined_used": 5910,
-"nfl_used": 2408,
-"provider_remaining": 94090,
+"combined_used": 6045,
+"nfl_used": 2427,
+"provider_remaining": 93955,
 "cap": 100000
 }
 },
@@ -199,29 +198,29 @@
 "kind": "player",
 "raw_name": "Kansas City Chiefs D/ST",
 "context": "DEN,KC",
-"seen_count": 38,
-"last_seen": "2026-09-14T20:33:42Z"
+"seen_count": 41,
+"last_seen": "2026-09-14T22:51:38Z"
 },
 {
 "kind": "player",
 "raw_name": "Denver Broncos D/ST",
 "context": "DEN,KC",
-"seen_count": 38,
-"last_seen": "2026-09-14T20:33:42Z"
+"seen_count": 41,
+"last_seen": "2026-09-14T22:51:38Z"
 },
 {
 "kind": "player",
 "raw_name": "Denver Broncos Defense",
 "context": "DEN,KC",
-"seen_count": 38,
-"last_seen": "2026-09-14T20:33:42Z"
+"seen_count": 41,
+"last_seen": "2026-09-14T22:51:38Z"
 },
 {
 "kind": "player",
 "raw_name": "Kansas City Chiefs Defense",
 "context": "DEN,KC",
-"seen_count": 38,
-"last_seen": "2026-09-14T20:33:42Z"
+"seen_count": 41,
+"last_seen": "2026-09-14T22:51:38Z"
 },
 {
 "kind": "player",
@@ -598,8 +597,8 @@
 "kind": "player",
 "raw_name": "No Touchdown",
 "context": "DEN,KC",
-"seen_count": 25,
-"last_seen": "2026-09-14T20:33:42Z"
+"seen_count": 27,
+"last_seen": "2026-09-14T22:51:38Z"
 },
 {
 "kind": "player",
@@ -1093,85 +1092,85 @@
 ],
 "freshness": {
 "schedule": {
-"last": "2026-09-14T20:58:29Z",
+"last": "2026-09-14T22:51:47Z",
 "age_hours": 0.0,
 "stale": false
 },
 "rosters": {
 "last": "2026-09-09T12:29:31Z",
-"age_hours": 128.5,
+"age_hours": 130.4,
 "stale": true
 },
 "depth": {
 "last": "2026-09-13T00:32:20Z",
-"age_hours": 44.4,
+"age_hours": 46.3,
 "stale": true
 },
 "injuries": {
 "last": "2026-09-14T20:58:20Z",
-"age_hours": 0.0,
+"age_hours": 1.9,
 "stale": false
 },
 "news": {
 "last": "2026-09-14T20:58:21Z",
-"age_hours": 0.0,
+"age_hours": 1.9,
 "stale": false
 },
 "odds": {
-"last": "2026-09-14T20:33:42Z",
-"age_hours": 0.4,
+"last": "2026-09-14T22:51:39Z",
+"age_hours": 0.0,
 "stale": false
 },
 "futures": {
 "last": "2026-09-08T16:36:02Z",
-"age_hours": 148.4,
+"age_hours": 150.3,
 "stale": false
 },
 "weather": {
 "last": "2026-09-14T20:58:25Z",
-"age_hours": 0.0,
+"age_hours": 1.9,
 "stale": false
 },
 "stats": {
-"last": "2026-09-14T20:58:29Z",
+"last": "2026-09-14T22:51:47Z",
 "age_hours": 0.0,
 "stale": false
 },
 "projections": {
 "last": "2026-09-14T20:58:31Z",
-"age_hours": 0.0,
+"age_hours": 1.9,
 "stale": false
 },
 "season_sim": {
 "last": "2026-09-14T16:27:00Z",
-"age_hours": 4.5,
+"age_hours": 6.4,
 "stale": false
 },
 "transactions": {
 "last": "2026-09-14T20:58:20Z",
-"age_hours": 0.0,
+"age_hours": 1.9,
 "stale": false
 }
 },
 "alerts": [
-"rosters: 128h old",
-"depth: 44h old",
-"odds: 2439 conflicting duplicate(s), 351 current-line conflict(s), 330 closing-line conflict(s) \u2014 see duplicate_odds diagnostic"
+"rosters: 130h old",
+"depth: 46h old",
+"odds: 2478 conflicting duplicate(s), 364 current-line conflict(s), 330 closing-line conflict(s) \u2014 see duplicate_odds diagnostic"
 ],
 "workflow_runs": {
-"n_recorded": 114,
+"n_recorded": 115,
 "workflows": [
 {
 "workflow": "scheduler",
-"runs": 114,
+"runs": 115,
 "failures_14d": 15,
 "last": {
-"at": "2026-09-14T20:34:17Z",
+"at": "2026-09-14T20:58:58Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34893449028",
-"duration_s": 106
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34895935385",
+"duration_s": 50
 },
-"last_success": "2026-09-14T20:34:17Z",
+"last_success": "2026-09-14T20:58:58Z",
 "last_failure": {
 "at": "2026-09-14T15:57:01Z",
 "url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34865387316",
@@ -1740,7 +1739,7 @@
 }
 ],
 "currently_failing": [],
-"last_successful_run": "2026-09-14T20:34:17Z",
+"last_successful_run": "2026-09-14T20:58:58Z",
 "status": "ok",
 "note": "one row per GitHub Actions execution (scheduler + manual); written by the run-summary step before the store is committed"
 },
@@ -1751,7 +1750,7 @@
 "detail": "build ran inside GitHub Actions",
 "where": "https://github.com/amercado19/nfl-pipeline/actions",
 "health": "healthy",
-"health_detail": "probe 378 ms at 2026-09-14T20:34:14Z"
+"health_detail": "probe 257 ms at 2026-09-14T20:58:55Z"
 },
 {
 "name": "Database Connected",
@@ -1772,7 +1771,7 @@
 "closing-line value"
 ],
 "health": "healthy",
-"health_detail": "probe 201 ms at 2026-09-14T20:34:14Z"
+"health_detail": "probe 258 ms at 2026-09-14T20:58:55Z"
 },
 {
 "name": "Weather Provider",
@@ -1780,7 +1779,7 @@
 "detail": "Open-Meteo (no key required); last run 2026-09-14T20:58:25Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 552 ms at 2026-09-14T20:34:13Z"
+"health_detail": "probe 129 ms at 2026-09-14T20:58:54Z"
 },
 {
 "name": "News Provider",
@@ -1788,7 +1787,7 @@
 "detail": "ESPN / CBS / PFT RSS (no key required); last run 2026-09-14T20:58:21Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 133 ms at 2026-09-14T20:34:13Z"
+"health_detail": "probe 34 ms at 2026-09-14T20:58:54Z"
 },
 {
 "name": "Deployment Token",
@@ -1799,7 +1798,7 @@
 "automatic dashboard publish to amercado19/nfl-dashboard"
 ],
 "health": "healthy",
-"health_detail": "last publish succeeded at 2026-09-14T20:34:17Z"
+"health_detail": "last publish succeeded at 2026-09-14T20:58:58Z"
 },
 {
 "name": "Dashboard Publisher",
@@ -1807,56 +1806,32 @@
 "detail": "reusable workflow publishes site/ to amercado19/nfl-dashboard (GitHub Pages)",
 "where": "https://amercado19.github.io/nfl-dashboard/",
 "health": "healthy",
-"health_detail": "last publish succeeded at 2026-09-14T20:34:17Z"
+"health_detail": "last publish succeeded at 2026-09-14T20:58:58Z"
 }
 ],
 "provider_failures": [],
 "scheduler": {
 "phase_now": "game_day",
 "watchdog": {
-"last_expected_run_utc": "2026-09-14T19:15Z",
-"last_actual_start_utc": "2026-09-14T20:32Z",
+"last_expected_run_utc": "2026-09-14T21:15Z",
+"last_actual_start_utc": "2026-09-14T20:58Z",
 "window_hours": 26,
 "tolerances": {
 "delayed_after_min": 20,
 "missed_after_min": 90
 },
-"expected_firings": 22,
-"on_time": 0,
+"expected_firings": 20,
+"on_time": 1,
 "delayed": 7,
-"missed": 8,
+"missed": 7,
 "rows": [
-{
-"due_utc": "2026-09-13T19:15Z",
-"slot": "gameday_2h",
-"expected_to_run": true,
-"started_utc": null,
-"delay_min": null,
-"status": "MISSED_RECOVERED"
-},
-{
-"due_utc": "2026-09-13T20:00Z",
-"slot": "prekick_30m",
-"expected_to_run": false,
-"started_utc": "2026-09-13T21:27Z",
-"delay_min": 87,
-"status": "DELAYED"
-},
-{
-"due_utc": "2026-09-13T20:30Z",
-"slot": "prekick_30m",
-"expected_to_run": false,
-"started_utc": null,
-"delay_min": null,
-"status": "SKIPPED_BY_GATE"
-},
 {
 "due_utc": "2026-09-13T21:15Z",
 "slot": "gameday_2h",
 "expected_to_run": true,
-"started_utc": null,
-"delay_min": null,
-"status": "MISSED_RECOVERED"
+"started_utc": "2026-09-13T21:27Z",
+"delay_min": 12,
+"status": "ON_TIME"
 },
 {
 "due_utc": "2026-09-13T23:15Z",
@@ -1990,9 +1965,9 @@
 "due_utc": "2026-09-14T20:00Z",
 "slot": "prekick_30m",
 "expected_to_run": false,
-"started_utc": null,
-"delay_min": null,
-"status": "PENDING"
+"started_utc": "2026-09-14T20:58Z",
+"delay_min": 58,
+"status": "DELAYED"
 },
 {
 "due_utc": "2026-09-14T20:30Z",
@@ -2000,19 +1975,27 @@
 "expected_to_run": false,
 "started_utc": null,
 "delay_min": null,
-"status": "PENDING"
+"status": "SKIPPED_BY_GATE"
+},
+{
+"due_utc": "2026-09-14T21:15Z",
+"slot": "gameday_2h",
+"expected_to_run": true,
+"started_utc": null,
+"delay_min": null,
+"status": "MISSED_STALE"
 }
 ],
-"missed_stale": 0,
-"recovered": 8,
-"state": "RECOVERED",
+"missed_stale": 1,
+"recovered": 6,
+"state": "MISSED_STALE",
 "note": "GitHub Actions cron is best-effort: events routinely arrive late and are sometimes skipped under load. A MISSED/DELAYED row here is a SCHEDULING problem (data goes stale until the next slot), never a pipeline failure \u2014 those are tracked separately from recorded run statuses."
 },
 "next_kick": "2026-09-15T00:15:00+00:00",
 "last_kick": "2026-09-14T00:20:00+00:00",
 "next_run": {
-"at_utc": "2026-09-14T21:15:00Z",
-"at_et": "Mon 2026-09-14 17:15 ET",
+"at_utc": "2026-09-14T23:15:00Z",
+"at_et": "Mon 2026-09-14 19:15 ET",
 "slot": "gameday_2h",
 "cron": "15 11,13,15,17,19,21,23 * 9-12,1-2 *",
 "group": "gameday_2h",
@@ -2230,29 +2213,29 @@
 "kind": "player",
 "raw_name": "Kansas City Chiefs D/ST",
 "context": "DEN,KC",
-"seen_count": 38,
-"last_seen": "2026-09-14T20:33:42Z"
+"seen_count": 41,
+"last_seen": "2026-09-14T22:51:38Z"
 },
 {
 "kind": "player",
 "raw_name": "Denver Broncos D/ST",
 "context": "DEN,KC",
-"seen_count": 38,
-"last_seen": "2026-09-14T20:33:42Z"
+"seen_count": 41,
+"last_seen": "2026-09-14T22:51:38Z"
 },
 {
 "kind": "player",
 "raw_name": "Denver Broncos Defense",
 "context": "DEN,KC",
-"seen_count": 38,
-"last_seen": "2026-09-14T20:33:42Z"
+"seen_count": 41,
+"last_seen": "2026-09-14T22:51:38Z"
 },
 {
 "kind": "player",
 "raw_name": "Kansas City Chiefs Defense",
 "context": "DEN,KC",
-"seen_count": 38,
-"last_seen": "2026-09-14T20:33:42Z"
+"seen_count": 41,
+"last_seen": "2026-09-14T22:51:38Z"
 },
 {
 "kind": "player",
@@ -2629,8 +2612,8 @@
 "kind": "player",
 "raw_name": "No Touchdown",
 "context": "DEN,KC",
-"seen_count": 25,
-"last_seen": "2026-09-14T20:33:42Z"
+"seen_count": 27,
+"last_seen": "2026-09-14T22:51:38Z"
 },
 {
 "kind": "player",
@@ -2918,7 +2901,7 @@
 "fanduel"
 ],
 "avg_confidence": 40.2,
-"last_refresh": "2026-09-14T20:58:31Z",
+"last_refresh": "2026-09-14T22:51:47Z",
 "production_model": "game-ridge-v1-2018-2025-202608281538",
 "week_accuracy": null,
 "season_accuracy": 0.509,
@@ -16743,7 +16726,7 @@
 },
 "ref_lines": {
 "spread_home": -2.5,
-"total": 43.5
+"total": 42.5
 },
 "sim": {
 "sim_run_id": "sim-2026_01_DEN_KC-1537335894",
@@ -18034,7 +18017,7 @@
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
 "signal_cluster_id": "2026_01_DEN_KC:DEN:rush:under",
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "confidence": 26.9,
 "why": [
 [
@@ -18081,7 +18064,7 @@
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
 "signal_cluster_id": "2026_01_DEN_KC:DEN:pass:under",
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "confidence": 45.9,
 "why": [
 [
@@ -18128,7 +18111,7 @@
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season(MIA)+role-prior WR1 usage basis - no OOS evidence covers it",
 "signal_cluster_id": "2026_01_DEN_KC:DEN:pass:under",
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "confidence": 39.7,
 "why": [
 [
@@ -18175,7 +18158,7 @@
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
 "signal_cluster_id": "2026_01_DEN_KC:KC:pass:under",
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "confidence": 40.6,
 "why": [
 [
@@ -18222,7 +18205,7 @@
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
 "signal_cluster_id": "2026_01_DEN_KC:DEN:pass:under",
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "confidence": 47.7,
 "why": [
 [
@@ -18624,8 +18607,8 @@
 "official_lock": {
 "policy_version": 2,
 "lock_time_utc": "2026-09-14T21:15:00Z",
-"state": "LIVE",
-"locked": false,
+"state": "LOCKED",
+"locked": true,
 "locked_at": "2026-09-14T20:58:46Z",
 "card_delayed": false,
 "source_age_min_at_lock": 16,
@@ -19179,7 +19162,7 @@
 "price": 1800,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS"
 },
@@ -19306,7 +19289,7 @@
 "price": 6000,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge +0.7% below 2% threshold",
 "state": "PASS"
@@ -19632,7 +19615,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge +0.3% below 2% threshold",
 "state": "PASS",
@@ -19846,7 +19829,7 @@
 "price": -124,
 "book": "draftkings",
 "novig": 0.5218,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS",
 "state_reason": "not offered at the execution sportsbook (fanduel) \u2014 research quote shown for context",
@@ -20007,7 +19990,7 @@
 "price": -130,
 "book": "draftkings",
 "novig": 0.5331,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS",
 "state_reason": "not offered at the execution sportsbook (fanduel) \u2014 research quote shown for context",
@@ -20184,7 +20167,7 @@
 "price": -164,
 "book": "fanduel",
 "novig": 0.5829,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -20356,7 +20339,7 @@
 "price": -112,
 "book": "draftkings",
 "novig": 0.4979,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS",
 "state_reason": "not offered at the execution sportsbook (fanduel) \u2014 research quote shown for context",
@@ -20589,7 +20572,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "confidence 16 below 25",
 "state": "LEAN",
@@ -20771,7 +20754,7 @@
 "price": 700,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -10.5% below 2% threshold",
 "state": "PASS"
@@ -21171,7 +21154,7 @@
 "price": 148,
 "book": "fanduel",
 "novig": 0.3769,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS",
 "signal_cluster_id": "2026_01_DEN_KC:KC:pass:over"
@@ -21558,7 +21541,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge +0.8% below 2% threshold",
 "state": "PASS",
@@ -21753,7 +21736,7 @@
 "price": 950,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge +0.6% below 2% threshold",
 "state": "PASS"
@@ -21881,7 +21864,7 @@
 "price": 3500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -0.4% below 2% threshold",
 "state": "PASS"
@@ -22308,7 +22291,7 @@
 "price": -160,
 "book": "fanduel",
 "novig": 0.5752,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -16.6% below 2% threshold",
 "state": "PASS",
@@ -22737,7 +22720,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -22937,7 +22920,7 @@
 "price": 160,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -4.5% below 2% threshold",
 "state": "PASS"
@@ -23068,7 +23051,7 @@
 "price": 900,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -1.8% below 2% threshold",
 "state": "PASS"
@@ -23657,7 +23640,7 @@
 "price": -174,
 "book": "fanduel",
 "novig": 0.5936,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -24082,7 +24065,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -24279,7 +24262,7 @@
 "price": 210,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -10.6% below 2% threshold",
 "state": "PASS"
@@ -24407,7 +24390,7 @@
 "price": 1100,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -3.4% below 2% threshold",
 "state": "PASS"
@@ -24854,7 +24837,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS",
 "signal_cluster_id": "2026_01_DEN_KC:KC:rush:under"
@@ -25108,7 +25091,7 @@
 "price": -186,
 "book": "fanduel",
 "novig": 0.6075,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -15.0% below 2% threshold",
 "state": "PASS",
@@ -25391,7 +25374,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season(SEA)+role-prior RB1 usage basis - no OOS evidence covers it",
@@ -25875,7 +25858,7 @@
 "price": -115,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -17.5% below 2% threshold",
 "state": "PASS"
@@ -26344,7 +26327,7 @@
 "price": 490,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -7.4% below 2% threshold",
 "state": "PASS"
@@ -27267,7 +27250,7 @@
 "price": 1100,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS"
 },
@@ -27727,7 +27710,7 @@
 "price": 4500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge +1.5% below 2% threshold",
 "state": "PASS"
@@ -27907,7 +27890,7 @@
 "price": -166,
 "book": "fanduel",
 "novig": 0.583,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -28332,7 +28315,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -28529,7 +28512,7 @@
 "price": 600,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge +0.7% below 2% threshold",
 "state": "PASS"
@@ -28657,7 +28640,7 @@
 "price": 2500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -0.2% below 2% threshold",
 "state": "PASS"
@@ -29111,7 +29094,7 @@
 "price": -154,
 "book": "fanduel",
 "novig": 0.567,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -29549,7 +29532,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -29749,7 +29732,7 @@
 "price": 340,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -4.9% below 2% threshold",
 "state": "PASS"
@@ -29880,7 +29863,7 @@
 "price": 1600,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -1.8% below 2% threshold",
 "state": "PASS"
@@ -30273,7 +30256,7 @@
 "price": -150,
 "book": "fanduel",
 "novig": 0.5667,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "confidence 13 below 25",
 "state": "LEAN",
@@ -30540,7 +30523,7 @@
 "price": 174,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 4.53,
+"price_age_h": 6.42,
 "action": "BET",
 "state": "PASS",
 "signal_cluster_id": "2026_01_DEN_KC:KC:rush:over"
@@ -31351,7 +31334,7 @@
 "price": 650,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS"
 },
@@ -31811,7 +31794,7 @@
 "price": 2700,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge +1.8% below 2% threshold",
 "state": "PASS"
@@ -31970,7 +31953,7 @@
 "price": -174,
 "book": "fanduel",
 "novig": 0.5936,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "confidence 15 below 25",
 "state": "LEAN",
@@ -32309,7 +32292,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on role-prior WR4 (n=32) usage basis - no OOS evidence covers it",
@@ -32506,7 +32489,7 @@
 "price": 850,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -3.7% below 2% threshold",
 "state": "PASS"
@@ -32634,7 +32617,7 @@
 "price": 3500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -1.3% below 2% threshold",
 "state": "PASS"
@@ -33488,7 +33471,7 @@
 "price": 1100,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS"
 },
@@ -33615,7 +33598,7 @@
 "price": 4500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge +1.2% below 2% threshold",
 "state": "PASS"
@@ -34156,7 +34139,7 @@
 "price": 205,
 "book": "fanduel",
 "novig": 0.306,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS",
 "signal_cluster_id": "2026_01_DEN_KC:DEN:pass:over"
@@ -34536,7 +34519,7 @@
 "price": -125,
 "book": "fanduel",
 "novig": 0.5239,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -34733,7 +34716,7 @@
 "price": 850,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -3.9% below 2% threshold",
 "state": "PASS"
@@ -34861,7 +34844,7 @@
 "price": 3500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -1.4% below 2% threshold",
 "state": "PASS"
@@ -35558,7 +35541,7 @@
 "price": 1300,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS"
 },
@@ -35693,7 +35676,7 @@
 "price": 5000,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge +1.9% below 2% threshold",
 "state": "PASS"
@@ -36307,7 +36290,7 @@
 "price": 154,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 4.53,
+"price_age_h": 6.42,
 "action": "BET",
 "state": "PASS",
 "signal_cluster_id": "2026_01_DEN_KC:DEN:pass:over"
@@ -36517,7 +36500,7 @@
 "price": -105,
 "book": "draftkings",
 "novig": 0.4824,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS",
 "state_reason": "not offered at the execution sportsbook (fanduel) \u2014 research quote shown for context",
@@ -36675,7 +36658,7 @@
 "price": -105,
 "book": "draftkings",
 "novig": 0.4824,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS",
 "state_reason": "not offered at the execution sportsbook (fanduel) \u2014 research quote shown for context",
@@ -36849,7 +36832,7 @@
 "price": -192,
 "book": "fanduel",
 "novig": 0.618,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge +0.4% below 2% threshold",
 "state": "LEAN",
@@ -37016,7 +36999,7 @@
 "price": -104,
 "book": "draftkings",
 "novig": 0.4812,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS",
 "state_reason": "not offered at the execution sportsbook (fanduel) \u2014 research quote shown for context",
@@ -37246,7 +37229,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -37435,7 +37418,7 @@
 "price": 430,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -15.0% below 2% threshold",
 "state": "PASS"
@@ -38562,7 +38545,7 @@
 "price": 750,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -3.4% below 2% threshold",
 "state": "PASS"
@@ -38934,7 +38917,7 @@
 "price": 3300,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -1.3% below 2% threshold",
 "state": "PASS"
@@ -39257,7 +39240,7 @@
 "price": -104,
 "book": "fanduel",
 "novig": 0.4759,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "LEAN",
 "signal_cluster_id": "2026_01_DEN_KC:DEN:pass:under"
@@ -39686,7 +39669,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season(MIA)+role-prior WR1 usage basis - no OOS evidence covers it",
@@ -39883,7 +39866,7 @@
 "price": 210,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -10.3% below 2% threshold",
 "state": "PASS"
@@ -40019,7 +40002,7 @@
 "price": 1200,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -2.9% below 2% threshold",
 "state": "PASS"
@@ -40613,7 +40596,7 @@
 "price": 104,
 "book": "fanduel",
 "novig": 0.4581,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -41024,7 +41007,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -41221,7 +41204,7 @@
 "price": 500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -6.2% below 2% threshold",
 "state": "PASS"
@@ -41349,7 +41332,7 @@
 "price": 2500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -1.6% below 2% threshold",
 "state": "PASS"
@@ -42046,7 +42029,7 @@
 "price": 1300,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS"
 },
@@ -42181,7 +42164,7 @@
 "price": 5000,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge +0.2% below 2% threshold",
 "state": "PASS"
@@ -42658,7 +42641,7 @@
 "price": 102,
 "book": "fanduel",
 "novig": 0.4621,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -43090,7 +43073,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -43287,7 +43270,7 @@
 "price": 250,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -5.9% below 2% threshold",
 "state": "PASS"
@@ -43423,7 +43406,7 @@
 "price": 1300,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -2.1% below 2% threshold",
 "state": "PASS"
@@ -44036,7 +44019,7 @@
 "price": 158,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 4.53,
+"price_age_h": 6.42,
 "action": "BET",
 "state": "PASS",
 "signal_cluster_id": "2026_01_DEN_KC:DEN:rush:over"
@@ -44281,7 +44264,7 @@
 "price": -130,
 "book": "fanduel",
 "novig": 0.5282,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -4.6% below 2% threshold",
 "state": "PASS",
@@ -44555,7 +44538,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -45033,7 +45016,7 @@
 "price": 310,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS"
 },
@@ -45525,7 +45508,7 @@
 "price": 1400,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge +1.1% below 2% threshold",
 "state": "PASS"
@@ -46126,7 +46109,7 @@
 "price": 1900,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge +1.9% below 2% threshold",
 "state": "PASS"
@@ -46254,7 +46237,7 @@
 "price": 8000,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge +0.2% below 2% threshold",
 "state": "PASS"
@@ -46594,7 +46577,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -46815,7 +46798,7 @@
 "price": 152,
 "book": "fanduel",
 "novig": 0.3712,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "LEAN",
 "signal_cluster_id": "2026_01_DEN_KC:DEN:pass:under"
@@ -47068,7 +47051,7 @@
 "price": -120,
 "book": "fanduel",
 "novig": 0.5146,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -47549,7 +47532,7 @@
 "price": 175,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -8.0% below 2% threshold",
 "state": "PASS"
@@ -48046,7 +48029,7 @@
 "price": 750,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -4.7% below 2% threshold",
 "state": "PASS"
@@ -48971,7 +48954,7 @@
 "price": 750,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -5.2% below 2% threshold",
 "state": "PASS"
@@ -49343,7 +49326,7 @@
 "price": 3300,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -1.5% below 2% threshold",
 "state": "PASS"
@@ -49530,7 +49513,7 @@
 "price": 144,
 "book": "fanduel",
 "novig": 0.3831,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "state": "PASS",
 "signal_cluster_id": "2026_01_DEN_KC:DEN:pass:over"
@@ -49930,7 +49913,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -50130,7 +50113,7 @@
 "price": 750,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -2.6% below 2% threshold",
 "state": "PASS"
@@ -50269,7 +50252,7 @@
 "price": 3000,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -1.3% below 2% threshold",
 "state": "PASS"
@@ -50750,7 +50733,7 @@
 "price": -122,
 "book": "fanduel",
 "novig": 0.5142,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -51175,7 +51158,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "BET",
 "regime_support": "UNVALIDATED",
 "regime_why": "pick runs on prior-season usage basis - no OOS evidence covers it",
@@ -51372,7 +51355,7 @@
 "price": 450,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -7.7% below 2% threshold",
 "state": "PASS"
@@ -51508,7 +51491,7 @@
 "price": 2200,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.42,
+"price_age_h": 2.3,
 "action": "PASS",
 "pass_reason": "edge -1.9% below 2% threshold",
 "state": "PASS"
@@ -313839,7 +313822,7 @@
 ],
 "injury_uncertainty_count": 57
 },
-"age_hours": 4.5,
+"age_hours": 6.4,
 "stale": false,
 "snapshots_stored": 20,
 "history_append_only": true,
@@ -351045,73 +351028,73 @@
 "season": 2026,
 "week": 1,
 "game_type": "REG",
-"generated_at": "2026-09-14T20:58:44Z",
+"generated_at": "2026-09-14T22:51:56Z",
 "freshness": {
 "schedule": {
-"last": "2026-09-14T20:58:29Z",
+"last": "2026-09-14T22:51:47Z",
 "age_hours": 0.0,
 "stale": false
 },
 "rosters": {
 "last": "2026-09-09T12:29:31Z",
-"age_hours": 128.5,
+"age_hours": 130.4,
 "stale": true
 },
 "depth": {
 "last": "2026-09-13T00:32:20Z",
-"age_hours": 44.4,
+"age_hours": 46.3,
 "stale": true
 },
 "injuries": {
 "last": "2026-09-14T20:58:20Z",
-"age_hours": 0.0,
+"age_hours": 1.9,
 "stale": false
 },
 "news": {
 "last": "2026-09-14T20:58:21Z",
-"age_hours": 0.0,
+"age_hours": 1.9,
 "stale": false
 },
 "odds": {
-"last": "2026-09-14T20:33:42Z",
-"age_hours": 0.4,
+"last": "2026-09-14T22:51:39Z",
+"age_hours": 0.0,
 "stale": false
 },
 "futures": {
 "last": "2026-09-08T16:36:02Z",
-"age_hours": 148.4,
+"age_hours": 150.3,
 "stale": false
 },
 "weather": {
 "last": "2026-09-14T20:58:25Z",
-"age_hours": 0.0,
+"age_hours": 1.9,
 "stale": false
 },
 "stats": {
-"last": "2026-09-14T20:58:29Z",
+"last": "2026-09-14T22:51:47Z",
 "age_hours": 0.0,
 "stale": false
 },
 "projections": {
 "last": "2026-09-14T20:58:31Z",
-"age_hours": 0.0,
+"age_hours": 1.9,
 "stale": false
 },
 "season_sim": {
 "last": "2026-09-14T16:27:00Z",
-"age_hours": 4.5,
+"age_hours": 6.4,
 "stale": false
 },
 "transactions": {
 "last": "2026-09-14T20:58:20Z",
-"age_hours": 0.0,
+"age_hours": 1.9,
 "stale": false
 }
 },
 "alerts": [
-"rosters: 128h old",
-"depth: 44h old",
-"odds: 2439 conflicting duplicate(s), 351 current-line conflict(s), 330 closing-line conflict(s) \u2014 see duplicate_odds diagnostic"
+"rosters: 130h old",
+"depth: 46h old",
+"odds: 2478 conflicting duplicate(s), 364 current-line conflict(s), 330 closing-line conflict(s) \u2014 see duplicate_odds diagnostic"
 ],
 "failed_batches": [],
 "unresolved": [
@@ -351140,29 +351123,29 @@
 "kind": "player",
 "raw_name": "Kansas City Chiefs D/ST",
 "context": "DEN,KC",
-"seen_count": 38,
-"last_seen": "2026-09-14T20:33:42Z"
+"seen_count": 41,
+"last_seen": "2026-09-14T22:51:38Z"
 },
 {
 "kind": "player",
 "raw_name": "Denver Broncos D/ST",
 "context": "DEN,KC",
-"seen_count": 38,
-"last_seen": "2026-09-14T20:33:42Z"
+"seen_count": 41,
+"last_seen": "2026-09-14T22:51:38Z"
 },
 {
 "kind": "player",
 "raw_name": "Denver Broncos Defense",
 "context": "DEN,KC",
-"seen_count": 38,
-"last_seen": "2026-09-14T20:33:42Z"
+"seen_count": 41,
+"last_seen": "2026-09-14T22:51:38Z"
 },
 {
 "kind": "player",
 "raw_name": "Kansas City Chiefs Defense",
 "context": "DEN,KC",
-"seen_count": 38,
-"last_seen": "2026-09-14T20:33:42Z"
+"seen_count": 41,
+"last_seen": "2026-09-14T22:51:38Z"
 },
 {
 "kind": "player",
@@ -351539,8 +351522,8 @@
 "kind": "player",
 "raw_name": "No Touchdown",
 "context": "DEN,KC",
-"seen_count": 25,
-"last_seen": "2026-09-14T20:33:42Z"
+"seen_count": 27,
+"last_seen": "2026-09-14T22:51:38Z"
 },
 {
 "kind": "player",
@@ -351816,32 +351799,32 @@
 "last_seen": "2026-09-09T18:35:32Z"
 }
 ],
-"duplicate_odds_rows": 2858,
+"duplicate_odds_rows": 2897,
 "duplicate_odds": {
-"identical_resnapshots": 8610,
+"identical_resnapshots": 8720,
 "benign_duplicates": 419,
-"conflicting_duplicates": 2439,
-"current_line_conflicts": 351,
+"conflicting_duplicates": 2478,
+"current_line_conflicts": 364,
 "closing_line_conflicts": 330,
 "alerting": true,
 "by": {
 "provider": {
-"odds_api": 2439
+"odds_api": 2478
 },
 "book": {
-"fanduel": 3116,
+"fanduel": 3168,
 "draftkings@espn": 4
 },
 "market": {
-"receiving_yards": 1236,
-"receptions": 1083,
-"rushing_yards": 573,
-"passing_yards": 224,
+"receiving_yards": 1257,
+"receptions": 1104,
+"rushing_yards": 581,
+"passing_yards": 226,
 "spread": 2,
 "total": 2
 },
 "game": {
-"2026_01_DEN_KC": 271,
+"2026_01_DEN_KC": 323,
 "2026_01_BUF_HOU": 251,
 "2026_01_DAL_NYG": 251,
 "2026_01_CHI_CAR": 242,
@@ -351861,6 +351844,7 @@
 "odds-20260910T205902Z-82580c": 357,
 "odds-20260913T212832Z-c6221f": 60,
 "odds-20260910T180335Z-e9b1cf": 40,
+"odds-20260914T225136Z-d77c62": 39,
 "odds-20260914T162639Z-deb157": 36
 }
 },
@@ -351923,8 +351907,8 @@
 "closing_lines": 5420,
 "coaches": 893,
 "conduct_events": 38,
-"current_alt_odds": 3867,
-"current_odds": 7584,
+"current_alt_odds": 3877,
+"current_odds": 7593,
 "depth_charts": 2169,
 "drives": 49938,
 "feature_snapshots": 0,
@@ -351940,7 +351924,7 @@
 "news_articles": 1989,
 "news_entities": 3778,
 "news_impacts": 4772,
-"odds_snapshots": 47792,
+"odds_snapshots": 48309,
 "parlay_legs": 0,
 "player_aliases": 54276,
 "player_game_stats": 44296,
@@ -351972,21 +351956,6 @@
 "weeks": 254
 },
 "provider_state": {
-"refresh-stats": {
-"status": "ok",
-"at": "2026-09-14T20:58:29Z",
-"errors": []
-},
-"refresh-schedule": {
-"status": "ok",
-"at": "2026-09-14T20:58:29Z",
-"errors": []
-},
-"refresh-injuries": {
-"status": "ok",
-"at": "2026-09-14T20:58:20Z",
-"errors": []
-},
 "refresh-transactions": {
 "status": "ok",
 "at": "2026-09-14T20:58:20Z",
@@ -352004,7 +351973,22 @@
 },
 "refresh-odds": {
 "status": "ok",
-"at": "2026-09-14T20:58:26Z",
+"at": "2026-09-14T22:51:39Z",
+"errors": []
+},
+"refresh-schedule": {
+"status": "ok",
+"at": "2026-09-14T22:51:47Z",
+"errors": []
+},
+"refresh-stats": {
+"status": "ok",
+"at": "2026-09-14T22:51:47Z",
+"errors": []
+},
+"refresh-injuries": {
+"status": "ok",
+"at": "2026-09-14T20:58:20Z",
 "errors": []
 },
 "refresh-depth-charts": {
@@ -352056,50 +352040,50 @@
 "label": "pre-kick 30m"
 }
 ],
-"credits_today": 60,
-"credits_month_nfl": 2408,
-"credits_month_combined": 5910,
-"provider_remaining": 94090,
-"projected_month_end": 12664,
-"remaining_budget": 94090,
-"pct_used": 0.0591,
-"pct_projected": 0.1266,
+"credits_today": 79,
+"credits_month_nfl": 2427,
+"credits_month_combined": 6045,
+"provider_remaining": 93955,
+"projected_month_end": 12953,
+"remaining_budget": 93955,
+"pct_used": 0.0604,
+"pct_projected": 0.1295,
 "by_endpoint": {
 "sports": 0,
 "odds:outrights": 1,
-"odds:featured": 72,
-"odds:event": 2335
+"odds:featured": 75,
+"odds:event": 2351
 },
 "by_sport": {
-"americanfootball_nfl": 2408
+"americanfootball_nfl": 2427
 },
 "by_book_region": {
 "-": 0,
-"fanduel,draftkings": 2056,
-"fanduel": 352
+"fanduel,draftkings": 2071,
+"fanduel": 356
 },
-"calls": 322,
-"avg_credits_per_call": 7.48,
+"calls": 325,
+"avg_credits_per_call": 7.47,
 "alerts": [],
-"projected_month_end_nfl": 5160,
+"projected_month_end_nfl": 5200,
 "policy": "NORMAL",
 "policy_display": "NORMAL",
-"avg_daily_burn_combined": 422.1,
-"avg_daily_burn_nfl": 172.0,
+"avg_daily_burn_combined": 431.8,
+"avg_daily_burn_nfl": 173.4,
 "mlb_reserve": 60000,
 "combined_cap": 100000,
 "nfl_target": 40000,
 "mlb_target": 60000,
-"credits_week": 2404,
-"credits_month": 2408,
-"mlb_estimated_month": 3502,
+"credits_week": 2423,
+"credits_month": 2427,
+"mlb_estimated_month": 3618,
 "mlb_estimate_method": "inferred from account usage minus NFL ledger",
-"combined_month": 5910,
+"combined_month": 6045,
 "combined_source": "provider x-requests-used header + NFL ledger since",
-"provider_header_at": "2026-09-14T20:33:42Z",
-"projected_month_end_combined": 12664,
-"remaining": 94090,
-"remaining_nfl": 37592,
+"provider_header_at": "2026-09-14T22:51:39Z",
+"projected_month_end_combined": 12953,
+"remaining": 93955,
+"remaining_nfl": 37573,
 "refresh_tier": {
 "tier_set": "sustainable",
 "policy": "NORMAL",
@@ -352130,9 +352114,9 @@
 "disabled": false,
 "provider": "odds_api",
 "last_success": {
-"ts": "2026-09-14T20:33:42Z",
+"ts": "2026-09-14T22:51:39Z",
 "endpoint": "odds:event",
-"credits": 12,
+"credits": 4,
 "workflow": "scheduler"
 },
 "last_failure": {
@@ -352151,31 +352135,31 @@
 "mlb_usage": "inferred from account usage minus NFL ledger"
 },
 "usage_by_sport": {
-"nfl_ledger": 2408,
-"mlb_inferred": 3502,
+"nfl_ledger": 2427,
+"mlb_inferred": 3618,
 "mlb_inference": "inferred from account usage minus NFL ledger"
 },
 "usage_by_workflow": {
-"scheduler": 2408
+"scheduler": 2427
 },
 "usage_by_endpoint": {
 "sports": 0,
 "odds:outrights": 1,
-"odds:featured": 72,
-"odds:event": 2335
+"odds:featured": 75,
+"odds:event": 2351
 },
 "usage_by_sportsbook": {
-"fanduel": 2408,
-"draftkings": 2056
+"fanduel": 2427,
+"draftkings": 2071
 },
 "usage_by_sportsbook_note": "credits of every request that included the book; a request costs the same whichever books it lists",
-"avg_credits_per_refresh": 77.68,
+"avg_credits_per_refresh": 75.84,
 "failed_calls_month": 22,
-"updated_at": "2026-09-14T20:58:44Z"
+"updated_at": "2026-09-14T22:51:56Z"
 },
 "odds_refresh_state": {
 "futures": "2026-09-01T16:36:19.033238+00:00",
-"featured": "2026-09-14T20:33:41.579656+00:00",
+"featured": "2026-09-14T22:51:36.437530+00:00",
 "props:2026_01_NE_SEA": "2026-09-09T22:31:03.510244+00:00",
 "props:2026_01_SF_LA": "2026-09-10T23:14:34.178113+00:00",
 "props:2026_01_CHI_CAR": "2026-09-13T14:56:01.063215+00:00",
@@ -352191,7 +352175,7 @@
 "props:2026_01_GB_MIN": "2026-09-13T18:15:37.076672+00:00",
 "props:2026_01_WAS_PHI": "2026-09-13T18:15:37.076672+00:00",
 "props:2026_01_DAL_NYG": "2026-09-13T21:28:32.501265+00:00",
-"props:2026_01_DEN_KC": "2026-09-14T20:33:41.579656+00:00",
+"props:2026_01_DEN_KC": "2026-09-14T22:51:36.437530+00:00",
 "alt:2026_01_SF_LA": "2026-09-10T18:03:35.557453+00:00",
 "alt:2026_01_CHI_CAR": "2026-09-13T14:56:01.063215+00:00",
 "alt:2026_01_TB_CIN": "2026-09-13T14:56:01.063215+00:00",
@@ -352206,7 +352190,7 @@
 "alt:2026_01_GB_MIN": "2026-09-13T14:56:01.063215+00:00",
 "alt:2026_01_WAS_PHI": "2026-09-13T14:56:01.063215+00:00",
 "alt:2026_01_DAL_NYG": "2026-09-13T21:28:32.501265+00:00",
-"alt:2026_01_DEN_KC": "2026-09-14T16:26:39.672501+00:00",
+"alt:2026_01_DEN_KC": "2026-09-14T22:51:36.437530+00:00",
 "props:2026_02_DET_BUF": "2026-09-14T16:26:39.672501+00:00",
 "props:2026_02_CAR_ATL": "2026-09-14T16:26:39.672501+00:00",
 "props:2026_02_NO_BAL": "2026-09-14T16:26:39.672501+00:00",
@@ -352269,50 +352253,50 @@
 "label": "pre-kick 30m"
 }
 ],
-"credits_today": 60,
-"credits_month_nfl": 2408,
-"credits_month_combined": 5910,
-"provider_remaining": 94090,
-"projected_month_end": 12664,
-"remaining_budget": 94090,
-"pct_used": 0.0591,
-"pct_projected": 0.1266,
+"credits_today": 79,
+"credits_month_nfl": 2427,
+"credits_month_combined": 6045,
+"provider_remaining": 93955,
+"projected_month_end": 12953,
+"remaining_budget": 93955,
+"pct_used": 0.0604,
+"pct_projected": 0.1295,
 "by_endpoint": {
 "sports": 0,
 "odds:outrights": 1,
-"odds:featured": 72,
-"odds:event": 2335
+"odds:featured": 75,
+"odds:event": 2351
 },
 "by_sport": {
-"americanfootball_nfl": 2408
+"americanfootball_nfl": 2427
 },
 "by_book_region": {
 "-": 0,
-"fanduel,draftkings": 2056,
-"fanduel": 352
+"fanduel,draftkings": 2071,
+"fanduel": 356
 },
-"calls": 322,
-"avg_credits_per_call": 7.48,
+"calls": 325,
+"avg_credits_per_call": 7.47,
 "alerts": [],
-"projected_month_end_nfl": 5160,
+"projected_month_end_nfl": 5200,
 "policy": "NORMAL",
 "policy_display": "NORMAL",
-"avg_daily_burn_combined": 422.1,
-"avg_daily_burn_nfl": 172.0,
+"avg_daily_burn_combined": 431.8,
+"avg_daily_burn_nfl": 173.4,
 "mlb_reserve": 60000,
 "combined_cap": 100000,
 "nfl_target": 40000,
 "mlb_target": 60000,
-"credits_week": 2404,
-"credits_month": 2408,
-"mlb_estimated_month": 3502,
+"credits_week": 2423,
+"credits_month": 2427,
+"mlb_estimated_month": 3618,
 "mlb_estimate_method": "inferred from account usage minus NFL ledger",
-"combined_month": 5910,
+"combined_month": 6045,
 "combined_source": "provider x-requests-used header + NFL ledger since",
-"provider_header_at": "2026-09-14T20:33:42Z",
-"projected_month_end_combined": 12664,
-"remaining": 94090,
-"remaining_nfl": 37592,
+"provider_header_at": "2026-09-14T22:51:39Z",
+"projected_month_end_combined": 12953,
+"remaining": 93955,
+"remaining_nfl": 37573,
 "refresh_tier": {
 "tier_set": "sustainable",
 "policy": "NORMAL",
@@ -352343,9 +352327,9 @@
 "disabled": false,
 "provider": "odds_api",
 "last_success": {
-"ts": "2026-09-14T20:33:42Z",
+"ts": "2026-09-14T22:51:39Z",
 "endpoint": "odds:event",
-"credits": 12,
+"credits": 4,
 "workflow": "scheduler"
 },
 "last_failure": {
@@ -352369,66 +352353,28 @@
 "mlb_usage": "inferred from account usage minus NFL ledger"
 },
 "usage_by_sport": {
-"nfl_ledger": 2408,
-"mlb_inferred": 3502,
+"nfl_ledger": 2427,
+"mlb_inferred": 3618,
 "mlb_inference": "inferred from account usage minus NFL ledger"
 },
 "usage_by_workflow": {
-"scheduler": 2408
+"scheduler": 2427
 },
 "usage_by_endpoint": {
 "sports": 0,
 "odds:outrights": 1,
-"odds:featured": 72,
-"odds:event": 2335
+"odds:featured": 75,
+"odds:event": 2351
 },
 "usage_by_sportsbook": {
-"fanduel": 2408,
-"draftkings": 2056
+"fanduel": 2427,
+"draftkings": 2071
 },
 "usage_by_sportsbook_note": "credits of every request that included the book; a request costs the same whichever books it lists",
-"avg_credits_per_refresh": 77.68,
+"avg_credits_per_refresh": 75.84,
 "failed_calls_month": 22,
-"updated_at": "2026-09-14T20:58:44Z",
+"updated_at": "2026-09-14T22:51:56Z",
 "credit_checks": [
-{
-"at": "2026-09-10T18:47:09Z",
-"batch": "odds-20260910T184709Z-b8195f",
-"estimated_credits": 111,
-"actual_credits": 105,
-"discrepancy": -6,
-"billable": true,
-"checklist": {
-"rows_written": {
-"value": 700,
-"pass": true
-},
-"books_expected": {
-"value": [
-"draftkings",
-"fanduel"
-],
-"pass": true
-},
-"no_inplay_rows": {
-"value": 0,
-"pass": true
-},
-"markets_canonical": {
-"value": [],
-"pass": true
-},
-"usage_recorded": {
-"value": 0,
-"pass": false
-},
-"no_provider_errors": {
-"value": [],
-"pass": true
-}
-},
-"checklist_pass": false
-},
 {
 "at": "2026-09-10T20:05:45Z",
 "batch": "odds-20260910T200545Z-70ef47",
@@ -353157,24 +353103,62 @@
 }
 },
 "checklist_pass": false
-}
-],
-"credit_check_last": {
-"at": "2026-09-14T20:33:41Z",
-"batch": "odds-20260914T203341Z-7b148c",
-"estimated_credits": 15,
-"actual_credits": 15,
+},
+{
+"at": "2026-09-14T22:51:36Z",
+"batch": "odds-20260914T225136Z-d77c62",
+"estimated_credits": 19,
+"actual_credits": 19,
 "discrepancy": 0,
 "billable": true,
 "checklist": {
 "rows_written": {
-"value": 291,
+"value": 517,
 "pass": true
 },
 "books_expected": {
 "value": [
-"draftkings",
-"fanduel"
+"fanduel",
+"draftkings"
+],
+"pass": true
+},
+"no_inplay_rows": {
+"value": 0,
+"pass": true
+},
+"markets_canonical": {
+"value": [],
+"pass": true
+},
+"usage_recorded": {
+"value": 0,
+"pass": false
+},
+"no_provider_errors": {
+"value": [],
+"pass": true
+}
+},
+"checklist_pass": false
+}
+],
+"credit_check_last": {
+"at": "2026-09-14T22:51:36Z",
+"batch": "odds-20260914T225136Z-d77c62",
+"estimated_credits": 19,
+"actual_credits": 19,
+"discrepancy": 0,
+"billable": true,
+"checklist": {
+"rows_written": {
+"value": 517,
+"pass": true
+},
+"books_expected": {
+"value": [
+"fanduel",
+"draftkings"
 ],
 "pass": true
 },
@@ -353198,23 +353182,23 @@
 "checklist_pass": false
 },
 "credit_discrepancy": {
-"n_billable_pulls": 29,
+"n_billable_pulls": 30,
 "last": {
-"at": "2026-09-14T20:33:41Z",
-"batch": "odds-20260914T203341Z-7b148c",
-"estimated_credits": 15,
-"actual_credits": 15,
+"at": "2026-09-14T22:51:36Z",
+"batch": "odds-20260914T225136Z-d77c62",
+"estimated_credits": 19,
+"actual_credits": 19,
 "discrepancy": 0,
 "billable": true,
 "checklist": {
 "rows_written": {
-"value": 291,
+"value": 517,
 "pass": true
 },
 "books_expected": {
 "value": [
-"draftkings",
-"fanduel"
+"fanduel",
+"draftkings"
 ],
 "pass": true
 },
@@ -353237,8 +353221,8 @@
 },
 "checklist_pass": false
 },
-"total_estimated": 2816,
-"total_actual": 2407,
+"total_estimated": 2835,
+"total_actual": 2426,
 "status": "ok",
 "note": "estimate vs provider-charged credits per billable refresh; the first real pull of the season is auto-validated by its checklist"
 }
@@ -353251,7 +353235,7 @@
 "detail": "build ran inside GitHub Actions",
 "where": "https://github.com/amercado19/nfl-pipeline/actions",
 "health": "healthy",
-"health_detail": "probe 378 ms at 2026-09-14T20:34:14Z"
+"health_detail": "probe 257 ms at 2026-09-14T20:58:55Z"
 },
 {
 "name": "Database Connected",
@@ -353272,7 +353256,7 @@
 "closing-line value"
 ],
 "health": "healthy",
-"health_detail": "probe 201 ms at 2026-09-14T20:34:14Z"
+"health_detail": "probe 258 ms at 2026-09-14T20:58:55Z"
 },
 {
 "name": "Weather Provider",
@@ -353280,7 +353264,7 @@
 "detail": "Open-Meteo (no key required); last run 2026-09-14T20:58:25Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 552 ms at 2026-09-14T20:34:13Z"
+"health_detail": "probe 129 ms at 2026-09-14T20:58:54Z"
 },
 {
 "name": "News Provider",
@@ -353288,7 +353272,7 @@
 "detail": "ESPN / CBS / PFT RSS (no key required); last run 2026-09-14T20:58:21Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 133 ms at 2026-09-14T20:34:13Z"
+"health_detail": "probe 34 ms at 2026-09-14T20:58:54Z"
 },
 {
 "name": "Deployment Token",
@@ -353299,7 +353283,7 @@
 "automatic dashboard publish to amercado19/nfl-dashboard"
 ],
 "health": "healthy",
-"health_detail": "last publish succeeded at 2026-09-14T20:34:17Z"
+"health_detail": "last publish succeeded at 2026-09-14T20:58:58Z"
 },
 {
 "name": "Dashboard Publisher",
@@ -353307,7 +353291,7 @@
 "detail": "reusable workflow publishes site/ to amercado19/nfl-dashboard (GitHub Pages)",
 "where": "https://amercado19.github.io/nfl-dashboard/",
 "health": "healthy",
-"health_detail": "last publish succeeded at 2026-09-14T20:34:17Z"
+"health_detail": "last publish succeeded at 2026-09-14T20:58:58Z"
 }
 ],
 "setup": {
@@ -353348,19 +353332,19 @@
 "note": "The dashboard keeps working on projections and public data while credentials are missing; only the listed features are blocked."
 },
 "runs": {
-"n_recorded": 114,
+"n_recorded": 115,
 "workflows": [
 {
 "workflow": "scheduler",
-"runs": 114,
+"runs": 115,
 "failures_14d": 15,
 "last": {
-"at": "2026-09-14T20:34:17Z",
+"at": "2026-09-14T20:58:58Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34893449028",
-"duration_s": 106
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34895935385",
+"duration_s": 50
 },
-"last_success": "2026-09-14T20:34:17Z",
+"last_success": "2026-09-14T20:58:58Z",
 "last_failure": {
 "at": "2026-09-14T15:57:01Z",
 "url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34865387316",
@@ -353929,56 +353913,32 @@
 }
 ],
 "currently_failing": [],
-"last_successful_run": "2026-09-14T20:34:17Z",
+"last_successful_run": "2026-09-14T20:58:58Z",
 "status": "ok",
 "note": "one row per GitHub Actions execution (scheduler + manual); written by the run-summary step before the store is committed"
 },
 "scheduler": {
 "phase_now": "game_day",
 "watchdog": {
-"last_expected_run_utc": "2026-09-14T19:15Z",
-"last_actual_start_utc": "2026-09-14T20:32Z",
+"last_expected_run_utc": "2026-09-14T21:15Z",
+"last_actual_start_utc": "2026-09-14T20:58Z",
 "window_hours": 26,
 "tolerances": {
 "delayed_after_min": 20,
 "missed_after_min": 90
 },
-"expected_firings": 22,
-"on_time": 0,
+"expected_firings": 20,
+"on_time": 1,
 "delayed": 7,
-"missed": 8,
+"missed": 7,
 "rows": [
-{
-"due_utc": "2026-09-13T19:15Z",
-"slot": "gameday_2h",
-"expected_to_run": true,
-"started_utc": null,
-"delay_min": null,
-"status": "MISSED_RECOVERED"
-},
-{
-"due_utc": "2026-09-13T20:00Z",
-"slot": "prekick_30m",
-"expected_to_run": false,
-"started_utc": "2026-09-13T21:27Z",
-"delay_min": 87,
-"status": "DELAYED"
-},
-{
-"due_utc": "2026-09-13T20:30Z",
-"slot": "prekick_30m",
-"expected_to_run": false,
-"started_utc": null,
-"delay_min": null,
-"status": "SKIPPED_BY_GATE"
-},
 {
 "due_utc": "2026-09-13T21:15Z",
 "slot": "gameday_2h",
 "expected_to_run": true,
-"started_utc": null,
-"delay_min": null,
-"status": "MISSED_RECOVERED"
+"started_utc": "2026-09-13T21:27Z",
+"delay_min": 12,
+"status": "ON_TIME"
 },
 {
 "due_utc": "2026-09-13T23:15Z",
@@ -354112,9 +354072,9 @@
 "due_utc": "2026-09-14T20:00Z",
 "slot": "prekick_30m",
 "expected_to_run": false,
-"started_utc": null,
-"delay_min": null,
-"status": "PENDING"
+"started_utc": "2026-09-14T20:58Z",
+"delay_min": 58,
+"status": "DELAYED"
 },
 {
 "due_utc": "2026-09-14T20:30Z",
@@ -354122,19 +354082,27 @@
 "expected_to_run": false,
 "started_utc": null,
 "delay_min": null,
-"status": "PENDING"
+"status": "SKIPPED_BY_GATE"
+},
+{
+"due_utc": "2026-09-14T21:15Z",
+"slot": "gameday_2h",
+"expected_to_run": true,
+"started_utc": null,
+"delay_min": null,
+"status": "MISSED_STALE"
 }
 ],
-"missed_stale": 0,
-"recovered": 8,
-"state": "RECOVERED",
+"missed_stale": 1,
+"recovered": 6,
+"state": "MISSED_STALE",
 "note": "GitHub Actions cron is best-effort: events routinely arrive late and are sometimes skipped under load. A MISSED/DELAYED row here is a SCHEDULING problem (data goes stale until the next slot), never a pipeline failure \u2014 those are tracked separately from recorded run statuses."
 },
 "next_kick": "2026-09-15T00:15:00+00:00",
 "last_kick": "2026-09-14T00:20:00+00:00",
 "next_run": {
-"at_utc": "2026-09-14T21:15:00Z",
-"at_et": "Mon 2026-09-14 17:15 ET",
+"at_utc": "2026-09-14T23:15:00Z",
+"at_et": "Mon 2026-09-14 19:15 ET",
 "slot": "gameday_2h",
 "cron": "15 11,13,15,17,19,21,23 * 9-12,1-2 *",
 "group": "gameday_2h",
@@ -354331,23 +354299,23 @@
 "dashboard_repo": "https://github.com/amercado19/nfl-dashboard",
 "site_url": "https://amercado19.github.io/nfl-dashboard/",
 "version": "nfl-picks 0.20.17",
-"commit": "d7f6d104b149",
+"commit": "4cc226bbae54",
 "branch": "main",
 "tag": null,
 "dashboard_commit": {
 "ok": true,
-"sha": "dd49704e8ac2",
-"message": "Auto-publish NFL 2026-09-14 20:34 UTC",
-"date": "2026-09-14T20:34:09Z",
-"url": "https://github.com/amercado19/nfl-dashboard/commit/dd49704e8ac2835413faf5052e0d5904c15edc09"
+"sha": "b936b797431d",
+"message": "Auto-publish NFL 2026-09-14 20:58 UTC",
+"date": "2026-09-14T20:58:51Z",
+"url": "https://github.com/amercado19/nfl-dashboard/commit/b936b797431d96bb0774a6e529764a3ec824d0b1"
 },
 "pages": {
 "reachable": true,
 "status": 200,
-"latency_ms": 433,
+"latency_ms": 366,
 "live_version": "0.20.17",
-"live_build": "39a1e458ab72",
-"live_generated_at": "2026-09-14T20:34:05Z",
+"live_build": "d7f6d104b149",
+"live_generated_at": "2026-09-14T20:58:46Z",
 "in_sync": false
 },
 "method": "GitHub Actions (scheduler) \u2192 SSH deploy key \u2192 amercado19/nfl-dashboard \u2192 GitHub Pages",
@@ -354365,15 +354333,15 @@
 "kind": "rate_limit",
 "ok": true,
 "status": 200,
-"latency_ms": 378,
+"latency_ms": 257,
 "bytes": 1232,
 "rate_limit": {
 "remaining": "5000",
 "limit": "5000"
 },
 "authenticated": true,
-"probed_at": "2026-09-14T20:34:14Z",
-"run_id": "34893449028"
+"probed_at": "2026-09-14T20:58:55Z",
+"run_id": "34895935385"
 },
 "latest_workflow": null,
 "latest_completed_workflow": null,
@@ -354386,15 +354354,15 @@
 },
 "publish": {
 "last": {
-"recorded_at": "2026-09-14T20:34:17Z",
+"recorded_at": "2026-09-14T20:58:58Z",
 "workflow": "scheduler",
-"run_id": "34893449028",
+"run_id": "34895935385",
 "attempt": "1",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34893449028",
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34895935385",
 "trigger": "schedule",
 "status": "success",
-"started_at": "2026-09-14T20:32:32Z",
-"duration_s": 106,
+"started_at": "2026-09-14T20:58:08Z",
+"duration_s": 50,
 "steps": [
 "python -m nfl_picks refresh schedule",
 "python -m nfl_picks refresh injuries",
@@ -354429,26 +354397,26 @@
 "odds_estimated_credits": 0,
 "credits_month_nfl": 2408,
 "publish_status": "success",
-"publish_duration_s": 13,
+"publish_duration_s": 14,
 "publish_verify": {
 "ok": true,
 "checks": 106,
 "failed": [],
-"build_id": "39a1e458ab72"
+"build_id": "d7f6d104b149"
 },
 "phase": null,
 "group": null
 },
 "last_success": {
-"recorded_at": "2026-09-14T20:34:17Z",
+"recorded_at": "2026-09-14T20:58:58Z",
 "workflow": "scheduler",
-"run_id": "34893449028",
+"run_id": "34895935385",
 "attempt": "1",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34893449028",
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34895935385",
 "trigger": "schedule",
 "status": "success",
-"started_at": "2026-09-14T20:32:32Z",
-"duration_s": 106,
+"started_at": "2026-09-14T20:58:08Z",
+"duration_s": 50,
 "steps": [
 "python -m nfl_picks refresh schedule",
 "python -m nfl_picks refresh injuries",
@@ -354483,12 +354451,12 @@
 "odds_estimated_credits": 0,
 "credits_month_nfl": 2408,
 "publish_status": "success",
-"publish_duration_s": 13,
+"publish_duration_s": 14,
 "publish_verify": {
 "ok": true,
 "checks": 106,
 "failed": [],
-"build_id": "39a1e458ab72"
+"build_id": "d7f6d104b149"
 },
 "phase": null,
 "group": null
@@ -354599,30 +354567,30 @@
 "phase": null,
 "group": null
 },
-"n": 73,
-"latest_duration_s": 13,
+"n": 74,
+"latest_duration_s": 14,
 "result": "success",
 "verify": {
 "ok": true,
 "checks": 106,
 "failed": [],
-"build_id": "39a1e458ab72"
+"build_id": "d7f6d104b149"
 }
 },
 "runs": {
-"n_recorded": 114,
+"n_recorded": 115,
 "workflows": [
 {
 "workflow": "scheduler",
-"runs": 114,
+"runs": 115,
 "failures_14d": 15,
 "last": {
-"at": "2026-09-14T20:34:17Z",
+"at": "2026-09-14T20:58:58Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34893449028",
-"duration_s": 106
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34895935385",
+"duration_s": 50
 },
-"last_success": "2026-09-14T20:34:17Z",
+"last_success": "2026-09-14T20:58:58Z",
 "last_failure": {
 "at": "2026-09-14T15:57:01Z",
 "url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34865387316",
@@ -355191,7 +355159,7 @@
 }
 ],
 "currently_failing": [],
-"last_successful_run": "2026-09-14T20:34:17Z",
+"last_successful_run": "2026-09-14T20:58:58Z",
 "status": "ok",
 "note": "one row per GitHub Actions execution (scheduler + manual); written by the run-summary step before the store is committed"
 },
@@ -355211,20 +355179,20 @@
 "fix": "HTTP 404"
 }
 ],
-"checked_at": "2026-09-14T20:58:46Z",
+"checked_at": "2026-09-14T22:51:58Z",
 "checked_in_actions": true
 },
 "providers": {
 "odds_api": {
 "label": "The Odds API",
 "health": "healthy",
-"latency_ms": 201,
+"latency_ms": 258,
 "latency_ms_median": 175,
-"last_probe": "2026-09-14T20:34:14Z",
-"last_success": "2026-09-14T20:34:14Z",
+"last_probe": "2026-09-14T20:58:55Z",
+"last_success": "2026-09-14T20:58:55Z",
 "last_failure": null,
 "success_rate": 0.969,
-"probes": 96,
+"probes": 97,
 "rate_limit": {
 "remaining": "94090",
 "used": "5910",
@@ -355232,27 +355200,27 @@
 },
 "status": 200,
 "error": null,
-"last_job_success": "2026-09-14T20:58:26Z",
+"last_job_success": "2026-09-14T22:51:39Z",
 "last_job_failure": "2026-09-08T16:36:02Z",
-"next_refresh": "2026-09-14T21:15:00Z",
+"next_refresh": "2026-09-14T23:15:00Z",
 "credential": "ODDS_API_KEY"
 },
 "espn": {
 "label": "ESPN",
 "health": "healthy",
-"latency_ms": 249,
+"latency_ms": 175,
 "latency_ms_median": 142,
-"last_probe": "2026-09-14T20:34:12Z",
-"last_success": "2026-09-14T20:34:12Z",
+"last_probe": "2026-09-14T20:58:54Z",
+"last_success": "2026-09-14T20:58:54Z",
 "last_failure": null,
 "success_rate": 1.0,
-"probes": 96,
+"probes": 97,
 "rate_limit": null,
 "status": 200,
 "error": null,
-"last_job_success": "2026-09-14T20:58:29Z",
+"last_job_success": "2026-09-14T22:51:47Z",
 "last_job_failure": null,
-"next_refresh": "2026-09-14T21:15:00Z",
+"next_refresh": "2026-09-14T23:15:00Z",
 "credential": "none required"
 },
 "nflverse": {
@@ -355260,73 +355228,73 @@
 "health": "healthy",
 "latency_ms": 247,
 "latency_ms_median": 242,
-"last_probe": "2026-09-14T20:34:13Z",
-"last_success": "2026-09-14T20:34:13Z",
+"last_probe": "2026-09-14T20:58:54Z",
+"last_success": "2026-09-14T20:58:54Z",
 "last_failure": null,
 "success_rate": 1.0,
-"probes": 96,
+"probes": 97,
 "rate_limit": null,
 "status": 200,
 "error": null,
-"last_job_success": "2026-09-14T20:58:29Z",
+"last_job_success": "2026-09-14T22:51:47Z",
 "last_job_failure": null,
-"next_refresh": "2026-09-14T21:15:00Z",
+"next_refresh": "2026-09-14T23:15:00Z",
 "credential": "none required"
 },
 "open_meteo": {
 "label": "Open-Meteo (weather)",
 "health": "healthy",
-"latency_ms": 552,
-"latency_ms_median": 596,
-"last_probe": "2026-09-14T20:34:13Z",
-"last_success": "2026-09-14T20:34:13Z",
+"latency_ms": 129,
+"latency_ms_median": 592,
+"last_probe": "2026-09-14T20:58:54Z",
+"last_success": "2026-09-14T20:58:54Z",
 "last_failure": {
 "at": "2026-09-02T00:22:27Z",
 "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
 "status": null
 },
 "success_rate": 0.979,
-"probes": 96,
+"probes": 97,
 "rate_limit": null,
 "status": 200,
 "error": null,
 "last_job_success": "2026-09-14T20:58:25Z",
 "last_job_failure": null,
-"next_refresh": "2026-09-14T21:15:00Z",
+"next_refresh": "2026-09-14T23:15:00Z",
 "credential": "none required"
 },
 "rss": {
 "label": "RSS news",
 "health": "healthy",
-"latency_ms": 133,
-"latency_ms_median": 69,
-"last_probe": "2026-09-14T20:34:13Z",
-"last_success": "2026-09-14T20:34:13Z",
+"latency_ms": 34,
+"latency_ms_median": 65,
+"last_probe": "2026-09-14T20:58:54Z",
+"last_success": "2026-09-14T20:58:54Z",
 "last_failure": null,
 "success_rate": 1.0,
-"probes": 96,
+"probes": 97,
 "rate_limit": null,
 "status": 202,
 "error": null,
 "last_job_success": "2026-09-14T20:58:21Z",
 "last_job_failure": null,
-"next_refresh": "2026-09-14T21:15:00Z",
+"next_refresh": "2026-09-14T23:15:00Z",
 "credential": "none required"
 },
 "github_api": {
 "label": "GitHub API",
 "health": "healthy",
-"latency_ms": 378,
+"latency_ms": 257,
 "latency_ms_median": 270,
-"last_probe": "2026-09-14T20:34:14Z",
-"last_success": "2026-09-14T20:34:14Z",
+"last_probe": "2026-09-14T20:58:55Z",
+"last_success": "2026-09-14T20:58:55Z",
 "last_failure": {
 "at": "2026-09-02T01:30:14Z",
 "error": "HTTP 502",
 "status": 502
 },
 "success_rate": 0.969,
-"probes": 96,
+"probes": 97,
 "rate_limit": {
 "remaining": "5000",
 "limit": "5000"
@@ -355341,13 +355309,13 @@
 "github_pages": {
 "label": "GitHub Pages (live site)",
 "health": "healthy",
-"latency_ms": 123,
+"latency_ms": 164,
 "latency_ms_median": 128,
-"last_probe": "2026-09-14T20:34:14Z",
-"last_success": "2026-09-14T20:34:14Z",
+"last_probe": "2026-09-14T20:58:55Z",
+"last_success": "2026-09-14T20:58:55Z",
 "last_failure": null,
 "success_rate": 1.0,
-"probes": 96,
+"probes": 97,
 "rate_limit": null,
 "status": 200,
 "error": null,
@@ -355361,12 +355329,12 @@
 "app_version": "nfl-picks 0.20.17",
 "pipeline_version": "0.20.17",
 "dashboard_version": "0.20.17",
-"git_commit": "d7f6d104b149",
+"git_commit": "4cc226bbae54",
 "git_tag": null,
-"build_timestamp": "2026-09-14T20:58:46Z",
+"build_timestamp": "2026-09-14T22:51:58Z",
 "data_timestamp": null,
 "prediction_timestamp": "2026-09-14T20:58:31Z",
-"prediction_run_id": "proj-2026-w1-20260914T205831Z-c4912",
+"prediction_run_id": "proj-2026-w1-20260914T225149Z-22e1d",
 "n_projection_rows": 263997,
 "model_version": "game-ridge-v1-2018-2025-202608281538",
 "feature_version": "team-v1",
@@ -355374,31 +355342,31 @@
 "explain_version": "explain-v1",
 "calibration_version": "2026-09-08T16:53:18Z",
 "calibration_method": "isotonic (PAVA), out-of-sample walk-forward rows only; applied inside the fitted support and only when the week-blocked cross-fit Brier improves on the raw probability",
-"last_deployment": "2026-09-14T20:34:17Z",
-"last_publish_attempt": "2026-09-14T20:34:17Z",
+"last_deployment": "2026-09-14T20:58:58Z",
+"last_publish_attempt": "2026-09-14T20:58:58Z",
 "last_publish_result": "success",
 "latest_workflow": {
-"at": "2026-09-14T20:34:17Z",
+"at": "2026-09-14T20:58:58Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34893449028",
-"duration_s": 106
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34895935385",
+"duration_s": 50
 },
-"last_successful_run": "2026-09-14T20:34:17Z",
+"last_successful_run": "2026-09-14T20:58:58Z",
 "last_commands": {
-"grade": "2026-09-14T20:34:17Z",
+"grade": "2026-09-14T20:58:58Z",
 "calibration-report": "2026-09-08T16:54:38Z",
 "retrain": "2026-09-08T16:54:38Z",
-"project": "2026-09-14T20:34:17Z",
+"project": "2026-09-14T20:58:58Z",
 "attribute-errors": "2026-09-11T15:00:25Z",
 "evaluate-week": "2026-09-11T15:00:25Z",
-"refresh": "2026-09-14T20:34:17Z"
+"refresh": "2026-09-14T20:58:58Z"
 },
 "python_version": "3.11.16",
 "schema_version": 10,
 "git_branch": "main",
 "next_scheduled_run": {
-"at_utc": "2026-09-14T21:15:00Z",
-"at_et": "Mon 2026-09-14 17:15 ET",
+"at_utc": "2026-09-14T23:15:00Z",
+"at_et": "Mon 2026-09-14 19:15 ET",
 "slot": "gameday_2h",
 "cron": "15 11,13,15,17,19,21,23 * 9-12,1-2 *",
 "group": "gameday_2h",
@@ -355428,12 +355396,12 @@
 "app_version": "nfl-picks 0.20.17",
 "pipeline_version": "0.20.17",
 "dashboard_version": "0.20.17",
-"git_commit": "d7f6d104b149",
+"git_commit": "4cc226bbae54",
 "git_tag": null,
-"build_timestamp": "2026-09-14T20:58:46Z",
-"data_timestamp": "2026-09-14T20:58:31Z",
+"build_timestamp": "2026-09-14T22:51:58Z",
+"data_timestamp": "2026-09-14T22:51:47Z",
 "prediction_timestamp": "2026-09-14T20:58:31Z",
-"prediction_run_id": "proj-2026-w1-20260914T205831Z-c4912",
+"prediction_run_id": "proj-2026-w1-20260914T225149Z-22e1d",
 "n_projection_rows": 263997,
 "model_version": "game-ridge-v1-2018-2025-202608281538",
 "feature_version": "team-v1",
@@ -355441,31 +355409,31 @@
 "explain_version": "explain-v1",
 "calibration_version": "2026-09-08T16:53:18Z",
 "calibration_method": "isotonic (PAVA), out-of-sample walk-forward rows only; applied inside the fitted support and only when the week-blocked cross-fit Brier improves on the raw probability",
-"last_deployment": "2026-09-14T20:34:17Z",
-"last_publish_attempt": "2026-09-14T20:34:17Z",
+"last_deployment": "2026-09-14T20:58:58Z",
+"last_publish_attempt": "2026-09-14T20:58:58Z",
 "last_publish_result": "success",
 "latest_workflow": {
-"at": "2026-09-14T20:34:17Z",
+"at": "2026-09-14T20:58:58Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34893449028",
-"duration_s": 106
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/34895935385",
+"duration_s": 50
 },
-"last_successful_run": "2026-09-14T20:34:17Z",
+"last_successful_run": "2026-09-14T20:58:58Z",
 "last_commands": {
-"grade": "2026-09-14T20:34:17Z",
+"grade": "2026-09-14T20:58:58Z",
 "calibration-report": "2026-09-08T16:54:38Z",
 "retrain": "2026-09-08T16:54:38Z",
-"project": "2026-09-14T20:34:17Z",
+"project": "2026-09-14T20:58:58Z",
 "attribute-errors": "2026-09-11T15:00:25Z",
 "evaluate-week": "2026-09-11T15:00:25Z",
-"refresh": "2026-09-14T20:34:17Z"
+"refresh": "2026-09-14T20:58:58Z"
 },
 "python_version": "3.11.16",
 "schema_version": 10,
 "git_branch": "main",
 "next_scheduled_run": {
-"at_utc": "2026-09-14T21:15:00Z",
-"at_et": "Mon 2026-09-14 17:15 ET",
+"at_utc": "2026-09-14T23:15:00Z",
+"at_et": "Mon 2026-09-14 19:15 ET",
 "slot": "gameday_2h",
 "cron": "15 11,13,15,17,19,21,23 * 9-12,1-2 *",
 "group": "gameday_2h",
@@ -379582,12 +379550,17 @@ null,
 "2026-09-14T20:33:42Z",
 null,
 114
+],
+[
+"2026-09-14T22:51:37Z",
+null,
+116
 ]
 ],
 "current": {
 "line": null,
-"price": 114,
-"at": "2026-09-14T20:33:42Z"
+"price": 116,
+"at": "2026-09-14T22:51:37Z"
 }
 },
 "2026_01_DEN_KC|moneyline|KC|home|draftkings": {
@@ -379690,12 +379663,17 @@ null,
 "2026-09-14T20:33:42Z",
 null,
 -134
+],
+[
+"2026-09-14T22:51:37Z",
+null,
+-136
 ]
 ],
 "current": {
 "line": null,
-"price": -134,
-"at": "2026-09-14T20:33:42Z"
+"price": -136,
+"at": "2026-09-14T22:51:37Z"
 }
 },
 "2026_01_DEN_KC|spread|DEN|away|draftkings": {
@@ -384056,7 +384034,7 @@ null,
 }
 ],
 "missing_credentials": [],
-"checked_at": "2026-09-14T20:58:46Z"
+"checked_at": "2026-09-14T22:51:58Z"
 },
 "model_changelog": [
 {
@@ -389801,19 +389779,19 @@ null,
 "no_unders": true,
 "no_rush_attempts": true
 },
-"generated_at": "2026-09-14T20:58:35Z",
-"candidates": 5,
+"generated_at": "2026-09-14T22:51:51Z",
+"candidates": 0,
 "removed": {
-"game_started_or_final": 4375,
-"not_positive_side": 72,
-"market_not_eligible": 92,
-"rush_attempts": 18,
-"no_real_price": 31,
-"not_execution_book": 61,
+"game_started_or_final": 4679,
+"not_positive_side": 0,
+"market_not_eligible": 0,
+"rush_attempts": 0,
+"no_real_price": 0,
+"not_execution_book": 0,
 "odds_too_short": 0,
-"odds_too_long": 8,
+"odds_too_long": 0,
 "injury_uncertainty": 0,
-"no_novig_edge": 17
+"no_novig_edge": 0
 }
 },
 "safe_parlays": {
@@ -392288,12 +392266,12 @@ null,
 "hit_rate_normal": 0.0
 },
 "rushing_yards": {
-"n": 31,
+"n": 32,
 "wins": 24,
 "losses": 6,
 "pushes": 0,
 "voids": 0,
-"pending": 1,
+"pending": 2,
 "injury_affected": 0,
 "injury_wins": 0,
 "hit_rate": 0.8,
@@ -392560,12 +392538,12 @@ null,
 "hit_rate_normal": 0.0
 },
 "rushing_yards": {
-"n": 31,
+"n": 32,
 "wins": 24,
 "losses": 6,
 "pushes": 0,
 "voids": 0,
-"pending": 1,
+"pending": 2,
 "injury_affected": 0,
 "injury_wins": 0,
 "hit_rate": 0.8,
@@ -392692,12 +392670,12 @@ null,
 "hit_rate_normal": 0.0
 },
 "rushing_yards:under": {
-"n": 31,
+"n": 32,
 "wins": 24,
 "losses": 6,
 "pushes": 0,
 "voids": 0,
-"pending": 1,
+"pending": 2,
 "injury_affected": 0,
 "injury_wins": 0,
 "hit_rate": 0.8,
@@ -392828,7 +392806,7 @@ null,
 "complete": false
 },
 "published": false,
-"graded_at": "2026-09-14T20:58:29Z",
+"graded_at": "2026-09-14T22:51:47Z",
 "grading_policy_version": 2,
 "corrections": [],
 "state": "in_progress",
@@ -416124,12 +416102,12 @@ null,
 "hit_rate_normal": 0.0
 },
 "rushing_yards": {
-"n": 31,
+"n": 32,
 "wins": 24,
 "losses": 6,
 "pushes": 0,
 "voids": 0,
-"pending": 1,
+"pending": 2,
 "injury_affected": 0,
 "injury_wins": 0,
 "hit_rate": 0.8,
@@ -416256,12 +416234,12 @@ null,
 "hit_rate_normal": 0.0
 },
 "rushing_yards:under": {
-"n": 31,
+"n": 32,
 "wins": 24,
 "losses": 6,
 "pushes": 0,
 "voids": 0,
-"pending": 1,
+"pending": 2,
 "injury_affected": 0,
 "injury_wins": 0,
 "hit_rate": 0.8,
@@ -418494,7 +418472,7 @@ null,
 }
 }
 ],
-"generated_at": "2026-09-14T20:58:47Z"
+"generated_at": "2026-09-14T22:51:59Z"
 },
 "pnl": {
 "season": 2026,
