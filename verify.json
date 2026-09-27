@@ -1,9 +1,9 @@
 {
  "ok": true,
- "verified_at": "2026-09-27T10:15:03Z",
+ "verified_at": "2026-09-27T14:24:57Z",
  "site": "site",
- "build_id": "e629840fd8f2",
- "version": "nfl-picks 0.22.2",
- "checks": 181,
+ "build_id": "288fcf2f36dc",
+ "version": "nfl-picks 0.22.4",
+ "checks": 184,
  "failed": []
 }
