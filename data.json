@@ -1,13 +1,13 @@
 {
 "version": "nfl-picks 0.26.0",
-"generated_at": "2026-10-05T21:51:31Z",
+"generated_at": "2026-10-05T22:16:46Z",
 "season": 2026,
 "week": 4,
 "game_type": "REG",
 "deploy": {
 "version": "nfl-picks 0.26.0",
-"commit": "e0eb657edd08",
-"built_at": "2026-10-05T21:51:31Z",
+"commit": "0c5824d183ae",
+"built_at": "2026-10-05T22:16:46Z",
 "repo_url": "https://github.com/amercado19/nfl-pipeline",
 "issues_url": "https://github.com/amercado19/nfl-pipeline/issues/new/choose",
 "actions_url": "https://github.com/amercado19/nfl-pipeline/actions",
@@ -32,17 +32,17 @@
 "game_lines": {
 "label": "Game lines (free ESPN/DK)",
 "state": "LIVE",
-"detail": "768 rows, last 2026-10-05T21:51:08Z"
+"detail": "768 rows, last 2026-10-05T22:16:27Z"
 },
 "prop_odds": {
 "label": "Player prop odds (Odds API)",
 "state": "LIVE",
-"detail": "last pull 2026-10-05T21:05:19Z"
+"detail": "last pull 2026-10-05T22:16:24Z"
 },
 "api_lines": {
 "label": "Multi-book game odds (Odds API)",
 "state": "LIVE",
-"detail": "last pull 2026-10-05T21:05:19Z"
+"detail": "last pull 2026-10-05T22:16:24Z"
 },
 "futures_odds": {
 "label": "Futures odds (Odds API)",
@@ -55,7 +55,7 @@
 "detail": "value never shown"
 }
 },
-"last_success": "2026-10-05T21:51:05Z",
+"last_success": "2026-10-05T22:16:25Z",
 "last_failure": "2026-10-04T20:13:54Z",
 "last_failure_errors": [
 "props CIN@MIA: NOT_FOUND",
@@ -79,16 +79,16 @@
 "detail": "22005 priced prop rows across 76 games",
 "critical": false,
 "last_request": {
-"at": "2026-10-05T21:05:19Z",
+"at": "2026-10-05T22:16:25Z",
 "status": "ok",
-"credits": 6,
+"credits": 0,
 "books": [
 "fanduel",
 "draftkings"
 ],
-"note": "8e5d515b10d8a5ffb324640ed60bcc55"
+"note": "86457f91112732f21ad4bb7d37bd291c"
 },
-"requests_this_month": 465,
+"requests_this_month": 467,
 "failed_requests": 17,
 "events_in_window": 14,
 "events_with_props": 76,
@@ -115,14 +115,14 @@
 "rushing_attempts",
 "rushing_yards"
 ],
-"freshest_line": "2026-10-05T21:05:19Z",
+"freshest_line": "2026-10-05T22:16:24Z",
 "oldest_line": "2026-09-09T18:36:34Z",
 "budget_policy": "NORMAL",
 "budget_policy_display": "NORMAL",
 "credits": {
-"combined_used": 5582,
-"nfl_used": 3691,
-"provider_remaining": 94418,
+"combined_used": 5635,
+"nfl_used": 3706,
+"provider_remaining": 94365,
 "cap": 100000
 }
 },
@@ -268,6 +268,20 @@
 },
 {
 "kind": "player",
+"raw_name": "Atlanta Falcons Defense",
+"context": "ATL,NO",
+"seen_count": 65,
+"last_seen": "2026-10-05T22:16:24Z"
+},
+{
+"kind": "player",
+"raw_name": "New Orleans Saints Defense",
+"context": "ATL,NO",
+"seen_count": 65,
+"last_seen": "2026-10-05T22:16:24Z"
+},
+{
+"kind": "player",
 "raw_name": "LB Mohamoud Diabate",
 "context": "espn:transactions",
 "seen_count": 65,
@@ -289,31 +303,17 @@
 },
 {
 "kind": "player",
-"raw_name": "Atlanta Falcons Defense",
-"context": "ATL,NO",
-"seen_count": 62,
-"last_seen": "2026-10-05T21:05:16Z"
-},
-{
-"kind": "player",
-"raw_name": "New Orleans Saints Defense",
-"context": "ATL,NO",
-"seen_count": 62,
-"last_seen": "2026-10-05T21:05:16Z"
-},
-{
-"kind": "player",
 "raw_name": "New Orleans Saints D/ST",
 "context": "ATL,NO",
-"seen_count": 59,
-"last_seen": "2026-10-05T21:05:16Z"
+"seen_count": 62,
+"last_seen": "2026-10-05T22:16:24Z"
 },
 {
 "kind": "player",
 "raw_name": "Atlanta Falcons D/ST",
 "context": "ATL,NO",
-"seen_count": 59,
-"last_seen": "2026-10-05T21:05:16Z"
+"seen_count": 62,
+"last_seen": "2026-10-05T22:16:24Z"
 },
 {
 "kind": "player",
@@ -1117,73 +1117,73 @@
 ],
 "freshness": {
 "schedule": {
-"last": "2026-10-05T21:51:08Z",
+"last": "2026-10-05T22:16:27Z",
 "age_hours": 0.0,
 "stale": false
 },
 "rosters": {
 "last": "2026-09-30T16:30:15Z",
-"age_hours": 125.4,
+"age_hours": 125.8,
 "stale": true
 },
 "depth": {
 "last": "2026-10-04T02:19:25Z",
-"age_hours": 43.5,
+"age_hours": 44.0,
 "stale": true
 },
 "injuries": {
 "last": "2026-10-05T21:50:08Z",
-"age_hours": 0.0,
+"age_hours": 0.4,
 "stale": false
 },
 "news": {
 "last": "2026-10-05T21:50:09Z",
-"age_hours": 0.0,
+"age_hours": 0.4,
 "stale": false
 },
 "odds": {
-"last": "2026-10-05T21:49:59Z",
+"last": "2026-10-05T22:16:27Z",
 "age_hours": 0.0,
 "stale": false
 },
 "futures": {
 "last": "2026-09-29T18:04:49Z",
-"age_hours": 147.8,
+"age_hours": 148.2,
 "stale": false
 },
 "weather": {
 "last": "2026-10-05T21:51:03Z",
-"age_hours": 0.0,
+"age_hours": 0.4,
 "stale": false
 },
 "stats": {
-"last": "2026-10-05T21:51:08Z",
+"last": "2026-10-05T22:16:27Z",
 "age_hours": 0.0,
 "stale": false
 },
 "projections": {
 "last": "2026-10-05T21:05:36Z",
-"age_hours": 0.8,
+"age_hours": 1.2,
 "stale": false
 },
 "season_sim": {
 "last": "2026-10-05T05:23:38Z",
-"age_hours": 16.5,
+"age_hours": 16.9,
 "stale": false
 },
 "transactions": {
 "last": "2026-10-05T21:50:08Z",
-"age_hours": 0.0,
+"age_hours": 0.4,
 "stale": false
 }
 },
 "alerts": [
-"rosters: 125h old",
+"rosters: 126h old",
 "depth: 44h old",
-"odds: 14527 conflicting duplicate(s), 1452 current-line conflict(s), 2158 closing-line conflict(s) \u2014 see duplicate_odds diagnostic"
+"odds: 14527 conflicting duplicate(s), 1449 current-line conflict(s), 2158 closing-line conflict(s) \u2014 see duplicate_odds diagnostic"
 ],
 "workflow_runs": {
-"n_recorded": 292,
+"n_recorded": 293,
 "workflows": [
 {
 "workflow": "backtest-models",
@@ -1217,15 +1217,15 @@
 },
 {
 "workflow": "scheduler",
-"runs": 290,
+"runs": 291,
 "failures_14d": 2,
 "last": {
-"at": "2026-10-05T21:36:57Z",
+"at": "2026-10-05T21:51:47Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37376723775",
-"duration_s": 59
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37378301686",
+"duration_s": 109
 },
-"last_success": "2026-10-05T21:36:57Z",
+"last_success": "2026-10-05T21:51:47Z",
 "last_failure": {
 "at": "2026-09-30T14:15:41Z",
 "url": "https://github.com/amercado19/nfl-pipeline/actions/runs/36727522549",
@@ -1316,7 +1316,7 @@
 }
 ],
 "currently_failing": [],
-"last_successful_run": "2026-10-05T21:36:57Z",
+"last_successful_run": "2026-10-05T21:51:47Z",
 "status": "ok",
 "note": "one row per GitHub Actions execution (scheduler + manual); written by the run-summary step before the store is committed"
 },
@@ -1327,7 +1327,7 @@
 "detail": "build ran inside GitHub Actions",
 "where": "https://github.com/amercado19/nfl-pipeline/actions",
 "health": "healthy",
-"health_detail": "probe 281 ms at 2026-10-05T21:36:49Z"
+"health_detail": "probe 201 ms at 2026-10-05T21:51:40Z"
 },
 {
 "name": "Database Connected",
@@ -1348,7 +1348,7 @@
 "closing-line value"
 ],
 "health": "healthy",
-"health_detail": "probe 375 ms at 2026-10-05T21:36:49Z"
+"health_detail": "probe 76 ms at 2026-10-05T21:51:40Z"
 },
 {
 "name": "Weather Provider",
@@ -1356,7 +1356,7 @@
 "detail": "Open-Meteo (no key required); last run 2026-10-05T21:51:03Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 293 ms at 2026-10-05T21:36:48Z"
+"health_detail": "probe 407 ms at 2026-10-05T21:51:40Z"
 },
 {
 "name": "News Provider",
@@ -1364,7 +1364,7 @@
 "detail": "ESPN / CBS / PFT RSS (no key required); last run 2026-10-05T21:50:09Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 59 ms at 2026-10-05T21:36:48Z"
+"health_detail": "probe 47 ms at 2026-10-05T21:51:40Z"
 },
 {
 "name": "Deployment Token",
@@ -1374,16 +1374,16 @@
 "blocks": [
 "automatic dashboard publish to amercado19/nfl-dashboard"
 ],
-"health": "failed",
-"health_detail": "last publish verify_failed at 2026-10-05T21:36:57Z"
+"health": "healthy",
+"health_detail": "last publish succeeded at 2026-10-05T21:51:47Z"
 },
 {
 "name": "Dashboard Publisher",
 "state": "ok",
 "detail": "reusable workflow publishes site/ to amercado19/nfl-dashboard (GitHub Pages)",
 "where": "https://amercado19.github.io/nfl-dashboard/",
-"health": "failed",
-"health_detail": "last publish verify_failed at 2026-10-05T21:36:57Z"
+"health": "healthy",
+"health_detail": "last publish succeeded at 2026-10-05T21:51:47Z"
 }
 ],
 "provider_failures": [],
@@ -1391,25 +1391,17 @@
 "phase_now": "game_day",
 "watchdog": {
 "last_expected_run_utc": "2026-10-05T21:15Z",
-"last_actual_start_utc": "2026-10-05T21:35Z",
+"last_actual_start_utc": "2026-10-05T21:49Z",
 "window_hours": 26,
 "tolerances": {
 "delayed_after_min": 20,
 "missed_after_min": 90
 },
-"expected_firings": 22,
-"on_time": 1,
-"delayed": 10,
+"expected_firings": 21,
+"on_time": 0,
+"delayed": 11,
 "missed": 4,
 "rows": [
-{
-"due_utc": "2026-10-04T20:00Z",
-"slot": "prekick_30m",
-"expected_to_run": false,
-"started_utc": "2026-10-04T20:12Z",
-"delay_min": 13,
-"status": "ON_TIME"
-},
 {
 "due_utc": "2026-10-04T20:30Z",
 "slot": "prekick_30m",
@@ -1574,9 +1566,9 @@
 "due_utc": "2026-10-05T21:15Z",
 "slot": "gameday_2h",
 "expected_to_run": true,
-"started_utc": null,
-"delay_min": null,
-"status": "PENDING"
+"started_utc": "2026-10-05T21:49Z",
+"delay_min": 35,
+"status": "DELAYED"
 }
 ],
 "missed_stale": 0,
@@ -1867,6 +1859,20 @@
 },
 {
 "kind": "player",
+"raw_name": "Atlanta Falcons Defense",
+"context": "ATL,NO",
+"seen_count": 65,
+"last_seen": "2026-10-05T22:16:24Z"
+},
+{
+"kind": "player",
+"raw_name": "New Orleans Saints Defense",
+"context": "ATL,NO",
+"seen_count": 65,
+"last_seen": "2026-10-05T22:16:24Z"
+},
+{
+"kind": "player",
 "raw_name": "LB Mohamoud Diabate",
 "context": "espn:transactions",
 "seen_count": 65,
@@ -1888,31 +1894,17 @@
 },
 {
 "kind": "player",
-"raw_name": "Atlanta Falcons Defense",
-"context": "ATL,NO",
-"seen_count": 62,
-"last_seen": "2026-10-05T21:05:16Z"
-},
-{
-"kind": "player",
-"raw_name": "New Orleans Saints Defense",
-"context": "ATL,NO",
-"seen_count": 62,
-"last_seen": "2026-10-05T21:05:16Z"
-},
-{
-"kind": "player",
 "raw_name": "New Orleans Saints D/ST",
 "context": "ATL,NO",
-"seen_count": 59,
-"last_seen": "2026-10-05T21:05:16Z"
+"seen_count": 62,
+"last_seen": "2026-10-05T22:16:24Z"
 },
 {
 "kind": "player",
 "raw_name": "Atlanta Falcons D/ST",
 "context": "ATL,NO",
-"seen_count": 59,
-"last_seen": "2026-10-05T21:05:16Z"
+"seen_count": 62,
+"last_seen": "2026-10-05T22:16:24Z"
 },
 {
 "kind": "player",
@@ -2494,7 +2486,7 @@
 "fanduel"
 ],
 "avg_confidence": 43.2,
-"last_refresh": "2026-10-05T21:51:08Z",
+"last_refresh": "2026-10-05T22:16:27Z",
 "production_model": "game-ridge-v1-2018-2026-202609151720",
 "week_accuracy": null,
 "season_accuracy": 0.527,
@@ -18634,7 +18626,7 @@
 "regime_support": "SUPPORTED",
 "regime_why": null,
 "signal_cluster_id": "2026_04_ATL_NO:NO:pass:under",
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "confidence": 29.4,
 "why": [
 [
@@ -18703,7 +18695,7 @@
 "regime_support": "SUPPORTED",
 "regime_why": null,
 "signal_cluster_id": "2026_04_ATL_NO:ATL:pass:under",
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "confidence": 58.4,
 "why": [
 [
@@ -18772,7 +18764,7 @@
 "regime_support": "SUPPORTED",
 "regime_why": null,
 "signal_cluster_id": "2026_04_ATL_NO:ATL:pass:under",
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "confidence": 63.8,
 "why": [
 [
@@ -18841,7 +18833,7 @@
 "regime_support": "SUPPORTED",
 "regime_why": null,
 "signal_cluster_id": "2026_04_ATL_NO:NO:pass:under",
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "confidence": 59.0,
 "why": [
 [
@@ -18910,7 +18902,7 @@
 "regime_support": "SUPPORTED",
 "regime_why": null,
 "signal_cluster_id": "2026_04_ATL_NO:ATL:pass:over",
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "confidence": 29.1,
 "why": [
 [
@@ -20557,7 +20549,7 @@
 "season": 2026,
 "week": 4,
 "game_type": "REG",
-"as_of": "2026-10-05T21:51:31Z",
+"as_of": "2026-10-05T22:16:46Z",
 "games": [
 {
 "game_id": "2026_04_PIT_CLE",
@@ -21267,7 +21259,7 @@
 "price": -166,
 "book": "fanduel",
 "novig": 0.583,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -21813,7 +21805,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -22049,7 +22041,7 @@
 "price": 500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -22232,7 +22224,7 @@
 "price": 2700,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -23662,7 +23654,7 @@
 "price": 132,
 "book": "fanduel",
 "novig": 0.4023,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -24239,7 +24231,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -24485,7 +24477,7 @@
 "price": 550,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -24662,7 +24654,7 @@
 "price": 2700,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -25123,7 +25115,7 @@
 "price": 118,
 "book": "fanduel",
 "novig": 0.4283,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -25715,7 +25707,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -25951,7 +25943,7 @@
 "price": 220,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -26126,7 +26118,7 @@
 "price": 1300,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -26727,7 +26719,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -26971,7 +26963,7 @@
 "price": -119,
 "book": "draftkings",
 "novig": 0.5125,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -27158,7 +27150,7 @@
 "price": -118,
 "book": "draftkings",
 "novig": 0.5104,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -27392,7 +27384,7 @@
 "price": 106,
 "book": "fanduel",
 "novig": 0.4557,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -27601,7 +27593,7 @@
 "price": 101,
 "book": "draftkings",
 "novig": 0.4698,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -27919,7 +27911,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -28153,7 +28145,7 @@
 "price": 290,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -28327,7 +28319,7 @@
 "price": 1500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -29175,7 +29167,7 @@
 "price": 1300,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -29357,7 +29349,7 @@
 "price": 5500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -30263,7 +30255,7 @@
 "price": 900,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -30438,7 +30430,7 @@
 "price": 4000,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -31028,7 +31020,7 @@
 "price": 100,
 "book": "fanduel",
 "novig": 0.4677,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -31610,7 +31602,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -31846,7 +31838,7 @@
 "price": 125,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -32021,7 +32013,7 @@
 "price": 850,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -34415,7 +34407,7 @@
 "price": 600,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -34714,7 +34706,7 @@
 "price": 2700,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -35023,7 +35015,7 @@
 "price": 128,
 "book": "fanduel",
 "novig": 0.4095,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -35581,7 +35573,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -35817,7 +35809,7 @@
 "price": 240,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -35992,7 +35984,7 @@
 "price": 1400,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -36762,7 +36754,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -37129,7 +37121,7 @@
 "price": -180,
 "book": "fanduel",
 "novig": 0.6007,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -37570,7 +37562,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -38103,7 +38095,7 @@
 "price": 140,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -38666,7 +38658,7 @@
 "price": 800,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -39310,7 +39302,7 @@
 "price": 1300,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -39496,7 +39488,7 @@
 "price": 5500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -40210,7 +40202,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -41071,7 +41063,7 @@
 "price": 300,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -41626,7 +41618,7 @@
 "price": 1500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -42028,7 +42020,7 @@
 "price": 104,
 "book": "fanduel",
 "novig": 0.4581,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -42596,7 +42588,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -42832,7 +42824,7 @@
 "price": 430,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -43007,7 +42999,7 @@
 "price": 2500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -43404,7 +43396,7 @@
 "price": -144,
 "book": "fanduel",
 "novig": 0.5511,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -43938,7 +43930,7 @@
 "price": -120,
 "book": "fanduel",
 "novig": 0.5146,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -44173,7 +44165,7 @@
 "price": 1000,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -44356,7 +44348,7 @@
 "price": 5500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -45292,7 +45284,7 @@
 "price": 3000,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -45838,7 +45830,7 @@
 "price": 116,
 "book": "fanduel",
 "novig": 0.433,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -46384,7 +46376,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -46619,7 +46611,7 @@
 "price": 300,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -46794,7 +46786,7 @@
 "price": 1700,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -47395,7 +47387,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -47805,7 +47797,7 @@
 "price": -158,
 "book": "fanduel",
 "novig": 0.5717,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -48274,7 +48266,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -48784,7 +48776,7 @@
 "price": -210,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -49315,7 +49307,7 @@
 "price": 360,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -51209,7 +51201,7 @@
 "price": 1900,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -51391,7 +51383,7 @@
 "price": 10000,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -51966,7 +51958,7 @@
 "price": 136,
 "book": "fanduel",
 "novig": 0.3963,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -52462,7 +52454,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -52695,7 +52687,7 @@
 "price": 750,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -52878,7 +52870,7 @@
 "price": 3500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -53485,7 +53477,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -53732,7 +53724,7 @@
 "price": -108,
 "book": "draftkings",
 "novig": 0.4896,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -53919,7 +53911,7 @@
 "price": 105,
 "book": "draftkings",
 "novig": 0.46,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -54153,7 +54145,7 @@
 "price": -135,
 "book": "fanduel",
 "novig": 0.5396,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -54361,7 +54353,7 @@
 "price": -128,
 "book": "draftkings",
 "novig": 0.5302,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -54979,7 +54971,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -55828,7 +55820,7 @@
 "price": 370,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -56249,7 +56241,7 @@
 "price": 2200,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -56669,7 +56661,7 @@
 "price": 194,
 "book": "fanduel",
 "novig": 0.3179,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -57201,7 +57193,7 @@
 "price": -106,
 "book": "fanduel",
 "novig": 0.4854,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -57434,7 +57426,7 @@
 "price": 800,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -57609,7 +57601,7 @@
 "price": 3500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -58042,7 +58034,7 @@
 "price": 106,
 "book": "fanduel",
 "novig": 0.4542,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -58576,7 +58568,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -58812,7 +58804,7 @@
 "price": 115,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -58995,7 +58987,7 @@
 "price": 750,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.77,
+"price_age_h": 1.19,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -357047,7 +357039,7 @@
 ],
 "injury_uncertainty_count": 107
 },
-"age_hours": 16.5,
+"age_hours": 16.9,
 "stale": false,
 "snapshots_stored": 24,
 "history_append_only": true,
@@ -394428,73 +394420,73 @@
 "season": 2026,
 "week": 4,
 "game_type": "REG",
-"generated_at": "2026-10-05T21:51:29Z",
+"generated_at": "2026-10-05T22:16:43Z",
 "freshness": {
 "schedule": {
-"last": "2026-10-05T21:51:08Z",
+"last": "2026-10-05T22:16:27Z",
 "age_hours": 0.0,
 "stale": false
 },
 "rosters": {
 "last": "2026-09-30T16:30:15Z",
-"age_hours": 125.4,
+"age_hours": 125.8,
 "stale": true
 },
 "depth": {
 "last": "2026-10-04T02:19:25Z",
-"age_hours": 43.5,
+"age_hours": 44.0,
 "stale": true
 },
 "injuries": {
 "last": "2026-10-05T21:50:08Z",
-"age_hours": 0.0,
+"age_hours": 0.4,
 "stale": false
 },
 "news": {
 "last": "2026-10-05T21:50:09Z",
-"age_hours": 0.0,
+"age_hours": 0.4,
 "stale": false
 },
 "odds": {
-"last": "2026-10-05T21:49:59Z",
+"last": "2026-10-05T22:16:27Z",
 "age_hours": 0.0,
 "stale": false
 },
 "futures": {
 "last": "2026-09-29T18:04:49Z",
-"age_hours": 147.8,
+"age_hours": 148.2,
 "stale": false
 },
 "weather": {
 "last": "2026-10-05T21:51:03Z",
-"age_hours": 0.0,
+"age_hours": 0.4,
 "stale": false
 },
 "stats": {
-"last": "2026-10-05T21:51:08Z",
+"last": "2026-10-05T22:16:27Z",
 "age_hours": 0.0,
 "stale": false
 },
 "projections": {
 "last": "2026-10-05T21:05:36Z",
-"age_hours": 0.8,
+"age_hours": 1.2,
 "stale": false
 },
 "season_sim": {
 "last": "2026-10-05T05:23:38Z",
-"age_hours": 16.5,
+"age_hours": 16.9,
 "stale": false
 },
 "transactions": {
 "last": "2026-10-05T21:50:08Z",
-"age_hours": 0.0,
+"age_hours": 0.4,
 "stale": false
 }
 },
 "alerts": [
-"rosters: 125h old",
+"rosters: 126h old",
 "depth: 44h old",
-"odds: 14527 conflicting duplicate(s), 1452 current-line conflict(s), 2158 closing-line conflict(s) \u2014 see duplicate_odds diagnostic"
+"odds: 14527 conflicting duplicate(s), 1449 current-line conflict(s), 2158 closing-line conflict(s) \u2014 see duplicate_odds diagnostic"
 ],
 "failed_batches": [],
 "unresolved": [
@@ -394584,6 +394576,20 @@
 },
 {
 "kind": "player",
+"raw_name": "Atlanta Falcons Defense",
+"context": "ATL,NO",
+"seen_count": 65,
+"last_seen": "2026-10-05T22:16:24Z"
+},
+{
+"kind": "player",
+"raw_name": "New Orleans Saints Defense",
+"context": "ATL,NO",
+"seen_count": 65,
+"last_seen": "2026-10-05T22:16:24Z"
+},
+{
+"kind": "player",
 "raw_name": "LB Mohamoud Diabate",
 "context": "espn:transactions",
 "seen_count": 65,
@@ -394605,31 +394611,17 @@
 },
 {
 "kind": "player",
-"raw_name": "Atlanta Falcons Defense",
-"context": "ATL,NO",
-"seen_count": 62,
-"last_seen": "2026-10-05T21:05:16Z"
-},
-{
-"kind": "player",
-"raw_name": "New Orleans Saints Defense",
-"context": "ATL,NO",
-"seen_count": 62,
-"last_seen": "2026-10-05T21:05:16Z"
-},
-{
-"kind": "player",
 "raw_name": "New Orleans Saints D/ST",
 "context": "ATL,NO",
-"seen_count": 59,
-"last_seen": "2026-10-05T21:05:16Z"
+"seen_count": 62,
+"last_seen": "2026-10-05T22:16:24Z"
 },
 {
 "kind": "player",
 "raw_name": "Atlanta Falcons D/ST",
 "context": "ATL,NO",
-"seen_count": 59,
-"last_seen": "2026-10-05T21:05:16Z"
+"seen_count": 62,
+"last_seen": "2026-10-05T22:16:24Z"
 },
 {
 "kind": "player",
@@ -395201,10 +395193,10 @@
 ],
 "duplicate_odds_rows": 14946,
 "duplicate_odds": {
-"identical_resnapshots": 46341,
+"identical_resnapshots": 46368,
 "benign_duplicates": 419,
 "conflicting_duplicates": 14527,
-"current_line_conflicts": 1452,
+"current_line_conflicts": 1449,
 "closing_line_conflicts": 2158,
 "alerting": true,
 "by": {
@@ -395212,13 +395204,13 @@
 "odds_api": 14527
 },
 "book": {
-"fanduel": 17472,
+"fanduel": 17469,
 "draftkings": 661,
 "draftkings@espn": 4
 },
 "market": {
-"receiving_yards": 6727,
-"receptions": 6087,
+"receiving_yards": 6725,
+"receptions": 6086,
 "rushing_yards": 3372,
 "passing_yards": 1350,
 "anytime_td": 171,
@@ -395233,7 +395225,7 @@
 "2026_04_DEN_SF": 499,
 "2026_04_LAC_SEA": 485,
 "2026_02_NYG_LA": 444,
-"2026_04_ATL_NO": 435,
+"2026_04_ATL_NO": 432,
 "2026_03_BAL_DAL": 428,
 "2026_03_NE_JAX": 386,
 "2026_04_DAL_HOU": 377,
@@ -395329,7 +395321,7 @@
 "news_articles": 5010,
 "news_entities": 9348,
 "news_impacts": 30272,
-"odds_snapshots": 242014,
+"odds_snapshots": 242154,
 "parlay_legs": 0,
 "player_aliases": 54295,
 "player_game_stats": 45248,
@@ -395361,24 +395353,14 @@
 "weeks": 254
 },
 "provider_state": {
-"refresh-weather": {
+"refresh-stats": {
 "status": "ok",
-"at": "2026-10-05T21:51:03Z",
-"errors": []
-},
-"refresh-odds": {
-"status": "ok",
-"at": "2026-10-05T21:51:05Z",
+"at": "2026-10-05T22:16:27Z",
 "errors": []
 },
 "refresh-schedule": {
 "status": "ok",
-"at": "2026-10-05T21:51:08Z",
-"errors": []
-},
-"refresh-stats": {
-"status": "ok",
-"at": "2026-10-05T21:51:08Z",
+"at": "2026-10-05T22:16:27Z",
 "errors": []
 },
 "refresh-injuries": {
@@ -395394,6 +395376,16 @@
 "refresh-news": {
 "status": "ok",
 "at": "2026-10-05T21:50:09Z",
+"errors": []
+},
+"refresh-weather": {
+"status": "ok",
+"at": "2026-10-05T21:51:03Z",
+"errors": []
+},
+"refresh-odds": {
+"status": "ok",
+"at": "2026-10-05T22:16:25Z",
 "errors": []
 },
 "refresh-depth-charts": {
@@ -395445,47 +395437,47 @@
 "label": "pre-kick 30m"
 }
 ],
-"credits_today": 156,
-"credits_month_nfl": 3691,
-"credits_month_combined": 5582,
-"provider_remaining": 94418,
-"projected_month_end": 34608,
-"remaining_budget": 94418,
-"pct_used": 0.0558,
-"pct_projected": 0.3461,
+"credits_today": 171,
+"credits_month_nfl": 3706,
+"credits_month_combined": 5635,
+"provider_remaining": 94365,
+"projected_month_end": 34937,
+"remaining_budget": 94365,
+"pct_used": 0.0563,
+"pct_projected": 0.3494,
 "by_endpoint": {
-"odds:featured": 81,
-"odds:event": 3610
+"odds:featured": 84,
+"odds:event": 3622
 },
 "by_sport": {
-"americanfootball_nfl": 3691
+"americanfootball_nfl": 3706
 },
 "by_book_region": {
-"fanduel,draftkings": 3106,
+"fanduel,draftkings": 3121,
 "fanduel": 585
 },
-"calls": 475,
-"avg_credits_per_call": 7.77,
+"calls": 478,
+"avg_credits_per_call": 7.75,
 "alerts": [],
-"projected_month_end_nfl": 22884,
+"projected_month_end_nfl": 22977,
 "policy": "NORMAL",
 "policy_display": "NORMAL",
-"avg_daily_burn_combined": 1116.4,
-"avg_daily_burn_nfl": 738.2,
+"avg_daily_burn_combined": 1127.0,
+"avg_daily_burn_nfl": 741.2,
 "mlb_reserve": 60000,
 "combined_cap": 100000,
 "nfl_target": 40000,
 "mlb_target": 60000,
-"credits_week": 4097,
-"credits_month": 3691,
-"mlb_estimated_month": 1891,
+"credits_week": 4112,
+"credits_month": 3706,
+"mlb_estimated_month": 1929,
 "mlb_estimate_method": "inferred from account usage minus NFL ledger",
-"combined_month": 5582,
+"combined_month": 5635,
 "combined_source": "provider x-requests-used header + NFL ledger since",
-"provider_header_at": "2026-10-05T21:05:19Z",
-"projected_month_end_combined": 34608,
-"remaining": 94418,
-"remaining_nfl": 36309,
+"provider_header_at": "2026-10-05T22:16:25Z",
+"projected_month_end_combined": 34937,
+"remaining": 94365,
+"remaining_nfl": 36294,
 "refresh_tier": {
 "tier_set": "sustainable",
 "policy": "NORMAL",
@@ -395516,9 +395508,9 @@
 "disabled": false,
 "provider": "odds_api",
 "last_success": {
-"ts": "2026-10-05T21:05:19Z",
+"ts": "2026-10-05T22:16:24Z",
 "endpoint": "odds:event",
-"credits": 6,
+"credits": 12,
 "workflow": "scheduler"
 },
 "last_failure": {
@@ -395537,29 +395529,29 @@
 "mlb_usage": "inferred from account usage minus NFL ledger"
 },
 "usage_by_sport": {
-"nfl_ledger": 3691,
-"mlb_inferred": 1891,
+"nfl_ledger": 3706,
+"mlb_inferred": 1929,
 "mlb_inference": "inferred from account usage minus NFL ledger"
 },
 "usage_by_workflow": {
-"scheduler": 3691
+"scheduler": 3706
 },
 "usage_by_endpoint": {
-"odds:featured": 81,
-"odds:event": 3610
+"odds:featured": 84,
+"odds:event": 3622
 },
 "usage_by_sportsbook": {
-"fanduel": 3691,
-"draftkings": 3106
+"fanduel": 3706,
+"draftkings": 3121
 },
 "usage_by_sportsbook_note": "credits of every request that included the book; a request costs the same whichever books it lists",
-"avg_credits_per_refresh": 131.82,
+"avg_credits_per_refresh": 127.79,
 "failed_calls_month": 17,
-"updated_at": "2026-10-05T21:51:29Z"
+"updated_at": "2026-10-05T22:16:43Z"
 },
 "odds_refresh_state": {
 "futures": "2026-09-29T18:04:49.206140+00:00",
-"featured": "2026-10-05T21:05:16.304175+00:00",
+"featured": "2026-10-05T22:16:23.487412+00:00",
 "props:2026_01_NE_SEA": "2026-09-09T22:31:03.510244+00:00",
 "props:2026_01_SF_LA": "2026-09-10T23:14:34.178113+00:00",
 "props:2026_01_CHI_CAR": "2026-09-13T14:56:01.063215+00:00",
@@ -395670,7 +395662,7 @@
 "props:2026_04_DEN_SF": "2026-10-04T20:13:50.832181+00:00",
 "props:2026_04_GB_TB": "2026-10-04T15:51:28.779905+00:00",
 "props:2026_04_DET_CAR": "2026-10-04T23:59:52.297773+00:00",
-"props:2026_04_ATL_NO": "2026-10-05T21:05:16.304175+00:00",
+"props:2026_04_ATL_NO": "2026-10-05T22:16:23.487412+00:00",
 "alt:2026_04_PIT_CLE": "2026-10-01T23:15:53.875660+00:00",
 "alt:2026_04_IND_WAS": "2026-10-04T10:47:34.410452+00:00",
 "alt:2026_04_TEN_BAL": "2026-10-04T10:47:34.410452+00:00",
@@ -395700,7 +395692,7 @@
 "props:2026_05_DEN_LAC": "2026-10-05T21:05:16.304175+00:00",
 "props:2026_05_DET_ARI": "2026-10-05T21:05:16.304175+00:00",
 "props:2026_05_SF_SEA": "2026-10-05T21:05:16.304175+00:00",
-"props:2026_05_BAL_ATL": "2026-10-05T14:09:28.163550+00:00"
+"props:2026_05_BAL_ATL": "2026-10-05T22:16:23.487412+00:00"
 },
 "unresolved_injuries": 560,
 "unprocessed_news": 0
@@ -395748,47 +395740,47 @@
 "label": "pre-kick 30m"
 }
 ],
-"credits_today": 156,
-"credits_month_nfl": 3691,
-"credits_month_combined": 5582,
-"provider_remaining": 94418,
-"projected_month_end": 34608,
-"remaining_budget": 94418,
-"pct_used": 0.0558,
-"pct_projected": 0.3461,
+"credits_today": 171,
+"credits_month_nfl": 3706,
+"credits_month_combined": 5635,
+"provider_remaining": 94365,
+"projected_month_end": 34937,
+"remaining_budget": 94365,
+"pct_used": 0.0563,
+"pct_projected": 0.3494,
 "by_endpoint": {
-"odds:featured": 81,
-"odds:event": 3610
+"odds:featured": 84,
+"odds:event": 3622
 },
 "by_sport": {
-"americanfootball_nfl": 3691
+"americanfootball_nfl": 3706
 },
 "by_book_region": {
-"fanduel,draftkings": 3106,
+"fanduel,draftkings": 3121,
 "fanduel": 585
 },
-"calls": 475,
-"avg_credits_per_call": 7.77,
+"calls": 478,
+"avg_credits_per_call": 7.75,
 "alerts": [],
-"projected_month_end_nfl": 22884,
+"projected_month_end_nfl": 22977,
 "policy": "NORMAL",
 "policy_display": "NORMAL",
-"avg_daily_burn_combined": 1116.4,
-"avg_daily_burn_nfl": 738.2,
+"avg_daily_burn_combined": 1127.0,
+"avg_daily_burn_nfl": 741.2,
 "mlb_reserve": 60000,
 "combined_cap": 100000,
 "nfl_target": 40000,
 "mlb_target": 60000,
-"credits_week": 4097,
-"credits_month": 3691,
-"mlb_estimated_month": 1891,
+"credits_week": 4112,
+"credits_month": 3706,
+"mlb_estimated_month": 1929,
 "mlb_estimate_method": "inferred from account usage minus NFL ledger",
-"combined_month": 5582,
+"combined_month": 5635,
 "combined_source": "provider x-requests-used header + NFL ledger since",
-"provider_header_at": "2026-10-05T21:05:19Z",
-"projected_month_end_combined": 34608,
-"remaining": 94418,
-"remaining_nfl": 36309,
+"provider_header_at": "2026-10-05T22:16:25Z",
+"projected_month_end_combined": 34937,
+"remaining": 94365,
+"remaining_nfl": 36294,
 "refresh_tier": {
 "tier_set": "sustainable",
 "policy": "NORMAL",
@@ -395819,9 +395811,9 @@
 "disabled": false,
 "provider": "odds_api",
 "last_success": {
-"ts": "2026-10-05T21:05:19Z",
+"ts": "2026-10-05T22:16:24Z",
 "endpoint": "odds:event",
-"credits": 6,
+"credits": 12,
 "workflow": "scheduler"
 },
 "last_failure": {
@@ -395845,64 +395837,26 @@
 "mlb_usage": "inferred from account usage minus NFL ledger"
 },
 "usage_by_sport": {
-"nfl_ledger": 3691,
-"mlb_inferred": 1891,
+"nfl_ledger": 3706,
+"mlb_inferred": 1929,
 "mlb_inference": "inferred from account usage minus NFL ledger"
 },
 "usage_by_workflow": {
-"scheduler": 3691
+"scheduler": 3706
 },
 "usage_by_endpoint": {
-"odds:featured": 81,
-"odds:event": 3610
+"odds:featured": 84,
+"odds:event": 3622
 },
 "usage_by_sportsbook": {
-"fanduel": 3691,
-"draftkings": 3106
+"fanduel": 3706,
+"draftkings": 3121
 },
 "usage_by_sportsbook_note": "credits of every request that included the book; a request costs the same whichever books it lists",
-"avg_credits_per_refresh": 131.82,
+"avg_credits_per_refresh": 127.79,
 "failed_calls_month": 17,
-"updated_at": "2026-10-05T21:51:30Z",
+"updated_at": "2026-10-05T22:16:43Z",
 "credit_checks": [
-{
-"at": "2026-10-02T21:10:06Z",
-"batch": "odds-20261002T211005Z-7ee462",
-"estimated_credits": 250,
-"actual_credits": 243,
-"discrepancy": -7,
-"billable": true,
-"checklist": {
-"rows_written": {
-"value": 5544,
-"pass": true
-},
-"books_expected": {
-"value": [
-"draftkings",
-"fanduel"
-],
-"pass": true
-},
-"no_inplay_rows": {
-"value": 0,
-"pass": true
-},
-"markets_canonical": {
-"value": [],
-"pass": true
-},
-"usage_recorded": {
-"value": 0,
-"pass": false
-},
-"no_provider_errors": {
-"value": [],
-"pass": true
-}
-},
-"checklist_pass": false
-},
 {
 "at": "2026-10-03T01:39:34Z",
 "batch": "odds-20261003T013933Z-d2e715",
@@ -396636,18 +396590,56 @@
 }
 },
 "checklist_pass": false
-}
-],
-"credit_check_last": {
-"at": "2026-10-05T21:05:16Z",
-"batch": "odds-20261005T210515Z-979d21",
-"estimated_credits": 111,
-"actual_credits": 47,
-"discrepancy": -64,
+},
+{
+"at": "2026-10-05T22:16:23Z",
+"batch": "odds-20261005T221622Z-9c9ba0",
+"estimated_credits": 22,
+"actual_credits": 15,
+"discrepancy": -7,
 "billable": true,
 "checklist": {
 "rows_written": {
-"value": 368,
+"value": 138,
+"pass": true
+},
+"books_expected": {
+"value": [
+"draftkings",
+"fanduel"
+],
+"pass": true
+},
+"no_inplay_rows": {
+"value": 0,
+"pass": true
+},
+"markets_canonical": {
+"value": [],
+"pass": true
+},
+"usage_recorded": {
+"value": 0,
+"pass": false
+},
+"no_provider_errors": {
+"value": [],
+"pass": true
+}
+},
+"checklist_pass": false
+}
+],
+"credit_check_last": {
+"at": "2026-10-05T22:16:23Z",
+"batch": "odds-20261005T221622Z-9c9ba0",
+"estimated_credits": 22,
+"actual_credits": 15,
+"discrepancy": -7,
+"billable": true,
+"checklist": {
+"rows_written": {
+"value": 138,
 "pass": true
 },
 "books_expected": {
@@ -396677,17 +396669,17 @@
 "checklist_pass": false
 },
 "credit_discrepancy": {
-"n_billable_pulls": 132,
+"n_billable_pulls": 133,
 "last": {
-"at": "2026-10-05T21:05:16Z",
-"batch": "odds-20261005T210515Z-979d21",
-"estimated_credits": 111,
-"actual_credits": 47,
-"discrepancy": -64,
+"at": "2026-10-05T22:16:23Z",
+"batch": "odds-20261005T221622Z-9c9ba0",
+"estimated_credits": 22,
+"actual_credits": 15,
+"discrepancy": -7,
 "billable": true,
 "checklist": {
 "rows_written": {
-"value": 368,
+"value": 138,
 "pass": true
 },
 "books_expected": {
@@ -396716,8 +396708,8 @@
 },
 "checklist_pass": false
 },
-"total_estimated": 16387,
-"total_actual": 13845,
+"total_estimated": 16409,
+"total_actual": 13860,
 "status": "ok",
 "note": "estimate vs provider-charged credits per billable refresh; the first real pull of the season is auto-validated by its checklist"
 }
@@ -396730,7 +396722,7 @@
 "detail": "build ran inside GitHub Actions",
 "where": "https://github.com/amercado19/nfl-pipeline/actions",
 "health": "healthy",
-"health_detail": "probe 281 ms at 2026-10-05T21:36:49Z"
+"health_detail": "probe 201 ms at 2026-10-05T21:51:40Z"
 },
 {
 "name": "Database Connected",
@@ -396751,7 +396743,7 @@
 "closing-line value"
 ],
 "health": "healthy",
-"health_detail": "probe 375 ms at 2026-10-05T21:36:49Z"
+"health_detail": "probe 76 ms at 2026-10-05T21:51:40Z"
 },
 {
 "name": "Weather Provider",
@@ -396759,7 +396751,7 @@
 "detail": "Open-Meteo (no key required); last run 2026-10-05T21:51:03Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 293 ms at 2026-10-05T21:36:48Z"
+"health_detail": "probe 407 ms at 2026-10-05T21:51:40Z"
 },
 {
 "name": "News Provider",
@@ -396767,7 +396759,7 @@
 "detail": "ESPN / CBS / PFT RSS (no key required); last run 2026-10-05T21:50:09Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 59 ms at 2026-10-05T21:36:48Z"
+"health_detail": "probe 47 ms at 2026-10-05T21:51:40Z"
 },
 {
 "name": "Deployment Token",
@@ -396777,16 +396769,16 @@
 "blocks": [
 "automatic dashboard publish to amercado19/nfl-dashboard"
 ],
-"health": "failed",
-"health_detail": "last publish verify_failed at 2026-10-05T21:36:57Z"
+"health": "healthy",
+"health_detail": "last publish succeeded at 2026-10-05T21:51:47Z"
 },
 {
 "name": "Dashboard Publisher",
 "state": "ok",
 "detail": "reusable workflow publishes site/ to amercado19/nfl-dashboard (GitHub Pages)",
 "where": "https://amercado19.github.io/nfl-dashboard/",
-"health": "failed",
-"health_detail": "last publish verify_failed at 2026-10-05T21:36:57Z"
+"health": "healthy",
+"health_detail": "last publish succeeded at 2026-10-05T21:51:47Z"
 }
 ],
 "setup": {
@@ -396827,7 +396819,7 @@
 "note": "The dashboard keeps working on projections and public data while credentials are missing; only the listed features are blocked."
 },
 "runs": {
-"n_recorded": 292,
+"n_recorded": 293,
 "workflows": [
 {
 "workflow": "backtest-models",
@@ -396861,15 +396853,15 @@
 },
 {
 "workflow": "scheduler",
-"runs": 290,
+"runs": 291,
 "failures_14d": 2,
 "last": {
-"at": "2026-10-05T21:36:57Z",
+"at": "2026-10-05T21:51:47Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37376723775",
-"duration_s": 59
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37378301686",
+"duration_s": 109
 },
-"last_success": "2026-10-05T21:36:57Z",
+"last_success": "2026-10-05T21:51:47Z",
 "last_failure": {
 "at": "2026-09-30T14:15:41Z",
 "url": "https://github.com/amercado19/nfl-pipeline/actions/runs/36727522549",
@@ -396960,7 +396952,7 @@
 }
 ],
 "currently_failing": [],
-"last_successful_run": "2026-10-05T21:36:57Z",
+"last_successful_run": "2026-10-05T21:51:47Z",
 "status": "ok",
 "note": "one row per GitHub Actions execution (scheduler + manual); written by the run-summary step before the store is committed"
 },
@@ -396968,25 +396960,17 @@
 "phase_now": "game_day",
 "watchdog": {
 "last_expected_run_utc": "2026-10-05T21:15Z",
-"last_actual_start_utc": "2026-10-05T21:35Z",
+"last_actual_start_utc": "2026-10-05T21:49Z",
 "window_hours": 26,
 "tolerances": {
 "delayed_after_min": 20,
 "missed_after_min": 90
 },
-"expected_firings": 22,
-"on_time": 1,
-"delayed": 10,
+"expected_firings": 21,
+"on_time": 0,
+"delayed": 11,
 "missed": 4,
 "rows": [
-{
-"due_utc": "2026-10-04T20:00Z",
-"slot": "prekick_30m",
-"expected_to_run": false,
-"started_utc": "2026-10-04T20:12Z",
-"delay_min": 13,
-"status": "ON_TIME"
-},
 {
 "due_utc": "2026-10-04T20:30Z",
 "slot": "prekick_30m",
@@ -397151,9 +397135,9 @@
 "due_utc": "2026-10-05T21:15Z",
 "slot": "gameday_2h",
 "expected_to_run": true,
-"started_utc": null,
-"delay_min": null,
-"status": "PENDING"
+"started_utc": "2026-10-05T21:49Z",
+"delay_min": 35,
+"status": "DELAYED"
 }
 ],
 "missed_stale": 0,
@@ -397362,23 +397346,23 @@
 "dashboard_repo": "https://github.com/amercado19/nfl-dashboard",
 "site_url": "https://amercado19.github.io/nfl-dashboard/",
 "version": "nfl-picks 0.26.0",
-"commit": "e0eb657edd08",
+"commit": "0c5824d183ae",
 "branch": "main",
 "tag": null,
 "dashboard_commit": {
 "ok": true,
-"sha": "05face4c21e9",
-"message": "Auto-publish NFL 2026-10-05 21:06 UTC",
-"date": "2026-10-05T21:06:08Z",
-"url": "https://github.com/amercado19/nfl-dashboard/commit/05face4c21e9cabecee49b7f739e2e8ba056f23e"
+"sha": "1b567dbb2ff5",
+"message": "Auto-publish NFL 2026-10-05 21:51 UTC",
+"date": "2026-10-05T21:51:35Z",
+"url": "https://github.com/amercado19/nfl-dashboard/commit/1b567dbb2ff5fc8c0b0f3646fa2f571ce7649e3b"
 },
 "pages": {
 "reachable": true,
 "status": 200,
-"latency_ms": 184,
-"live_version": "0.25.3",
-"live_build": "cd9d06f52461",
-"live_generated_at": "2026-10-05T18:46:53Z",
+"latency_ms": 312,
+"live_version": "0.26.0",
+"live_build": "e0eb657edd08",
+"live_generated_at": "2026-10-05T21:51:31Z",
 "in_sync": false
 },
 "method": "GitHub Actions (scheduler) \u2192 SSH deploy key \u2192 amercado19/nfl-dashboard \u2192 GitHub Pages",
@@ -397396,15 +397380,15 @@
 "kind": "rate_limit",
 "ok": true,
 "status": 200,
-"latency_ms": 281,
+"latency_ms": 201,
 "bytes": 1232,
 "rate_limit": {
 "remaining": "5000",
 "limit": "5000"
 },
 "authenticated": true,
-"probed_at": "2026-10-05T21:36:49Z",
-"run_id": "37376723775"
+"probed_at": "2026-10-05T21:51:40Z",
+"run_id": "37378301686"
 },
 "latest_workflow": null,
 "latest_completed_workflow": null,
@@ -397417,15 +397401,15 @@
 },
 "publish": {
 "last": {
-"recorded_at": "2026-10-05T21:36:57Z",
+"recorded_at": "2026-10-05T21:51:47Z",
 "workflow": "scheduler",
-"run_id": "37376723775",
+"run_id": "37378301686",
 "attempt": "1",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37376723775",
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37378301686",
 "trigger": "workflow_dispatch",
 "status": "success",
-"started_at": "2026-10-05T21:35:59Z",
-"duration_s": 59,
+"started_at": "2026-10-05T21:49:58Z",
+"duration_s": 109,
 "steps": [
 "python -m nfl_picks refresh schedule",
 "python -m nfl_picks refresh injuries",
@@ -397450,67 +397434,7 @@
 ],
 "alerts": [
 "rosters: 125h old",
-"depth: 43h old",
-"odds: 14527 conflicting duplicate(s), 1452 current-line conflict(s), 2158 closing-line conflict(s) \u2014 see duplicate_odds diagnostic"
-],
-"failed_batches": [],
-"odds_key_present": true,
-"deploy_key_present": true,
-"push_token_present": false,
-"odds_estimated_credits": 0,
-"credits_month_nfl": 3691,
-"publish_status": "verify_failed",
-"publish_duration_s": null,
-"publish_verify": {
-"ok": false,
-"checks": 188,
-"failed": [
-{
-"check": "week_td_ticket_states_the_independence_limit",
-"ok": false,
-"detail": "the page says across games there is nothing to exploit rather than implying cleverness"
-}
-],
-"build_id": "3dcaa2d505f5"
-},
-"phase": null,
-"group": null
-},
-"last_success": {
-"recorded_at": "2026-10-05T21:06:23Z",
-"workflow": "scheduler",
-"run_id": "37372463871",
-"attempt": "1",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37372463871",
-"trigger": "workflow_dispatch",
-"status": "success",
-"started_at": "2026-10-05T21:05:05Z",
-"duration_s": 78,
-"steps": [
-"python -m nfl_picks refresh schedule",
-"python -m nfl_picks refresh injuries",
-"python -m nfl_picks refresh news",
-"python -m nfl_picks refresh weather",
-"python -m nfl_picks odds-plan || true",
-"python -m nfl_picks refresh odds",
-"python -m nfl_picks news-impact",
-"python -m nfl_picks grade",
-"python -m nfl_picks project --publish",
-"python -m nfl_picks simulate-season --if-new-finals",
-"python -m nfl_picks health"
-],
-"commands": [
-"grade",
-"health",
-"news-impact",
-"odds-plan",
-"project",
-"refresh",
-"simulate-season"
-],
-"alerts": [
-"rosters: 125h old",
-"depth: 43h old",
+"depth: 44h old",
 "odds: 14527 conflicting duplicate(s), 1452 current-line conflict(s), 2158 closing-line conflict(s) \u2014 see duplicate_odds diagnostic"
 ],
 "failed_batches": [],
@@ -397520,12 +397444,66 @@
 "odds_estimated_credits": 0,
 "credits_month_nfl": 3691,
 "publish_status": "success",
-"publish_duration_s": 24,
+"publish_duration_s": 16,
 "publish_verify": {
 "ok": true,
 "checks": 188,
 "failed": [],
-"build_id": "259d09687e27"
+"build_id": "e0eb657edd08"
+},
+"phase": null,
+"group": null
+},
+"last_success": {
+"recorded_at": "2026-10-05T21:51:47Z",
+"workflow": "scheduler",
+"run_id": "37378301686",
+"attempt": "1",
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37378301686",
+"trigger": "workflow_dispatch",
+"status": "success",
+"started_at": "2026-10-05T21:49:58Z",
+"duration_s": 109,
+"steps": [
+"python -m nfl_picks refresh schedule",
+"python -m nfl_picks refresh injuries",
+"python -m nfl_picks refresh news",
+"python -m nfl_picks refresh weather",
+"python -m nfl_picks odds-plan || true",
+"python -m nfl_picks refresh odds",
+"python -m nfl_picks news-impact",
+"python -m nfl_picks grade",
+"python -m nfl_picks project --publish",
+"python -m nfl_picks simulate-season --if-new-finals",
+"python -m nfl_picks health"
+],
+"commands": [
+"grade",
+"health",
+"news-impact",
+"odds-plan",
+"project",
+"refresh",
+"simulate-season"
+],
+"alerts": [
+"rosters: 125h old",
+"depth: 44h old",
+"odds: 14527 conflicting duplicate(s), 1452 current-line conflict(s), 2158 closing-line conflict(s) \u2014 see duplicate_odds diagnostic"
+],
+"failed_batches": [],
+"odds_key_present": true,
+"deploy_key_present": true,
+"push_token_present": false,
+"odds_estimated_credits": 0,
+"credits_month_nfl": 3691,
+"publish_status": "success",
+"publish_duration_s": 16,
+"publish_verify": {
+"ok": true,
+"checks": 188,
+"failed": [],
+"build_id": "e0eb657edd08"
 },
 "phase": null,
 "group": null
@@ -397636,24 +397614,18 @@
 "phase": null,
 "group": null
 },
-"n": 230,
-"latest_duration_s": null,
-"result": "verify_failed",
+"n": 231,
+"latest_duration_s": 16,
+"result": "success",
 "verify": {
-"ok": false,
+"ok": true,
 "checks": 188,
-"failed": [
-{
-"check": "week_td_ticket_states_the_independence_limit",
-"ok": false,
-"detail": "the page says across games there is nothing to exploit rather than implying cleverness"
-}
-],
-"build_id": "3dcaa2d505f5"
+"failed": [],
+"build_id": "e0eb657edd08"
 }
 },
 "runs": {
-"n_recorded": 292,
+"n_recorded": 293,
 "workflows": [
 {
 "workflow": "backtest-models",
@@ -397687,15 +397659,15 @@
 },
 {
 "workflow": "scheduler",
-"runs": 290,
+"runs": 291,
 "failures_14d": 2,
 "last": {
-"at": "2026-10-05T21:36:57Z",
+"at": "2026-10-05T21:51:47Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37376723775",
-"duration_s": 59
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37378301686",
+"duration_s": 109
 },
-"last_success": "2026-10-05T21:36:57Z",
+"last_success": "2026-10-05T21:51:47Z",
 "last_failure": {
 "at": "2026-09-30T14:15:41Z",
 "url": "https://github.com/amercado19/nfl-pipeline/actions/runs/36727522549",
@@ -397786,18 +397758,11 @@
 }
 ],
 "currently_failing": [],
-"last_successful_run": "2026-10-05T21:36:57Z",
+"last_successful_run": "2026-10-05T21:51:47Z",
 "status": "ok",
 "note": "one row per GitHub Actions execution (scheduler + manual); written by the run-summary step before the store is committed"
 },
 "problems": [
-{
-"severity": "error",
-"problem": "The last publish attempt failed the pre-publish verification",
-"system": "publish step (build + verify + git push to nfl-dashboard)",
-"credential": "\u2014",
-"fix": "Broken build was NOT published (checks failed: week_td_ticket_states_the_independence_limit). Fix the build, then re-run scheduler \u2192 group early_week."
-},
 {
 "severity": "info",
 "problem": "RECOVERED: a scheduled run failed and later runs succeeded (scheduler #36727522549, 2026-09-30T14:15:41Z)",
@@ -397813,20 +397778,20 @@
 "fix": "HTTP 404"
 }
 ],
-"checked_at": "2026-10-05T21:51:31Z",
+"checked_at": "2026-10-05T22:16:45Z",
 "checked_in_actions": true
 },
 "providers": {
 "odds_api": {
 "label": "The Odds API",
 "health": "healthy",
-"latency_ms": 375,
+"latency_ms": 76,
 "latency_ms_median": 165,
-"last_probe": "2026-10-05T21:36:49Z",
-"last_success": "2026-10-05T21:36:49Z",
+"last_probe": "2026-10-05T21:51:40Z",
+"last_success": "2026-10-05T21:51:40Z",
 "last_failure": null,
 "success_rate": 0.989,
-"probes": 274,
+"probes": 275,
 "rate_limit": {
 "remaining": "94380",
 "used": "5620",
@@ -397834,7 +397799,7 @@
 },
 "status": 200,
 "error": null,
-"last_job_success": "2026-10-05T21:51:05Z",
+"last_job_success": "2026-10-05T22:16:25Z",
 "last_job_failure": null,
 "next_refresh": "2026-10-05T23:15:00Z",
 "credential": "ODDS_API_KEY"
@@ -397842,17 +397807,17 @@
 "espn": {
 "label": "ESPN",
 "health": "healthy",
-"latency_ms": 116,
-"latency_ms_median": 130,
-"last_probe": "2026-10-05T21:36:48Z",
-"last_success": "2026-10-05T21:36:48Z",
+"latency_ms": 94,
+"latency_ms_median": 127,
+"last_probe": "2026-10-05T21:51:39Z",
+"last_success": "2026-10-05T21:51:39Z",
 "last_failure": null,
 "success_rate": 1.0,
-"probes": 274,
+"probes": 275,
 "rate_limit": null,
 "status": 200,
 "error": null,
-"last_job_success": "2026-10-05T21:51:08Z",
+"last_job_success": "2026-10-05T22:16:27Z",
 "last_job_failure": null,
 "next_refresh": "2026-10-05T23:15:00Z",
 "credential": "none required"
@@ -397860,17 +397825,17 @@
 "nflverse": {
 "label": "nflverse",
 "health": "healthy",
-"latency_ms": 172,
-"latency_ms_median": 222,
-"last_probe": "2026-10-05T21:36:48Z",
-"last_success": "2026-10-05T21:36:48Z",
+"latency_ms": 59,
+"latency_ms_median": 221,
+"last_probe": "2026-10-05T21:51:39Z",
+"last_success": "2026-10-05T21:51:39Z",
 "last_failure": null,
 "success_rate": 1.0,
-"probes": 274,
+"probes": 275,
 "rate_limit": null,
 "status": 200,
 "error": null,
-"last_job_success": "2026-10-05T21:51:08Z",
+"last_job_success": "2026-10-05T22:16:27Z",
 "last_job_failure": null,
 "next_refresh": "2026-10-05T23:15:00Z",
 "credential": "none required"
@@ -397878,17 +397843,17 @@
 "open_meteo": {
 "label": "Open-Meteo (weather)",
 "health": "healthy",
-"latency_ms": 293,
+"latency_ms": 407,
 "latency_ms_median": 566,
-"last_probe": "2026-10-05T21:36:48Z",
-"last_success": "2026-10-05T21:36:48Z",
+"last_probe": "2026-10-05T21:51:40Z",
+"last_success": "2026-10-05T21:51:40Z",
 "last_failure": {
 "at": "2026-09-02T00:22:27Z",
 "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
 "status": null
 },
 "success_rate": 0.993,
-"probes": 274,
+"probes": 275,
 "rate_limit": null,
 "status": 200,
 "error": null,
@@ -397900,13 +397865,13 @@
 "rss": {
 "label": "RSS news",
 "health": "healthy",
-"latency_ms": 59,
-"latency_ms_median": 64,
-"last_probe": "2026-10-05T21:36:48Z",
-"last_success": "2026-10-05T21:36:48Z",
+"latency_ms": 47,
+"latency_ms_median": 63,
+"last_probe": "2026-10-05T21:51:40Z",
+"last_success": "2026-10-05T21:51:40Z",
 "last_failure": null,
 "success_rate": 1.0,
-"probes": 274,
+"probes": 275,
 "rate_limit": null,
 "status": 202,
 "error": null,
@@ -397918,17 +397883,17 @@
 "github_api": {
 "label": "GitHub API",
 "health": "healthy",
-"latency_ms": 281,
+"latency_ms": 201,
 "latency_ms_median": 262,
-"last_probe": "2026-10-05T21:36:49Z",
-"last_success": "2026-10-05T21:36:49Z",
+"last_probe": "2026-10-05T21:51:40Z",
+"last_success": "2026-10-05T21:51:40Z",
 "last_failure": {
 "at": "2026-09-02T01:30:14Z",
 "error": "HTTP 502",
 "status": 502
 },
 "success_rate": 0.989,
-"probes": 274,
+"probes": 275,
 "rate_limit": {
 "remaining": "5000",
 "limit": "5000"
@@ -397943,13 +397908,13 @@
 "github_pages": {
 "label": "GitHub Pages (live site)",
 "health": "healthy",
-"latency_ms": 293,
-"latency_ms_median": 111,
-"last_probe": "2026-10-05T21:36:49Z",
-"last_success": "2026-10-05T21:36:49Z",
+"latency_ms": 37,
+"latency_ms_median": 109,
+"last_probe": "2026-10-05T21:51:40Z",
+"last_success": "2026-10-05T21:51:40Z",
 "last_failure": null,
 "success_rate": 1.0,
-"probes": 274,
+"probes": 275,
 "rate_limit": null,
 "status": 200,
 "error": null,
@@ -397963,12 +397928,12 @@
 "app_version": "nfl-picks 0.26.0",
 "pipeline_version": "0.26.0",
 "dashboard_version": "0.26.0",
-"git_commit": "e0eb657edd08",
+"git_commit": "0c5824d183ae",
 "git_tag": null,
-"build_timestamp": "2026-10-05T21:51:31Z",
+"build_timestamp": "2026-10-05T22:16:46Z",
 "data_timestamp": null,
 "prediction_timestamp": "2026-10-05T21:05:36Z",
-"prediction_run_id": "proj-2026-w4-20261005T215111Z-5b83f",
+"prediction_run_id": "proj-2026-w4-20261005T221629Z-087fd",
 "n_projection_rows": 616109,
 "model_version": "game-ridge-v1-2018-2026-202609151720",
 "feature_version": "team-v1",
@@ -397976,24 +397941,24 @@
 "explain_version": "explain-v1",
 "calibration_version": "2026-09-30T20:26:41Z",
 "calibration_method": "isotonic (PAVA), out-of-sample walk-forward rows only; applied inside the fitted support and only when the week-blocked cross-fit Brier improves on the raw probability",
-"last_deployment": "2026-10-05T21:06:23Z",
-"last_publish_attempt": "2026-10-05T21:36:57Z",
-"last_publish_result": "verify_failed",
+"last_deployment": "2026-10-05T21:51:47Z",
+"last_publish_attempt": "2026-10-05T21:51:47Z",
+"last_publish_result": "success",
 "latest_workflow": {
-"at": "2026-10-05T21:36:57Z",
+"at": "2026-10-05T21:51:47Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37376723775",
-"duration_s": 59
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37378301686",
+"duration_s": 109
 },
-"last_successful_run": "2026-10-05T21:36:57Z",
+"last_successful_run": "2026-10-05T21:51:47Z",
 "last_commands": {
-"grade": "2026-10-05T21:36:57Z",
+"grade": "2026-10-05T21:51:47Z",
 "calibration-report": "2026-09-29T18:24:34Z",
 "retrain": "2026-09-29T18:24:34Z",
-"project": "2026-10-05T21:36:57Z",
+"project": "2026-10-05T21:51:47Z",
 "attribute-errors": "2026-10-02T16:40:04Z",
 "evaluate-week": "2026-10-02T16:40:04Z",
-"refresh": "2026-10-05T21:36:57Z"
+"refresh": "2026-10-05T21:51:47Z"
 },
 "python_version": "3.11.16",
 "schema_version": 12,
@@ -398030,12 +397995,12 @@
 "app_version": "nfl-picks 0.26.0",
 "pipeline_version": "0.26.0",
 "dashboard_version": "0.26.0",
-"git_commit": "e0eb657edd08",
+"git_commit": "0c5824d183ae",
 "git_tag": null,
-"build_timestamp": "2026-10-05T21:51:31Z",
-"data_timestamp": "2026-10-05T21:51:08Z",
+"build_timestamp": "2026-10-05T22:16:46Z",
+"data_timestamp": "2026-10-05T22:16:27Z",
 "prediction_timestamp": "2026-10-05T21:05:36Z",
-"prediction_run_id": "proj-2026-w4-20261005T215111Z-5b83f",
+"prediction_run_id": "proj-2026-w4-20261005T221629Z-087fd",
 "n_projection_rows": 616109,
 "model_version": "game-ridge-v1-2018-2026-202609151720",
 "feature_version": "team-v1",
@@ -398043,24 +398008,24 @@
 "explain_version": "explain-v1",
 "calibration_version": "2026-09-30T20:26:41Z",
 "calibration_method": "isotonic (PAVA), out-of-sample walk-forward rows only; applied inside the fitted support and only when the week-blocked cross-fit Brier improves on the raw probability",
-"last_deployment": "2026-10-05T21:06:23Z",
-"last_publish_attempt": "2026-10-05T21:36:57Z",
-"last_publish_result": "verify_failed",
+"last_deployment": "2026-10-05T21:51:47Z",
+"last_publish_attempt": "2026-10-05T21:51:47Z",
+"last_publish_result": "success",
 "latest_workflow": {
-"at": "2026-10-05T21:36:57Z",
+"at": "2026-10-05T21:51:47Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37376723775",
-"duration_s": 59
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37378301686",
+"duration_s": 109
 },
-"last_successful_run": "2026-10-05T21:36:57Z",
+"last_successful_run": "2026-10-05T21:51:47Z",
 "last_commands": {
-"grade": "2026-10-05T21:36:57Z",
+"grade": "2026-10-05T21:51:47Z",
 "calibration-report": "2026-09-29T18:24:34Z",
 "retrain": "2026-09-29T18:24:34Z",
-"project": "2026-10-05T21:36:57Z",
+"project": "2026-10-05T21:51:47Z",
 "attribute-errors": "2026-10-02T16:40:04Z",
 "evaluate-week": "2026-10-02T16:40:04Z",
-"refresh": "2026-10-05T21:36:57Z"
+"refresh": "2026-10-05T21:51:47Z"
 },
 "python_version": "3.11.16",
 "schema_version": 12,
@@ -423823,12 +423788,17 @@ null,
 "2026-10-05T21:49:59Z",
 null,
 100
+],
+[
+"2026-10-05T22:16:27Z",
+null,
+102
 ]
 ],
 "current": {
 "line": null,
-"price": 100,
-"at": "2026-10-05T21:49:59Z"
+"price": 102,
+"at": "2026-10-05T22:16:27Z"
 }
 },
 "2026_04_ATL_NO|moneyline|NO|home|draftkings@espn": {
@@ -423882,12 +423852,17 @@ null,
 "2026-10-05T21:49:59Z",
 null,
 -120
+],
+[
+"2026-10-05T22:16:27Z",
+null,
+-122
 ]
 ],
 "current": {
 "line": null,
-"price": -120,
-"at": "2026-10-05T21:49:59Z"
+"price": -122,
+"at": "2026-10-05T22:16:27Z"
 }
 },
 "2026_04_ATL_NO|spread|ATL|away|draftkings@espn": {
@@ -427934,15 +427909,11 @@ null,
 }
 ],
 "status": {
-"overall": "critical",
-"critical": 1,
+"overall": "warning",
+"critical": 0,
 "warnings": 2,
 "info": 0,
 "items": [
-{
-"level": "critical",
-"text": "The last publish attempt failed the pre-publish verification"
-},
 {
 "level": "warning",
 "text": "rosters data is stale"
@@ -427953,7 +427924,7 @@ null,
 }
 ],
 "missing_credentials": [],
-"checked_at": "2026-10-05T21:51:31Z"
+"checked_at": "2026-10-05T22:16:46Z"
 },
 "model_changelog": [
 {
@@ -433921,7 +433892,7 @@ null,
 "no_unders": true,
 "no_rush_attempts": true
 },
-"generated_at": "2026-10-05T21:51:12Z",
+"generated_at": "2026-10-05T22:16:31Z",
 "candidates": 0,
 "removed": {
 "game_started_or_final": 4526,
@@ -434114,7 +434085,7 @@ null,
 "not_a_recommendation": "An upper-tail ticket is a low-probability proposition by construction. This is not an Official Pick, it is not in the public P/L, and no stake is suggested."
 },
 "policy_version": 2,
-"generated_at": "2026-10-05T21:51:12Z",
+"generated_at": "2026-10-05T22:16:30Z",
 "candidates": 0,
 "removed": {
 "no_aggressive_tier": 0,
@@ -507411,7 +507382,7 @@ null,
 "complete": true
 },
 "published": true,
-"graded_at": "2026-10-05T21:51:08Z",
+"graded_at": "2026-10-05T22:16:27Z",
 "grading_policy_version": 2,
 "corrections": [],
 "state": "complete",
@@ -545017,7 +544988,7 @@ null,
 "complete": false
 },
 "published": false,
-"graded_at": "2026-10-05T21:51:08Z",
+"graded_at": "2026-10-05T22:16:27Z",
 "grading_policy_version": 2,
 "corrections": [],
 "state": "in_progress",
@@ -581401,7 +581372,7 @@ null,
 }
 }
 ],
-"generated_at": "2026-10-05T21:51:32Z"
+"generated_at": "2026-10-05T22:16:47Z"
 },
 "ticket_history_capture": {
 "pending": 0,
@@ -581411,7 +581382,7 @@ null,
 "results_detail": {
 "version": 1,
 "season": 2026,
-"generated_at": "2026-10-05T21:51:32Z",
+"generated_at": "2026-10-05T22:16:47Z",
 "props": [
 {
 "game_id": "2026_04_ATL_NO",
