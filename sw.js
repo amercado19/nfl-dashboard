@@ -1,8 +1,8 @@
-/* NFL Predict service worker — generated copy; the cache name is stamped by the publisher (d544f25d7348).
+/* NFL Predict service worker — generated copy; the cache name is stamped by the publisher (4d51eb929f9a).
    Strategy: navigation (index.html / current.html) = network-first with cached fallback (offline shows the last
    published snapshot, clearly dated in its header); icons / manifest / fonts = cache-first. Nothing here ever
    caches data from third-party APIs — the dashboard payload is embedded in index.html. */
-var CACHE = 'nfl-predict-d544f25d7348';
+var CACHE = 'nfl-predict-4d51eb929f9a';
 var SHELL = ['./', './index.html', './manifest.webmanifest', './favicon-32x32.png', './apple-touch-icon.png', './android-chrome-192x192.png'];
 
 self.addEventListener('install', function (e) {
