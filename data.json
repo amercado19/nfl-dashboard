@@ -1,13 +1,13 @@
 {
 "version": "nfl-picks 0.32.0",
-"generated_at": "2026-10-12T20:22:50Z",
+"generated_at": "2026-10-12T22:41:17Z",
 "season": 2026,
 "week": 5,
 "game_type": "REG",
 "deploy": {
 "version": "nfl-picks 0.32.0",
-"commit": "10407c694d19",
-"built_at": "2026-10-12T20:22:50Z",
+"commit": "becf6ca60d66",
+"built_at": "2026-10-12T22:41:17Z",
 "repo_url": "https://github.com/amercado19/nfl-pipeline",
 "issues_url": "https://github.com/amercado19/nfl-pipeline/issues/new/choose",
 "actions_url": "https://github.com/amercado19/nfl-pipeline/actions",
@@ -32,17 +32,17 @@
 "game_lines": {
 "label": "Game lines (free ESPN/DK)",
 "state": "LIVE",
-"detail": "948 rows, last 2026-10-12T20:22:21Z"
+"detail": "948 rows, last 2026-10-12T22:40:47Z"
 },
 "prop_odds": {
 "label": "Player prop odds (Odds API)",
 "state": "LIVE",
-"detail": "last pull 2026-10-12T20:22:18Z"
+"detail": "last pull 2026-10-12T22:40:45Z"
 },
 "api_lines": {
 "label": "Multi-book game odds (Odds API)",
 "state": "LIVE",
-"detail": "last pull 2026-10-12T20:22:18Z"
+"detail": "last pull 2026-10-12T22:40:45Z"
 },
 "futures_odds": {
 "label": "Futures odds (Odds API)",
@@ -55,7 +55,7 @@
 "detail": "value never shown"
 }
 },
-"last_success": "2026-10-12T20:22:18Z",
+"last_success": "2026-10-12T22:40:45Z",
 "last_failure": "2026-10-11T21:00:13Z",
 "last_failure_errors": [
 "props HOU@JAX: NOT_FOUND",
@@ -78,24 +78,24 @@
 },
 "prop_odds_health": {
 "state": "AVAILABLE",
-"detail": "26492 priced prop rows across 88 games",
+"detail": "26701 priced prop rows across 90 games",
 "critical": false,
 "last_request": {
-"at": "2026-10-12T20:22:18Z",
+"at": "2026-10-12T22:40:45Z",
 "status": "ok",
-"credits": 12,
+"credits": 1,
 "books": [
 "fanduel",
 "draftkings"
 ],
-"note": "e6d00eedd87d367e510314bd8cab8f6f"
+"note": "82fd5a159fa130e67abab93a9537f70b"
 },
-"requests_this_month": 995,
+"requests_this_month": 1009,
 "failed_requests": 29,
 "events_in_window": 14,
-"events_with_props": 88,
-"raw_rows": 26492,
-"mapped_rows": 26492,
+"events_with_props": 90,
+"raw_rows": 26701,
+"mapped_rows": 26701,
 "unmapped_rows": 0,
 "published_priced_propositions": 84,
 "books": [
@@ -117,14 +117,14 @@
 "rushing_attempts",
 "rushing_yards"
 ],
-"freshest_line": "2026-10-12T20:22:18Z",
+"freshest_line": "2026-10-12T22:40:45Z",
 "oldest_line": "2026-09-09T18:36:34Z",
 "budget_policy": "NORMAL",
 "budget_policy_display": "NORMAL",
 "credits": {
-"combined_used": 11602,
-"nfl_used": 7321,
-"provider_remaining": 88398,
+"combined_used": 11720,
+"nfl_used": 7363,
+"provider_remaining": 88280,
 "cap": 100000
 }
 },
@@ -270,6 +270,20 @@
 },
 {
 "kind": "player",
+"raw_name": "Los Angeles Rams D/ST",
+"context": "BUF,LA",
+"seen_count": 65,
+"last_seen": "2026-10-12T22:40:40Z"
+},
+{
+"kind": "player",
+"raw_name": "Buffalo Bills D/ST",
+"context": "BUF,LA",
+"seen_count": 65,
+"last_seen": "2026-10-12T22:40:40Z"
+},
+{
+"kind": "player",
 "raw_name": "Atlanta Falcons Defense",
 "context": "ATL,NO",
 "seen_count": 65,
@@ -302,20 +316,6 @@
 "context": "LA,NYG",
 "seen_count": 65,
 "last_seen": "2026-09-22T00:11:00Z"
-},
-{
-"kind": "player",
-"raw_name": "Los Angeles Rams D/ST",
-"context": "BUF,LA",
-"seen_count": 62,
-"last_seen": "2026-10-12T20:22:18Z"
-},
-{
-"kind": "player",
-"raw_name": "Buffalo Bills D/ST",
-"context": "BUF,LA",
-"seen_count": 62,
-"last_seen": "2026-10-12T20:22:18Z"
 },
 {
 "kind": "player",
@@ -690,6 +690,20 @@
 },
 {
 "kind": "player",
+"raw_name": "Los Angeles Rams Defense",
+"context": "BUF,LA",
+"seen_count": 47,
+"last_seen": "2026-10-12T22:40:40Z"
+},
+{
+"kind": "player",
+"raw_name": "Buffalo Bills Defense",
+"context": "BUF,LA",
+"seen_count": 47,
+"last_seen": "2026-10-12T22:40:40Z"
+},
+{
+"kind": "player",
 "raw_name": "Tampa Bay Buccaneers Defense",
 "context": "GB,TB",
 "seen_count": 47,
@@ -867,20 +881,6 @@
 "kind": "player",
 "raw_name": "Chicago Bears Defense",
 "context": "CHI,MIN",
-"seen_count": 47,
-"last_seen": "2026-09-20T14:44:11Z"
-},
-{
-"kind": "player",
-"raw_name": "Houston Texans Defense",
-"context": "CIN,HOU",
-"seen_count": 47,
-"last_seen": "2026-09-20T14:44:11Z"
-},
-{
-"kind": "player",
-"raw_name": "Cincinnati Bengals Defense",
-"context": "CIN,HOU",
 "seen_count": 47,
 "last_seen": "2026-09-20T14:44:11Z"
 }
@@ -1140,74 +1140,74 @@
 ],
 "freshness": {
 "schedule": {
-"last": "2026-10-12T20:22:21Z",
+"last": "2026-10-12T22:40:47Z",
 "age_hours": 0.0,
 "stale": false
 },
 "rosters": {
 "last": "2026-10-07T17:33:04Z",
-"age_hours": 122.8,
+"age_hours": 125.1,
 "stale": true
 },
 "depth": {
 "last": "2026-10-11T01:28:32Z",
-"age_hours": 42.9,
+"age_hours": 45.2,
 "stale": true
 },
 "injuries": {
 "last": "2026-10-12T20:21:19Z",
-"age_hours": 0.0,
+"age_hours": 2.3,
 "stale": false
 },
 "news": {
 "last": "2026-10-12T20:21:21Z",
-"age_hours": 0.0,
+"age_hours": 2.3,
 "stale": false
 },
 "odds": {
-"last": "2026-10-12T20:22:18Z",
+"last": "2026-10-12T22:40:47Z",
 "age_hours": 0.0,
 "stale": false
 },
 "futures": {
 "last": "2026-10-06T18:21:00Z",
-"age_hours": 146.0,
+"age_hours": 148.3,
 "stale": false
 },
 "weather": {
 "last": "2026-10-12T20:22:15Z",
-"age_hours": 0.0,
+"age_hours": 2.3,
 "stale": false
 },
 "stats": {
-"last": "2026-10-12T20:22:21Z",
+"last": "2026-10-12T22:40:48Z",
 "age_hours": 0.0,
 "stale": false
 },
 "projections": {
 "last": "2026-10-12T20:22:26Z",
-"age_hours": 0.0,
+"age_hours": 2.3,
 "stale": false
 },
 "season_sim": {
 "last": "2026-10-12T05:44:22Z",
-"age_hours": 14.6,
+"age_hours": 16.9,
 "stale": false
 },
 "transactions": {
 "last": "2026-10-12T20:21:19Z",
-"age_hours": 0.0,
+"age_hours": 2.3,
 "stale": false
 }
 },
 "alerts": [
-"rosters: 123h old",
-"depth: 43h old",
+"rosters: 125h old",
+"depth: 45h old",
 "odds: 140 closing-line conflict(s) \u2014 see duplicate_odds diagnostic",
 "WARN closing-line capture: 2 Official(s) in 1 game(s) kicked off in the last 48h with no FanDuel close captured (CLV coverage gap)"
 ],
 "workflow_runs": {
-"n_recorded": 344,
+"n_recorded": 345,
 "workflows": [
 {
 "workflow": "backtest-models",
@@ -1241,15 +1241,15 @@
 },
 {
 "workflow": "scheduler",
-"runs": 342,
+"runs": 343,
 "failures_14d": 2,
 "last": {
-"at": "2026-10-12T19:13:16Z",
+"at": "2026-10-12T20:23:08Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/38295698637",
-"duration_s": 127
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/38303244701",
+"duration_s": 120
 },
-"last_success": "2026-10-12T19:13:16Z",
+"last_success": "2026-10-12T20:23:08Z",
 "last_failure": {
 "at": "2026-10-07T14:47:22Z",
 "url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37639247716",
@@ -1340,7 +1340,7 @@
 }
 ],
 "currently_failing": [],
-"last_successful_run": "2026-10-12T19:13:16Z",
+"last_successful_run": "2026-10-12T20:23:08Z",
 "status": "ok",
 "note": "one row per GitHub Actions execution (scheduler + manual); written by the run-summary step before the store is committed"
 },
@@ -1351,7 +1351,7 @@
 "detail": "build ran inside GitHub Actions",
 "where": "https://github.com/amercado19/nfl-pipeline/actions",
 "health": "healthy",
-"health_detail": "probe 300 ms at 2026-10-12T19:13:07Z"
+"health_detail": "probe 289 ms at 2026-10-12T20:23:01Z"
 },
 {
 "name": "Database Connected",
@@ -1372,7 +1372,7 @@
 "closing-line value"
 ],
 "health": "healthy",
-"health_detail": "probe 140 ms at 2026-10-12T19:13:07Z"
+"health_detail": "probe 252 ms at 2026-10-12T20:23:01Z"
 },
 {
 "name": "Weather Provider",
@@ -1380,7 +1380,7 @@
 "detail": "Open-Meteo (no key required); last run 2026-10-12T20:22:15Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 539 ms at 2026-10-12T19:13:07Z"
+"health_detail": "probe 579 ms at 2026-10-12T20:23:01Z"
 },
 {
 "name": "News Provider",
@@ -1388,7 +1388,7 @@
 "detail": "ESPN / CBS / PFT RSS (no key required); last run 2026-10-12T20:21:21Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 85 ms at 2026-10-12T19:13:07Z"
+"health_detail": "probe 101 ms at 2026-10-12T20:23:01Z"
 },
 {
 "name": "Deployment Token",
@@ -1399,7 +1399,7 @@
 "automatic dashboard publish to amercado19/nfl-dashboard"
 ],
 "health": "healthy",
-"health_detail": "last publish succeeded at 2026-10-12T19:13:16Z"
+"health_detail": "last publish succeeded at 2026-10-12T20:23:08Z"
 },
 {
 "name": "Dashboard Publisher",
@@ -1407,65 +1407,25 @@
 "detail": "reusable workflow publishes site/ to amercado19/nfl-dashboard (GitHub Pages)",
 "where": "https://amercado19.github.io/nfl-dashboard/",
 "health": "healthy",
-"health_detail": "last publish succeeded at 2026-10-12T19:13:16Z"
+"health_detail": "last publish succeeded at 2026-10-12T20:23:08Z"
 }
 ],
 "provider_failures": [],
 "scheduler": {
 "phase_now": "game_day",
 "watchdog": {
-"last_expected_run_utc": "2026-10-12T19:15Z",
-"last_actual_start_utc": "2026-10-12T12:26Z",
+"last_expected_run_utc": "2026-10-12T21:15Z",
+"last_actual_start_utc": "2026-10-12T20:21Z",
 "window_hours": 26,
 "tolerances": {
 "delayed_after_min": 20,
 "missed_after_min": 90
 },
-"expected_firings": 30,
+"expected_firings": 28,
 "on_time": 0,
-"delayed": 5,
+"delayed": 4,
 "missed": 6,
 "rows": [
-{
-"due_utc": "2026-10-11T19:15Z",
-"slot": "gameday_2h",
-"expected_to_run": true,
-"started_utc": "2026-10-11T19:49Z",
-"delay_min": 34,
-"status": "DELAYED"
-},
-{
-"due_utc": "2026-10-11T19:40Z",
-"slot": "close_capture",
-"expected_to_run": false,
-"started_utc": "2026-10-11T20:59Z",
-"delay_min": 80,
-"status": "DELAYED"
-},
-{
-"due_utc": "2026-10-11T20:00Z",
-"slot": "prekick_30m",
-"expected_to_run": false,
-"started_utc": null,
-"delay_min": null,
-"status": "SKIPPED_BY_GATE"
-},
-{
-"due_utc": "2026-10-11T20:30Z",
-"slot": "prekick_30m",
-"expected_to_run": false,
-"started_utc": null,
-"delay_min": null,
-"status": "SKIPPED_BY_GATE"
-},
-{
-"due_utc": "2026-10-11T20:40Z",
-"slot": "close_capture",
-"expected_to_run": false,
-"started_utc": null,
-"delay_min": null,
-"status": "SKIPPED_BY_GATE"
-},
 {
 "due_utc": "2026-10-11T21:15Z",
 "slot": "gameday_2h",
@@ -1646,9 +1606,9 @@
 "due_utc": "2026-10-12T19:15Z",
 "slot": "gameday_2h",
 "expected_to_run": true,
-"started_utc": null,
-"delay_min": null,
-"status": "PENDING"
+"started_utc": "2026-10-12T20:21Z",
+"delay_min": 66,
+"status": "DELAYED"
 },
 {
 "due_utc": "2026-10-12T19:40Z",
@@ -1656,12 +1616,36 @@
 "expected_to_run": false,
 "started_utc": null,
 "delay_min": null,
-"status": "PENDING"
+"status": "SKIPPED_BY_GATE"
 },
 {
 "due_utc": "2026-10-12T20:00Z",
 "slot": "prekick_30m",
 "expected_to_run": false,
+"started_utc": null,
+"delay_min": null,
+"status": "SKIPPED_BY_GATE"
+},
+{
+"due_utc": "2026-10-12T20:30Z",
+"slot": "prekick_30m",
+"expected_to_run": false,
+"started_utc": null,
+"delay_min": null,
+"status": "SKIPPED_BY_GATE"
+},
+{
+"due_utc": "2026-10-12T20:40Z",
+"slot": "close_capture",
+"expected_to_run": false,
+"started_utc": null,
+"delay_min": null,
+"status": "SKIPPED_BY_GATE"
+},
+{
+"due_utc": "2026-10-12T21:15Z",
+"slot": "gameday_2h",
+"expected_to_run": true,
 "started_utc": null,
 "delay_min": null,
 "status": "PENDING"
@@ -1675,8 +1659,8 @@
 "next_kick": "2026-10-13T00:15:00+00:00",
 "last_kick": "2026-10-12T00:20:00+00:00",
 "next_run": {
-"at_utc": "2026-10-12T21:15:00Z",
-"at_et": "Mon 2026-10-12 17:15 ET",
+"at_utc": "2026-10-12T23:15:00Z",
+"at_et": "Mon 2026-10-12 19:15 ET",
 "slot": "gameday_2h",
 "cron": "15 11,13,15,17,19,21,23 * 9-12,1-2 *",
 "group": "gameday_2h",
@@ -1978,6 +1962,20 @@
 },
 {
 "kind": "player",
+"raw_name": "Los Angeles Rams D/ST",
+"context": "BUF,LA",
+"seen_count": 65,
+"last_seen": "2026-10-12T22:40:40Z"
+},
+{
+"kind": "player",
+"raw_name": "Buffalo Bills D/ST",
+"context": "BUF,LA",
+"seen_count": 65,
+"last_seen": "2026-10-12T22:40:40Z"
+},
+{
+"kind": "player",
 "raw_name": "Atlanta Falcons Defense",
 "context": "ATL,NO",
 "seen_count": 65,
@@ -2010,20 +2008,6 @@
 "context": "LA,NYG",
 "seen_count": 65,
 "last_seen": "2026-09-22T00:11:00Z"
-},
-{
-"kind": "player",
-"raw_name": "Los Angeles Rams D/ST",
-"context": "BUF,LA",
-"seen_count": 62,
-"last_seen": "2026-10-12T20:22:18Z"
-},
-{
-"kind": "player",
-"raw_name": "Buffalo Bills D/ST",
-"context": "BUF,LA",
-"seen_count": 62,
-"last_seen": "2026-10-12T20:22:18Z"
 },
 {
 "kind": "player",
@@ -2398,6 +2382,20 @@
 },
 {
 "kind": "player",
+"raw_name": "Los Angeles Rams Defense",
+"context": "BUF,LA",
+"seen_count": 47,
+"last_seen": "2026-10-12T22:40:40Z"
+},
+{
+"kind": "player",
+"raw_name": "Buffalo Bills Defense",
+"context": "BUF,LA",
+"seen_count": 47,
+"last_seen": "2026-10-12T22:40:40Z"
+},
+{
+"kind": "player",
 "raw_name": "Tampa Bay Buccaneers Defense",
 "context": "GB,TB",
 "seen_count": 47,
@@ -2577,20 +2575,6 @@
 "context": "CHI,MIN",
 "seen_count": 47,
 "last_seen": "2026-09-20T14:44:11Z"
-},
-{
-"kind": "player",
-"raw_name": "Houston Texans Defense",
-"context": "CIN,HOU",
-"seen_count": 47,
-"last_seen": "2026-09-20T14:44:11Z"
-},
-{
-"kind": "player",
-"raw_name": "Cincinnati Bengals Defense",
-"context": "CIN,HOU",
-"seen_count": 47,
-"last_seen": "2026-09-20T14:44:11Z"
 }
 ]
 },
@@ -2605,7 +2589,7 @@
 "fanduel"
 ],
 "avg_confidence": 48.8,
-"last_refresh": "2026-10-12T20:22:26Z",
+"last_refresh": "2026-10-12T22:40:48Z",
 "production_model": "game-ridge-v1-2018-2026-202609151720",
 "week_accuracy": null,
 "season_accuracy": 0.495,
@@ -17814,7 +17798,7 @@
 "regime_support": "SUPPORTED",
 "regime_why": null,
 "signal_cluster_id": "2026_05_BUF_LA:BUF:rush:under",
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "confidence": 40.0,
 "why": [
 [
@@ -17883,7 +17867,7 @@
 "regime_support": "SUPPORTED",
 "regime_why": null,
 "signal_cluster_id": "2026_05_BUF_LA:LA:rush:under",
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "confidence": 29.9,
 "why": [
 [
@@ -18362,7 +18346,7 @@
 "p": 0.0656
 }
 ],
-"frozen_at": "2026-10-12T19:12:57Z",
+"frozen_at": "2026-10-12T20:22:52Z",
 "frozen_complete": true,
 "actual": null,
 "hit": null,
@@ -18534,17 +18518,17 @@
 "sim_p_home": 0.6083,
 "independent_p_home": 0.5179,
 "independent_label": "SHADOW \u2014 experimental independent game model; did not beat the closing line 2019-2025",
-"p_home": 0.622,
+"p_home": 0.6155,
 "winner": "LA",
-"winner_p": 0.622,
+"winner_p": 0.6155,
 "underdog": "BUF",
-"underdog_p": 0.378,
-"winner_price": -184,
-"underdog_price": 154,
+"underdog_p": 0.3845,
+"winner_price": -178,
+"underdog_price": 150,
 "winner_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291277&selectionId=10782388",
 "underdog_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291277&selectionId=50203",
-"collected_at": "2026-10-12T20:22:18Z",
-"novig_fair_odds_winner": -165,
+"collected_at": "2026-10-12T22:40:39Z",
+"novig_fair_odds_winner": -160,
 "coin_flip": false,
 "history_band": {
 "lo": 0.6,
@@ -18577,15 +18561,15 @@
 },
 "why_caption": "Measured context, not a prediction. In a pre-registered 2019-2025 test, adding these facts to the closing moneyline did not improve accuracy, so the probability shown stays the market's.",
 "context_version": 1,
-"shadow_m1_p_home": 0.6138,
-"shadow_m2_p_home": 0.6023,
+"shadow_m1_p_home": 0.6073,
+"shadow_m2_p_home": 0.5957,
 "shadow_label": "SHADOW \u2014 market + injury/QB (M1) and + form/strength/rest (M2); failed the 2019-2025 test, frozen and graded, never a pick"
 },
 "official_lock": {
 "policy_version": 2,
 "lock_time_utc": "2026-10-12T21:15:00Z",
-"state": "LIVE",
-"locked": false,
+"state": "LOCKED",
+"locked": true,
 "locked_at": "2026-10-12T20:22:52Z",
 "card_delayed": false,
 "source_age_min_at_lock": 52,
@@ -18613,8 +18597,8 @@
 "game_parlays": {
 "version": 1,
 "game_id": "2026_05_BUF_LA",
-"lock_state": "LIVE",
-"locked": false,
+"lock_state": "LOCKED",
+"locked": true,
 "published_propositions": 23,
 "safe": {
 "official": true,
@@ -19606,8 +19590,8 @@
 "method": "Measured as one mask over the 1500 simulated worlds this game publishes: the fraction in which every leg scores. The individual probabilities are never multiplied together.",
 "why_these_legs": "Scoring routes on this ticket: Kyren Williams (goal-line rushing role); Davante Adams (red-zone receiving role); Josh Allen (QB rushing pathway). It carries a route the likely ticket does not \u2014 QB rushing pathway \u2014 and shares at most half its legs. It was selected on measured joint probability under that constraint, never because a price was long. Measured dependence on these draws: Kyren Williams and Davante Adams score together 0.88x as often as independence would imply (25.8% against 29.3%), which is already inside the ticket probability above. The ticket is worth 10.53% (\u00b11.55pp), which is the probability of ALL of them scoring \u2014 far lower than any one of them alone, and not a likely outcome."
 },
-"retrospective": false,
-"retrospective_note": null
+"retrospective": true,
+"retrospective_note": "Selected after this game's Official Card locked. It is a model illustration of the game's scoring routes, not a pregame ticket, and it is never graded as one."
 },
 "basis": "SAFE is the official per-game ticket: it freezes at the Official Card lock and is graded. AGGRESSIVE and TD are automatic suggestions composed from propositions this game already publishes \u2014 real FanDuel rungs with their own prices and links, measured on the game's own simulated draws. They are not official tickets, are not graded and never enter the P/L."
 }
@@ -19618,7 +19602,7 @@
 "season": 2026,
 "week": 5,
 "game_type": "REG",
-"as_of": "2026-10-12T20:22:50Z",
+"as_of": "2026-10-12T22:41:17Z",
 "games": [
 {
 "game_id": "2026_05_TB_DAL",
@@ -20383,7 +20367,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -20414,7 +20398,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_05_BUF_LA:LA:pass:under",
 "official_demoted": "MODEL_EDGE",
-"state_reason": "not an official pick: game limit of 2 Official picks (ranked #11 by edge)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -20632,7 +20616,7 @@
 "price": -123,
 "book": "draftkings",
 "novig": 0.5197,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -20819,7 +20803,7 @@
 "price": -106,
 "book": "draftkings",
 "novig": 0.4854,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -21053,7 +21037,7 @@
 "price": -156,
 "book": "fanduel",
 "novig": 0.5728,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -21084,7 +21068,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_05_BUF_LA:LA:pass:under",
 "official_demoted": "MODEL_EDGE",
-"state_reason": "not an official pick: game limit of 2 Official picks (ranked #12 by edge)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -21266,7 +21250,7 @@
 "price": -125,
 "book": "draftkings",
 "novig": 0.5239,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -21548,7 +21532,7 @@
 "price": -130,
 "book": "fanduel",
 "novig": 0.5331,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -21774,7 +21758,7 @@
 "price": 1800,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -22327,7 +22311,7 @@
 "price": -144,
 "book": "fanduel",
 "novig": 0.5511,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -22357,7 +22341,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_05_BUF_LA:LA:pass:under",
 "official_demoted": "BEST_BET",
-"state_reason": "not an official pick: game limit of 2 Official picks (ranked #14 by edge)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -22891,7 +22875,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -22922,7 +22906,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_05_BUF_LA:LA:pass:under",
 "official_demoted": "MODEL_EDGE",
-"state_reason": "not an official pick: game limit of 2 Official picks (ranked #8 by edge)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -23131,7 +23115,7 @@
 "price": 100,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -23296,7 +23280,7 @@
 "price": 850,
 "book": "draftkings",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -23831,7 +23815,7 @@
 "price": -114,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -24442,7 +24426,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -24677,7 +24661,7 @@
 "price": 240,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -24850,7 +24834,7 @@
 "price": 1700,
 "book": "draftkings",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -25373,7 +25357,7 @@
 "price": 134,
 "book": "fanduel",
 "novig": 0.3993,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -25901,7 +25885,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -25931,7 +25915,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_05_BUF_LA:LA:pass:under",
 "official_demoted": "BEST_BET",
-"state_reason": "not an official pick: game limit of 2 Official picks (ranked #3 by edge)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -26142,7 +26126,7 @@
 "price": 240,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -26317,7 +26301,7 @@
 "price": 1600,
 "book": "draftkings",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -27069,7 +27053,7 @@
 "price": 1600,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -28630,7 +28614,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -29025,7 +29009,7 @@
 "price": -188,
 "book": "fanduel",
 "novig": 0.6104,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -29055,7 +29039,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_05_BUF_LA:LA:pass:under",
 "official_demoted": "BEST_BET",
-"state_reason": "not an official pick: game limit of 2 Official picks (ranked #16 by edge)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -29472,7 +29456,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -29979,7 +29963,7 @@
 "price": -160,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -30498,7 +30482,7 @@
 "price": 550,
 "book": "draftkings",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -30747,7 +30731,7 @@
 "price": 134,
 "book": "fanduel",
 "novig": 0.3993,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -31231,7 +31215,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -31262,7 +31246,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_05_BUF_LA:LA:pass:under",
 "official_demoted": "MODEL_EDGE",
-"state_reason": "not an official pick: game limit of 2 Official picks (ranked #13 by edge)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -31469,7 +31453,7 @@
 "price": 750,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -31930,7 +31914,7 @@
 "price": -154,
 "book": "fanduel",
 "novig": 0.567,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -31960,7 +31944,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_05_BUF_LA:LA:pass:under",
 "official_demoted": "BEST_BET",
-"state_reason": "not an official pick: this player already has a stronger Official pick in this game"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -32472,7 +32456,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -32503,7 +32487,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_05_BUF_LA:LA:pass:under",
 "official_demoted": "MODEL_EDGE",
-"state_reason": "not an official pick: this player already has a stronger Official pick in this game"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -32713,7 +32697,7 @@
 "price": -120,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -32887,7 +32871,7 @@
 "price": 700,
 "book": "draftkings",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -33401,7 +33385,7 @@
 "price": -130,
 "book": "fanduel",
 "novig": 0.5331,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -33429,10 +33413,7 @@
 "regime_support": "SUPPORTED",
 "policy_version": 3,
 "state": "BEST_BET",
-"signal_cluster_id": "2026_05_BUF_LA:LA:rush:under",
-"official_rank": 2,
-"shadow_p65": true,
-"shadow_extreme_edge": false
+"signal_cluster_id": "2026_05_BUF_LA:LA:rush:under"
 },
 "milestones": [
 [
@@ -33990,7 +33971,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -34301,7 +34282,7 @@
 "price": 116,
 "book": "fanduel",
 "novig": 0.433,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -34648,7 +34629,7 @@
 "price": -120,
 "book": "fanduel",
 "novig": 0.5146,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -34679,7 +34660,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_05_BUF_LA:LA:pass:under",
 "official_demoted": "MODEL_EDGE",
-"state_reason": "not an official pick: game limit of 2 Official picks (ranked #4 by edge)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -35160,7 +35141,7 @@
 "price": 270,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -35679,7 +35660,7 @@
 "price": 2000,
 "book": "draftkings",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -35928,7 +35909,7 @@
 "price": 134,
 "book": "fanduel",
 "novig": 0.3993,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -36412,7 +36393,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -36443,7 +36424,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_05_BUF_LA:LA:pass:under",
 "official_demoted": "MODEL_EDGE",
-"state_reason": "not an official pick: game limit of 2 Official picks (ranked #9 by edge)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -36650,7 +36631,7 @@
 "price": 1200,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -37205,7 +37186,7 @@
 "price": -172,
 "book": "fanduel",
 "novig": 0.5905,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -37235,7 +37216,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_05_BUF_LA:LA:pass:over",
 "official_demoted": "BEST_BET",
-"state_reason": "not an official pick: game limit of 2 Official picks (ranked #15 by edge)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -37711,7 +37692,7 @@
 "price": 280,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 1.17,
+"price_age_h": 3.48,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -37947,7 +37928,7 @@
 "price": 800,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -38113,7 +38094,7 @@
 "price": 4500,
 "book": "draftkings",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -39172,7 +39153,7 @@
 "price": 2200,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -40800,7 +40781,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -41044,7 +41025,7 @@
 "price": -125,
 "book": "draftkings",
 "novig": 0.5239,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -41231,7 +41212,7 @@
 "price": 101,
 "book": "draftkings",
 "novig": 0.469,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -41465,7 +41446,7 @@
 "price": -120,
 "book": "fanduel",
 "novig": 0.5123,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -41673,7 +41654,7 @@
 "price": -113,
 "book": "draftkings",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -42040,7 +42021,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -42274,7 +42255,7 @@
 "price": -125,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -42437,7 +42418,7 @@
 "price": 750,
 "book": "draftkings",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -43271,7 +43252,7 @@
 "price": 850,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -43832,7 +43813,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -43860,10 +43841,7 @@
 "regime_support": "SUPPORTED",
 "policy_version": 3,
 "state": "BEST_BET",
-"signal_cluster_id": "2026_05_BUF_LA:BUF:rush:under",
-"official_rank": 1,
-"shadow_p65": true,
-"shadow_extreme_edge": true
+"signal_cluster_id": "2026_05_BUF_LA:BUF:rush:under"
 },
 "milestones": [
 [
@@ -44210,7 +44188,7 @@
 "price": 152,
 "book": "fanduel",
 "novig": 0.3712,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -44634,7 +44612,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -45147,7 +45125,7 @@
 "price": 750,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -45556,7 +45534,7 @@
 "price": 3500,
 "book": "draftkings",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -45855,7 +45833,7 @@
 "price": 110,
 "book": "fanduel",
 "novig": 0.4452,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -46387,7 +46365,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -46620,7 +46598,7 @@
 "price": 470,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -46791,7 +46769,7 @@
 "price": 3500,
 "book": "draftkings",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -47303,7 +47281,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -47662,7 +47640,7 @@
 "price": -108,
 "book": "fanduel",
 "novig": 0.4858,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -48070,7 +48048,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -48577,7 +48555,7 @@
 "price": -110,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -49096,7 +49074,7 @@
 "price": 650,
 "book": "draftkings",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -49456,7 +49434,7 @@
 "price": -108,
 "book": "fanduel",
 "novig": 0.4858,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -50075,7 +50053,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -50309,7 +50287,7 @@
 "price": 220,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -50471,7 +50449,7 @@
 "price": 1800,
 "book": "draftkings",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -51695,7 +51673,7 @@
 "price": -132,
 "book": "fanduel",
 "novig": 0.5323,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -51725,7 +51703,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_05_BUF_LA:BUF:pass:under",
 "official_demoted": "BEST_BET",
-"state_reason": "not an official pick: game limit of 2 Official picks (ranked #7 by edge)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -52291,7 +52269,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -52322,7 +52300,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_05_BUF_LA:BUF:pass:under",
 "official_demoted": "MODEL_EDGE",
-"state_reason": "not an official pick: game limit of 2 Official picks (ranked #10 by edge)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -52529,7 +52507,7 @@
 "price": 170,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -52700,7 +52678,7 @@
 "price": 1200,
 "book": "draftkings",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -53157,7 +53135,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -54027,7 +54005,7 @@
 "price": 1900,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -54527,7 +54505,7 @@
 "price": -180,
 "book": "fanduel",
 "novig": 0.6007,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -54557,7 +54535,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_05_BUF_LA:BUF:pass:over",
 "official_demoted": "BEST_BET",
-"state_reason": "not an official pick: game limit of 2 Official picks (ranked #17 by edge)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -55168,7 +55146,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -55405,7 +55383,7 @@
 "price": 260,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -55571,7 +55549,7 @@
 "price": 1900,
 "book": "draftkings",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -56446,7 +56424,7 @@
 "price": 900,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.01,
+"price_age_h": 2.31,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -56649,15 +56627,16 @@
 "official_policy": {
 "policy_version": 3,
 "per_game": 2,
-"candidates": 17,
-"official": 2,
+"candidates": 0,
+"official": 0,
 "demoted_one_sided": 0,
-"demoted_cap": 13,
-"demoted_same_player": 2,
+"demoted_cap": 0,
+"demoted_same_player": 0,
 "demoted_same_cluster": 0,
-"exempt_locked": 0,
-"shadow_p65_official": 2,
-"shadow_extreme_edge_official": 1
+"exempt_locked": 17,
+"shadow_p65_official": 0,
+"shadow_extreme_edge_official": 0,
+"demoted_not_on_locked_card": 15
 },
 "headshots": {
 "00-0023459": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dypvakakxhccxs67tb0y",
@@ -161130,550 +161109,6 @@
 "odds": [
 {
 "market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "LA",
-"entity_name": "Los Angeles Rams",
-"price": 650,
-"implied": 0.1333,
-"novig": 0.115,
-"model_p": 0.0578,
-"fair_odds": 1629,
-"edge": -0.0571,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0564,
-"absence_p": 0.0592,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "BUF",
-"entity_name": "Buffalo Bills",
-"price": 700,
-"implied": 0.125,
-"novig": 0.1073,
-"model_p": 0.0817,
-"fair_odds": 1124,
-"edge": -0.0256,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0756,
-"absence_p": 0.0941,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "SEA",
-"entity_name": "Seattle Seahawks",
-"price": 850,
-"implied": 0.1053,
-"novig": 0.0892,
-"model_p": 0.0758,
-"fair_odds": 1219,
-"edge": -0.0134,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0756,
-"absence_p": 0.0769,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "BAL",
-"entity_name": "Baltimore Ravens",
-"price": 850,
-"implied": 0.1053,
-"novig": 0.0892,
-"model_p": 0.008,
-"fair_odds": 12338,
-"edge": -0.0812,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.055,
-"absence_p": 0.009,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "SF",
-"entity_name": "San Francisco 49ers",
-"price": 950,
-"implied": 0.0952,
-"novig": 0.0801,
-"model_p": 0.2128,
-"fair_odds": 370,
-"edge": 0.1326,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.2134,
-"absence_p": 0.2147,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "KC",
-"entity_name": "Kansas City Chiefs",
-"price": 1000,
-"implied": 0.0909,
-"novig": 0.0762,
-"model_p": 0.0491,
-"fair_odds": 1936,
-"edge": -0.0271,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.045,
-"absence_p": 0.0537,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "JAX",
-"entity_name": "Jacksonville Jaguars",
-"price": 1400,
-"implied": 0.0667,
-"novig": 0.0546,
-"model_p": 0.2467,
-"fair_odds": 305,
-"edge": 0.192,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.226,
-"absence_p": 0.2531,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "CHI",
-"entity_name": "Chicago Bears",
-"price": 2000,
-"implied": 0.0476,
-"novig": 0.0381,
-"model_p": 0.0621,
-"fair_odds": 1511,
-"edge": 0.024,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0606,
-"absence_p": 0.0646,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "DAL",
-"entity_name": "Dallas Cowboys",
-"price": 2000,
-"implied": 0.0476,
-"novig": 0.0381,
-"model_p": 0.0098,
-"fair_odds": 10104,
-"edge": -0.0283,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0098,
-"absence_p": 0.0106,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "DET",
-"entity_name": "Detroit Lions",
-"price": 2200,
-"implied": 0.0435,
-"novig": 0.0345,
-"model_p": 0.0108,
-"fair_odds": 9159,
-"edge": -0.0237,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0107,
-"absence_p": 0.0107,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "DEN",
-"entity_name": "Denver Broncos",
-"price": 2200,
-"implied": 0.0435,
-"novig": 0.0345,
-"model_p": 0.0142,
-"fair_odds": 6922,
-"edge": -0.0203,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0124,
-"absence_p": 0.0148,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "PHI",
-"entity_name": "Philadelphia Eagles",
-"price": 2200,
-"implied": 0.0435,
-"novig": 0.0345,
-"model_p": 0.005,
-"fair_odds": 19741,
-"edge": -0.0295,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0047,
-"absence_p": 0.0047,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "NE",
-"entity_name": "New England Patriots",
-"price": 2500,
-"implied": 0.0385,
-"novig": 0.0303,
-"model_p": 0.0675,
-"fair_odds": 1382,
-"edge": 0.0372,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0651,
-"absence_p": 0.0322,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "CIN",
-"entity_name": "Cincinnati Bengals",
-"price": 2500,
-"implied": 0.0385,
-"novig": 0.0303,
-"model_p": 0.0208,
-"fair_odds": 4717,
-"edge": -0.0095,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.016,
-"absence_p": 0.023,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "MIN",
-"entity_name": "Minnesota Vikings",
-"price": 2500,
-"implied": 0.0385,
-"novig": 0.0303,
-"model_p": 0.0309,
-"fair_odds": 3134,
-"edge": 0.0006,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0306,
-"absence_p": 0.032,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "HOU",
-"entity_name": "Houston Texans",
-"price": 3500,
-"implied": 0.0278,
-"novig": 0.0213,
-"model_p": 0.0027,
-"fair_odds": 36665,
-"edge": -0.0186,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0021,
-"absence_p": 0.003,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "IND",
-"entity_name": "Indianapolis Colts",
-"price": 5500,
-"implied": 0.0179,
-"novig": 0.0133,
-"model_p": 0.003,
-"fair_odds": 33233,
-"edge": -0.0103,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0022,
-"absence_p": 0.0031,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "GB",
-"entity_name": "Green Bay Packers",
-"price": 6000,
-"implied": 0.0164,
-"novig": 0.0121,
-"model_p": 0.002,
-"fair_odds": 50920,
-"edge": -0.0102,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.002,
-"absence_p": 0.0016,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "NO",
-"entity_name": "New Orleans Saints",
-"price": 7000,
-"implied": 0.0141,
-"novig": 0.0103,
-"model_p": 0.001,
-"fair_odds": 99900,
-"edge": -0.0093,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.001,
-"absence_p": 0.0007,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "LV",
-"entity_name": "Las Vegas Raiders",
-"price": 7000,
-"implied": 0.0141,
-"novig": 0.0103,
-"model_p": 0.001,
-"fair_odds": 99900,
-"edge": -0.0093,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0008,
-"absence_p": 0.0011,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "ATL",
-"entity_name": "Atlanta Falcons",
-"price": 8000,
-"implied": 0.0123,
-"novig": 0.0089,
-"model_p": 0.007,
-"fair_odds": 14268,
-"edge": -0.002,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.01,
-"absence_p": 0.0035,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "CAR",
-"entity_name": "Carolina Panthers",
-"price": 10000,
-"implied": 0.0099,
-"novig": 0.0071,
-"model_p": 0.0082,
-"fair_odds": 12036,
-"edge": 0.0012,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0079,
-"absence_p": 0.0099,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "WAS",
-"entity_name": "Washington Commanders",
-"price": 10000,
-"implied": 0.0099,
-"novig": 0.0071,
-"model_p": 0.0001,
-"fair_odds": 833233,
-"edge": -0.0069,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0001,
-"absence_p": 0.0002,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "LAC",
-"entity_name": "Los Angeles Chargers",
-"price": 10000,
-"implied": 0.0099,
-"novig": 0.0071,
-"model_p": 0.0,
-"fair_odds": 2499900,
-"edge": -0.007,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0,
-"absence_p": 0.0,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "TB",
-"entity_name": "Tampa Bay Buccaneers",
-"price": 15000,
-"implied": 0.0066,
-"novig": 0.0046,
-"model_p": 0.0016,
-"fair_odds": 60876,
-"edge": -0.0029,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0014,
-"absence_p": 0.002,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "PIT",
-"entity_name": "Pittsburgh Steelers",
-"price": 15000,
-"implied": 0.0066,
-"novig": 0.0046,
-"model_p": 0.0102,
-"fair_odds": 9704,
-"edge": 0.0056,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0068,
-"absence_p": 0.0112,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "NYG",
-"entity_name": "New York Giants",
-"price": 17500,
-"implied": 0.0057,
-"novig": 0.0039,
-"model_p": 0.009,
-"fair_odds": 11061,
-"edge": 0.0051,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0083,
-"absence_p": 0.0092,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "CLE",
-"entity_name": "Cleveland Browns",
-"price": 22500,
-"implied": 0.0044,
-"novig": 0.003,
-"model_p": 0.001,
-"fair_odds": 96054,
-"edge": -0.0019,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0004,
-"absence_p": 0.0011,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "NYJ",
-"entity_name": "New York Jets",
-"price": 30000,
-"implied": 0.0033,
-"novig": 0.0022,
-"model_p": 0.0001,
-"fair_odds": 1249900,
-"edge": -0.0021,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0,
-"absence_p": 0.0001,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "ARI",
-"entity_name": "Arizona Cardinals",
-"price": 70000,
-"implied": 0.0014,
-"novig": 0.0009,
-"model_p": 0.0,
-"fair_odds": null,
-"edge": -0.0009,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0,
-"absence_p": 0.0,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "TEN",
-"entity_name": "Tennessee Titans",
-"price": 100000,
-"implied": 0.001,
-"novig": 0.0006,
-"model_p": 0.0,
-"fair_odds": null,
-"edge": -0.0006,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0,
-"absence_p": 0.0,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "MIA",
-"entity_name": "Miami Dolphins",
-"price": 100000,
-"implied": 0.001,
-"novig": 0.0006,
-"model_p": 0.0,
-"fair_odds": null,
-"edge": -0.0006,
-"collected_at": "2026-10-06T18:21:00Z",
-"healthy_p": 0.0,
-"absence_p": 0.0,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
 "book": "draftkings",
 "entity_kind": "team",
 "entity_id": "LA",
@@ -162202,6 +161637,550 @@
 {
 "market": "super_bowl_winner",
 "book": "draftkings",
+"entity_kind": "team",
+"entity_id": "MIA",
+"entity_name": "Miami Dolphins",
+"price": 100000,
+"implied": 0.001,
+"novig": 0.0006,
+"model_p": 0.0,
+"fair_odds": null,
+"edge": -0.0006,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0,
+"absence_p": 0.0,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "LA",
+"entity_name": "Los Angeles Rams",
+"price": 650,
+"implied": 0.1333,
+"novig": 0.115,
+"model_p": 0.0578,
+"fair_odds": 1629,
+"edge": -0.0571,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0564,
+"absence_p": 0.0592,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "BUF",
+"entity_name": "Buffalo Bills",
+"price": 700,
+"implied": 0.125,
+"novig": 0.1073,
+"model_p": 0.0817,
+"fair_odds": 1124,
+"edge": -0.0256,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0756,
+"absence_p": 0.0941,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "SEA",
+"entity_name": "Seattle Seahawks",
+"price": 850,
+"implied": 0.1053,
+"novig": 0.0892,
+"model_p": 0.0758,
+"fair_odds": 1219,
+"edge": -0.0134,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0756,
+"absence_p": 0.0769,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "BAL",
+"entity_name": "Baltimore Ravens",
+"price": 850,
+"implied": 0.1053,
+"novig": 0.0892,
+"model_p": 0.008,
+"fair_odds": 12338,
+"edge": -0.0812,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.055,
+"absence_p": 0.009,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "SF",
+"entity_name": "San Francisco 49ers",
+"price": 950,
+"implied": 0.0952,
+"novig": 0.0801,
+"model_p": 0.2128,
+"fair_odds": 370,
+"edge": 0.1326,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.2134,
+"absence_p": 0.2147,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "KC",
+"entity_name": "Kansas City Chiefs",
+"price": 1000,
+"implied": 0.0909,
+"novig": 0.0762,
+"model_p": 0.0491,
+"fair_odds": 1936,
+"edge": -0.0271,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.045,
+"absence_p": 0.0537,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "JAX",
+"entity_name": "Jacksonville Jaguars",
+"price": 1400,
+"implied": 0.0667,
+"novig": 0.0546,
+"model_p": 0.2467,
+"fair_odds": 305,
+"edge": 0.192,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.226,
+"absence_p": 0.2531,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "CHI",
+"entity_name": "Chicago Bears",
+"price": 2000,
+"implied": 0.0476,
+"novig": 0.0381,
+"model_p": 0.0621,
+"fair_odds": 1511,
+"edge": 0.024,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0606,
+"absence_p": 0.0646,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "DAL",
+"entity_name": "Dallas Cowboys",
+"price": 2000,
+"implied": 0.0476,
+"novig": 0.0381,
+"model_p": 0.0098,
+"fair_odds": 10104,
+"edge": -0.0283,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0098,
+"absence_p": 0.0106,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "DET",
+"entity_name": "Detroit Lions",
+"price": 2200,
+"implied": 0.0435,
+"novig": 0.0345,
+"model_p": 0.0108,
+"fair_odds": 9159,
+"edge": -0.0237,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0107,
+"absence_p": 0.0107,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "DEN",
+"entity_name": "Denver Broncos",
+"price": 2200,
+"implied": 0.0435,
+"novig": 0.0345,
+"model_p": 0.0142,
+"fair_odds": 6922,
+"edge": -0.0203,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0124,
+"absence_p": 0.0148,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "PHI",
+"entity_name": "Philadelphia Eagles",
+"price": 2200,
+"implied": 0.0435,
+"novig": 0.0345,
+"model_p": 0.005,
+"fair_odds": 19741,
+"edge": -0.0295,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0047,
+"absence_p": 0.0047,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "NE",
+"entity_name": "New England Patriots",
+"price": 2500,
+"implied": 0.0385,
+"novig": 0.0303,
+"model_p": 0.0675,
+"fair_odds": 1382,
+"edge": 0.0372,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0651,
+"absence_p": 0.0322,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "CIN",
+"entity_name": "Cincinnati Bengals",
+"price": 2500,
+"implied": 0.0385,
+"novig": 0.0303,
+"model_p": 0.0208,
+"fair_odds": 4717,
+"edge": -0.0095,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.016,
+"absence_p": 0.023,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "MIN",
+"entity_name": "Minnesota Vikings",
+"price": 2500,
+"implied": 0.0385,
+"novig": 0.0303,
+"model_p": 0.0309,
+"fair_odds": 3134,
+"edge": 0.0006,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0306,
+"absence_p": 0.032,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "HOU",
+"entity_name": "Houston Texans",
+"price": 3500,
+"implied": 0.0278,
+"novig": 0.0213,
+"model_p": 0.0027,
+"fair_odds": 36665,
+"edge": -0.0186,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0021,
+"absence_p": 0.003,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "IND",
+"entity_name": "Indianapolis Colts",
+"price": 5500,
+"implied": 0.0179,
+"novig": 0.0133,
+"model_p": 0.003,
+"fair_odds": 33233,
+"edge": -0.0103,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0022,
+"absence_p": 0.0031,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "GB",
+"entity_name": "Green Bay Packers",
+"price": 6000,
+"implied": 0.0164,
+"novig": 0.0121,
+"model_p": 0.002,
+"fair_odds": 50920,
+"edge": -0.0102,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.002,
+"absence_p": 0.0016,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "NO",
+"entity_name": "New Orleans Saints",
+"price": 7000,
+"implied": 0.0141,
+"novig": 0.0103,
+"model_p": 0.001,
+"fair_odds": 99900,
+"edge": -0.0093,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.001,
+"absence_p": 0.0007,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "LV",
+"entity_name": "Las Vegas Raiders",
+"price": 7000,
+"implied": 0.0141,
+"novig": 0.0103,
+"model_p": 0.001,
+"fair_odds": 99900,
+"edge": -0.0093,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0008,
+"absence_p": 0.0011,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "ATL",
+"entity_name": "Atlanta Falcons",
+"price": 8000,
+"implied": 0.0123,
+"novig": 0.0089,
+"model_p": 0.007,
+"fair_odds": 14268,
+"edge": -0.002,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.01,
+"absence_p": 0.0035,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "CAR",
+"entity_name": "Carolina Panthers",
+"price": 10000,
+"implied": 0.0099,
+"novig": 0.0071,
+"model_p": 0.0082,
+"fair_odds": 12036,
+"edge": 0.0012,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0079,
+"absence_p": 0.0099,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "WAS",
+"entity_name": "Washington Commanders",
+"price": 10000,
+"implied": 0.0099,
+"novig": 0.0071,
+"model_p": 0.0001,
+"fair_odds": 833233,
+"edge": -0.0069,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0001,
+"absence_p": 0.0002,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "LAC",
+"entity_name": "Los Angeles Chargers",
+"price": 10000,
+"implied": 0.0099,
+"novig": 0.0071,
+"model_p": 0.0,
+"fair_odds": 2499900,
+"edge": -0.007,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0,
+"absence_p": 0.0,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "TB",
+"entity_name": "Tampa Bay Buccaneers",
+"price": 15000,
+"implied": 0.0066,
+"novig": 0.0046,
+"model_p": 0.0016,
+"fair_odds": 60876,
+"edge": -0.0029,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0014,
+"absence_p": 0.002,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "PIT",
+"entity_name": "Pittsburgh Steelers",
+"price": 15000,
+"implied": 0.0066,
+"novig": 0.0046,
+"model_p": 0.0102,
+"fair_odds": 9704,
+"edge": 0.0056,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0068,
+"absence_p": 0.0112,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "NYG",
+"entity_name": "New York Giants",
+"price": 17500,
+"implied": 0.0057,
+"novig": 0.0039,
+"model_p": 0.009,
+"fair_odds": 11061,
+"edge": 0.0051,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0083,
+"absence_p": 0.0092,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "CLE",
+"entity_name": "Cleveland Browns",
+"price": 22500,
+"implied": 0.0044,
+"novig": 0.003,
+"model_p": 0.001,
+"fair_odds": 96054,
+"edge": -0.0019,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0004,
+"absence_p": 0.0011,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "NYJ",
+"entity_name": "New York Jets",
+"price": 30000,
+"implied": 0.0033,
+"novig": 0.0022,
+"model_p": 0.0001,
+"fair_odds": 1249900,
+"edge": -0.0021,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0,
+"absence_p": 0.0001,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "ARI",
+"entity_name": "Arizona Cardinals",
+"price": 70000,
+"implied": 0.0014,
+"novig": 0.0009,
+"model_p": 0.0,
+"fair_odds": null,
+"edge": -0.0009,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0,
+"absence_p": 0.0,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "TEN",
+"entity_name": "Tennessee Titans",
+"price": 100000,
+"implied": 0.001,
+"novig": 0.0006,
+"model_p": 0.0,
+"fair_odds": null,
+"edge": -0.0006,
+"collected_at": "2026-10-06T18:21:00Z",
+"healthy_p": 0.0,
+"absence_p": 0.0,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
 "entity_kind": "team",
 "entity_id": "MIA",
 "entity_name": "Miami Dolphins",
@@ -340447,7 +340426,7 @@
 ],
 "injury_uncertainty_count": 118
 },
-"age_hours": 14.6,
+"age_hours": 16.9,
 "stale": false,
 "snapshots_stored": 24,
 "history_append_only": true,
@@ -377922,72 +377901,72 @@
 "season": 2026,
 "week": 5,
 "game_type": "REG",
-"generated_at": "2026-10-12T20:22:47Z",
+"generated_at": "2026-10-12T22:41:14Z",
 "freshness": {
 "schedule": {
-"last": "2026-10-12T20:22:21Z",
+"last": "2026-10-12T22:40:47Z",
 "age_hours": 0.0,
 "stale": false
 },
 "rosters": {
 "last": "2026-10-07T17:33:04Z",
-"age_hours": 122.8,
+"age_hours": 125.1,
 "stale": true
 },
 "depth": {
 "last": "2026-10-11T01:28:32Z",
-"age_hours": 42.9,
+"age_hours": 45.2,
 "stale": true
 },
 "injuries": {
 "last": "2026-10-12T20:21:19Z",
-"age_hours": 0.0,
+"age_hours": 2.3,
 "stale": false
 },
 "news": {
 "last": "2026-10-12T20:21:21Z",
-"age_hours": 0.0,
+"age_hours": 2.3,
 "stale": false
 },
 "odds": {
-"last": "2026-10-12T20:22:18Z",
+"last": "2026-10-12T22:40:47Z",
 "age_hours": 0.0,
 "stale": false
 },
 "futures": {
 "last": "2026-10-06T18:21:00Z",
-"age_hours": 146.0,
+"age_hours": 148.3,
 "stale": false
 },
 "weather": {
 "last": "2026-10-12T20:22:15Z",
-"age_hours": 0.0,
+"age_hours": 2.3,
 "stale": false
 },
 "stats": {
-"last": "2026-10-12T20:22:21Z",
+"last": "2026-10-12T22:40:48Z",
 "age_hours": 0.0,
 "stale": false
 },
 "projections": {
 "last": "2026-10-12T20:22:26Z",
-"age_hours": 0.0,
+"age_hours": 2.3,
 "stale": false
 },
 "season_sim": {
 "last": "2026-10-12T05:44:22Z",
-"age_hours": 14.6,
+"age_hours": 16.9,
 "stale": false
 },
 "transactions": {
 "last": "2026-10-12T20:21:19Z",
-"age_hours": 0.0,
+"age_hours": 2.3,
 "stale": false
 }
 },
 "alerts": [
-"rosters: 123h old",
-"depth: 43h old",
+"rosters: 125h old",
+"depth: 45h old",
 "odds: 140 closing-line conflict(s) \u2014 see duplicate_odds diagnostic",
 "WARN closing-line capture: 2 Official(s) in 1 game(s) kicked off in the last 48h with no FanDuel close captured (CLV coverage gap)"
 ],
@@ -378125,6 +378104,20 @@
 },
 {
 "kind": "player",
+"raw_name": "Los Angeles Rams D/ST",
+"context": "BUF,LA",
+"seen_count": 65,
+"last_seen": "2026-10-12T22:40:40Z"
+},
+{
+"kind": "player",
+"raw_name": "Buffalo Bills D/ST",
+"context": "BUF,LA",
+"seen_count": 65,
+"last_seen": "2026-10-12T22:40:40Z"
+},
+{
+"kind": "player",
 "raw_name": "Atlanta Falcons Defense",
 "context": "ATL,NO",
 "seen_count": 65,
@@ -378157,20 +378150,6 @@
 "context": "LA,NYG",
 "seen_count": 65,
 "last_seen": "2026-09-22T00:11:00Z"
-},
-{
-"kind": "player",
-"raw_name": "Los Angeles Rams D/ST",
-"context": "BUF,LA",
-"seen_count": 62,
-"last_seen": "2026-10-12T20:22:18Z"
-},
-{
-"kind": "player",
-"raw_name": "Buffalo Bills D/ST",
-"context": "BUF,LA",
-"seen_count": 62,
-"last_seen": "2026-10-12T20:22:18Z"
 },
 {
 "kind": "player",
@@ -378545,6 +378524,20 @@
 },
 {
 "kind": "player",
+"raw_name": "Los Angeles Rams Defense",
+"context": "BUF,LA",
+"seen_count": 47,
+"last_seen": "2026-10-12T22:40:40Z"
+},
+{
+"kind": "player",
+"raw_name": "Buffalo Bills Defense",
+"context": "BUF,LA",
+"seen_count": 47,
+"last_seen": "2026-10-12T22:40:40Z"
+},
+{
+"kind": "player",
 "raw_name": "Tampa Bay Buccaneers Defense",
 "context": "GB,TB",
 "seen_count": 47,
@@ -378724,25 +378717,11 @@
 "context": "CHI,MIN",
 "seen_count": 47,
 "last_seen": "2026-09-20T14:44:11Z"
-},
-{
-"kind": "player",
-"raw_name": "Houston Texans Defense",
-"context": "CIN,HOU",
-"seen_count": 47,
-"last_seen": "2026-09-20T14:44:11Z"
-},
-{
-"kind": "player",
-"raw_name": "Cincinnati Bengals Defense",
-"context": "CIN,HOU",
-"seen_count": 47,
-"last_seen": "2026-09-20T14:44:11Z"
 }
 ],
 "duplicate_odds_rows": 419,
 "duplicate_odds": {
-"identical_resnapshots": 58845,
+"identical_resnapshots": 58912,
 "alternate_ladders": {
 "ladders": 18677,
 "rungs": 162502
@@ -378793,7 +378772,7 @@
 "coaches": 893,
 "conduct_events": 94,
 "current_alt_odds": 20138,
-"current_odds": 29758,
+"current_odds": 29967,
 "data_migrations": 1,
 "depth_charts": 2241,
 "drives": 51321,
@@ -378810,7 +378789,7 @@
 "news_articles": 6022,
 "news_entities": 11168,
 "news_impacts": 32966,
-"odds_snapshots": 309136,
+"odds_snapshots": 309759,
 "parlay_legs": 0,
 "player_aliases": 54299,
 "player_game_settlement": 33830,
@@ -378836,23 +378815,13 @@
 "teams": 32,
 "training_runs": 0,
 "transactions": 889,
-"unresolved_entities": 552,
+"unresolved_entities": 554,
 "venues": 40,
 "watchlists": 0,
 "weather_observations": 7243,
 "weeks": 254
 },
 "provider_state": {
-"refresh-schedule": {
-"status": "ok",
-"at": "2026-10-12T20:22:21Z",
-"errors": []
-},
-"refresh-stats": {
-"status": "ok",
-"at": "2026-10-12T20:22:21Z",
-"errors": []
-},
 "refresh-injuries": {
 "status": "ok",
 "at": "2026-10-12T20:21:19Z",
@@ -378880,7 +378849,17 @@
 },
 "refresh-odds": {
 "status": "ok",
-"at": "2026-10-12T20:22:18Z",
+"at": "2026-10-12T22:40:45Z",
+"errors": []
+},
+"refresh-schedule": {
+"status": "ok",
+"at": "2026-10-12T22:40:47Z",
+"errors": []
+},
+"refresh-stats": {
+"status": "ok",
+"at": "2026-10-12T22:40:48Z",
 "errors": []
 }
 },
@@ -378927,50 +378906,50 @@
 "label": "pre-kick 30m"
 }
 ],
-"credits_today": 104,
-"credits_month_nfl": 7321,
-"credits_month_combined": 11602,
-"provider_remaining": 88398,
-"projected_month_end": 29971,
-"remaining_budget": 88398,
-"pct_used": 0.116,
-"pct_projected": 0.2997,
+"credits_today": 146,
+"credits_month_nfl": 7363,
+"credits_month_combined": 11720,
+"provider_remaining": 88280,
+"projected_month_end": 30276,
+"remaining_budget": 88280,
+"pct_used": 0.1172,
+"pct_projected": 0.3028,
 "by_endpoint": {
-"odds:featured": 165,
-"odds:event": 7155,
+"odds:featured": 168,
+"odds:event": 7194,
 "sports": 0,
 "odds:outrights": 1
 },
 "by_sport": {
-"americanfootball_nfl": 7321
+"americanfootball_nfl": 7363
 },
 "by_book_region": {
-"fanduel,draftkings": 6014,
+"fanduel,draftkings": 6056,
 "fanduel": 1307,
 "-": 0
 },
-"calls": 1023,
-"avg_credits_per_call": 7.16,
+"calls": 1038,
+"avg_credits_per_call": 7.09,
 "alerts": [],
-"projected_month_end_nfl": 18912,
+"projected_month_end_nfl": 19021,
 "policy": "NORMAL",
 "policy_display": "NORMAL",
-"avg_daily_burn_combined": 966.8,
-"avg_daily_burn_nfl": 610.1,
+"avg_daily_burn_combined": 976.7,
+"avg_daily_burn_nfl": 613.6,
 "mlb_reserve": 60000,
 "combined_cap": 100000,
 "nfl_target": 40000,
 "mlb_target": 60000,
-"credits_week": 3677,
-"credits_month": 7321,
-"mlb_estimated_month": 4281,
+"credits_week": 3657,
+"credits_month": 7363,
+"mlb_estimated_month": 4357,
 "mlb_estimate_method": "inferred from account usage minus NFL ledger",
-"combined_month": 11602,
+"combined_month": 11720,
 "combined_source": "provider x-requests-used header + NFL ledger since",
-"provider_header_at": "2026-10-12T20:22:18Z",
-"projected_month_end_combined": 29971,
-"remaining": 88398,
-"remaining_nfl": 32679,
+"provider_header_at": "2026-10-12T22:40:45Z",
+"projected_month_end_combined": 30276,
+"remaining": 88280,
+"remaining_nfl": 32637,
 "refresh_tier": {
 "tier_set": "sustainable",
 "policy": "NORMAL",
@@ -379001,9 +378980,9 @@
 "disabled": false,
 "provider": "odds_api",
 "last_success": {
-"ts": "2026-10-12T20:22:18Z",
+"ts": "2026-10-12T22:40:45Z",
 "endpoint": "odds:event",
-"credits": 12,
+"credits": 1,
 "workflow": "scheduler"
 },
 "last_failure": {
@@ -379022,32 +379001,32 @@
 "mlb_usage": "inferred from account usage minus NFL ledger"
 },
 "usage_by_sport": {
-"nfl_ledger": 7321,
-"mlb_inferred": 4281,
+"nfl_ledger": 7363,
+"mlb_inferred": 4357,
 "mlb_inference": "inferred from account usage minus NFL ledger"
 },
 "usage_by_workflow": {
-"scheduler": 7285,
+"scheduler": 7327,
 "manual": 36
 },
 "usage_by_endpoint": {
-"odds:featured": 165,
-"odds:event": 7155,
+"odds:featured": 168,
+"odds:event": 7194,
 "sports": 0,
 "odds:outrights": 1
 },
 "usage_by_sportsbook": {
-"fanduel": 7321,
-"draftkings": 6014
+"fanduel": 7363,
+"draftkings": 6056
 },
 "usage_by_sportsbook_note": "credits of every request that included the book; a request costs the same whichever books it lists",
-"avg_credits_per_refresh": 110.92,
+"avg_credits_per_refresh": 109.9,
 "failed_calls_month": 29,
-"updated_at": "2026-10-12T20:22:47Z"
+"updated_at": "2026-10-12T22:41:14Z"
 },
 "odds_refresh_state": {
 "futures": "2026-10-06T18:20:58.759866+00:00",
-"featured": "2026-10-12T20:22:17.899401+00:00",
+"featured": "2026-10-12T22:40:39.108892+00:00",
 "props:2026_01_NE_SEA": "2026-09-09T22:31:03.510244+00:00",
 "props:2026_01_SF_LA": "2026-09-10T23:14:34.178113+00:00",
 "props:2026_01_CHI_CAR": "2026-09-13T14:56:01.063215+00:00",
@@ -379189,7 +379168,7 @@
 "props:2026_05_DET_ARI": "2026-10-11T19:50:10.468640+00:00",
 "props:2026_05_SF_SEA": "2026-10-11T19:50:10.468640+00:00",
 "props:2026_05_BAL_ATL": "2026-10-11T21:00:10.557046+00:00",
-"props:2026_05_BUF_LA": "2026-10-12T20:22:17.899401+00:00",
+"props:2026_05_BUF_LA": "2026-10-12T22:40:39.108892+00:00",
 "alt:2026_05_TB_DAL": "2026-10-08T23:47:53.694708+00:00",
 "alt:2026_05_PHI_JAX": "2026-10-11T05:32:21.612782+00:00",
 "alt:2026_05_CIN_MIA": "2026-10-11T15:51:15.485660+00:00",
@@ -379205,19 +379184,19 @@
 "alt:2026_05_SF_SEA": "2026-10-11T15:51:15.485660+00:00",
 "alt:2026_05_BAL_ATL": "2026-10-11T15:51:15.485660+00:00",
 "alt:2026_05_BUF_LA": "2026-10-12T19:12:17.999917+00:00",
-"props:2026_06_SEA_DEN": "2026-10-12T12:27:50.269535+00:00",
-"props:2026_06_HOU_JAX": "2026-10-12T12:27:50.269535+00:00",
-"props:2026_06_CHI_ATL": "2026-10-12T12:27:50.269535+00:00",
-"props:2026_06_BAL_CLE": "2026-10-12T12:27:50.269535+00:00",
-"props:2026_06_TEN_IND": "2026-10-12T12:27:50.269535+00:00",
-"props:2026_06_NYJ_NE": "2026-10-12T12:27:50.269535+00:00",
-"props:2026_06_NO_NYG": "2026-10-12T12:27:50.269535+00:00",
-"props:2026_06_CAR_PHI": "2026-10-12T12:27:50.269535+00:00",
-"props:2026_06_PIT_TB": "2026-10-12T12:27:50.269535+00:00",
-"props:2026_06_ARI_LA": "2026-10-12T12:27:50.269535+00:00",
-"props:2026_06_LAC_KC": "2026-10-12T12:27:50.269535+00:00",
-"props:2026_06_BUF_LV": "2026-10-12T12:27:50.269535+00:00",
-"props:2026_06_DAL_GB": "2026-10-12T12:27:50.269535+00:00"
+"props:2026_06_SEA_DEN": "2026-10-12T22:40:39.108892+00:00",
+"props:2026_06_HOU_JAX": "2026-10-12T22:40:39.108892+00:00",
+"props:2026_06_CHI_ATL": "2026-10-12T22:40:39.108892+00:00",
+"props:2026_06_BAL_CLE": "2026-10-12T22:40:39.108892+00:00",
+"props:2026_06_TEN_IND": "2026-10-12T22:40:39.108892+00:00",
+"props:2026_06_NYJ_NE": "2026-10-12T22:40:39.108892+00:00",
+"props:2026_06_NO_NYG": "2026-10-12T22:40:39.108892+00:00",
+"props:2026_06_CAR_PHI": "2026-10-12T22:40:39.108892+00:00",
+"props:2026_06_PIT_TB": "2026-10-12T22:40:39.108892+00:00",
+"props:2026_06_ARI_LA": "2026-10-12T22:40:39.108892+00:00",
+"props:2026_06_LAC_KC": "2026-10-12T22:40:39.108892+00:00",
+"props:2026_06_BUF_LV": "2026-10-12T22:40:39.108892+00:00",
+"props:2026_06_DAL_GB": "2026-10-12T22:40:39.108892+00:00"
 },
 "unresolved_injuries": 510,
 "unprocessed_news": 0
@@ -379265,50 +379244,50 @@
 "label": "pre-kick 30m"
 }
 ],
-"credits_today": 104,
-"credits_month_nfl": 7321,
-"credits_month_combined": 11602,
-"provider_remaining": 88398,
-"projected_month_end": 29971,
-"remaining_budget": 88398,
-"pct_used": 0.116,
-"pct_projected": 0.2997,
+"credits_today": 146,
+"credits_month_nfl": 7363,
+"credits_month_combined": 11720,
+"provider_remaining": 88280,
+"projected_month_end": 30276,
+"remaining_budget": 88280,
+"pct_used": 0.1172,
+"pct_projected": 0.3028,
 "by_endpoint": {
-"odds:featured": 165,
-"odds:event": 7155,
+"odds:featured": 168,
+"odds:event": 7194,
 "sports": 0,
 "odds:outrights": 1
 },
 "by_sport": {
-"americanfootball_nfl": 7321
+"americanfootball_nfl": 7363
 },
 "by_book_region": {
-"fanduel,draftkings": 6014,
+"fanduel,draftkings": 6056,
 "fanduel": 1307,
 "-": 0
 },
-"calls": 1023,
-"avg_credits_per_call": 7.16,
+"calls": 1038,
+"avg_credits_per_call": 7.09,
 "alerts": [],
-"projected_month_end_nfl": 18912,
+"projected_month_end_nfl": 19021,
 "policy": "NORMAL",
 "policy_display": "NORMAL",
-"avg_daily_burn_combined": 966.8,
-"avg_daily_burn_nfl": 610.1,
+"avg_daily_burn_combined": 976.7,
+"avg_daily_burn_nfl": 613.6,
 "mlb_reserve": 60000,
 "combined_cap": 100000,
 "nfl_target": 40000,
 "mlb_target": 60000,
-"credits_week": 3677,
-"credits_month": 7321,
-"mlb_estimated_month": 4281,
+"credits_week": 3657,
+"credits_month": 7363,
+"mlb_estimated_month": 4357,
 "mlb_estimate_method": "inferred from account usage minus NFL ledger",
-"combined_month": 11602,
+"combined_month": 11720,
 "combined_source": "provider x-requests-used header + NFL ledger since",
-"provider_header_at": "2026-10-12T20:22:18Z",
-"projected_month_end_combined": 29971,
-"remaining": 88398,
-"remaining_nfl": 32679,
+"provider_header_at": "2026-10-12T22:40:45Z",
+"projected_month_end_combined": 30276,
+"remaining": 88280,
+"remaining_nfl": 32637,
 "refresh_tier": {
 "tier_set": "sustainable",
 "policy": "NORMAL",
@@ -379339,9 +379318,9 @@
 "disabled": false,
 "provider": "odds_api",
 "last_success": {
-"ts": "2026-10-12T20:22:18Z",
+"ts": "2026-10-12T22:40:45Z",
 "endpoint": "odds:event",
-"credits": 12,
+"credits": 1,
 "workflow": "scheduler"
 },
 "last_failure": {
@@ -379365,67 +379344,29 @@
 "mlb_usage": "inferred from account usage minus NFL ledger"
 },
 "usage_by_sport": {
-"nfl_ledger": 7321,
-"mlb_inferred": 4281,
+"nfl_ledger": 7363,
+"mlb_inferred": 4357,
 "mlb_inference": "inferred from account usage minus NFL ledger"
 },
 "usage_by_workflow": {
-"scheduler": 7285,
+"scheduler": 7327,
 "manual": 36
 },
 "usage_by_endpoint": {
-"odds:featured": 165,
-"odds:event": 7155,
+"odds:featured": 168,
+"odds:event": 7194,
 "sports": 0,
 "odds:outrights": 1
 },
 "usage_by_sportsbook": {
-"fanduel": 7321,
-"draftkings": 6014
+"fanduel": 7363,
+"draftkings": 6056
 },
 "usage_by_sportsbook_note": "credits of every request that included the book; a request costs the same whichever books it lists",
-"avg_credits_per_refresh": 110.92,
+"avg_credits_per_refresh": 109.9,
 "failed_calls_month": 29,
-"updated_at": "2026-10-12T20:22:48Z",
+"updated_at": "2026-10-12T22:41:15Z",
 "credit_checks": [
-{
-"at": "2026-10-09T00:03:45Z",
-"batch": "odds-20261009T000344Z-acbb2f",
-"estimated_credits": 24,
-"actual_credits": 24,
-"discrepancy": 0,
-"billable": true,
-"checklist": {
-"rows_written": {
-"value": 282,
-"pass": true
-},
-"books_expected": {
-"value": [
-"draftkings",
-"fanduel"
-],
-"pass": true
-},
-"no_inplay_rows": {
-"value": 0,
-"pass": true
-},
-"markets_canonical": {
-"value": [],
-"pass": true
-},
-"usage_recorded": {
-"value": 0,
-"pass": false
-},
-"no_provider_errors": {
-"value": [],
-"pass": true
-}
-},
-"checklist_pass": false
-},
 {
 "at": "2026-10-09T02:43:48Z",
 "batch": "odds-20261009T024347Z-47efaa",
@@ -380162,18 +380103,56 @@
 }
 },
 "checklist_pass": false
-}
-],
-"credit_check_last": {
-"at": "2026-10-12T20:22:17Z",
-"batch": "odds-20261012T202217Z-b3b788",
-"estimated_credits": 15,
-"actual_credits": 15,
-"discrepancy": 0,
+},
+{
+"at": "2026-10-12T22:40:39Z",
+"batch": "odds-20261012T224037Z-de2f1c",
+"estimated_credits": 111,
+"actual_credits": 42,
+"discrepancy": -69,
 "billable": true,
 "checklist": {
 "rows_written": {
-"value": 151,
+"value": 617,
+"pass": true
+},
+"books_expected": {
+"value": [
+"draftkings",
+"fanduel"
+],
+"pass": true
+},
+"no_inplay_rows": {
+"value": 0,
+"pass": true
+},
+"markets_canonical": {
+"value": [],
+"pass": true
+},
+"usage_recorded": {
+"value": 0,
+"pass": false
+},
+"no_provider_errors": {
+"value": [],
+"pass": true
+}
+},
+"checklist_pass": false
+}
+],
+"credit_check_last": {
+"at": "2026-10-12T22:40:39Z",
+"batch": "odds-20261012T224037Z-de2f1c",
+"estimated_credits": 111,
+"actual_credits": 42,
+"discrepancy": -69,
+"billable": true,
+"checklist": {
+"rows_written": {
+"value": 617,
 "pass": true
 },
 "books_expected": {
@@ -380203,17 +380182,17 @@
 "checklist_pass": false
 },
 "credit_discrepancy": {
-"n_billable_pulls": 168,
+"n_billable_pulls": 169,
 "last": {
-"at": "2026-10-12T20:22:17Z",
-"batch": "odds-20261012T202217Z-b3b788",
-"estimated_credits": 15,
-"actual_credits": 15,
-"discrepancy": 0,
+"at": "2026-10-12T22:40:39Z",
+"batch": "odds-20261012T224037Z-de2f1c",
+"estimated_credits": 111,
+"actual_credits": 42,
+"discrepancy": -69,
 "billable": true,
 "checklist": {
 "rows_written": {
-"value": 151,
+"value": 617,
 "pass": true
 },
 "books_expected": {
@@ -380242,8 +380221,8 @@
 },
 "checklist_pass": false
 },
-"total_estimated": 20768,
-"total_actual": 17588,
+"total_estimated": 20879,
+"total_actual": 17630,
 "status": "ok",
 "note": "estimate vs provider-charged credits per billable refresh; the first real pull of the season is auto-validated by its checklist"
 }
@@ -380256,7 +380235,7 @@
 "detail": "build ran inside GitHub Actions",
 "where": "https://github.com/amercado19/nfl-pipeline/actions",
 "health": "healthy",
-"health_detail": "probe 300 ms at 2026-10-12T19:13:07Z"
+"health_detail": "probe 289 ms at 2026-10-12T20:23:01Z"
 },
 {
 "name": "Database Connected",
@@ -380277,7 +380256,7 @@
 "closing-line value"
 ],
 "health": "healthy",
-"health_detail": "probe 140 ms at 2026-10-12T19:13:07Z"
+"health_detail": "probe 252 ms at 2026-10-12T20:23:01Z"
 },
 {
 "name": "Weather Provider",
@@ -380285,7 +380264,7 @@
 "detail": "Open-Meteo (no key required); last run 2026-10-12T20:22:15Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 539 ms at 2026-10-12T19:13:07Z"
+"health_detail": "probe 579 ms at 2026-10-12T20:23:01Z"
 },
 {
 "name": "News Provider",
@@ -380293,7 +380272,7 @@
 "detail": "ESPN / CBS / PFT RSS (no key required); last run 2026-10-12T20:21:21Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 85 ms at 2026-10-12T19:13:07Z"
+"health_detail": "probe 101 ms at 2026-10-12T20:23:01Z"
 },
 {
 "name": "Deployment Token",
@@ -380304,7 +380283,7 @@
 "automatic dashboard publish to amercado19/nfl-dashboard"
 ],
 "health": "healthy",
-"health_detail": "last publish succeeded at 2026-10-12T19:13:16Z"
+"health_detail": "last publish succeeded at 2026-10-12T20:23:08Z"
 },
 {
 "name": "Dashboard Publisher",
@@ -380312,7 +380291,7 @@
 "detail": "reusable workflow publishes site/ to amercado19/nfl-dashboard (GitHub Pages)",
 "where": "https://amercado19.github.io/nfl-dashboard/",
 "health": "healthy",
-"health_detail": "last publish succeeded at 2026-10-12T19:13:16Z"
+"health_detail": "last publish succeeded at 2026-10-12T20:23:08Z"
 }
 ],
 "setup": {
@@ -380353,7 +380332,7 @@
 "note": "The dashboard keeps working on projections and public data while credentials are missing; only the listed features are blocked."
 },
 "runs": {
-"n_recorded": 344,
+"n_recorded": 345,
 "workflows": [
 {
 "workflow": "backtest-models",
@@ -380387,15 +380366,15 @@
 },
 {
 "workflow": "scheduler",
-"runs": 342,
+"runs": 343,
 "failures_14d": 2,
 "last": {
-"at": "2026-10-12T19:13:16Z",
+"at": "2026-10-12T20:23:08Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/38295698637",
-"duration_s": 127
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/38303244701",
+"duration_s": 120
 },
-"last_success": "2026-10-12T19:13:16Z",
+"last_success": "2026-10-12T20:23:08Z",
 "last_failure": {
 "at": "2026-10-07T14:47:22Z",
 "url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37639247716",
@@ -380486,65 +380465,25 @@
 }
 ],
 "currently_failing": [],
-"last_successful_run": "2026-10-12T19:13:16Z",
+"last_successful_run": "2026-10-12T20:23:08Z",
 "status": "ok",
 "note": "one row per GitHub Actions execution (scheduler + manual); written by the run-summary step before the store is committed"
 },
 "scheduler": {
 "phase_now": "game_day",
 "watchdog": {
-"last_expected_run_utc": "2026-10-12T19:15Z",
-"last_actual_start_utc": "2026-10-12T12:26Z",
+"last_expected_run_utc": "2026-10-12T21:15Z",
+"last_actual_start_utc": "2026-10-12T20:21Z",
 "window_hours": 26,
 "tolerances": {
 "delayed_after_min": 20,
 "missed_after_min": 90
 },
-"expected_firings": 30,
+"expected_firings": 28,
 "on_time": 0,
-"delayed": 5,
+"delayed": 4,
 "missed": 6,
 "rows": [
-{
-"due_utc": "2026-10-11T19:15Z",
-"slot": "gameday_2h",
-"expected_to_run": true,
-"started_utc": "2026-10-11T19:49Z",
-"delay_min": 34,
-"status": "DELAYED"
-},
-{
-"due_utc": "2026-10-11T19:40Z",
-"slot": "close_capture",
-"expected_to_run": false,
-"started_utc": "2026-10-11T20:59Z",
-"delay_min": 80,
-"status": "DELAYED"
-},
-{
-"due_utc": "2026-10-11T20:00Z",
-"slot": "prekick_30m",
-"expected_to_run": false,
-"started_utc": null,
-"delay_min": null,
-"status": "SKIPPED_BY_GATE"
-},
-{
-"due_utc": "2026-10-11T20:30Z",
-"slot": "prekick_30m",
-"expected_to_run": false,
-"started_utc": null,
-"delay_min": null,
-"status": "SKIPPED_BY_GATE"
-},
-{
-"due_utc": "2026-10-11T20:40Z",
-"slot": "close_capture",
-"expected_to_run": false,
-"started_utc": null,
-"delay_min": null,
-"status": "SKIPPED_BY_GATE"
-},
 {
 "due_utc": "2026-10-11T21:15Z",
 "slot": "gameday_2h",
@@ -380725,9 +380664,9 @@
 "due_utc": "2026-10-12T19:15Z",
 "slot": "gameday_2h",
 "expected_to_run": true,
-"started_utc": null,
-"delay_min": null,
-"status": "PENDING"
+"started_utc": "2026-10-12T20:21Z",
+"delay_min": 66,
+"status": "DELAYED"
 },
 {
 "due_utc": "2026-10-12T19:40Z",
@@ -380735,12 +380674,36 @@
 "expected_to_run": false,
 "started_utc": null,
 "delay_min": null,
-"status": "PENDING"
+"status": "SKIPPED_BY_GATE"
 },
 {
 "due_utc": "2026-10-12T20:00Z",
 "slot": "prekick_30m",
 "expected_to_run": false,
+"started_utc": null,
+"delay_min": null,
+"status": "SKIPPED_BY_GATE"
+},
+{
+"due_utc": "2026-10-12T20:30Z",
+"slot": "prekick_30m",
+"expected_to_run": false,
+"started_utc": null,
+"delay_min": null,
+"status": "SKIPPED_BY_GATE"
+},
+{
+"due_utc": "2026-10-12T20:40Z",
+"slot": "close_capture",
+"expected_to_run": false,
+"started_utc": null,
+"delay_min": null,
+"status": "SKIPPED_BY_GATE"
+},
+{
+"due_utc": "2026-10-12T21:15Z",
+"slot": "gameday_2h",
+"expected_to_run": true,
 "started_utc": null,
 "delay_min": null,
 "status": "PENDING"
@@ -380754,8 +380717,8 @@
 "next_kick": "2026-10-13T00:15:00+00:00",
 "last_kick": "2026-10-12T00:20:00+00:00",
 "next_run": {
-"at_utc": "2026-10-12T21:15:00Z",
-"at_et": "Mon 2026-10-12 17:15 ET",
+"at_utc": "2026-10-12T23:15:00Z",
+"at_et": "Mon 2026-10-12 19:15 ET",
 "slot": "gameday_2h",
 "cron": "15 11,13,15,17,19,21,23 * 9-12,1-2 *",
 "group": "gameday_2h",
@@ -380975,24 +380938,24 @@
 "dashboard_repo": "https://github.com/amercado19/nfl-dashboard",
 "site_url": "https://amercado19.github.io/nfl-dashboard/",
 "version": "nfl-picks 0.32.0",
-"commit": "10407c694d19",
+"commit": "becf6ca60d66",
 "branch": "main",
 "tag": null,
 "dashboard_commit": {
 "ok": true,
-"sha": "f1bcd370ddeb",
-"message": "Auto-publish NFL 2026-10-12 20:18 UTC",
-"date": "2026-10-12T20:18:30Z",
-"url": "https://github.com/amercado19/nfl-dashboard/commit/f1bcd370ddeb2a91f01c09e39ef7c2421ccafd1e"
+"sha": "254e33a262b5",
+"message": "Auto-publish NFL 2026-10-12 20:22 UTC",
+"date": "2026-10-12T20:22:56Z",
+"url": "https://github.com/amercado19/nfl-dashboard/commit/254e33a262b5e836a31e645b05bf28da25ec80b6"
 },
 "pages": {
 "reachable": true,
 "status": 200,
-"latency_ms": 247,
+"latency_ms": 457,
 "live_version": "0.32.0",
 "live_build": "10407c694d19",
-"live_generated_at": "2026-10-12T20:18:23Z",
-"in_sync": true
+"live_generated_at": "2026-10-12T20:22:50Z",
+"in_sync": false
 },
 "method": "GitHub Actions (scheduler) \u2192 SSH deploy key \u2192 amercado19/nfl-dashboard \u2192 GitHub Pages",
 "deploy_credential": {
@@ -381009,15 +380972,15 @@
 "kind": "rate_limit",
 "ok": true,
 "status": 200,
-"latency_ms": 300,
+"latency_ms": 289,
 "bytes": 1232,
 "rate_limit": {
 "remaining": "5000",
 "limit": "5000"
 },
 "authenticated": true,
-"probed_at": "2026-10-12T19:13:07Z",
-"run_id": "38295698637"
+"probed_at": "2026-10-12T20:23:01Z",
+"run_id": "38303244701"
 },
 "latest_workflow": null,
 "latest_completed_workflow": null,
@@ -381030,15 +380993,15 @@
 },
 "publish": {
 "last": {
-"recorded_at": "2026-10-12T19:13:16Z",
+"recorded_at": "2026-10-12T20:23:08Z",
 "workflow": "scheduler",
-"run_id": "38295698637",
+"run_id": "38303244701",
 "attempt": "1",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/38295698637",
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/38303244701",
 "trigger": "schedule",
 "status": "success",
-"started_at": "2026-10-12T19:11:09Z",
-"duration_s": 127,
+"started_at": "2026-10-12T20:21:09Z",
+"duration_s": 120,
 "steps": [
 "python -m nfl_picks refresh schedule",
 "python -m nfl_picks refresh injuries",
@@ -381062,8 +381025,8 @@
 "simulate-season"
 ],
 "alerts": [
-"rosters: 122h old",
-"depth: 42h old",
+"rosters: 123h old",
+"depth: 43h old",
 "odds: 140 closing-line conflict(s) \u2014 see duplicate_odds diagnostic",
 "WARN closing-line capture: 2 Official(s) in 1 game(s) kicked off in the last 48h with no FanDuel close captured (CLV coverage gap)"
 ],
@@ -381072,28 +381035,28 @@
 "deploy_key_present": true,
 "push_token_present": false,
 "odds_estimated_credits": 0,
-"credits_month_nfl": 7306,
+"credits_month_nfl": 7321,
 "publish_status": "success",
-"publish_duration_s": 22,
+"publish_duration_s": 20,
 "publish_verify": {
 "ok": true,
 "checks": 191,
 "failed": [],
-"build_id": "6fd82d50927c"
+"build_id": "10407c694d19"
 },
 "phase": null,
 "group": null
 },
 "last_success": {
-"recorded_at": "2026-10-12T19:13:16Z",
+"recorded_at": "2026-10-12T20:23:08Z",
 "workflow": "scheduler",
-"run_id": "38295698637",
+"run_id": "38303244701",
 "attempt": "1",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/38295698637",
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/38303244701",
 "trigger": "schedule",
 "status": "success",
-"started_at": "2026-10-12T19:11:09Z",
-"duration_s": 127,
+"started_at": "2026-10-12T20:21:09Z",
+"duration_s": 120,
 "steps": [
 "python -m nfl_picks refresh schedule",
 "python -m nfl_picks refresh injuries",
@@ -381117,8 +381080,8 @@
 "simulate-season"
 ],
 "alerts": [
-"rosters: 122h old",
-"depth: 42h old",
+"rosters: 123h old",
+"depth: 43h old",
 "odds: 140 closing-line conflict(s) \u2014 see duplicate_odds diagnostic",
 "WARN closing-line capture: 2 Official(s) in 1 game(s) kicked off in the last 48h with no FanDuel close captured (CLV coverage gap)"
 ],
@@ -381127,14 +381090,14 @@
 "deploy_key_present": true,
 "push_token_present": false,
 "odds_estimated_credits": 0,
-"credits_month_nfl": 7306,
+"credits_month_nfl": 7321,
 "publish_status": "success",
-"publish_duration_s": 22,
+"publish_duration_s": 20,
 "publish_verify": {
 "ok": true,
 "checks": 191,
 "failed": [],
-"build_id": "6fd82d50927c"
+"build_id": "10407c694d19"
 },
 "phase": null,
 "group": null
@@ -381245,18 +381208,18 @@
 "phase": null,
 "group": null
 },
-"n": 275,
-"latest_duration_s": 22,
+"n": 276,
+"latest_duration_s": 20,
 "result": "success",
 "verify": {
 "ok": true,
 "checks": 191,
 "failed": [],
-"build_id": "6fd82d50927c"
+"build_id": "10407c694d19"
 }
 },
 "runs": {
-"n_recorded": 344,
+"n_recorded": 345,
 "workflows": [
 {
 "workflow": "backtest-models",
@@ -381290,15 +381253,15 @@
 },
 {
 "workflow": "scheduler",
-"runs": 342,
+"runs": 343,
 "failures_14d": 2,
 "last": {
-"at": "2026-10-12T19:13:16Z",
+"at": "2026-10-12T20:23:08Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/38295698637",
-"duration_s": 127
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/38303244701",
+"duration_s": 120
 },
-"last_success": "2026-10-12T19:13:16Z",
+"last_success": "2026-10-12T20:23:08Z",
 "last_failure": {
 "at": "2026-10-07T14:47:22Z",
 "url": "https://github.com/amercado19/nfl-pipeline/actions/runs/37639247716",
@@ -381389,7 +381352,7 @@
 }
 ],
 "currently_failing": [],
-"last_successful_run": "2026-10-12T19:13:16Z",
+"last_successful_run": "2026-10-12T20:23:08Z",
 "status": "ok",
 "note": "one row per GitHub Actions execution (scheduler + manual); written by the run-summary step before the store is committed"
 },
@@ -381409,126 +381372,126 @@
 "fix": "HTTP 404"
 }
 ],
-"checked_at": "2026-10-12T20:22:50Z",
+"checked_at": "2026-10-12T22:41:16Z",
 "checked_in_actions": true
 },
 "providers": {
 "odds_api": {
 "label": "The Odds API",
 "health": "healthy",
-"latency_ms": 140,
-"latency_ms_median": 164,
-"last_probe": "2026-10-12T19:13:07Z",
-"last_success": "2026-10-12T19:13:07Z",
+"latency_ms": 252,
+"latency_ms_median": 165,
+"last_probe": "2026-10-12T20:23:01Z",
+"last_success": "2026-10-12T20:23:01Z",
 "last_failure": null,
 "success_rate": 0.991,
-"probes": 326,
+"probes": 327,
 "rate_limit": {
-"remaining": "88413",
-"used": "11587",
+"remaining": "88398",
+"used": "11602",
 "last_cost": "0"
 },
 "status": 200,
 "error": null,
-"last_job_success": "2026-10-12T20:22:18Z",
+"last_job_success": "2026-10-12T22:40:45Z",
 "last_job_failure": null,
-"next_refresh": "2026-10-12T21:15:00Z",
+"next_refresh": "2026-10-12T23:15:00Z",
 "credential": "ODDS_API_KEY"
 },
 "espn": {
 "label": "ESPN",
 "health": "healthy",
-"latency_ms": 99,
+"latency_ms": 280,
 "latency_ms_median": 131,
-"last_probe": "2026-10-12T19:13:06Z",
-"last_success": "2026-10-12T19:13:06Z",
+"last_probe": "2026-10-12T20:23:00Z",
+"last_success": "2026-10-12T20:23:00Z",
 "last_failure": null,
 "success_rate": 1.0,
-"probes": 326,
+"probes": 327,
 "rate_limit": null,
 "status": 200,
 "error": null,
-"last_job_success": "2026-10-12T20:22:21Z",
+"last_job_success": "2026-10-12T22:40:47Z",
 "last_job_failure": null,
-"next_refresh": "2026-10-12T21:15:00Z",
+"next_refresh": "2026-10-12T23:15:00Z",
 "credential": "none required"
 },
 "nflverse": {
 "label": "nflverse",
 "health": "healthy",
-"latency_ms": 172,
+"latency_ms": 193,
 "latency_ms_median": 222,
-"last_probe": "2026-10-12T19:13:06Z",
-"last_success": "2026-10-12T19:13:06Z",
+"last_probe": "2026-10-12T20:23:00Z",
+"last_success": "2026-10-12T20:23:00Z",
 "last_failure": {
 "at": "2026-10-07T05:42:33Z",
 "error": "HTTP 404",
 "status": 404
 },
 "success_rate": 0.997,
-"probes": 326,
+"probes": 327,
 "rate_limit": null,
 "status": 200,
 "error": null,
-"last_job_success": "2026-10-12T20:22:21Z",
+"last_job_success": "2026-10-12T22:40:48Z",
 "last_job_failure": null,
-"next_refresh": "2026-10-12T21:15:00Z",
+"next_refresh": "2026-10-12T23:15:00Z",
 "credential": "none required"
 },
 "open_meteo": {
 "label": "Open-Meteo (weather)",
 "health": "healthy",
-"latency_ms": 539,
+"latency_ms": 579,
 "latency_ms_median": 565,
-"last_probe": "2026-10-12T19:13:07Z",
-"last_success": "2026-10-12T19:13:07Z",
+"last_probe": "2026-10-12T20:23:01Z",
+"last_success": "2026-10-12T20:23:01Z",
 "last_failure": {
 "at": "2026-09-02T00:22:27Z",
 "error": "<urlopen error _ssl.c:999: The handshake operation timed out>",
 "status": null
 },
 "success_rate": 0.994,
-"probes": 326,
+"probes": 327,
 "rate_limit": null,
 "status": 200,
 "error": null,
 "last_job_success": "2026-10-12T20:22:15Z",
 "last_job_failure": null,
-"next_refresh": "2026-10-12T21:15:00Z",
+"next_refresh": "2026-10-12T23:15:00Z",
 "credential": "none required"
 },
 "rss": {
 "label": "RSS news",
 "health": "healthy",
-"latency_ms": 85,
+"latency_ms": 101,
 "latency_ms_median": 65,
-"last_probe": "2026-10-12T19:13:07Z",
-"last_success": "2026-10-12T19:13:07Z",
+"last_probe": "2026-10-12T20:23:01Z",
+"last_success": "2026-10-12T20:23:01Z",
 "last_failure": null,
 "success_rate": 1.0,
-"probes": 326,
+"probes": 327,
 "rate_limit": null,
 "status": 202,
 "error": null,
 "last_job_success": "2026-10-12T20:21:21Z",
 "last_job_failure": null,
-"next_refresh": "2026-10-12T21:15:00Z",
+"next_refresh": "2026-10-12T23:15:00Z",
 "credential": "none required"
 },
 "github_api": {
 "label": "GitHub API",
 "health": "healthy",
-"latency_ms": 300,
+"latency_ms": 289,
 "latency_ms_median": 266,
-"last_probe": "2026-10-12T19:13:07Z",
-"last_success": "2026-10-12T19:13:07Z",
+"last_probe": "2026-10-12T20:23:01Z",
+"last_success": "2026-10-12T20:23:01Z",
 "last_failure": {
 "at": "2026-09-02T01:30:14Z",
 "error": "HTTP 502",
 "status": 502
 },
 "success_rate": 0.991,
-"probes": 326,
+"probes": 327,
 "rate_limit": {
 "remaining": "5000",
 "limit": "5000"
@@ -381543,13 +381506,13 @@
 "github_pages": {
 "label": "GitHub Pages (live site)",
 "health": "healthy",
-"latency_ms": 250,
+"latency_ms": 99,
 "latency_ms_median": 111,
-"last_probe": "2026-10-12T19:13:08Z",
-"last_success": "2026-10-12T19:13:08Z",
+"last_probe": "2026-10-12T20:23:01Z",
+"last_success": "2026-10-12T20:23:01Z",
 "last_failure": null,
 "success_rate": 1.0,
-"probes": 326,
+"probes": 327,
 "rate_limit": null,
 "status": 200,
 "error": null,
@@ -381563,12 +381526,12 @@
 "app_version": "nfl-picks 0.32.0",
 "pipeline_version": "0.32.0",
 "dashboard_version": "0.32.0",
-"git_commit": "10407c694d19",
+"git_commit": "becf6ca60d66",
 "git_tag": null,
-"build_timestamp": "2026-10-12T20:22:50Z",
+"build_timestamp": "2026-10-12T22:41:17Z",
 "data_timestamp": null,
 "prediction_timestamp": "2026-10-12T20:22:26Z",
-"prediction_run_id": "proj-2026-w5-20261012T202226Z-28cca",
+"prediction_run_id": "proj-2026-w5-20261012T224055Z-f9d0e",
 "n_projection_rows": 722271,
 "model_version": "game-ridge-v1-2018-2026-202609151720",
 "feature_version": "team-v1",
@@ -381576,31 +381539,31 @@
 "explain_version": "explain-v1",
 "calibration_version": "2026-10-06T18:42:25Z",
 "calibration_method": "isotonic (PAVA), out-of-sample walk-forward rows only; applied inside the fitted support and only when the week-blocked cross-fit Brier improves on the raw probability",
-"last_deployment": "2026-10-12T19:13:16Z",
-"last_publish_attempt": "2026-10-12T19:13:16Z",
+"last_deployment": "2026-10-12T20:23:08Z",
+"last_publish_attempt": "2026-10-12T20:23:08Z",
 "last_publish_result": "success",
 "latest_workflow": {
-"at": "2026-10-12T19:13:16Z",
+"at": "2026-10-12T20:23:08Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/38295698637",
-"duration_s": 127
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/38303244701",
+"duration_s": 120
 },
-"last_successful_run": "2026-10-12T19:13:16Z",
+"last_successful_run": "2026-10-12T20:23:08Z",
 "last_commands": {
-"grade": "2026-10-12T19:13:16Z",
+"grade": "2026-10-12T20:23:08Z",
 "calibration-report": "2026-10-06T18:44:45Z",
 "retrain": "2026-10-06T18:44:45Z",
-"project": "2026-10-12T19:13:16Z",
+"project": "2026-10-12T20:23:08Z",
 "attribute-errors": "2026-10-09T17:28:48Z",
 "evaluate-week": "2026-10-09T17:28:48Z",
-"refresh": "2026-10-12T19:13:16Z"
+"refresh": "2026-10-12T20:23:08Z"
 },
 "python_version": "3.11.17",
 "schema_version": 14,
 "git_branch": "main",
 "next_scheduled_run": {
-"at_utc": "2026-10-12T21:15:00Z",
-"at_et": "Mon 2026-10-12 17:15 ET",
+"at_utc": "2026-10-12T23:15:00Z",
+"at_et": "Mon 2026-10-12 19:15 ET",
 "slot": "gameday_2h",
 "cron": "15 11,13,15,17,19,21,23 * 9-12,1-2 *",
 "group": "gameday_2h",
@@ -381630,12 +381593,12 @@
 "app_version": "nfl-picks 0.32.0",
 "pipeline_version": "0.32.0",
 "dashboard_version": "0.32.0",
-"git_commit": "10407c694d19",
+"git_commit": "becf6ca60d66",
 "git_tag": null,
-"build_timestamp": "2026-10-12T20:22:50Z",
-"data_timestamp": "2026-10-12T20:22:26Z",
+"build_timestamp": "2026-10-12T22:41:17Z",
+"data_timestamp": "2026-10-12T22:40:48Z",
 "prediction_timestamp": "2026-10-12T20:22:26Z",
-"prediction_run_id": "proj-2026-w5-20261012T202226Z-28cca",
+"prediction_run_id": "proj-2026-w5-20261012T224055Z-f9d0e",
 "n_projection_rows": 722271,
 "model_version": "game-ridge-v1-2018-2026-202609151720",
 "feature_version": "team-v1",
@@ -381643,31 +381606,31 @@
 "explain_version": "explain-v1",
 "calibration_version": "2026-10-06T18:42:25Z",
 "calibration_method": "isotonic (PAVA), out-of-sample walk-forward rows only; applied inside the fitted support and only when the week-blocked cross-fit Brier improves on the raw probability",
-"last_deployment": "2026-10-12T19:13:16Z",
-"last_publish_attempt": "2026-10-12T19:13:16Z",
+"last_deployment": "2026-10-12T20:23:08Z",
+"last_publish_attempt": "2026-10-12T20:23:08Z",
 "last_publish_result": "success",
 "latest_workflow": {
-"at": "2026-10-12T19:13:16Z",
+"at": "2026-10-12T20:23:08Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/38295698637",
-"duration_s": 127
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/38303244701",
+"duration_s": 120
 },
-"last_successful_run": "2026-10-12T19:13:16Z",
+"last_successful_run": "2026-10-12T20:23:08Z",
 "last_commands": {
-"grade": "2026-10-12T19:13:16Z",
+"grade": "2026-10-12T20:23:08Z",
 "calibration-report": "2026-10-06T18:44:45Z",
 "retrain": "2026-10-06T18:44:45Z",
-"project": "2026-10-12T19:13:16Z",
+"project": "2026-10-12T20:23:08Z",
 "attribute-errors": "2026-10-09T17:28:48Z",
 "evaluate-week": "2026-10-09T17:28:48Z",
-"refresh": "2026-10-12T19:13:16Z"
+"refresh": "2026-10-12T20:23:08Z"
 },
 "python_version": "3.11.17",
 "schema_version": 14,
 "git_branch": "main",
 "next_scheduled_run": {
-"at_utc": "2026-10-12T21:15:00Z",
-"at_et": "Mon 2026-10-12 17:15 ET",
+"at_utc": "2026-10-12T23:15:00Z",
+"at_et": "Mon 2026-10-12 19:15 ET",
 "slot": "gameday_2h",
 "cron": "15 11,13,15,17,19,21,23 * 9-12,1-2 *",
 "group": "gameday_2h",
@@ -381695,20 +381658,20 @@
 "attribution": {
 "season": 2026,
 "mode": "LIVE",
-"n": 438,
+"n": 493,
 "status": "OK",
-"generated_at": "2026-10-09T17:27:51Z",
+"generated_at": "2026-10-12T20:17:50Z",
 "model_versions": [
 "game-ridge-v1-2018-2025-202608281538",
 "game-ridge-v1-2018-2026-202609151720"
 ],
 "significant_z": 1.5,
-"total_abs_error": 13402.817,
-"avoidable_n": 18,
+"total_abs_error": 14939.621,
+"avoidable_n": 21,
 "by_category": {
 "Unexpected injury": {
 "n": 22,
-"share": 0.0502,
+"share": 0.0446,
 "mean_abs_error": 31.1,
 "mean_abs_z": 2.548,
 "total_abs_error": 684.198,
@@ -381719,7 +381682,7 @@
 },
 "Unexpected inactive": {
 "n": 70,
-"share": 0.1598,
+"share": 0.142,
 "mean_abs_error": 29.2,
 "mean_abs_z": 2.36,
 "total_abs_error": 2044.02,
@@ -381729,19 +381692,19 @@
 "measurable": true
 },
 "Role change": {
-"n": 20,
-"share": 0.0457,
-"mean_abs_error": 39.896,
-"mean_abs_z": 2.416,
-"total_abs_error": 797.923,
+"n": 25,
+"share": 0.0507,
+"mean_abs_error": 35.346,
+"mean_abs_z": 2.418,
+"total_abs_error": 883.656,
 "avoidable_n": 0,
-"over_n": 9,
-"secondary_n": 13,
+"over_n": 14,
+"secondary_n": 14,
 "measurable": true
 },
 "Depth chart error": {
 "n": 4,
-"share": 0.0091,
+"share": 0.0081,
 "mean_abs_error": 14.83,
 "mean_abs_z": 2.946,
 "total_abs_error": 59.319,
@@ -381751,96 +381714,96 @@
 "measurable": true
 },
 "Quarterback change": {
-"n": 16,
-"share": 0.0365,
-"mean_abs_error": 34.914,
-"mean_abs_z": 2.735,
-"total_abs_error": 558.631,
-"avoidable_n": 5,
-"over_n": 15,
+"n": 26,
+"share": 0.0527,
+"mean_abs_error": 36.937,
+"mean_abs_z": 2.504,
+"total_abs_error": 960.358,
+"avoidable_n": 8,
+"over_n": 22,
 "secondary_n": 4,
 "measurable": true
 },
 "Game script": {
-"n": 129,
-"share": 0.2945,
-"mean_abs_error": 29.204,
-"mean_abs_z": 2.731,
-"total_abs_error": 3767.358,
+"n": 140,
+"share": 0.284,
+"mean_abs_error": 29.103,
+"mean_abs_z": 2.659,
+"total_abs_error": 4074.372,
 "avoidable_n": 0,
-"over_n": 116,
-"secondary_n": 35,
+"over_n": 122,
+"secondary_n": 43,
 "measurable": true
 },
 "Blowout": {
-"n": 19,
-"share": 0.0434,
-"mean_abs_error": 53.352,
-"mean_abs_z": 2.468,
-"total_abs_error": 1013.683,
+"n": 20,
+"share": 0.0406,
+"mean_abs_error": 52.723,
+"mean_abs_z": 2.463,
+"total_abs_error": 1054.47,
 "avoidable_n": 0,
-"over_n": 16,
-"secondary_n": 19,
+"over_n": 17,
+"secondary_n": 22,
 "measurable": true
 },
 "Garbage time": {
-"n": 22,
-"share": 0.0502,
-"mean_abs_error": 23.579,
-"mean_abs_z": 2.618,
-"total_abs_error": 518.737,
+"n": 24,
+"share": 0.0487,
+"mean_abs_error": 25.128,
+"mean_abs_z": 2.715,
+"total_abs_error": 603.062,
 "avoidable_n": 0,
-"over_n": 21,
-"secondary_n": 1,
-"measurable": true
-},
-"Turnovers": {
-"n": 22,
-"share": 0.0502,
-"mean_abs_error": 16.13,
-"mean_abs_z": 2.303,
-"total_abs_error": 354.86,
-"avoidable_n": 0,
-"over_n": 19,
+"over_n": 23,
 "secondary_n": 5,
 "measurable": true
 },
-"Overtime": {
-"n": 13,
-"share": 0.0297,
-"mean_abs_error": 35.792,
-"mean_abs_z": 3.561,
-"total_abs_error": 465.297,
+"Turnovers": {
+"n": 28,
+"share": 0.0568,
+"mean_abs_error": 21.64,
+"mean_abs_z": 2.245,
+"total_abs_error": 605.915,
 "avoidable_n": 0,
-"over_n": 13,
-"secondary_n": 0,
+"over_n": 24,
+"secondary_n": 6,
+"measurable": true
+},
+"Overtime": {
+"n": 19,
+"share": 0.0385,
+"mean_abs_error": 30.669,
+"mean_abs_z": 3.252,
+"total_abs_error": 582.717,
+"avoidable_n": 0,
+"over_n": 19,
+"secondary_n": 3,
 "measurable": true
 },
 "Explosive plays": {
-"n": 19,
-"share": 0.0434,
-"mean_abs_error": 50.336,
-"mean_abs_z": 2.651,
-"total_abs_error": 956.393,
+"n": 20,
+"share": 0.0406,
+"mean_abs_error": 50.927,
+"mean_abs_z": 2.666,
+"total_abs_error": 1018.536,
 "avoidable_n": 0,
-"over_n": 19,
+"over_n": 20,
 "secondary_n": 9,
 "measurable": true
 },
 "Target redistribution": {
-"n": 23,
-"share": 0.0525,
-"mean_abs_error": 27.241,
-"mean_abs_z": 2.572,
-"total_abs_error": 626.554,
+"n": 27,
+"share": 0.0548,
+"mean_abs_error": 25.93,
+"mean_abs_z": 2.574,
+"total_abs_error": 700.112,
 "avoidable_n": 0,
-"over_n": 22,
-"secondary_n": 39,
+"over_n": 25,
+"secondary_n": 42,
 "measurable": true
 },
 "Carry redistribution": {
 "n": 4,
-"share": 0.0091,
+"share": 0.0081,
 "mean_abs_error": 44.544,
 "mean_abs_z": 6.492,
 "total_abs_error": 178.178,
@@ -381850,24 +381813,24 @@
 "measurable": true
 },
 "Variance": {
-"n": 42,
-"share": 0.0959,
-"mean_abs_error": 23.39,
-"mean_abs_z": 1.973,
-"total_abs_error": 982.369,
+"n": 50,
+"share": 0.1014,
+"mean_abs_error": 21.844,
+"mean_abs_z": 1.972,
+"total_abs_error": 1092.212,
 "avoidable_n": 0,
-"over_n": 36,
+"over_n": 44,
 "secondary_n": 0,
 "measurable": true
 },
 "Unknown": {
-"n": 13,
-"share": 0.0297,
-"mean_abs_error": 30.407,
-"mean_abs_z": 4.852,
-"total_abs_error": 395.297,
+"n": 14,
+"share": 0.0284,
+"mean_abs_error": 28.464,
+"mean_abs_z": 4.75,
+"total_abs_error": 398.496,
 "avoidable_n": 0,
-"over_n": 13,
+"over_n": 14,
 "secondary_n": 0,
 "measurable": true
 },
@@ -381918,142 +381881,149 @@
 },
 "by_market": {
 "interceptions": {
-"n": 10,
-"share": 0.0228,
-"mean_abs_error": 1.645,
-"mean_abs_z": 2.223,
-"total_abs_error": 16.451,
+"n": 13,
+"share": 0.0264,
+"mean_abs_error": 1.623,
+"mean_abs_z": 2.257,
+"total_abs_error": 21.099,
 "avoidable_n": 0,
-"over_n": 10,
+"over_n": 13,
 "categories": {
-"Game script": 4,
-"Variance": 3,
+"Game script": 5,
+"Variance": 4,
 "Overtime": 1,
 "Unexpected inactive": 1,
-"Turnovers": 1
+"Turnovers": 1,
+"Quarterback change": 1
 }
 },
 "passing_attempts": {
-"n": 30,
-"share": 0.0685,
-"mean_abs_error": 17.673,
-"mean_abs_z": 2.788,
-"total_abs_error": 530.188,
+"n": 36,
+"share": 0.073,
+"mean_abs_error": 16.915,
+"mean_abs_z": 2.674,
+"total_abs_error": 608.925,
 "avoidable_n": 2,
-"over_n": 17,
+"over_n": 20,
 "categories": {
-"Game script": 13,
+"Game script": 15,
 "Unexpected inactive": 5,
 "Unexpected injury": 4,
 "Garbage time": 3,
+"Overtime": 2,
 "Blowout": 2,
 "Role change": 2,
-"Overtime": 1
-}
-},
-"passing_completions": {
-"n": 26,
-"share": 0.0594,
-"mean_abs_error": 12.03,
-"mean_abs_z": 2.368,
-"total_abs_error": 312.793,
-"avoidable_n": 2,
-"over_n": 12,
-"categories": {
-"Game script": 13,
-"Unexpected injury": 4,
-"Unexpected inactive": 4,
-"Role change": 2,
-"Overtime": 1,
-"Garbage time": 1,
+"Turnovers": 1,
+"Quarterback change": 1,
 "Variance": 1
 }
 },
-"passing_tds": {
-"n": 28,
-"share": 0.0639,
-"mean_abs_error": 1.776,
-"mean_abs_z": 1.798,
-"total_abs_error": 49.722,
-"avoidable_n": 0,
-"over_n": 16,
+"passing_completions": {
+"n": 29,
+"share": 0.0588,
+"mean_abs_error": 11.915,
+"mean_abs_z": 2.344,
+"total_abs_error": 345.527,
+"avoidable_n": 2,
+"over_n": 13,
 "categories": {
-"Variance": 9,
+"Game script": 14,
+"Unexpected injury": 4,
+"Unexpected inactive": 4,
+"Overtime": 2,
+"Role change": 2,
+"Garbage time": 1,
+"Variance": 1,
+"Quarterback change": 1
+}
+},
+"passing_tds": {
+"n": 32,
+"share": 0.0649,
+"mean_abs_error": 1.803,
+"mean_abs_z": 1.827,
+"total_abs_error": 57.71,
+"avoidable_n": 0,
+"over_n": 20,
+"categories": {
+"Variance": 11,
+"Turnovers": 5,
 "Unexpected inactive": 5,
 "Game script": 4,
 "Blowout": 4,
-"Turnovers": 4,
-"Overtime": 1,
+"Overtime": 2,
 "Role change": 1
 }
 },
 "passing_yards": {
-"n": 14,
-"share": 0.032,
-"mean_abs_error": 169.151,
-"mean_abs_z": 2.017,
-"total_abs_error": 2368.115,
+"n": 16,
+"share": 0.0325,
+"mean_abs_error": 170.019,
+"mean_abs_z": 1.985,
+"total_abs_error": 2720.308,
 "avoidable_n": 1,
 "over_n": 9,
 "categories": {
-"Game script": 4,
+"Game script": 5,
 "Role change": 2,
 "Blowout": 2,
 "Unexpected injury": 2,
 "Unexpected inactive": 2,
 "Variance": 1,
-"Overtime": 1
+"Overtime": 1,
+"Quarterback change": 1
 }
 },
 "receiving_yards": {
-"n": 115,
-"share": 0.2626,
-"mean_abs_error": 57.645,
-"mean_abs_z": 2.488,
-"total_abs_error": 6629.155,
-"avoidable_n": 4,
-"over_n": 113,
+"n": 133,
+"share": 0.2698,
+"mean_abs_error": 55.977,
+"mean_abs_z": 2.417,
+"total_abs_error": 7444.925,
+"avoidable_n": 5,
+"over_n": 130,
 "categories": {
-"Game script": 29,
+"Game script": 30,
 "Unexpected inactive": 23,
-"Explosive plays": 15,
-"Target redistribution": 9,
-"Variance": 9,
-"Blowout": 6,
-"Garbage time": 6,
-"Quarterback change": 6,
-"Turnovers": 5,
-"Role change": 4,
-"Depth chart error": 2,
-"Overtime": 1
+"Explosive plays": 16,
+"Variance": 12,
+"Target redistribution": 11,
+"Quarterback change": 9,
+"Turnovers": 8,
+"Blowout": 7,
+"Garbage time": 7,
+"Role change": 6,
+"Overtime": 2,
+"Depth chart error": 2
 }
 },
 "receptions": {
-"n": 123,
-"share": 0.2808,
-"mean_abs_error": 4.147,
-"mean_abs_z": 2.37,
-"total_abs_error": 510.127,
-"avoidable_n": 9,
-"over_n": 102,
+"n": 139,
+"share": 0.2819,
+"mean_abs_error": 4.133,
+"mean_abs_z": 2.39,
+"total_abs_error": 574.553,
+"avoidable_n": 10,
+"over_n": 116,
 "categories": {
-"Game script": 35,
+"Game script": 39,
 "Unexpected inactive": 24,
-"Target redistribution": 14,
-"Variance": 10,
+"Target redistribution": 16,
+"Variance": 11,
+"Role change": 10,
 "Unexpected injury": 9,
-"Role change": 7,
-"Quarterback change": 7,
-"Garbage time": 6,
-"Overtime": 4,
+"Quarterback change": 9,
+"Garbage time": 7,
+"Overtime": 6,
 "Turnovers": 4,
 "Depth chart error": 2,
-"Blowout": 1
+"Blowout": 1,
+"Unknown": 1
 }
 },
 "rushing_attempts": {
 "n": 1,
-"share": 0.0023,
+"share": 0.002,
 "mean_abs_error": 7.803,
 "mean_abs_z": 1.86,
 "total_abs_error": 7.803,
@@ -382064,47 +382034,47 @@
 }
 },
 "rushing_yards": {
-"n": 91,
-"share": 0.2078,
-"mean_abs_error": 32.73,
-"mean_abs_z": 3.679,
-"total_abs_error": 2978.463,
-"avoidable_n": 0,
-"over_n": 87,
+"n": 94,
+"share": 0.1907,
+"mean_abs_error": 33.604,
+"mean_abs_z": 3.665,
+"total_abs_error": 3158.771,
+"avoidable_n": 1,
+"over_n": 90,
 "categories": {
-"Game script": 26,
+"Game script": 27,
 "Unknown": 13,
 "Variance": 9,
-"Turnovers": 8,
+"Turnovers": 9,
 "Unexpected inactive": 6,
 "Garbage time": 6,
 "Blowout": 4,
+"Quarterback change": 4,
 "Explosive plays": 4,
 "Carry redistribution": 4,
 "Overtime": 3,
 "Unexpected injury": 3,
-"Quarterback change": 3,
 "Role change": 2
 }
 }
 },
 "by_position": {
 "HB": {
-"n": 4,
-"share": 0.0091,
-"mean_abs_error": 37.564,
-"mean_abs_z": 3.119,
-"total_abs_error": 150.256,
+"n": 5,
+"share": 0.0101,
+"mean_abs_error": 40.608,
+"mean_abs_z": 3.173,
+"total_abs_error": 203.038,
 "avoidable_n": 0,
-"over_n": 3,
+"over_n": 4,
 "categories": {
 "Game script": 3,
-"Turnovers": 1
+"Turnovers": 2
 }
 },
 "Insufficient Data": {
 "n": 73,
-"share": 0.1667,
+"share": 0.1481,
 "mean_abs_error": 29.348,
 "mean_abs_z": 2.351,
 "total_abs_error": 2142.412,
@@ -382116,92 +382086,95 @@
 }
 },
 "QB": {
-"n": 145,
-"share": 0.3311,
-"mean_abs_error": 26.765,
-"mean_abs_z": 3.201,
-"total_abs_error": 3880.966,
+"n": 163,
+"share": 0.3306,
+"mean_abs_error": 26.732,
+"mean_abs_z": 3.079,
+"total_abs_error": 4357.266,
 "avoidable_n": 3,
-"over_n": 111,
+"over_n": 122,
 "categories": {
-"Game script": 55,
-"Variance": 19,
+"Game script": 60,
+"Variance": 23,
+"Turnovers": 13,
 "Unknown": 12,
-"Turnovers": 11,
 "Blowout": 10,
+"Overtime": 10,
 "Garbage time": 10,
 "Unexpected injury": 9,
-"Overtime": 7,
 "Role change": 7,
+"Quarterback change": 4,
 "Explosive plays": 3,
 "Carry redistribution": 2
 }
 },
 "RB": {
-"n": 75,
-"share": 0.1712,
-"mean_abs_error": 33.075,
-"mean_abs_z": 2.503,
-"total_abs_error": 2480.596,
-"avoidable_n": 5,
-"over_n": 72,
+"n": 89,
+"share": 0.1805,
+"mean_abs_error": 31.645,
+"mean_abs_z": 2.494,
+"total_abs_error": 2816.38,
+"avoidable_n": 6,
+"over_n": 84,
 "categories": {
-"Game script": 26,
-"Variance": 11,
-"Quarterback change": 9,
-"Target redistribution": 8,
-"Role change": 5,
+"Game script": 29,
+"Variance": 13,
+"Quarterback change": 12,
+"Target redistribution": 9,
+"Role change": 7,
 "Blowout": 3,
+"Garbage time": 3,
 "Turnovers": 3,
 "Overtime": 2,
-"Garbage time": 2,
 "Depth chart error": 2,
+"Explosive plays": 2,
 "Carry redistribution": 2,
-"Explosive plays": 1,
-"Unknown": 1
+"Unknown": 2
 }
 },
 "TE": {
-"n": 34,
-"share": 0.0776,
-"mean_abs_error": 24.985,
-"mean_abs_z": 2.422,
-"total_abs_error": 849.493,
-"avoidable_n": 3,
-"over_n": 28,
+"n": 44,
+"share": 0.0892,
+"mean_abs_error": 25.933,
+"mean_abs_z": 2.387,
+"total_abs_error": 1141.061,
+"avoidable_n": 4,
+"over_n": 38,
 "categories": {
-"Game script": 13,
-"Target redistribution": 6,
-"Variance": 3,
-"Turnovers": 2,
+"Game script": 15,
+"Target redistribution": 8,
+"Variance": 4,
+"Turnovers": 3,
 "Role change": 2,
 "Explosive plays": 2,
+"Blowout": 2,
 "Unexpected inactive": 2,
 "Depth chart error": 2,
+"Quarterback change": 2,
 "Unexpected injury": 1,
-"Blowout": 1
+"Overtime": 1
 }
 },
 "WR": {
-"n": 107,
-"share": 0.2443,
-"mean_abs_error": 36.44,
-"mean_abs_z": 2.262,
-"total_abs_error": 3899.094,
-"avoidable_n": 4,
-"over_n": 94,
+"n": 119,
+"share": 0.2414,
+"mean_abs_error": 35.962,
+"mean_abs_z": 2.248,
+"total_abs_error": 4279.464,
+"avoidable_n": 5,
+"over_n": 105,
 "categories": {
-"Game script": 32,
+"Game script": 33,
 "Explosive plays": 13,
-"Garbage time": 10,
-"Target redistribution": 9,
-"Variance": 9,
-"Quarterback change": 7,
-"Role change": 6,
+"Garbage time": 11,
+"Target redistribution": 10,
+"Variance": 10,
+"Role change": 9,
+"Quarterback change": 8,
+"Turnovers": 7,
+"Overtime": 6,
 "Unexpected injury": 6,
 "Blowout": 5,
-"Turnovers": 5,
-"Overtime": 4,
 "Unexpected inactive": 1
 }
 }
@@ -382209,28 +382182,28 @@
 "priorities": [
 {
 "category": "Game script",
-"total_abs_error": 3767.358,
-"share_of_total_abs_error": 0.2811,
-"total_abs_z": 352.275,
-"n": 129,
+"total_abs_error": 4074.372,
+"share_of_total_abs_error": 0.2727,
+"total_abs_z": 372.314,
+"n": 140,
 "avoidable_n": 0,
-"mean_abs_z": 2.731,
+"mean_abs_z": 2.659,
 "by_market_abs_error": {
-"receiving_yards": 1706.365,
-"rushing_yards": 839.705,
-"passing_yards": 667.25,
-"passing_attempts": 221.904,
-"receptions": 159.827,
-"passing_completions": 150.785,
+"receiving_yards": 1726.047,
+"rushing_yards": 906.306,
+"passing_yards": 843.377,
+"passing_attempts": 242.576,
+"receptions": 173.409,
+"passing_completions": 159.476,
+"interceptions": 8.231,
 "rushing_attempts": 7.803,
-"passing_tds": 7.147,
-"interceptions": 6.572
+"passing_tds": 7.147
 }
 },
 {
 "category": "Unexpected inactive",
 "total_abs_error": 2044.02,
-"share_of_total_abs_error": 0.1525,
+"share_of_total_abs_error": 0.1368,
 "total_abs_z": 165.228,
 "n": 70,
 "avoidable_n": 0,
@@ -382247,15 +382220,34 @@
 }
 },
 {
-"category": "Blowout",
-"total_abs_error": 1013.683,
-"share_of_total_abs_error": 0.0756,
-"total_abs_z": 46.892,
-"n": 19,
+"category": "Variance",
+"total_abs_error": 1092.212,
+"share_of_total_abs_error": 0.0731,
+"total_abs_z": 98.588,
+"n": 50,
 "avoidable_n": 0,
-"mean_abs_z": 2.468,
+"mean_abs_z": 1.972,
 "by_market_abs_error": {
-"receiving_yards": 461.034,
+"receiving_yards": 546.157,
+"rushing_yards": 314.4,
+"passing_yards": 147.068,
+"receptions": 37.838,
+"passing_tds": 20.572,
+"passing_attempts": 11.412,
+"passing_completions": 8.711,
+"interceptions": 6.054
+}
+},
+{
+"category": "Blowout",
+"total_abs_error": 1054.47,
+"share_of_total_abs_error": 0.0706,
+"total_abs_z": 49.259,
+"n": 20,
+"avoidable_n": 0,
+"mean_abs_z": 2.463,
+"by_market_abs_error": {
+"receiving_yards": 501.821,
 "passing_yards": 319.271,
 "rushing_yards": 200.726,
 "passing_attempts": 20.342,
@@ -382264,58 +382256,71 @@
 }
 },
 {
-"category": "Variance",
-"total_abs_error": 982.369,
-"share_of_total_abs_error": 0.0733,
-"total_abs_z": 82.875,
-"n": 42,
-"avoidable_n": 0,
-"mean_abs_z": 1.973,
-"by_market_abs_error": {
-"receiving_yards": 456.429,
-"rushing_yards": 314.4,
-"passing_yards": 147.068,
-"receptions": 34.543,
-"passing_tds": 16.613,
-"passing_completions": 8.711,
-"interceptions": 4.605
-}
-},
-{
 "category": "Explosive plays",
-"total_abs_error": 956.393,
-"share_of_total_abs_error": 0.0714,
-"total_abs_z": 50.371,
-"n": 19,
+"total_abs_error": 1018.536,
+"share_of_total_abs_error": 0.0682,
+"total_abs_z": 53.316,
+"n": 20,
 "avoidable_n": 0,
-"mean_abs_z": 2.651,
+"mean_abs_z": 2.666,
 "by_market_abs_error": {
-"receiving_yards": 824.255,
+"receiving_yards": 886.398,
 "rushing_yards": 132.138
 }
 },
 {
+"category": "Quarterback change",
+"total_abs_error": 960.358,
+"share_of_total_abs_error": 0.0643,
+"total_abs_z": 65.101,
+"n": 26,
+"avoidable_n": 8,
+"mean_abs_z": 2.504,
+"by_market_abs_error": {
+"receiving_yards": 474.226,
+"rushing_yards": 254.093,
+"passing_yards": 176.066,
+"receptions": 30.382,
+"passing_attempts": 12.934,
+"passing_completions": 11.117,
+"interceptions": 1.54
+}
+},
+{
 "category": "Role change",
-"total_abs_error": 797.923,
-"share_of_total_abs_error": 0.0595,
-"total_abs_z": 48.314,
-"n": 20,
+"total_abs_error": 883.656,
+"share_of_total_abs_error": 0.0591,
+"total_abs_z": 60.45,
+"n": 25,
 "avoidable_n": 0,
-"mean_abs_z": 2.416,
+"mean_abs_z": 2.418,
 "by_market_abs_error": {
 "passing_yards": 367.054,
-"receiving_yards": 222.511,
+"receiving_yards": 297.884,
 "rushing_yards": 97.573,
 "passing_attempts": 50.631,
+"receptions": 35.396,
 "passing_completions": 33.555,
-"receptions": 25.036,
 "passing_tds": 1.563
+}
+},
+{
+"category": "Target redistribution",
+"total_abs_error": 700.112,
+"share_of_total_abs_error": 0.0469,
+"total_abs_z": 69.504,
+"n": 27,
+"avoidable_n": 0,
+"mean_abs_z": 2.574,
+"by_market_abs_error": {
+"receiving_yards": 627.945,
+"receptions": 72.167
 }
 },
 {
 "category": "Unexpected injury",
 "total_abs_error": 684.198,
-"share_of_total_abs_error": 0.051,
+"share_of_total_abs_error": 0.0458,
 "total_abs_z": 56.048,
 "n": 22,
 "avoidable_n": 9,
@@ -382329,99 +382334,74 @@
 }
 },
 {
-"category": "Target redistribution",
-"total_abs_error": 626.554,
-"share_of_total_abs_error": 0.0467,
-"total_abs_z": 59.161,
-"n": 23,
+"category": "Turnovers",
+"total_abs_error": 605.915,
+"share_of_total_abs_error": 0.0406,
+"total_abs_z": 62.861,
+"n": 28,
 "avoidable_n": 0,
-"mean_abs_z": 2.572,
+"mean_abs_z": 2.245,
 "by_market_abs_error": {
-"receiving_yards": 562.528,
-"receptions": 64.026
-}
-},
-{
-"category": "Quarterback change",
-"total_abs_error": 558.631,
-"share_of_total_abs_error": 0.0417,
-"total_abs_z": 43.763,
-"n": 16,
-"avoidable_n": 5,
-"mean_abs_z": 2.735,
-"by_market_abs_error": {
-"receiving_yards": 340.399,
-"rushing_yards": 193.168,
-"receptions": 25.064
+"receiving_yards": 394.541,
+"rushing_yards": 172.353,
+"receptions": 17.164,
+"passing_attempts": 10.426,
+"passing_tds": 9.021,
+"interceptions": 2.41
 }
 },
 {
 "category": "Garbage time",
-"total_abs_error": 518.737,
-"share_of_total_abs_error": 0.0387,
-"total_abs_z": 57.595,
-"n": 22,
+"total_abs_error": 603.062,
+"share_of_total_abs_error": 0.0404,
+"total_abs_z": 65.169,
+"n": 24,
 "avoidable_n": 0,
-"mean_abs_z": 2.618,
+"mean_abs_z": 2.715,
 "by_market_abs_error": {
-"receiving_yards": 334.361,
+"receiving_yards": 411.259,
 "rushing_yards": 103.288,
 "passing_attempts": 49.144,
-"receptions": 22.113,
+"receptions": 29.54,
 "passing_completions": 9.831
 }
 },
 {
 "category": "Overtime",
-"total_abs_error": 465.297,
-"share_of_total_abs_error": 0.0347,
-"total_abs_z": 46.289,
-"n": 13,
+"total_abs_error": 582.717,
+"share_of_total_abs_error": 0.039,
+"total_abs_z": 61.79,
+"n": 19,
 "avoidable_n": 0,
-"mean_abs_z": 3.561,
+"mean_abs_z": 3.252,
 "by_market_abs_error": {
+"receiving_yards": 181.624,
 "passing_yards": 166.636,
 "rushing_yards": 129.264,
-"receiving_yards": 115.347,
-"passing_attempts": 21.802,
-"receptions": 18.385,
-"passing_completions": 10.945,
-"passing_tds": 1.551,
+"passing_attempts": 45.095,
+"receptions": 31.489,
+"passing_completions": 23.871,
+"passing_tds": 3.371,
 "interceptions": 1.367
 }
 },
 {
 "category": "Unknown",
-"total_abs_error": 395.297,
-"share_of_total_abs_error": 0.0295,
-"total_abs_z": 63.073,
-"n": 13,
+"total_abs_error": 398.496,
+"share_of_total_abs_error": 0.0267,
+"total_abs_z": 66.503,
+"n": 14,
 "avoidable_n": 0,
-"mean_abs_z": 4.852,
+"mean_abs_z": 4.75,
 "by_market_abs_error": {
-"rushing_yards": 395.297
-}
-},
-{
-"category": "Turnovers",
-"total_abs_error": 354.86,
-"share_of_total_abs_error": 0.0265,
-"total_abs_z": 50.671,
-"n": 22,
-"avoidable_n": 0,
-"mean_abs_z": 2.303,
-"by_market_abs_error": {
-"receiving_yards": 208.903,
-"rushing_yards": 119.571,
-"receptions": 17.164,
-"passing_tds": 6.812,
-"interceptions": 2.41
+"rushing_yards": 395.297,
+"receptions": 3.199
 }
 },
 {
 "category": "Carry redistribution",
 "total_abs_error": 178.178,
-"share_of_total_abs_error": 0.0133,
+"share_of_total_abs_error": 0.0119,
 "total_abs_z": 25.968,
 "n": 4,
 "avoidable_n": 0,
@@ -382433,7 +382413,7 @@
 {
 "category": "Depth chart error",
 "total_abs_error": 59.319,
-"share_of_total_abs_error": 0.0044,
+"share_of_total_abs_error": 0.004,
 "total_abs_z": 11.785,
 "n": 4,
 "avoidable_n": 4,
@@ -382912,6 +382892,51 @@
 "mode": "LIVE"
 },
 {
+"game_id": "2026_05_HOU_TEN",
+"season": 2026,
+"week": 5,
+"entity_id": "00-0039032",
+"player_name": "T.Spears",
+"team": "TEN",
+"position": "RB",
+"market": "receptions",
+"expected": 1.573,
+"actual": 9.0,
+"error": 7.427,
+"z": 5.539,
+"sd": 1.341,
+"primary_reason": "Garbage time",
+"secondary_reason": "Target redistribution",
+"evidence": {
+"primary": {
+"garbage_time_stat": 4.0,
+"actual": 9.0,
+"share": 0.444,
+"team_garbage_plays": 25
+},
+"secondary": {
+"target_share": 0.22,
+"baseline_target_share": 0.053,
+"dev": 0.166,
+"snap_dev": 0.118,
+"largest_teammate_move": {
+"player_id": "00-0041438",
+"player_name": "C.Tate",
+"target_share": 0.122,
+"dev": -0.112
+}
+},
+"sd_source": "projection",
+"played": 1,
+"injury_state": "HOU:IR=5;HOU:Questionable=7;TEN:IR=3;TEN:Questionable=6"
+},
+"model_version": "game-ridge-v1-2018-2026-202609151720",
+"feature_version": "team-v1/player-v1",
+"data_available_before_kickoff": "2026-10-08T05:49:34Z",
+"avoidable": false,
+"mode": "LIVE"
+},
+{
 "game_id": "2026_04_TEN_BAL",
 "season": 2026,
 "week": 4,
@@ -383317,37 +383342,6 @@
 "data_available_before_kickoff": "2026-09-20T21:37:16Z",
 "avoidable": true,
 "mode": "LIVE"
-},
-{
-"game_id": "2026_01_DAL_NYG",
-"season": 2026,
-"week": 1,
-"entity_id": "00-0040691",
-"player_name": "J.Dart",
-"team": "NYG",
-"position": "QB",
-"market": "rushing_yards",
-"expected": 5.617,
-"actual": 49.0,
-"error": 43.383,
-"z": 4.944,
-"sd": 8.774,
-"primary_reason": "Unknown",
-"secondary_reason": null,
-"evidence": {
-"primary": {
-"abs_z": 4.944,
-"variance_z_max": 2.5
-},
-"sd_source": "projection",
-"played": 1,
-"injury_state": "DAL:IR=7;DAL:Questionable=1;NYG:IR=5;NYG:Questionable=2"
-},
-"model_version": "game-ridge-v1-2018-2025-202608281538",
-"feature_version": "team-v1/player-v1",
-"data_available_before_kickoff": "2026-09-10T21:41:29Z",
-"avoidable": false,
-"mode": "LIVE"
 }
 ],
 "not_measurable": {
@@ -383357,17 +383351,17 @@
 },
 "sources": {
 "games": 272,
-"team_game_stats": 130,
-"player_game_stats": 1282,
-"injuries": 5402,
-"weather_observations": 6772,
+"team_game_stats": 156,
+"player_game_stats": 1538,
+"injuries": 5480,
+"weather_observations": 7215,
 "depth_chart_snapshots": 1,
 "pbp_garbage_time": "cached play-by-play",
 "market_mae_proxy_from": "none",
-"rows_evaluated": 4287
+"rows_evaluated": 5064
 },
 "skipped": {
-"binary_market": 1035,
+"binary_market": 1186,
 "no_game": 0,
 "no_sd": 3
 }
@@ -389205,10 +389199,10 @@
 "season": 2026,
 "week": 5,
 "status": "OK",
-"generated_at": "2026-10-09T17:27:47Z",
+"generated_at": "2026-10-12T20:17:42Z",
 "mode": "LIVE",
-"rows_projected": 1573,
-"rows_dnp": 1573,
+"rows_projected": 110,
+"rows_dnp": 110,
 "dnp_rate": 1.0,
 "by_market": {},
 "by_position": {},
@@ -391525,12 +391519,17 @@ null,
 "2026-10-12T19:12:18Z",
 null,
 145
+],
+[
+"2026-10-12T22:40:39Z",
+null,
+154
 ]
 ],
 "current": {
 "line": null,
-"price": 145,
-"at": "2026-10-12T19:12:18Z"
+"price": 154,
+"at": "2026-10-12T22:40:39Z"
 }
 },
 "2026_05_BUF_LA|moneyline|LA|home|draftkings": {
@@ -391629,12 +391628,17 @@ null,
 "2026-10-12T19:12:18Z",
 null,
 -175
+],
+[
+"2026-10-12T22:40:39Z",
+null,
+-185
 ]
 ],
 "current": {
 "line": null,
-"price": -175,
-"at": "2026-10-12T19:12:18Z"
+"price": -185,
+"at": "2026-10-12T22:40:39Z"
 }
 },
 "2026_05_BUF_LA|spread|BUF|away|draftkings": {
@@ -391723,12 +391727,17 @@ null,
 "2026-10-12T12:27:50Z",
 3.5,
 -118
+],
+[
+"2026-10-12T22:40:39Z",
+3.5,
+-115
 ]
 ],
 "current": {
 "line": 3.5,
-"price": -118,
-"at": "2026-10-12T12:27:50Z"
+"price": -115,
+"at": "2026-10-12T22:40:39Z"
 }
 },
 "2026_05_BUF_LA|spread|LA|home|draftkings": {
@@ -391817,12 +391826,17 @@ null,
 "2026-10-12T12:27:50Z",
 -3.5,
 -102
+],
+[
+"2026-10-12T22:40:39Z",
+-3.5,
+-105
 ]
 ],
 "current": {
 "line": -3.5,
-"price": -102,
-"at": "2026-10-12T12:27:50Z"
+"price": -105,
+"at": "2026-10-12T22:40:39Z"
 }
 },
 "2026_05_BUF_LA|total|2026_05_BUF_LA|over|draftkings": {
@@ -391881,12 +391895,17 @@ null,
 "2026-10-12T12:27:50Z",
 54.5,
 -118
+],
+[
+"2026-10-12T22:40:39Z",
+55.5,
+-110
 ]
 ],
 "current": {
-"line": 54.5,
-"price": -118,
-"at": "2026-10-12T12:27:50Z"
+"line": 55.5,
+"price": -110,
+"at": "2026-10-12T22:40:39Z"
 }
 },
 "2026_05_BUF_LA|total|2026_05_BUF_LA|under|draftkings": {
@@ -391945,12 +391964,17 @@ null,
 "2026-10-12T12:27:50Z",
 54.5,
 -102
+],
+[
+"2026-10-12T22:40:39Z",
+55.5,
+-110
 ]
 ],
 "current": {
-"line": 54.5,
-"price": -102,
-"at": "2026-10-12T12:27:50Z"
+"line": 55.5,
+"price": -110,
+"at": "2026-10-12T22:40:39Z"
 }
 },
 "2026_05_CHI_GB|moneyline|CHI|away|draftkings": {
@@ -399414,12 +399438,17 @@ null,
 "2026-10-12T19:12:18Z",
 null,
 154
+],
+[
+"2026-10-12T22:40:39Z",
+null,
+150
 ]
 ],
 "current": {
 "line": null,
-"price": 154,
-"at": "2026-10-12T19:12:18Z"
+"price": 150,
+"at": "2026-10-12T22:40:39Z"
 }
 },
 "2026_05_BUF_LA|moneyline|LA|home|fanduel": {
@@ -399493,12 +399522,17 @@ null,
 "2026-10-12T19:12:18Z",
 null,
 -184
+],
+[
+"2026-10-12T22:40:39Z",
+null,
+-178
 ]
 ],
 "current": {
 "line": null,
-"price": -184,
-"at": "2026-10-12T19:12:18Z"
+"price": -178,
+"at": "2026-10-12T22:40:39Z"
 }
 },
 "2026_05_BUF_LA|spread|BUF|away|fanduel": {
@@ -399630,12 +399664,17 @@ null,
 "2026-10-05T17:08:15Z",
 54.5,
 -110
+],
+[
+"2026-10-12T22:40:39Z",
+55.5,
+-105
 ]
 ],
 "current": {
-"line": 54.5,
-"price": -110,
-"at": "2026-10-05T17:08:15Z"
+"line": 55.5,
+"price": -105,
+"at": "2026-10-12T22:40:39Z"
 }
 },
 "2026_05_BUF_LA|total|2026_05_BUF_LA|under|fanduel": {
@@ -399669,12 +399708,17 @@ null,
 "2026-10-05T17:08:15Z",
 54.5,
 -110
+],
+[
+"2026-10-12T22:40:39Z",
+55.5,
+-115
 ]
 ],
 "current": {
-"line": 54.5,
-"price": -110,
-"at": "2026-10-05T17:08:15Z"
+"line": 55.5,
+"price": -115,
+"at": "2026-10-12T22:40:39Z"
 }
 },
 "2026_05_CHI_GB|moneyline|CHI|away|fanduel": {
@@ -409705,12 +409749,17 @@ null,
 "2026-10-12T12:26:43Z",
 null,
 150
+],
+[
+"2026-10-12T22:40:47Z",
+null,
+154
 ]
 ],
 "current": {
 "line": null,
-"price": 150,
-"at": "2026-10-12T12:26:43Z"
+"price": 154,
+"at": "2026-10-12T22:40:47Z"
 }
 },
 "2026_05_BUF_LA|moneyline|LA|home|draft kings@espn": {
@@ -409749,12 +409798,17 @@ null,
 "2026-10-12T12:26:43Z",
 null,
 -180
+],
+[
+"2026-10-12T22:40:47Z",
+null,
+-185
 ]
 ],
 "current": {
 "line": null,
-"price": -180,
-"at": "2026-10-12T12:26:43Z"
+"price": -185,
+"at": "2026-10-12T22:40:47Z"
 }
 },
 "2026_05_BUF_LA|spread|BUF|away|draft kings@espn": {
@@ -409793,12 +409847,17 @@ null,
 "2026-10-12T12:26:43Z",
 3.5,
 -118
+],
+[
+"2026-10-12T22:40:47Z",
+3.5,
+-115
 ]
 ],
 "current": {
 "line": 3.5,
-"price": -118,
-"at": "2026-10-12T12:26:43Z"
+"price": -115,
+"at": "2026-10-12T22:40:47Z"
 }
 },
 "2026_05_BUF_LA|spread|LA|home|draft kings@espn": {
@@ -409837,12 +409896,17 @@ null,
 "2026-10-12T12:26:43Z",
 -3.5,
 -102
+],
+[
+"2026-10-12T22:40:47Z",
+-3.5,
+-105
 ]
 ],
 "current": {
 "line": -3.5,
-"price": -102,
-"at": "2026-10-12T12:26:43Z"
+"price": -105,
+"at": "2026-10-12T22:40:47Z"
 }
 },
 "2026_05_BUF_LA|total|2026_05_BUF_LA|over|draft kings@espn": {
@@ -409876,12 +409940,17 @@ null,
 "2026-10-12T12:26:43Z",
 54.5,
 -118
+],
+[
+"2026-10-12T22:40:47Z",
+55.5,
+-110
 ]
 ],
 "current": {
-"line": 54.5,
-"price": -118,
-"at": "2026-10-12T12:26:43Z"
+"line": 55.5,
+"price": -110,
+"at": "2026-10-12T22:40:47Z"
 }
 },
 "2026_05_BUF_LA|total|2026_05_BUF_LA|under|draft kings@espn": {
@@ -409915,12 +409984,17 @@ null,
 "2026-10-12T12:26:43Z",
 54.5,
 -102
+],
+[
+"2026-10-12T22:40:47Z",
+55.5,
+-110
 ]
 ],
 "current": {
-"line": 54.5,
-"price": -102,
-"at": "2026-10-12T12:26:43Z"
+"line": 55.5,
+"price": -110,
+"at": "2026-10-12T22:40:47Z"
 }
 },
 "2026_05_CHI_GB|moneyline|CHI|away|draft kings@espn": {
@@ -413462,7 +413536,7 @@ null,
 }
 ],
 "missing_credentials": [],
-"checked_at": "2026-10-12T20:22:50Z"
+"checked_at": "2026-10-12T22:41:17Z"
 },
 "model_changelog": [
 {
@@ -419680,17 +419754,17 @@ null,
 "sim_p_home": 0.6083,
 "independent_p_home": 0.5179,
 "independent_label": "SHADOW \u2014 experimental independent game model; did not beat the closing line 2019-2025",
-"p_home": 0.622,
+"p_home": 0.6155,
 "winner": "LA",
-"winner_p": 0.622,
+"winner_p": 0.6155,
 "underdog": "BUF",
-"underdog_p": 0.378,
-"winner_price": -184,
-"underdog_price": 154,
+"underdog_p": 0.3845,
+"winner_price": -178,
+"underdog_price": 150,
 "winner_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291277&selectionId=10782388",
 "underdog_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.612291277&selectionId=50203",
-"collected_at": "2026-10-12T20:22:18Z",
-"novig_fair_odds_winner": -165,
+"collected_at": "2026-10-12T22:40:39Z",
+"novig_fair_odds_winner": -160,
 "coin_flip": false,
 "history_band": {
 "lo": 0.6,
@@ -419723,8 +419797,8 @@ null,
 },
 "why_caption": "Measured context, not a prediction. In a pre-registered 2019-2025 test, adding these facts to the closing moneyline did not improve accuracy, so the probability shown stays the market's.",
 "context_version": 1,
-"shadow_m1_p_home": 0.6138,
-"shadow_m2_p_home": 0.6023,
+"shadow_m1_p_home": 0.6073,
+"shadow_m2_p_home": 0.5957,
 "shadow_label": "SHADOW \u2014 market + injury/QB (M1) and + form/strength/rest (M2); failed the 2019-2025 test, frozen and graded, never a pick"
 }
 ],
@@ -428044,141 +428118,11 @@ null,
 },
 "td_slate": {
 "version": 1,
-"status": "SUGGESTED",
-"games_priced": 1,
-"games_considered": 1,
+"status": "NOT_READY",
+"games_priced": 0,
+"games_considered": 0,
 "skipped": [],
-"max_per_game": 2,
-"featured_length": 2,
-"lengths": [
-2
-],
-"ladder": {
-"2": {
-"legs": [
-{
-"player_id": "00-0037840",
-"player": "Kyren Williams",
-"team": "LA",
-"position": "RB",
-"market": "anytime_td",
-"side": "yes",
-"line": null,
-"price": -160,
-"book": "fanduel",
-"link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613952775&selectionId=37101838",
-"collected_at": "2026-10-12T20:22:18Z",
-"p_model": 0.4286,
-"pathway": "GOAL_LINE_RUSHING",
-"pathway_label": "goal-line rushing role",
-"reason": "Carries 53% of his team's goal-line rushes in the projection.",
-"tier": "TD",
-"game_id": "2026_05_BUF_LA"
-},
-{
-"player_id": "00-0037248",
-"player": "James Cook",
-"team": "BUF",
-"position": "RB",
-"market": "anytime_td",
-"side": "yes",
-"line": null,
-"price": -110,
-"book": "fanduel",
-"link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613952775&selectionId=42200635",
-"collected_at": "2026-10-12T20:22:18Z",
-"p_model": 0.4286,
-"pathway": "GOAL_LINE_RUSHING",
-"pathway_label": "goal-line rushing role",
-"reason": "Carries 54% of his team's goal-line rushes in the projection.",
-"tier": "TD",
-"game_id": "2026_05_BUF_LA"
-}
-],
-"length": 2,
-"games": 1,
-"joint_p": 0.3387,
-"joint_se": 0.0122,
-"n_draws": 1500,
-"per_game": [
-{
-"game_id": "2026_05_BUF_LA",
-"legs": 2,
-"joint": 0.3387,
-"independent_would_be": 0.3361,
-"dependence": 1.0077
-}
-],
-"pathways": [
-"GOAL_LINE_RUSHING"
-],
-"method": "Within each game: one mask over that game's 1500 published draws \u2014 the fraction of simulated worlds in which every leg from that game scores. Across games: the product of those measured per-game numbers, because each game is a separate simulation with its own seed. No player's individual probability is ever multiplied by another's.",
-"warning": "33.867% (\u00b12.395pp) \u2014 about 1 in 3. That is the probability that ALL 2 of these players score in one game, not a prediction that they will. Every shorter rung is published with its own measured probability, so the length is your choice rather than the product's."
-}
-},
-"legs": [
-{
-"player_id": "00-0037840",
-"player": "Kyren Williams",
-"team": "LA",
-"position": "RB",
-"market": "anytime_td",
-"side": "yes",
-"line": null,
-"price": -160,
-"book": "fanduel",
-"link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613952775&selectionId=37101838",
-"collected_at": "2026-10-12T20:22:18Z",
-"p_model": 0.4286,
-"pathway": "GOAL_LINE_RUSHING",
-"pathway_label": "goal-line rushing role",
-"reason": "Carries 53% of his team's goal-line rushes in the projection.",
-"tier": "TD",
-"game_id": "2026_05_BUF_LA"
-},
-{
-"player_id": "00-0037248",
-"player": "James Cook",
-"team": "BUF",
-"position": "RB",
-"market": "anytime_td",
-"side": "yes",
-"line": null,
-"price": -110,
-"book": "fanduel",
-"link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.613952775&selectionId=42200635",
-"collected_at": "2026-10-12T20:22:18Z",
-"p_model": 0.4286,
-"pathway": "GOAL_LINE_RUSHING",
-"pathway_label": "goal-line rushing role",
-"reason": "Carries 54% of his team's goal-line rushes in the projection.",
-"tier": "TD",
-"game_id": "2026_05_BUF_LA"
-}
-],
-"length": 2,
-"games": 1,
-"joint_p": 0.3387,
-"joint_se": 0.0122,
-"n_draws": 1500,
-"per_game": [
-{
-"game_id": "2026_05_BUF_LA",
-"legs": 2,
-"joint": 0.3387,
-"independent_would_be": 0.3361,
-"dependence": 1.0077
-}
-],
-"pathways": [
-"GOAL_LINE_RUSHING"
-],
-"method": "Within each game: one mask over that game's 1500 published draws \u2014 the fraction of simulated worlds in which every leg from that game scores. Across games: the product of those measured per-game numbers, because each game is a separate simulation with its own seed. No player's individual probability is ever multiplied by another's.",
-"warning": "33.867% (\u00b12.395pp) \u2014 about 1 in 3. That is the probability that ALL 2 of these players score in one game, not a prediction that they will. Every shorter rung is published with its own measured probability, so the length is your choice rather than the product's.",
-"single_game": "2026_05_BUF_LA",
-"single_game_note": "Only 1 of this week's 1 games has a priced touchdown market so far, so this IS that game's ticket \u2014 the same legs, measured the same way, not a second product. It grows into a real week ticket as the rest of the week's markets are priced.",
-"independence_note": "Across games there is no correlation to exploit \u2014 separate simulations, separate seeds \u2014 so taking each game's best-supported scoring leg is already the highest-probability ticket at that length. The analysis that separates one ticket from another happens INSIDE a game, which is where the scoring pathways and the same-opportunity guardrail are applied.",
-"basis": "Anytime touchdown only, from each game's own priced pool and its own simulated draws. Scoring pathways are ranks inside a player's own team on the usage shares the pipeline already publishes. First TD and 2+ TD are different markets and are never mixed in.",
+"why": "No game in this week has a real FanDuel anytime-touchdown offer with a simulated draw series yet, so there is nothing to build a ticket from. Nothing is estimated in the meantime.",
 "week": 5,
 "season": 2026
 },
@@ -532143,7 +532087,7 @@ null,
 "complete": true
 },
 "published": true,
-"graded_at": "2026-10-12T20:22:24Z",
+"graded_at": "2026-10-12T22:40:52Z",
 "grading_policy_version": 2,
 "corrections": [
 {
@@ -571463,7 +571407,7 @@ null,
 "complete": false
 },
 "published": false,
-"graded_at": "2026-10-12T20:22:24Z",
+"graded_at": "2026-10-12T22:40:52Z",
 "grading_policy_version": 2,
 "corrections": [],
 "state": "in_progress",
@@ -595419,18 +595363,481 @@ null,
 }
 }
 ],
-"generated_at": "2026-10-12T20:22:52Z"
+"generated_at": "2026-10-12T22:41:20Z"
 },
 "ticket_history_capture": {
-"pending": 3,
-"frozen": 0,
+"pending": 0,
+"frozen": 3,
 "skipped_locked_without_pending": 0
 },
 "results_detail": {
 "version": 1,
 "season": 2026,
-"generated_at": "2026-10-12T20:22:53Z",
+"generated_at": "2026-10-12T22:41:20Z",
 "props": [
+{
+"game_id": "2026_05_BUF_LA",
+"week": 5,
+"kickoff_utc": "2026-10-13T00:15:00Z",
+"matchup": "BUF @ LA",
+"player_id": "00-0033110",
+"player": "Tyler Higbee",
+"team": "LA",
+"opponent": "BUF",
+"market": "receiving_yards",
+"side": "over",
+"line": 29.5,
+"projection": 30.2876,
+"model_probability": 0.3014,
+"actual": null,
+"result": "PENDING",
+"key": "2026_05_BUF_LA|00-0033110|receiving_yards|over|29.5",
+"sources": [
+"AGGRESSIVE"
+],
+"prices": [
+{
+"source": "AGGRESSIVE",
+"price": 108,
+"collected_at": "2026-10-12T19:12:18Z"
+}
+],
+"tickets": [
+{
+"id": "GAME_AGGRESSIVE|2026|05|2026_05_BUF_LA",
+"label": "AGGRESSIVE PARLAY",
+"leg": 1,
+"ticket_result": "PENDING"
+}
+],
+"position": "TE",
+"price": 108,
+"price_source": "AGGRESSIVE"
+},
+{
+"game_id": "2026_05_BUF_LA",
+"week": 5,
+"kickoff_utc": "2026-10-13T00:15:00Z",
+"matchup": "BUF @ LA",
+"player_id": "00-0039075",
+"player": "Puka Nacua",
+"team": "LA",
+"opponent": "BUF",
+"market": "anytime_td",
+"side": "yes",
+"line": null,
+"projection": null,
+"model_probability": 0.423,
+"actual": null,
+"result": "PENDING",
+"key": "2026_05_BUF_LA|00-0039075|anytime_td|yes|0.5",
+"sources": [
+"TD"
+],
+"prices": [
+{
+"source": "TD",
+"price": -120,
+"collected_at": "2026-10-12T20:22:18Z"
+}
+],
+"tickets": [
+{
+"id": "GAME_TD|2026|05|2026_05_BUF_LA",
+"label": "TD PARLAY",
+"leg": 2,
+"ticket_result": "PENDING"
+}
+],
+"position": "WR",
+"price": -120,
+"price_source": "TD"
+},
+{
+"game_id": "2026_05_BUF_LA",
+"week": 5,
+"kickoff_utc": "2026-10-13T00:15:00Z",
+"matchup": "BUF @ LA",
+"player_id": "00-0026498",
+"player": "Matthew Stafford",
+"team": "LA",
+"opponent": "BUF",
+"market": "passing_yards",
+"side": "over",
+"line": 299.5,
+"projection": 259.4172,
+"model_probability": 0.3012,
+"actual": null,
+"result": "PENDING",
+"key": "2026_05_BUF_LA|00-0026498|passing_yards|over|299.5",
+"sources": [
+"AGGRESSIVE"
+],
+"prices": [
+{
+"source": "AGGRESSIVE",
+"price": 140,
+"collected_at": "2026-10-12T19:12:18Z"
+}
+],
+"tickets": [
+{
+"id": "GAME_AGGRESSIVE|2026|05|2026_05_BUF_LA",
+"label": "AGGRESSIVE PARLAY",
+"leg": 2,
+"ticket_result": "PENDING"
+}
+],
+"position": "QB",
+"price": 140,
+"price_source": "AGGRESSIVE"
+},
+{
+"game_id": "2026_05_BUF_LA",
+"week": 5,
+"kickoff_utc": "2026-10-13T00:15:00Z",
+"matchup": "BUF @ LA",
+"player_id": "00-0037840",
+"player": "Kyren Williams",
+"team": "LA",
+"opponent": "BUF",
+"market": "rushing_yards",
+"side": "over",
+"line": 79.5,
+"projection": 70.2206,
+"model_probability": 0.2925,
+"actual": null,
+"result": "PENDING",
+"key": "2026_05_BUF_LA|00-0037840|rushing_yards|over|79.5",
+"sources": [
+"AGGRESSIVE"
+],
+"prices": [
+{
+"source": "AGGRESSIVE",
+"price": 148,
+"collected_at": "2026-10-12T19:12:18Z"
+}
+],
+"tickets": [
+{
+"id": "GAME_AGGRESSIVE|2026|05|2026_05_BUF_LA",
+"label": "AGGRESSIVE PARLAY",
+"leg": 3,
+"ticket_result": "PENDING"
+}
+],
+"position": "RB",
+"price": 148,
+"price_source": "AGGRESSIVE"
+},
+{
+"game_id": "2026_05_BUF_LA",
+"week": 5,
+"kickoff_utc": "2026-10-13T00:15:00Z",
+"matchup": "BUF @ LA",
+"player_id": "00-0037840",
+"player": "Kyren Williams",
+"team": "LA",
+"opponent": "BUF",
+"market": "anytime_td",
+"side": "yes",
+"line": null,
+"projection": null,
+"model_probability": 0.4366,
+"actual": null,
+"result": "PENDING",
+"key": "2026_05_BUF_LA|00-0037840|anytime_td|yes|0.5",
+"sources": [
+"WEEK_TD",
+"TD"
+],
+"prices": [
+{
+"source": "WEEK_TD",
+"price": -170,
+"collected_at": "2026-10-08T15:48:39Z"
+},
+{
+"source": "WEEK_TD",
+"price": -170,
+"collected_at": "2026-10-11T05:32:25Z"
+},
+{
+"source": "WEEK_TD",
+"price": -170,
+"collected_at": "2026-10-11T11:02:59Z"
+},
+{
+"source": "WEEK_TD",
+"price": -170,
+"collected_at": "2026-10-11T21:00:11Z"
+},
+{
+"source": "TD",
+"price": -160,
+"collected_at": "2026-10-12T20:22:18Z"
+},
+{
+"source": "WEEK_TD",
+"price": -160,
+"collected_at": "2026-10-12T20:22:18Z"
+}
+],
+"tickets": [
+{
+"id": "WEEK_TD|2026|05|week-b0a73d5f2c",
+"label": "FULL-WEEK TD PARLAY",
+"leg": 5,
+"ticket_result": "LOSS"
+},
+{
+"id": "WEEK_TD|2026|05|week-5c7c5a430d",
+"label": "FULL-WEEK TD PARLAY",
+"leg": 7,
+"ticket_result": "LOSS"
+},
+{
+"id": "WEEK_TD|2026|05|week-4ae4709b07",
+"label": "FULL-WEEK TD PARLAY",
+"leg": 10,
+"ticket_result": "LOSS"
+},
+{
+"id": "WEEK_TD|2026|05|week-562093bbd0",
+"label": "FULL-WEEK TD PARLAY",
+"leg": 2,
+"ticket_result": "LOSS"
+},
+{
+"id": "GAME_TD|2026|05|2026_05_BUF_LA",
+"label": "TD PARLAY",
+"leg": 0,
+"ticket_result": "PENDING"
+},
+{
+"id": "WEEK_TD|2026|05|week-79ab33936c",
+"label": "FULL-WEEK TD PARLAY",
+"leg": 0,
+"ticket_result": "PENDING"
+}
+],
+"position": "RB",
+"price": -170,
+"price_source": "WEEK_TD"
+},
+{
+"game_id": "2026_05_BUF_LA",
+"week": 5,
+"kickoff_utc": "2026-10-13T00:15:00Z",
+"matchup": "BUF @ LA",
+"player_id": "00-0034857",
+"player": "Josh Allen",
+"team": "BUF",
+"opponent": "LA",
+"market": "passing_yards",
+"side": "over",
+"line": 274.5,
+"projection": 240.48,
+"model_probability": 0.3159,
+"actual": null,
+"result": "PENDING",
+"key": "2026_05_BUF_LA|00-0034857|passing_yards|over|274.5",
+"sources": [
+"AGGRESSIVE"
+],
+"prices": [
+{
+"source": "AGGRESSIVE",
+"price": 174,
+"collected_at": "2026-10-12T19:12:18Z"
+}
+],
+"tickets": [
+{
+"id": "GAME_AGGRESSIVE|2026|05|2026_05_BUF_LA",
+"label": "AGGRESSIVE PARLAY",
+"leg": 0,
+"ticket_result": "PENDING"
+}
+],
+"position": "QB",
+"price": 174,
+"price_source": "AGGRESSIVE"
+},
+{
+"game_id": "2026_05_BUF_LA",
+"week": 5,
+"kickoff_utc": "2026-10-13T00:15:00Z",
+"matchup": "BUF @ LA",
+"player_id": "00-0037248",
+"player": "James Cook",
+"team": "BUF",
+"opponent": "LA",
+"market": "anytime_td",
+"side": "yes",
+"line": null,
+"projection": null,
+"model_probability": 0.4286,
+"actual": null,
+"result": "PENDING",
+"key": "2026_05_BUF_LA|00-0037248|anytime_td|yes|0.5",
+"sources": [
+"WEEK_TD",
+"TD"
+],
+"prices": [
+{
+"source": "WEEK_TD",
+"price": -115,
+"collected_at": "2026-10-08T15:48:39Z"
+},
+{
+"source": "WEEK_TD",
+"price": -120,
+"collected_at": "2026-10-11T05:32:25Z"
+},
+{
+"source": "WEEK_TD",
+"price": -120,
+"collected_at": "2026-10-11T11:02:59Z"
+},
+{
+"source": "WEEK_TD",
+"price": -120,
+"collected_at": "2026-10-11T21:00:11Z"
+},
+{
+"source": "TD",
+"price": -110,
+"collected_at": "2026-10-12T20:22:18Z"
+},
+{
+"source": "WEEK_TD",
+"price": -110,
+"collected_at": "2026-10-12T20:22:18Z"
+}
+],
+"tickets": [
+{
+"id": "WEEK_TD|2026|05|week-b0a73d5f2c",
+"label": "FULL-WEEK TD PARLAY",
+"leg": 13,
+"ticket_result": "LOSS"
+},
+{
+"id": "WEEK_TD|2026|05|week-5c7c5a430d",
+"label": "FULL-WEEK TD PARLAY",
+"leg": 12,
+"ticket_result": "LOSS"
+},
+{
+"id": "WEEK_TD|2026|05|week-4ae4709b07",
+"label": "FULL-WEEK TD PARLAY",
+"leg": 13,
+"ticket_result": "LOSS"
+},
+{
+"id": "WEEK_TD|2026|05|week-562093bbd0",
+"label": "FULL-WEEK TD PARLAY",
+"leg": 3,
+"ticket_result": "LOSS"
+},
+{
+"id": "GAME_TD|2026|05|2026_05_BUF_LA",
+"label": "TD PARLAY",
+"leg": 1,
+"ticket_result": "PENDING"
+},
+{
+"id": "WEEK_TD|2026|05|week-79ab33936c",
+"label": "FULL-WEEK TD PARLAY",
+"leg": 1,
+"ticket_result": "PENDING"
+}
+],
+"position": "RB",
+"price": -115,
+"price_source": "WEEK_TD"
+},
+{
+"game_id": "2026_05_BUF_LA",
+"week": 5,
+"kickoff_utc": "2026-10-13T00:15:00Z",
+"matchup": "BUF @ LA",
+"player_id": "00-0031381",
+"player": "Davante Adams",
+"team": "LA",
+"opponent": "BUF",
+"market": "receptions",
+"side": "over",
+"line": 4.5,
+"projection": 3.9597,
+"model_probability": 0.2755,
+"actual": null,
+"result": "PENDING",
+"key": "2026_05_BUF_LA|00-0031381|receptions|over|4.5",
+"sources": [
+"AGGRESSIVE"
+],
+"prices": [
+{
+"source": "AGGRESSIVE",
+"price": 108,
+"collected_at": "2026-10-12T20:22:18Z"
+}
+],
+"tickets": [
+{
+"id": "GAME_AGGRESSIVE|2026|05|2026_05_BUF_LA",
+"label": "AGGRESSIVE PARLAY",
+"leg": 4,
+"ticket_result": "PENDING"
+}
+],
+"position": "WR",
+"price": 108,
+"price_source": "AGGRESSIVE"
+},
+{
+"game_id": "2026_05_BUF_LA",
+"week": 5,
+"kickoff_utc": "2026-10-13T00:15:00Z",
+"matchup": "BUF @ LA",
+"player_id": "00-0031381",
+"player": "Davante Adams",
+"team": "LA",
+"opponent": "BUF",
+"market": "anytime_td",
+"side": "yes",
+"line": null,
+"projection": null,
+"model_probability": 0.375,
+"actual": null,
+"result": "PENDING",
+"key": "2026_05_BUF_LA|00-0031381|anytime_td|yes|0.5",
+"sources": [
+"TD"
+],
+"prices": [
+{
+"source": "TD",
+"price": 100,
+"collected_at": "2026-10-12T20:22:18Z"
+}
+],
+"tickets": [
+{
+"id": "GAME_TD|2026|05|2026_05_BUF_LA",
+"label": "TD PARLAY",
+"leg": 3,
+"ticket_result": "PENDING"
+}
+],
+"position": "WR",
+"price": 100,
+"price_source": "TD"
+},
 {
 "game_id": "2026_05_BAL_ATL",
 "week": 5,
@@ -712835,153 +713242,245 @@ null,
 "position": "WR",
 "price": -113,
 "price_source": "PICK"
-},
+}
+],
+"tickets": [
 {
-"game_id": "2026_05_BUF_LA",
+"id": "GAME_TD|2026|05|2026_05_BUF_LA",
+"type": "TD",
 "week": 5,
-"kickoff_utc": null,
+"game_ids": [
+"2026_05_BUF_LA"
+],
 "matchup": "BUF @ LA",
+"kickoff_utc": "2026-10-13T00:15:00Z",
+"frozen_at": "2026-10-12T22:41:20Z",
+"published_at": "2026-10-12T20:22:50Z",
+"official": false,
+"provenance": "RECORDED - last publication before lock (2026-10-12T20:22:50Z)",
+"recovered": false,
+"joint_p": 0.0533,
+"legs": [
+{
+"key": "2026_05_BUF_LA|00-0037840|anytime_td|yes|0.5",
+"game_id": "2026_05_BUF_LA",
 "player_id": "00-0037840",
 "player": "Kyren Williams",
 "team": "LA",
-"opponent": "BUF",
 "market": "anytime_td",
 "side": "yes",
 "line": null,
+"price": -160,
+"book": "fanduel",
+"collected_at": "2026-10-12T20:22:18Z",
+"p_model": 0.4286,
 "projection": null,
-"model_probability": 0.4366,
 "actual": null,
 "result": "PENDING",
-"key": "2026_05_BUF_LA|00-0037840|anytime_td|yes|0.5",
-"sources": [
-"WEEK_TD"
-],
-"prices": [
-{
-"source": "WEEK_TD",
-"price": -170,
-"collected_at": "2026-10-08T15:48:39Z"
+"reason": null
 },
 {
-"source": "WEEK_TD",
-"price": -170,
-"collected_at": "2026-10-11T05:32:25Z"
-},
-{
-"source": "WEEK_TD",
-"price": -170,
-"collected_at": "2026-10-11T11:02:59Z"
-},
-{
-"source": "WEEK_TD",
-"price": -170,
-"collected_at": "2026-10-11T21:00:11Z"
-}
-],
-"tickets": [
-{
-"id": "WEEK_TD|2026|05|week-b0a73d5f2c",
-"label": "FULL-WEEK TD PARLAY",
-"leg": 5,
-"ticket_result": "LOSS"
-},
-{
-"id": "WEEK_TD|2026|05|week-5c7c5a430d",
-"label": "FULL-WEEK TD PARLAY",
-"leg": 7,
-"ticket_result": "LOSS"
-},
-{
-"id": "WEEK_TD|2026|05|week-4ae4709b07",
-"label": "FULL-WEEK TD PARLAY",
-"leg": 10,
-"ticket_result": "LOSS"
-},
-{
-"id": "WEEK_TD|2026|05|week-562093bbd0",
-"label": "FULL-WEEK TD PARLAY",
-"leg": 2,
-"ticket_result": "LOSS"
-}
-],
-"position": "RB",
-"price": -170,
-"price_source": "WEEK_TD"
-},
-{
+"key": "2026_05_BUF_LA|00-0037248|anytime_td|yes|0.5",
 "game_id": "2026_05_BUF_LA",
-"week": 5,
-"kickoff_utc": null,
-"matchup": "BUF @ LA",
 "player_id": "00-0037248",
 "player": "James Cook",
 "team": "BUF",
-"opponent": "LA",
 "market": "anytime_td",
 "side": "yes",
 "line": null,
+"price": -110,
+"book": "fanduel",
+"collected_at": "2026-10-12T20:22:18Z",
+"p_model": 0.4286,
 "projection": null,
-"model_probability": 0.4286,
 "actual": null,
 "result": "PENDING",
-"key": "2026_05_BUF_LA|00-0037248|anytime_td|yes|0.5",
-"sources": [
-"WEEK_TD"
-],
-"prices": [
-{
-"source": "WEEK_TD",
-"price": -115,
-"collected_at": "2026-10-08T15:48:39Z"
+"reason": null
 },
 {
-"source": "WEEK_TD",
+"key": "2026_05_BUF_LA|00-0039075|anytime_td|yes|0.5",
+"game_id": "2026_05_BUF_LA",
+"player_id": "00-0039075",
+"player": "Puka Nacua",
+"team": "LA",
+"market": "anytime_td",
+"side": "yes",
+"line": null,
 "price": -120,
-"collected_at": "2026-10-11T05:32:25Z"
+"book": "fanduel",
+"collected_at": "2026-10-12T20:22:18Z",
+"p_model": 0.423,
+"projection": null,
+"actual": null,
+"result": "PENDING",
+"reason": null
 },
 {
-"source": "WEEK_TD",
-"price": -120,
-"collected_at": "2026-10-11T11:02:59Z"
-},
-{
-"source": "WEEK_TD",
-"price": -120,
-"collected_at": "2026-10-11T21:00:11Z"
+"key": "2026_05_BUF_LA|00-0031381|anytime_td|yes|0.5",
+"game_id": "2026_05_BUF_LA",
+"player_id": "00-0031381",
+"player": "Davante Adams",
+"team": "LA",
+"market": "anytime_td",
+"side": "yes",
+"line": null,
+"price": 100,
+"book": "fanduel",
+"collected_at": "2026-10-12T20:22:18Z",
+"p_model": 0.375,
+"projection": null,
+"actual": null,
+"result": "PENDING",
+"reason": null
 }
 ],
-"tickets": [
-{
-"id": "WEEK_TD|2026|05|week-b0a73d5f2c",
-"label": "FULL-WEEK TD PARLAY",
-"leg": 13,
-"ticket_result": "LOSS"
+"result": "PENDING",
+"reduced": false,
+"stored_result": null,
+"result_mismatch": false,
+"legs_won": 0,
+"legs_lost": 0,
+"legs_total": 4,
+"losing_legs": [],
+"stored_price": null,
+"estimate": {
+"decimal": 11.375,
+"american": 1038,
+"counted": 4,
+"missing": 0,
+"label": "ESTIMATED FROM RECORDED LEG ODDS",
+"reduced": false
+},
+"family": "TD",
+"label": "TD PARLAY"
 },
 {
-"id": "WEEK_TD|2026|05|week-5c7c5a430d",
-"label": "FULL-WEEK TD PARLAY",
-"leg": 12,
-"ticket_result": "LOSS"
+"id": "GAME_AGGRESSIVE|2026|05|2026_05_BUF_LA",
+"type": "AGGRESSIVE",
+"week": 5,
+"game_ids": [
+"2026_05_BUF_LA"
+],
+"matchup": "BUF @ LA",
+"kickoff_utc": "2026-10-13T00:15:00Z",
+"frozen_at": "2026-10-12T22:41:20Z",
+"published_at": "2026-10-12T20:22:50Z",
+"official": false,
+"provenance": "RECORDED - last publication before lock (2026-10-12T20:22:50Z)",
+"recovered": false,
+"joint_p": 0.0087,
+"legs": [
+{
+"key": "2026_05_BUF_LA|00-0034857|passing_yards|over|274.5",
+"game_id": "2026_05_BUF_LA",
+"player_id": "00-0034857",
+"player": "Josh Allen",
+"team": "BUF",
+"market": "passing_yards",
+"side": "over",
+"line": 274.5,
+"price": 174,
+"book": "fanduel",
+"collected_at": "2026-10-12T19:12:18Z",
+"p_model": 0.3159,
+"projection": 240.48,
+"actual": null,
+"result": "PENDING",
+"reason": null
 },
 {
-"id": "WEEK_TD|2026|05|week-4ae4709b07",
-"label": "FULL-WEEK TD PARLAY",
-"leg": 13,
-"ticket_result": "LOSS"
+"key": "2026_05_BUF_LA|00-0033110|receiving_yards|over|29.5",
+"game_id": "2026_05_BUF_LA",
+"player_id": "00-0033110",
+"player": "Tyler Higbee",
+"team": "LA",
+"market": "receiving_yards",
+"side": "over",
+"line": 29.5,
+"price": 108,
+"book": "fanduel",
+"collected_at": "2026-10-12T19:12:18Z",
+"p_model": 0.3014,
+"projection": 30.2876,
+"actual": null,
+"result": "PENDING",
+"reason": null
 },
 {
-"id": "WEEK_TD|2026|05|week-562093bbd0",
-"label": "FULL-WEEK TD PARLAY",
-"leg": 3,
-"ticket_result": "LOSS"
+"key": "2026_05_BUF_LA|00-0026498|passing_yards|over|299.5",
+"game_id": "2026_05_BUF_LA",
+"player_id": "00-0026498",
+"player": "Matthew Stafford",
+"team": "LA",
+"market": "passing_yards",
+"side": "over",
+"line": 299.5,
+"price": 140,
+"book": "fanduel",
+"collected_at": "2026-10-12T19:12:18Z",
+"p_model": 0.3012,
+"projection": 259.4172,
+"actual": null,
+"result": "PENDING",
+"reason": null
+},
+{
+"key": "2026_05_BUF_LA|00-0037840|rushing_yards|over|79.5",
+"game_id": "2026_05_BUF_LA",
+"player_id": "00-0037840",
+"player": "Kyren Williams",
+"team": "LA",
+"market": "rushing_yards",
+"side": "over",
+"line": 79.5,
+"price": 148,
+"book": "fanduel",
+"collected_at": "2026-10-12T19:12:18Z",
+"p_model": 0.2925,
+"projection": 70.2206,
+"actual": null,
+"result": "PENDING",
+"reason": null
+},
+{
+"key": "2026_05_BUF_LA|00-0031381|receptions|over|4.5",
+"game_id": "2026_05_BUF_LA",
+"player_id": "00-0031381",
+"player": "Davante Adams",
+"team": "LA",
+"market": "receptions",
+"side": "over",
+"line": 4.5,
+"price": 108,
+"book": "fanduel",
+"collected_at": "2026-10-12T20:22:18Z",
+"p_model": 0.2755,
+"projection": 3.9597,
+"actual": null,
+"result": "PENDING",
+"reason": null
 }
 ],
-"position": "RB",
-"price": -115,
-"price_source": "WEEK_TD"
-}
-],
-"tickets": [
+"result": "PENDING",
+"reduced": false,
+"stored_result": null,
+"result_mismatch": false,
+"legs_won": 0,
+"legs_lost": 0,
+"legs_total": 5,
+"losing_legs": [],
+"stored_price": null,
+"estimate": {
+"decimal": 70.557,
+"american": 6956,
+"counted": 5,
+"missing": 0,
+"label": "ESTIMATED FROM RECORDED LEG ODDS",
+"reduced": false
+},
+"family": "AGGRESSIVE",
+"label": "AGGRESSIVE PARLAY"
+},
 {
 "id": "SAFE|2026|5|2026_05_BAL_ATL",
 "type": "SAFE",
@@ -735435,6 +735934,79 @@ null,
 "label": "FULL-WEEK TD PARLAY"
 },
 {
+"id": "WEEK_TD|2026|05|week-79ab33936c",
+"type": "WEEK_TD",
+"week": 5,
+"game_ids": [
+"2026_05_BUF_LA"
+],
+"matchup": "BUF @ LA",
+"kickoff_utc": "",
+"frozen_at": "2026-10-12T22:41:20Z",
+"published_at": "2026-10-12T20:22:50Z",
+"official": false,
+"provenance": "RECORDED - last publication before lock (2026-10-12T20:22:50Z)",
+"recovered": false,
+"joint_p": 0.3387,
+"legs": [
+{
+"key": "2026_05_BUF_LA|00-0037840|anytime_td|yes|0.5",
+"game_id": "2026_05_BUF_LA",
+"player_id": "00-0037840",
+"player": "Kyren Williams",
+"team": "LA",
+"market": "anytime_td",
+"side": "yes",
+"line": null,
+"price": -160,
+"book": "fanduel",
+"collected_at": "2026-10-12T20:22:18Z",
+"p_model": 0.4286,
+"projection": null,
+"actual": null,
+"result": "PENDING",
+"reason": null
+},
+{
+"key": "2026_05_BUF_LA|00-0037248|anytime_td|yes|0.5",
+"game_id": "2026_05_BUF_LA",
+"player_id": "00-0037248",
+"player": "James Cook",
+"team": "BUF",
+"market": "anytime_td",
+"side": "yes",
+"line": null,
+"price": -110,
+"book": "fanduel",
+"collected_at": "2026-10-12T20:22:18Z",
+"p_model": 0.4286,
+"projection": null,
+"actual": null,
+"result": "PENDING",
+"reason": null
+}
+],
+"result": "PENDING",
+"reduced": false,
+"stored_result": null,
+"result_mismatch": false,
+"legs_won": 0,
+"legs_lost": 0,
+"legs_total": 2,
+"losing_legs": [],
+"stored_price": null,
+"estimate": {
+"decimal": 3.1023,
+"american": 210,
+"counted": 2,
+"missing": 0,
+"label": "ESTIMATED FROM RECORDED LEG ODDS",
+"reduced": false
+},
+"family": "WEEK_TD",
+"label": "FULL-WEEK TD PARLAY"
+},
+{
 "id": "WEEK_TD|2026|05|week-5c7c5a430d",
 "type": "WEEK_TD",
 "week": 5,
@@ -736527,9 +737099,9 @@ null,
 "00-0041547": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ztdyzyngqr1pexyghlt3"
 },
 "meta": {
-"n_props": 2687,
-"n_tickets": 185,
-"n_priced_props": 1846,
+"n_props": 2694,
+"n_tickets": 188,
+"n_priced_props": 1853,
 "leg_result_mismatches": 1,
 "stored_combined_prices": 0,
 "sources": [
@@ -736545,9 +737117,9 @@ null,
 }
 },
 "results_meta": {
-"n_props": 2687,
-"n_tickets": 185,
-"n_priced_props": 1846,
+"n_props": 2694,
+"n_tickets": 188,
+"n_priced_props": 1853,
 "leg_result_mismatches": 1,
 "stored_combined_prices": 0,
 "sources": [
@@ -736562,8 +737134,8 @@ null,
 "canonical_identity": "game_id | player_id | market | side | line (milestone T+ = OVER T-0.5)"
 },
 "research_board_capture": {
-"games_frozen": 0,
-"props": 0
+"games_frozen": 1,
+"props": 396
 },
 "pnl": {
 "season": 2026,
