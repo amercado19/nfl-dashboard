@@ -1,13 +1,13 @@
 {
 "version": "nfl-picks 0.52.0",
-"generated_at": "2026-11-23T21:44:12Z",
+"generated_at": "2026-11-23T22:44:19Z",
 "season": 2026,
 "week": 11,
 "game_type": "REG",
 "deploy": {
 "version": "nfl-picks 0.52.0",
-"commit": "6f3740b62c0c",
-"built_at": "2026-11-23T21:44:12Z",
+"commit": "9cf54eade603",
+"built_at": "2026-11-23T22:44:19Z",
 "repo_url": "https://github.com/amercado19/nfl-pipeline",
 "issues_url": "https://github.com/amercado19/nfl-pipeline/issues/new/choose",
 "actions_url": "https://github.com/amercado19/nfl-pipeline/actions",
@@ -32,7 +32,7 @@
 "game_lines": {
 "label": "Game lines (free ESPN/DK)",
 "state": "LIVE",
-"detail": "156 rows, last 2026-11-23T21:39:16Z"
+"detail": "156 rows, last 2026-11-23T22:42:44Z"
 },
 "prop_odds": {
 "label": "Player prop odds (Odds API)",
@@ -1171,73 +1171,73 @@
 ],
 "freshness": {
 "schedule": {
-"last": "2026-11-23T21:39:16Z",
-"age_hours": 0.1,
+"last": "2026-11-23T22:42:44Z",
+"age_hours": 0.0,
 "stale": false
 },
 "rosters": {
 "last": "2026-11-23T21:38:42Z",
-"age_hours": 0.1,
+"age_hours": 1.1,
 "stale": false
 },
 "depth": {
 "last": "2026-11-22T02:52:45Z",
-"age_hours": 42.8,
+"age_hours": 43.9,
 "stale": true
 },
 "injuries": {
 "last": "2026-11-23T21:38:45Z",
-"age_hours": 0.1,
+"age_hours": 1.1,
 "stale": false
 },
 "news": {
 "last": "2026-11-23T21:38:46Z",
-"age_hours": 0.1,
+"age_hours": 1.1,
 "stale": false
 },
 "odds": {
-"last": "2026-11-23T21:38:56Z",
-"age_hours": 0.1,
+"last": "2026-11-23T22:42:41Z",
+"age_hours": 0.0,
 "stale": false
 },
 "futures": {
 "last": "2026-11-10T19:44:29Z",
-"age_hours": 314.0,
+"age_hours": 315.0,
 "stale": false
 },
 "weather": {
 "last": "2026-11-23T21:38:49Z",
-"age_hours": 0.1,
+"age_hours": 1.1,
 "stale": false
 },
 "stats": {
-"last": "2026-11-23T21:39:23Z",
-"age_hours": 0.1,
+"last": "2026-11-23T22:42:44Z",
+"age_hours": 0.0,
 "stale": false
 },
 "projections": {
 "last": "2026-11-23T21:39:39Z",
-"age_hours": 0.1,
+"age_hours": 1.1,
 "stale": false
 },
 "season_sim": {
 "last": "2026-11-23T07:28:33Z",
-"age_hours": 14.2,
+"age_hours": 15.3,
 "stale": false
 },
 "transactions": {
 "last": "2026-11-23T21:38:45Z",
-"age_hours": 0.1,
+"age_hours": 1.1,
 "stale": false
 }
 },
 "alerts": [
-"depth: 43h old",
+"depth: 44h old",
 "odds: 828 closing-line conflict(s) \u2014 see duplicate_odds diagnostic",
 "WARN closing-line capture: 9 Official(s) in 6 game(s) kicked off in the last 48h with no FanDuel close captured (CLV coverage gap)"
 ],
 "workflow_runs": {
-"n_recorded": 623,
+"n_recorded": 624,
 "workflows": [
 {
 "workflow": "backtest-models",
@@ -1271,15 +1271,15 @@
 },
 {
 "workflow": "scheduler",
-"runs": 621,
+"runs": 622,
 "failures_14d": 25,
 "last": {
-"at": "2026-11-23T15:30:41Z",
+"at": "2026-11-23T21:45:28Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/45203911536",
-"duration_s": 300
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/45270701211",
+"duration_s": 408
 },
-"last_success": "2026-11-23T15:30:41Z",
+"last_success": "2026-11-23T21:45:28Z",
 "last_failure": {
 "at": "2026-11-18T07:07:42Z",
 "url": "https://github.com/amercado19/nfl-pipeline/actions/runs/44255922496",
@@ -2260,7 +2260,7 @@
 }
 ],
 "currently_failing": [],
-"last_successful_run": "2026-11-23T15:30:41Z",
+"last_successful_run": "2026-11-23T21:45:28Z",
 "status": "ok",
 "note": "one row per GitHub Actions execution (scheduler + manual); written by the run-summary step before the store is committed"
 },
@@ -2271,7 +2271,7 @@
 "detail": "build ran inside GitHub Actions",
 "where": "https://github.com/amercado19/nfl-pipeline/actions",
 "health": "healthy",
-"health_detail": "probe 271 ms at 2026-11-23T15:29:48Z"
+"health_detail": "probe 274 ms at 2026-11-23T21:44:30Z"
 },
 {
 "name": "Database Connected",
@@ -2292,7 +2292,7 @@
 "closing-line value"
 ],
 "health": "healthy",
-"health_detail": "probe 162 ms at 2026-11-23T15:29:47Z"
+"health_detail": "probe 177 ms at 2026-11-23T21:44:30Z"
 },
 {
 "name": "Weather Provider",
@@ -2300,7 +2300,7 @@
 "detail": "Open-Meteo (no key required); last run 2026-11-23T21:38:49Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 233 ms at 2026-11-23T15:29:47Z"
+"health_detail": "probe 196 ms at 2026-11-23T21:44:29Z"
 },
 {
 "name": "News Provider",
@@ -2308,7 +2308,7 @@
 "detail": "ESPN / CBS / PFT RSS (no key required); last run 2026-11-23T21:38:46Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 36 ms at 2026-11-23T15:29:47Z"
+"health_detail": "probe 98 ms at 2026-11-23T21:44:29Z"
 },
 {
 "name": "Deployment Token",
@@ -2319,7 +2319,7 @@
 "automatic dashboard publish to amercado19/nfl-dashboard"
 ],
 "health": "healthy",
-"health_detail": "last publish succeeded at 2026-11-23T15:30:41Z"
+"health_detail": "last publish succeeded at 2026-11-23T21:45:28Z"
 },
 {
 "name": "Dashboard Publisher",
@@ -2327,7 +2327,7 @@
 "detail": "reusable workflow publishes site/ to amercado19/nfl-dashboard (GitHub Pages)",
 "where": "https://amercado19.github.io/nfl-dashboard/",
 "health": "healthy",
-"health_detail": "last publish succeeded at 2026-11-23T15:30:41Z"
+"health_detail": "last publish succeeded at 2026-11-23T21:45:28Z"
 }
 ],
 "provider_failures": [],
@@ -2335,15 +2335,15 @@
 "phase_now": "game_day",
 "watchdog": {
 "last_expected_run_utc": "2026-11-23T21:15Z",
-"last_actual_start_utc": "2026-11-23T15:25Z",
+"last_actual_start_utc": "2026-11-23T21:38Z",
 "window_hours": 26,
 "tolerances": {
 "delayed_after_min": 20,
 "missed_after_min": 90
 },
-"expected_firings": 45,
-"on_time": 2,
-"delayed": 4,
+"expected_firings": 41,
+"on_time": 1,
+"delayed": 5,
 "missed": 8,
 "rows": [
 {
@@ -2576,7 +2576,7 @@
 "expected_to_run": true,
 "started_utc": null,
 "delay_min": null,
-"status": "MISSED_STALE"
+"status": "MISSED_RECOVERED"
 },
 {
 "due_utc": "2026-11-23T17:30Z",
@@ -2608,7 +2608,7 @@
 "expected_to_run": true,
 "started_utc": null,
 "delay_min": null,
-"status": "MISSED_STALE"
+"status": "MISSED_RECOVERED"
 },
 {
 "due_utc": "2026-11-23T19:40Z",
@@ -2638,9 +2638,9 @@
 "due_utc": "2026-11-23T20:30Z",
 "slot": "prekick_30m",
 "expected_to_run": false,
-"started_utc": null,
-"delay_min": null,
-"status": "PENDING"
+"started_utc": "2026-11-23T21:38Z",
+"delay_min": 69,
+"status": "DELAYED"
 },
 {
 "due_utc": "2026-11-23T20:40Z",
@@ -2648,7 +2648,7 @@
 "expected_to_run": false,
 "started_utc": null,
 "delay_min": null,
-"status": "PENDING"
+"status": "SKIPPED_BY_GATE"
 },
 {
 "due_utc": "2026-11-23T20:52Z",
@@ -2656,7 +2656,7 @@
 "expected_to_run": false,
 "started_utc": null,
 "delay_min": null,
-"status": "PENDING"
+"status": "SKIPPED_BY_GATE"
 },
 {
 "due_utc": "2026-11-23T21:15Z",
@@ -2667,9 +2667,9 @@
 "status": "PENDING"
 }
 ],
-"missed_stale": 2,
-"recovered": 6,
-"state": "MISSED_STALE",
+"missed_stale": 0,
+"recovered": 8,
+"state": "RECOVERED",
 "note": "GitHub Actions cron is best-effort: events routinely arrive late and are sometimes skipped under load. A MISSED/DELAYED row here is a SCHEDULING problem (data goes stale until the next slot), never a pipeline failure \u2014 those are tracked separately from recorded run statuses."
 },
 "next_kick": "2026-11-24T01:15:00+00:00",
@@ -3667,7 +3667,7 @@
 "fanduel"
 ],
 "avg_confidence": 50.7,
-"last_refresh": "2026-11-23T21:39:39Z",
+"last_refresh": "2026-11-23T22:42:44Z",
 "production_model": "game-ridge-v1-2018-2026-202609151720",
 "week_accuracy": null,
 "season_accuracy": 0.446,
@@ -17176,7 +17176,7 @@
 "regime_support": "SUPPORTED",
 "regime_why": null,
 "signal_cluster_id": "2026_11_CIN_WAS:WAS:pass:over",
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "confidence": 34.2,
 "why": [
 [
@@ -17245,7 +17245,7 @@
 "regime_support": null,
 "regime_why": null,
 "signal_cluster_id": "2026_11_CIN_WAS:WAS:pass:over",
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "confidence": 64.0,
 "why": [
 [
@@ -17297,68 +17297,68 @@
 "snapshot_at": "2026-11-23T21:38:56Z"
 },
 {
-"entity_id": "00-0031588",
-"name": "Stefon Diggs",
+"entity_id": "00-0041040",
+"name": "Antonio Williams",
 "team": "WAS",
 "position": "WR",
 "market": "receptions",
-"line": 4.5,
+"line": 3.5,
 "side": "under",
-"p": 0.5664,
-"mean": 4.393,
-"edge": 0.1083,
-"novig": 0.4581,
-"price": 104,
+"p": 0.7494,
+"mean": 2.4937,
+"edge": 0.2171,
+"novig": 0.5323,
+"price": -132,
 "book": "fanduel",
 "state": "LEAN",
-"regime_support": null,
+"regime_support": "SUPPORTED",
 "regime_why": null,
 "signal_cluster_id": "2026_11_CIN_WAS:WAS:pass:under",
-"price_age_h": 0.06,
-"confidence": 66.2,
+"price_age_h": 1.08,
+"confidence": 73.4,
 "why": [
-[
-"Target share",
-0.2091,
-0.1209,
-2.032,
-"share",
-0
-],
-[
-"Catch rate",
-0.6979,
-0.6393,
-0.405,
-"rate",
-0
-],
 [
 "Expected offensive plays",
 59.6537,
 61.49,
--0.148,
+-0.082,
 "plays",
 1
+],
+[
+"Catch rate",
+0.6563,
+0.6393,
+0.069,
+"rate",
+25
+],
+[
+"Game script (expected margin)",
+-6.0,
+0.0,
+0.065,
+"pts",
+2
 ]
 ],
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
-"market_probability": 0.4581,
+"market_probability": 0.5323,
 "main_anchor": {
-"line": 4.5,
+"line": 3.5,
 "book": "fanduel",
-"price": -138,
-"opp_price": 104,
-"novig": 0.5419,
+"price": -132,
+"opp_price": 100,
+"novig": 0.5323,
 "mi_class": "INFORMATIVE_TWO_SIDED",
-"market_probability": 0.5419,
+"market_probability": 0.5323,
 "collected_at": "2026-11-23T21:38:55Z",
-"opp_collected_at": null,
+"opp_collected_at": "2026-11-23T21:38:55Z",
 "paired": true,
-"side": "over",
-"opp_side": "under"
+"side": "under",
+"opp_side": "over"
 },
 "dist_from_main": 0.0,
 "line_kind": "main",
@@ -17368,7 +17368,7 @@
 ],
 "n_best_bets": 1,
 "n_model_edges": 0,
-"n_leans": 13,
+"n_leans": 28,
 "n_qualifying": 1,
 "basis": "BEST BET = backtested p>=60% + edge >= 2% vs no-vig + confidence >= 25 + fresh headline price, with OOS evidence covering this regime (policy v2); MODEL EDGE = same gates but the regime is outside the backtest's coverage; LEAN = p>=55% directional preference (labelled); ranked by measured edge, confidence tiebreak",
 "note": null
@@ -17746,45 +17746,45 @@
 "name": "Chase Brown",
 "team": "CIN",
 "position": "RB",
-"p": 0.1555
+"p": 0.1593
 },
 {
 "entity_id": "00-0036900",
 "name": "Ja'Marr Chase",
 "team": "CIN",
 "position": "WR",
-"p": 0.1535
+"p": 0.149
 },
 {
 "entity_id": "00-0036410",
 "name": "Tee Higgins",
 "team": "CIN",
 "position": "WR",
-"p": 0.0901
-},
-{
-"entity_id": "00-0031588",
-"name": "Stefon Diggs",
-"team": "WAS",
-"position": "WR",
-"p": 0.0667
+"p": 0.0933
 },
 {
 "entity_id": "00-0037809",
 "name": "Chig Okonkwo",
 "team": "WAS",
 "position": "TE",
-"p": 0.056
+"p": 0.0615
 },
 {
-"entity_id": "00-0040242",
-"name": "Jacory Croskey-Merritt",
+"entity_id": "00-0031588",
+"name": "Stefon Diggs",
 "team": "WAS",
+"position": "WR",
+"p": 0.0605
+},
+{
+"entity_id": "00-0033526",
+"name": "Samaje Perine",
+"team": "CIN",
 "position": "RB",
-"p": 0.0533
+"p": 0.0493
 }
 ],
-"frozen_at": "2026-11-23T15:29:31Z",
+"frozen_at": "2026-11-23T21:44:14Z",
 "frozen_complete": true,
 "actual": null,
 "hit": null,
@@ -18005,8 +18005,8 @@
 "official_lock": {
 "policy_version": 2,
 "lock_time_utc": "2026-11-23T22:15:00Z",
-"state": "LIVE",
-"locked": false,
+"state": "LOCKED",
+"locked": true,
 "locked_at": "2026-11-23T21:44:14Z",
 "card_delayed": false,
 "source_age_min_at_lock": 31,
@@ -18035,119 +18035,85 @@
 "version": 1,
 "parlays_v2": true,
 "game_id": "2026_11_CIN_WAS",
-"lock_state": "LIVE",
-"locked": false,
+"lock_state": "LOCKED",
+"locked": true,
 "published_propositions": 26,
 "td3": {
 "kind": "GAME_TD3",
 "label": "GAME TD PARLAY",
 "official": false,
-"pool": 24,
-"removed": {
-"unavailable": 0,
-"market_conflict": 0,
-"same_opportunity": 0
-},
-"basis": "Anytime touchdown only. The top players by the same probability the touchdown board shows (3 when the game projects 5.0 or more offensive touchdowns, otherwise 2), after the touchdown-ticket guards: a real FanDuel price, a simulated draw series, no model/market role conflict, one goal-line back per team, and no player ruled Out/Doubtful/inactive on the current report. The ticket probability is one pass over this game's shared simulated worlds.",
-"projected_tds": 5.645,
-"size_rule": "3 LEGS: this game projects 5.6 offensive touchdowns, at or above the 5.0 that makes a 3-leg ticket. Fewer projected touchdowns, fewer legs; never fewer than 2.",
-"status": "SUGGESTED",
-"length": 3,
+"status": "LOCKED",
 "legs": [
 {
-"player_id": "00-0038597",
-"player": "Chase Brown",
-"team": "CIN",
-"position": "RB",
-"market": "anytime_td",
-"side": "yes",
-"line": null,
-"price": -130,
 "book": "fanduel",
+"collected_at": "2026-11-23T21:38:55Z",
+"game_id": "2026_11_CIN_WAS",
 "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626103726&selectionId=48289051",
-"collected_at": "2026-11-23T21:38:55Z",
+"market": "anytime_td",
 "p_model": 0.5595,
-"pathway": "GOAL_LINE_RUSHING",
 "pathway_label": "goal-line rushing role",
+"player": "Chase Brown",
+"player_id": "00-0038597",
+"position": "RB",
+"price": -130,
 "reason": "Carries 47% of his team's goal-line rushes in the projection.",
-"tier": "TD",
-"game_id": "2026_11_CIN_WAS"
+"side": "yes",
+"team": "CIN",
+"tier": "TD"
 },
 {
-"player_id": "00-0036900",
-"player": "Ja'Marr Chase",
-"team": "CIN",
-"position": "WR",
-"market": "anytime_td",
-"side": "yes",
-"line": null,
-"price": -155,
 "book": "fanduel",
+"collected_at": "2026-11-23T21:38:55Z",
+"game_id": "2026_11_CIN_WAS",
 "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626103726&selectionId=26809165",
-"collected_at": "2026-11-23T21:38:55Z",
+"market": "anytime_td",
 "p_model": 0.5533,
-"pathway": "RED_ZONE_RECEIVING",
 "pathway_label": "red-zone receiving role",
+"player": "Ja'Marr Chase",
+"player_id": "00-0036900",
+"position": "WR",
+"price": -155,
 "reason": "Runs 29% of his team's end-zone targets in the projection.",
-"tier": "TD",
-"game_id": "2026_11_CIN_WAS"
+"side": "yes",
+"team": "CIN",
+"tier": "TD"
 },
 {
-"player_id": "00-0036410",
-"player": "Tee Higgins",
-"team": "CIN",
-"position": "WR",
-"market": "anytime_td",
-"side": "yes",
-"line": null,
-"price": -105,
 "book": "fanduel",
-"link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626103726&selectionId=16602538",
 "collected_at": "2026-11-23T21:38:55Z",
+"game_id": "2026_11_CIN_WAS",
+"link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626103726&selectionId=16602538",
+"market": "anytime_td",
 "p_model": 0.4121,
-"pathway": "RED_ZONE_RECEIVING",
 "pathway_label": "red-zone receiving role",
+"player": "Tee Higgins",
+"player_id": "00-0036410",
+"position": "WR",
+"price": -105,
 "reason": "Runs 24% of his team's end-zone targets in the projection.",
-"tier": "TD",
-"game_id": "2026_11_CIN_WAS"
+"side": "yes",
+"team": "CIN",
+"tier": "TD"
 }
 ],
+"length": 3,
+"locked": true,
 "joint_p": 0.1313,
 "n_draws": 1500,
-"joint_se": 0.0087,
-"pathways": [
-"GOAL_LINE_RUSHING",
-"RED_ZONE_RECEIVING"
-],
-"method": "Measured as one mask over the 1500 simulated worlds this game publishes: the fraction in which every leg scores. The individual probabilities are never multiplied together."
+"joint_basis": null,
+"ticket_id": "GAME_TD3|2026|11|2026_11_CIN_WAS",
+"published_at": "2026-11-23T21:44:12Z",
+"frozen_at": "2026-11-23T22:44:23Z",
+"lock_note": "LOCKED - this is the ticket exactly as published before this game's lock. It does not change after that."
 },
 "props": {
 "kind": "GAME_PROPS",
 "label": "GAME PROPS PARLAY",
 "official": false,
-"qualifying": 0,
-"removed": {
-"card_not_over": 53,
-"no_exact_two_sided_fanduel_main": 1,
-"unavailable": 0,
-"official_opposite_side": 0,
-"same_player": 0,
-"not_starter": 2,
-"market_not_audited": 99,
-"below_065": 0
-},
-"best_leg": null,
-"basis": "FanDuel main-line OVERS only, each at the exact FanDuel quote on its prop card, from a real two-sided market (over and under at the same line). A leg needs raw P(over) of at least 60% and its card must show OVER at that line. Players ruled Out/Doubtful/inactive are excluded; one leg per player; ordered by probability, at most 7. The ticket probability is one pass over this game's shared simulated worlds. AUDITED MARKETS (v0.48.0): legs are receiving-yards or receptions overs at raw P(over) 65%+ only. 2026 W1-10 priced overs: rushing yards -11.1% ROI (n=193), passing yards -10.1% (n=260), receiving yards at 65%+ +0.9% (n=135), receptions at 65%+ -0.1% (n=110).",
-"starters_only": true,
-"starters_note": "STARTERS ONLY (v0.46.0): every leg is his team's QB1, RB1, WR1, WR2 or TE1 by the board's role ranking, played 60%+ of offensive snaps in his most recent game (50%+ for an RB1), and is not Questionable-DNP, a backup QB in his first start, or in his first game back from a multi-week absence (the Ladder's S1 starter filter).",
-"audited_markets": [
-"receiving_yards",
-"receptions"
-],
-"markets_note": "AUDITED MARKETS (v0.48.0): legs are receiving-yards or receptions overs at raw P(over) 65%+ only. 2026 W1-10 priced overs: rushing yards -11.1% ROI (n=193), passing yards -10.1% (n=260), receiving yards at 65%+ +0.9% (n=135), receptions at 65%+ -0.1% (n=110).",
-"status": "NO_QUALIFYING_TICKET",
+"status": "NOT_RECORDED",
 "legs": [],
-"why": "NO TICKET: 0 props in this game qualify (FanDuel main-line over at the exact quote, two-sided market, raw P(over) at least 60% with the card showing OVER, player available), and a props ticket needs at least 2. No leg is added to reach a count."
+"locked": true,
+"why": "Locked before a pre-lock ticket was recorded (or none qualified at the last publication before the lock). Nothing is recomposed after a lock."
 },
 "td_conflicts": [],
 "basis": "Two tickets per game: GAME TD (2 or 3 anytime-touchdown legs, by the game's projected touchdowns) and GAME PROPS (2-7 FanDuel main-line overs). Both are composed from this game's published cards - each leg carries its card's own probability and FanDuel quote - and measured on this game's shared simulated draws. Not Official picks; recorded at the lock and graded in Results."
@@ -18159,7 +18125,7 @@
 "season": 2026,
 "week": 11,
 "game_type": "REG",
-"as_of": "2026-11-23T21:44:12Z",
+"as_of": "2026-11-23T22:44:19Z",
 "games": [
 {
 "game_id": "2026_11_IND_HOU",
@@ -18886,7 +18852,7 @@
 "price": 104,
 "book": "fanduel",
 "novig": 0.4581,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -19497,7 +19463,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -19740,7 +19706,7 @@
 "price": 185,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -19925,7 +19891,7 @@
 "price": 1700,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -20646,7 +20612,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -21017,7 +20983,7 @@
 "price": 128,
 "book": "fanduel",
 "novig": 0.4095,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -21377,7 +21343,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -21892,7 +21858,7 @@
 "price": 370,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -22422,7 +22388,7 @@
 "price": 3000,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -24475,7 +24441,7 @@
 "price": 280,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -25046,7 +25012,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -25076,7 +25042,7 @@
 "state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:WAS:pass:over",
 "official_demoted": "BEST_BET",
-"state_reason": "not an official pick: same signal as a stronger Official pick in this game (correlated, not independent)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -25303,7 +25269,7 @@
 "price": 1000,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -25477,7 +25443,7 @@
 "price": 7500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -26949,7 +26915,7 @@
 "price": 1800,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -27479,7 +27445,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -27838,7 +27804,7 @@
 "price": 116,
 "book": "fanduel",
 "novig": 0.433,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -28209,7 +28175,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -28752,7 +28718,7 @@
 "price": 210,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -29299,7 +29265,7 @@
 "price": 1400,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -29600,7 +29566,7 @@
 "price": -174,
 "book": "fanduel",
 "novig": 0.5936,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -29627,11 +29593,10 @@
 "action": "BET",
 "regime_support": "SUPPORTED",
 "policy_version": 3,
-"state": "PASS",
+"state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:WAS:pass:under",
-"state_before_overs_only": "BEST_BET",
-"state_reason": "owner rule: overs only - an under is shown as a caution (how high an over can go), never as a pick",
-"official_demoted": true
+"official_demoted": "BEST_BET",
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -30239,7 +30204,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -30267,11 +30232,10 @@
 "regime_support": "PARTIAL",
 "regime_why": "in-season regime but thin calibration bucket",
 "policy_version": 3,
-"state": "PASS",
+"state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:WAS:pass:under",
-"state_before_overs_only": "MODEL_EDGE",
-"state_reason": "owner rule: overs only - an under is shown as a caution (how high an over can go), never as a pick",
-"official_demoted": true
+"official_demoted": "MODEL_EDGE",
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -30489,7 +30453,7 @@
 "price": 280,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -30667,7 +30631,7 @@
 "price": 2200,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -31118,7 +31082,7 @@
 "price": -144,
 "book": "fanduel",
 "novig": 0.5511,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -31145,11 +31109,10 @@
 "action": "BET",
 "regime_support": "SUPPORTED",
 "policy_version": 3,
-"state": "PASS",
+"state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:WAS:pass:under",
-"state_before_overs_only": "BEST_BET",
-"state_reason": "owner rule: overs only - an under is shown as a caution (how high an over can go), never as a pick",
-"official_demoted": true
+"official_demoted": "BEST_BET",
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -31719,7 +31682,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -31747,11 +31710,10 @@
 "regime_support": "PARTIAL",
 "regime_why": "in-season regime but thin calibration bucket",
 "policy_version": 3,
-"state": "PASS",
+"state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:WAS:pass:under",
-"state_before_overs_only": "MODEL_EDGE",
-"state_reason": "owner rule: overs only - an under is shown as a caution (how high an over can go), never as a pick",
-"official_demoted": true
+"official_demoted": "MODEL_EDGE",
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -31968,7 +31930,7 @@
 "price": 260,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -32144,7 +32106,7 @@
 "price": 2000,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -33006,7 +32968,7 @@
 "price": 1700,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -33514,7 +33476,7 @@
 "price": 172,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -33770,7 +33732,7 @@
 "price": -109,
 "book": "draftkings",
 "novig": 0.4917,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -33960,7 +33922,7 @@
 "price": -101,
 "book": "draftkings",
 "novig": 0.474,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -34197,7 +34159,7 @@
 "price": -118,
 "book": "fanduel",
 "novig": 0.5082,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -34409,7 +34371,7 @@
 "price": -148,
 "book": "draftkings",
 "novig": 0.5631,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -34766,7 +34728,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -34996,7 +34958,7 @@
 "price": 230,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -35174,7 +35136,7 @@
 "price": 1700,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -35688,7 +35650,7 @@
 "price": 360,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -36211,7 +36173,7 @@
 "price": 108,
 "book": "fanduel",
 "novig": 0.4533,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -36239,10 +36201,7 @@
 "regime_support": "SUPPORTED",
 "policy_version": 3,
 "state": "BEST_BET",
-"signal_cluster_id": "2026_11_CIN_WAS:WAS:pass:over",
-"official_rank": 1,
-"shadow_p65": true,
-"shadow_extreme_edge": false
+"signal_cluster_id": "2026_11_CIN_WAS:WAS:pass:over"
 },
 "milestones": [
 [
@@ -36469,7 +36428,7 @@
 "price": 900,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -37680,7 +37639,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -38584,7 +38543,7 @@
 "price": 180,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -39135,7 +39094,7 @@
 "price": 1200,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -39449,7 +39408,7 @@
 "price": -132,
 "book": "fanduel",
 "novig": 0.5323,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -39476,11 +39435,10 @@
 "action": "BET",
 "regime_support": "SUPPORTED",
 "policy_version": 3,
-"state": "PASS",
+"state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:WAS:pass:under",
-"state_before_overs_only": "BEST_BET",
-"state_reason": "owner rule: overs only - an under is shown as a caution (how high an over can go), never as a pick",
-"official_demoted": true
+"official_demoted": "BEST_BET",
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -40046,7 +40004,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -40074,11 +40032,10 @@
 "regime_support": "PARTIAL",
 "regime_why": "in-season regime but thin calibration bucket",
 "policy_version": 3,
-"state": "PASS",
+"state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:WAS:pass:under",
-"state_before_overs_only": "MODEL_EDGE",
-"state_reason": "owner rule: overs only - an under is shown as a caution (how high an over can go), never as a pick",
-"official_demoted": true
+"official_demoted": "MODEL_EDGE",
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -40293,7 +40250,7 @@
 "price": 280,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -40468,7 +40425,7 @@
 "price": 2200,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -41784,7 +41741,7 @@
 "price": 1700,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -42411,7 +42368,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -42771,7 +42728,7 @@
 "price": -230,
 "book": "fanduel",
 "novig": 0.6513,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -43131,7 +43088,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -43646,7 +43603,7 @@
 "price": 240,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -44177,7 +44134,7 @@
 "price": 1700,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -45177,7 +45134,7 @@
 "price": -140,
 "book": "fanduel",
 "novig": 0.5458,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -45204,11 +45161,10 @@
 "action": "BET",
 "regime_support": "SUPPORTED",
 "policy_version": 3,
-"state": "PASS",
+"state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:CIN:pass:under",
-"state_before_overs_only": "BEST_BET",
-"state_reason": "owner rule: overs only - an under is shown as a caution (how high an over can go), never as a pick",
-"official_demoted": true
+"official_demoted": "BEST_BET",
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -45750,7 +45706,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -45778,11 +45734,10 @@
 "regime_support": "PARTIAL",
 "regime_why": "in-season regime but thin calibration bucket",
 "policy_version": 3,
-"state": "PASS",
+"state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:CIN:pass:under",
-"state_before_overs_only": "MODEL_EDGE",
-"state_reason": "owner rule: overs only - an under is shown as a caution (how high an over can go), never as a pick",
-"official_demoted": true
+"official_demoted": "MODEL_EDGE",
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -45997,7 +45952,7 @@
 "price": 185,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -46172,7 +46127,7 @@
 "price": 1200,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -46569,7 +46524,7 @@
 "price": 162,
 "book": "fanduel",
 "novig": 0.357,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -47089,7 +47044,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -47343,7 +47298,7 @@
 "price": 550,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -47518,7 +47473,7 @@
 "price": 3000,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -47987,7 +47942,7 @@
 "price": -130,
 "book": "fanduel",
 "novig": 0.5282,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -48014,11 +47969,10 @@
 "action": "BET",
 "regime_support": "SUPPORTED",
 "policy_version": 3,
-"state": "PASS",
+"state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:CIN:pass:under",
-"state_before_overs_only": "BEST_BET",
-"state_reason": "owner rule: overs only - an under is shown as a caution (how high an over can go), never as a pick",
-"official_demoted": true
+"official_demoted": "BEST_BET",
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -48554,7 +48508,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -48582,11 +48536,10 @@
 "regime_support": "PARTIAL",
 "regime_why": "in-season regime but thin calibration bucket",
 "policy_version": 3,
-"state": "PASS",
+"state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:CIN:pass:under",
-"state_before_overs_only": "MODEL_EDGE",
-"state_reason": "owner rule: overs only - an under is shown as a caution (how high an over can go), never as a pick",
-"official_demoted": true
+"official_demoted": "MODEL_EDGE",
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -48804,7 +48757,7 @@
 "price": -105,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -48982,7 +48935,7 @@
 "price": 750,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -49556,7 +49509,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -49584,11 +49537,10 @@
 "regime_support": "PARTIAL",
 "regime_why": "in-season regime but thin calibration bucket",
 "policy_version": 3,
-"state": "PASS",
+"state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:CIN:pass:under",
-"state_before_overs_only": "MODEL_EDGE",
-"state_reason": "owner rule: overs only - an under is shown as a caution (how high an over can go), never as a pick",
-"official_demoted": true
+"official_demoted": "MODEL_EDGE",
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -49816,7 +49768,7 @@
 "price": -109,
 "book": "draftkings",
 "novig": 0.4917,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -50005,7 +49957,7 @@
 "price": -113,
 "book": "draftkings",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -50241,7 +50193,7 @@
 "price": -102,
 "book": "fanduel",
 "novig": 0.4735,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -50451,7 +50403,7 @@
 "price": 111,
 "book": "draftkings",
 "novig": 0.4475,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -50760,7 +50712,7 @@
 "price": 100,
 "book": "fanduel",
 "novig": 0.4711,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -50997,7 +50949,7 @@
 "price": 430,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -51174,7 +51126,7 @@
 "price": 2200,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -51733,7 +51685,7 @@
 "price": -136,
 "book": "fanduel",
 "novig": 0.5379,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -51760,11 +51712,10 @@
 "action": "BET",
 "regime_support": "SUPPORTED",
 "policy_version": 3,
-"state": "PASS",
+"state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:CIN:pass:under",
-"state_before_overs_only": "BEST_BET",
-"state_reason": "owner rule: overs only - an under is shown as a caution (how high an over can go), never as a pick",
-"official_demoted": true
+"official_demoted": "BEST_BET",
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -52318,7 +52269,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -52346,11 +52297,10 @@
 "regime_support": "PARTIAL",
 "regime_why": "in-season regime but thin calibration bucket",
 "policy_version": 3,
-"state": "PASS",
+"state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:CIN:pass:under",
-"state_before_overs_only": "MODEL_EDGE",
-"state_reason": "owner rule: overs only - an under is shown as a caution (how high an over can go), never as a pick",
-"official_demoted": true
+"official_demoted": "MODEL_EDGE",
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -52565,7 +52515,7 @@
 "price": -155,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -52595,7 +52545,7 @@
 "policy_version": 3,
 "state": "LEAN",
 "official_demoted": "MODEL_EDGE",
-"state_reason": "not an official pick: the FanDuel quote is not a two-sided market (over and under at the same line)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": null,
 "explain": {
@@ -52744,7 +52694,7 @@
 "price": 550,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -53372,7 +53322,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -53806,7 +53756,7 @@
 "price": 104,
 "book": "fanduel",
 "novig": 0.4581,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -54262,7 +54212,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -54290,11 +54240,10 @@
 "regime_support": "PARTIAL",
 "regime_why": "in-season regime but thin calibration bucket",
 "policy_version": 3,
-"state": "PASS",
+"state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:CIN:pass:under",
-"state_before_overs_only": "MODEL_EDGE",
-"state_reason": "owner rule: overs only - an under is shown as a caution (how high an over can go), never as a pick",
-"official_demoted": true
+"official_demoted": "MODEL_EDGE",
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -54783,7 +54732,7 @@
 "price": -130,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -54813,7 +54762,7 @@
 "policy_version": 3,
 "state": "LEAN",
 "official_demoted": "MODEL_EDGE",
-"state_reason": "not an official pick: the FanDuel quote is not a two-sided market (over and under at the same line)"
+"state_reason": "not on the locked Official card"
 },
 "milestones": null,
 "explain": {
@@ -55318,7 +55267,7 @@
 "price": 550,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -55996,7 +55945,7 @@
 "price": 1400,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -56770,7 +56719,7 @@
 "price": 1800,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -57847,7 +57796,7 @@
 "price": 2700,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -58149,7 +58098,7 @@
 "price": 10000,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -58448,7 +58397,7 @@
 "price": -180,
 "book": "fanduel",
 "novig": 0.6007,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -58475,11 +58424,10 @@
 "action": "BET",
 "regime_support": "SUPPORTED",
 "policy_version": 3,
-"state": "PASS",
+"state": "LEAN",
 "signal_cluster_id": "2026_11_CIN_WAS:CIN:pass:under",
-"state_before_overs_only": "BEST_BET",
-"state_reason": "owner rule: overs only - an under is shown as a caution (how high an over can go), never as a pick",
-"official_demoted": true
+"official_demoted": "BEST_BET",
+"state_reason": "not on the locked Official card"
 },
 "milestones": [
 [
@@ -59009,7 +58957,7 @@
 "price": -113,
 "book": "fanduel",
 "novig": 0.5,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "INFORMATIVE_TWO_SIDED",
 "mi_method": "two_sided_devig",
 "mi_version": 1,
@@ -59250,7 +59198,7 @@
 "price": 360,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -59433,7 +59381,7 @@
 "price": 2200,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -60393,7 +60341,7 @@
 "price": 1500,
 "book": "fanduel",
 "novig": null,
-"price_age_h": 0.06,
+"price_age_h": 1.08,
 "mi_class": "PARTIAL_MARKET",
 "mi_method": "implied_one_sided",
 "mi_version": 1,
@@ -60740,25 +60688,26 @@
 "official_policy": {
 "policy_version": 3,
 "per_game": 2,
-"candidates": 4,
-"official": 1,
-"demoted_one_sided": 2,
+"candidates": 0,
+"official": 0,
+"demoted_one_sided": 0,
 "demoted_cap": 0,
 "demoted_same_player": 0,
-"demoted_same_cluster": 1,
-"exempt_locked": 0,
-"shadow_p65_official": 1,
+"demoted_same_cluster": 0,
+"exempt_locked": 19,
+"shadow_p65_official": 0,
 "shadow_extreme_edge_official": 0,
 "overs_only": {
 "enabled": true,
 "policy_version": 1,
-"demoted_unders": 15,
+"demoted_unders": 0,
 "evidence": "W1-7 graded FanDuel main lines at raw p>=.60: overs 208 legs hit 65.9% ROI +12.6%; unders 1582 legs hit 54.2% ROI -0.7% (store/audits/overs_only_2026.json)",
 "min_over_p": 0.6,
 "band_source": "store/audits/overs_only_2026.json",
 "demoted_low_overs": 0,
 "withheld_qb_rushing": 2
-}
+},
+"demoted_not_on_locked_card": 18
 },
 "headshots": {
 "00-0026158": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dre1d2f2d6dxqohzn5l2",
@@ -161164,550 +161113,6 @@
 "odds": [
 {
 "market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "BUF",
-"entity_name": "Buffalo Bills",
-"price": 550,
-"implied": 0.1538,
-"novig": 0.1354,
-"model_p": 0.1795,
-"fair_odds": 457,
-"edge": 0.0441,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.172,
-"absence_p": 0.2018,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "SF",
-"entity_name": "San Francisco 49ers",
-"price": 600,
-"implied": 0.1429,
-"novig": 0.1251,
-"model_p": 0.1643,
-"fair_odds": 509,
-"edge": 0.0392,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.1637,
-"absence_p": 0.1674,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "JAX",
-"entity_name": "Jacksonville Jaguars",
-"price": 750,
-"implied": 0.1176,
-"novig": 0.1017,
-"model_p": 0.1974,
-"fair_odds": 407,
-"edge": 0.0957,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.1963,
-"absence_p": 0.2226,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "CHI",
-"entity_name": "Chicago Bears",
-"price": 800,
-"implied": 0.1111,
-"novig": 0.0957,
-"model_p": 0.0572,
-"fair_odds": 1647,
-"edge": -0.0384,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0578,
-"absence_p": 0.057,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "KC",
-"entity_name": "Kansas City Chiefs",
-"price": 1200,
-"implied": 0.0769,
-"novig": 0.0646,
-"model_p": 0.0432,
-"fair_odds": 2215,
-"edge": -0.0214,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0426,
-"absence_p": 0.0208,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "LA",
-"entity_name": "Los Angeles Rams",
-"price": 1400,
-"implied": 0.0667,
-"novig": 0.0554,
-"model_p": 0.0804,
-"fair_odds": 1144,
-"edge": 0.025,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0802,
-"absence_p": 0.0848,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "CIN",
-"entity_name": "Cincinnati Bengals",
-"price": 1400,
-"implied": 0.0667,
-"novig": 0.0554,
-"model_p": 0.074,
-"fair_odds": 1251,
-"edge": 0.0186,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0737,
-"absence_p": 0.0312,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "SEA",
-"entity_name": "Seattle Seahawks",
-"price": 1500,
-"implied": 0.0625,
-"novig": 0.0517,
-"model_p": 0.0228,
-"fair_odds": 4294,
-"edge": -0.029,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0229,
-"absence_p": 0.0228,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "DET",
-"entity_name": "Detroit Lions",
-"price": 1600,
-"implied": 0.0588,
-"novig": 0.0485,
-"model_p": 0.0696,
-"fair_odds": 1337,
-"edge": 0.0211,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0705,
-"absence_p": 0.0701,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "DEN",
-"entity_name": "Denver Broncos",
-"price": 1600,
-"implied": 0.0588,
-"novig": 0.0485,
-"model_p": 0.0387,
-"fair_odds": 2485,
-"edge": -0.0098,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0356,
-"absence_p": 0.0468,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "GB",
-"entity_name": "Green Bay Packers",
-"price": 2000,
-"implied": 0.0476,
-"novig": 0.0387,
-"model_p": 0.0031,
-"fair_odds": 31951,
-"edge": -0.0356,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0036,
-"absence_p": 0.0035,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "MIN",
-"entity_name": "Minnesota Vikings",
-"price": 2200,
-"implied": 0.0435,
-"novig": 0.0351,
-"model_p": 0.0202,
-"fair_odds": 4841,
-"edge": -0.0149,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.019,
-"absence_p": 0.0201,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "NE",
-"entity_name": "New England Patriots",
-"price": 3000,
-"implied": 0.0323,
-"novig": 0.0255,
-"model_p": 0.0012,
-"fair_odds": 80545,
-"edge": -0.0243,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0163,
-"absence_p": 0.0014,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "HOU",
-"entity_name": "Houston Texans",
-"price": 3500,
-"implied": 0.0278,
-"novig": 0.0218,
-"model_p": 0.0072,
-"fair_odds": 13789,
-"edge": -0.0146,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0054,
-"absence_p": 0.0072,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "PIT",
-"entity_name": "Pittsburgh Steelers",
-"price": 4000,
-"implied": 0.0244,
-"novig": 0.0189,
-"model_p": 0.0113,
-"fair_odds": 8734,
-"edge": -0.0076,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0106,
-"absence_p": 0.014,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "TB",
-"entity_name": "Tampa Bay Buccaneers",
-"price": 5000,
-"implied": 0.0196,
-"novig": 0.015,
-"model_p": 0.0052,
-"fair_odds": 19280,
-"edge": -0.0098,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.006,
-"absence_p": 0.0042,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "DAL",
-"entity_name": "Dallas Cowboys",
-"price": 6000,
-"implied": 0.0164,
-"novig": 0.0124,
-"model_p": 0.0027,
-"fair_odds": 37213,
-"edge": -0.0097,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0027,
-"absence_p": 0.0027,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "NYG",
-"entity_name": "New York Giants",
-"price": 6000,
-"implied": 0.0164,
-"novig": 0.0124,
-"model_p": 0.0144,
-"fair_odds": 6825,
-"edge": 0.0021,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0144,
-"absence_p": 0.0141,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "ATL",
-"entity_name": "Atlanta Falcons",
-"price": 10000,
-"implied": 0.0099,
-"novig": 0.0072,
-"model_p": 0.0004,
-"fair_odds": 227173,
-"edge": -0.0068,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0004,
-"absence_p": 0.0004,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "CAR",
-"entity_name": "Carolina Panthers",
-"price": 10000,
-"implied": 0.0099,
-"novig": 0.0072,
-"model_p": 0.0047,
-"fair_odds": 21268,
-"edge": -0.0025,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0045,
-"absence_p": 0.0039,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "NO",
-"entity_name": "New Orleans Saints",
-"price": 12500,
-"implied": 0.0079,
-"novig": 0.0057,
-"model_p": 0.0006,
-"fair_odds": 178471,
-"edge": -0.0051,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0006,
-"absence_p": 0.0008,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "CLE",
-"entity_name": "Cleveland Browns",
-"price": 17500,
-"implied": 0.0057,
-"novig": 0.004,
-"model_p": 0.0011,
-"fair_odds": 89186,
-"edge": -0.0029,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0009,
-"absence_p": 0.0018,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "WAS",
-"entity_name": "Washington Commanders",
-"price": 17500,
-"implied": 0.0057,
-"novig": 0.004,
-"model_p": 0.0004,
-"fair_odds": 227173,
-"edge": -0.0036,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0004,
-"absence_p": 0.0004,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "BAL",
-"entity_name": "Baltimore Ravens",
-"price": 17500,
-"implied": 0.0057,
-"novig": 0.004,
-"model_p": 0.0002,
-"fair_odds": 416567,
-"edge": -0.0038,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0,
-"absence_p": 0.0002,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "LV",
-"entity_name": "Las Vegas Raiders",
-"price": 40000,
-"implied": 0.0025,
-"novig": 0.0017,
-"model_p": 0.0,
-"fair_odds": null,
-"edge": -0.0017,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0,
-"absence_p": 0.0,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "TEN",
-"entity_name": "Tennessee Titans",
-"price": 100000,
-"implied": 0.001,
-"novig": 0.0006,
-"model_p": 0.0,
-"fair_odds": null,
-"edge": -0.0006,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0,
-"absence_p": 0.0,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "ARI",
-"entity_name": "Arizona Cardinals",
-"price": 100000,
-"implied": 0.001,
-"novig": 0.0006,
-"model_p": 0.0,
-"fair_odds": null,
-"edge": -0.0006,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0,
-"absence_p": 0.0,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "IND",
-"entity_name": "Indianapolis Colts",
-"price": 100000,
-"implied": 0.001,
-"novig": 0.0006,
-"model_p": 0.0,
-"fair_odds": null,
-"edge": -0.0006,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0,
-"absence_p": 0.0,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "LAC",
-"entity_name": "Los Angeles Chargers",
-"price": 100000,
-"implied": 0.001,
-"novig": 0.0006,
-"model_p": 0.0,
-"fair_odds": null,
-"edge": -0.0006,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0,
-"absence_p": 0.0,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "NYJ",
-"entity_name": "New York Jets",
-"price": 100000,
-"implied": 0.001,
-"novig": 0.0006,
-"model_p": 0.0,
-"fair_odds": null,
-"edge": -0.0006,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0,
-"absence_p": 0.0,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "MIA",
-"entity_name": "Miami Dolphins",
-"price": 100000,
-"implied": 0.001,
-"novig": 0.0006,
-"model_p": 0.0,
-"fair_odds": null,
-"edge": -0.0006,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0,
-"absence_p": 0.0,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
-"book": "fanduel",
-"entity_kind": "team",
-"entity_id": "PHI",
-"entity_name": "Philadelphia Eagles",
-"price": 100000,
-"implied": 0.001,
-"novig": 0.0006,
-"model_p": 0.0,
-"fair_odds": null,
-"edge": -0.0006,
-"collected_at": "2026-11-10T19:44:29Z",
-"healthy_p": 0.0,
-"absence_p": 0.0,
-"model_note": null
-},
-{
-"market": "super_bowl_winner",
 "book": "draftkings",
 "entity_kind": "team",
 "entity_id": "SF",
@@ -162239,6 +161644,550 @@
 "entity_kind": "team",
 "entity_id": "ARI",
 "entity_name": "Arizona Cardinals",
+"price": 100000,
+"implied": 0.001,
+"novig": 0.0006,
+"model_p": 0.0,
+"fair_odds": null,
+"edge": -0.0006,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0,
+"absence_p": 0.0,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "BUF",
+"entity_name": "Buffalo Bills",
+"price": 550,
+"implied": 0.1538,
+"novig": 0.1354,
+"model_p": 0.1795,
+"fair_odds": 457,
+"edge": 0.0441,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.172,
+"absence_p": 0.2018,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "SF",
+"entity_name": "San Francisco 49ers",
+"price": 600,
+"implied": 0.1429,
+"novig": 0.1251,
+"model_p": 0.1643,
+"fair_odds": 509,
+"edge": 0.0392,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.1637,
+"absence_p": 0.1674,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "JAX",
+"entity_name": "Jacksonville Jaguars",
+"price": 750,
+"implied": 0.1176,
+"novig": 0.1017,
+"model_p": 0.1974,
+"fair_odds": 407,
+"edge": 0.0957,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.1963,
+"absence_p": 0.2226,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "CHI",
+"entity_name": "Chicago Bears",
+"price": 800,
+"implied": 0.1111,
+"novig": 0.0957,
+"model_p": 0.0572,
+"fair_odds": 1647,
+"edge": -0.0384,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0578,
+"absence_p": 0.057,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "KC",
+"entity_name": "Kansas City Chiefs",
+"price": 1200,
+"implied": 0.0769,
+"novig": 0.0646,
+"model_p": 0.0432,
+"fair_odds": 2215,
+"edge": -0.0214,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0426,
+"absence_p": 0.0208,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "LA",
+"entity_name": "Los Angeles Rams",
+"price": 1400,
+"implied": 0.0667,
+"novig": 0.0554,
+"model_p": 0.0804,
+"fair_odds": 1144,
+"edge": 0.025,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0802,
+"absence_p": 0.0848,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "CIN",
+"entity_name": "Cincinnati Bengals",
+"price": 1400,
+"implied": 0.0667,
+"novig": 0.0554,
+"model_p": 0.074,
+"fair_odds": 1251,
+"edge": 0.0186,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0737,
+"absence_p": 0.0312,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "SEA",
+"entity_name": "Seattle Seahawks",
+"price": 1500,
+"implied": 0.0625,
+"novig": 0.0517,
+"model_p": 0.0228,
+"fair_odds": 4294,
+"edge": -0.029,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0229,
+"absence_p": 0.0228,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "DET",
+"entity_name": "Detroit Lions",
+"price": 1600,
+"implied": 0.0588,
+"novig": 0.0485,
+"model_p": 0.0696,
+"fair_odds": 1337,
+"edge": 0.0211,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0705,
+"absence_p": 0.0701,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "DEN",
+"entity_name": "Denver Broncos",
+"price": 1600,
+"implied": 0.0588,
+"novig": 0.0485,
+"model_p": 0.0387,
+"fair_odds": 2485,
+"edge": -0.0098,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0356,
+"absence_p": 0.0468,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "GB",
+"entity_name": "Green Bay Packers",
+"price": 2000,
+"implied": 0.0476,
+"novig": 0.0387,
+"model_p": 0.0031,
+"fair_odds": 31951,
+"edge": -0.0356,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0036,
+"absence_p": 0.0035,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "MIN",
+"entity_name": "Minnesota Vikings",
+"price": 2200,
+"implied": 0.0435,
+"novig": 0.0351,
+"model_p": 0.0202,
+"fair_odds": 4841,
+"edge": -0.0149,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.019,
+"absence_p": 0.0201,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "NE",
+"entity_name": "New England Patriots",
+"price": 3000,
+"implied": 0.0323,
+"novig": 0.0255,
+"model_p": 0.0012,
+"fair_odds": 80545,
+"edge": -0.0243,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0163,
+"absence_p": 0.0014,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "HOU",
+"entity_name": "Houston Texans",
+"price": 3500,
+"implied": 0.0278,
+"novig": 0.0218,
+"model_p": 0.0072,
+"fair_odds": 13789,
+"edge": -0.0146,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0054,
+"absence_p": 0.0072,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "PIT",
+"entity_name": "Pittsburgh Steelers",
+"price": 4000,
+"implied": 0.0244,
+"novig": 0.0189,
+"model_p": 0.0113,
+"fair_odds": 8734,
+"edge": -0.0076,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0106,
+"absence_p": 0.014,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "TB",
+"entity_name": "Tampa Bay Buccaneers",
+"price": 5000,
+"implied": 0.0196,
+"novig": 0.015,
+"model_p": 0.0052,
+"fair_odds": 19280,
+"edge": -0.0098,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.006,
+"absence_p": 0.0042,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "DAL",
+"entity_name": "Dallas Cowboys",
+"price": 6000,
+"implied": 0.0164,
+"novig": 0.0124,
+"model_p": 0.0027,
+"fair_odds": 37213,
+"edge": -0.0097,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0027,
+"absence_p": 0.0027,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "NYG",
+"entity_name": "New York Giants",
+"price": 6000,
+"implied": 0.0164,
+"novig": 0.0124,
+"model_p": 0.0144,
+"fair_odds": 6825,
+"edge": 0.0021,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0144,
+"absence_p": 0.0141,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "ATL",
+"entity_name": "Atlanta Falcons",
+"price": 10000,
+"implied": 0.0099,
+"novig": 0.0072,
+"model_p": 0.0004,
+"fair_odds": 227173,
+"edge": -0.0068,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0004,
+"absence_p": 0.0004,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "CAR",
+"entity_name": "Carolina Panthers",
+"price": 10000,
+"implied": 0.0099,
+"novig": 0.0072,
+"model_p": 0.0047,
+"fair_odds": 21268,
+"edge": -0.0025,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0045,
+"absence_p": 0.0039,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "NO",
+"entity_name": "New Orleans Saints",
+"price": 12500,
+"implied": 0.0079,
+"novig": 0.0057,
+"model_p": 0.0006,
+"fair_odds": 178471,
+"edge": -0.0051,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0006,
+"absence_p": 0.0008,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "CLE",
+"entity_name": "Cleveland Browns",
+"price": 17500,
+"implied": 0.0057,
+"novig": 0.004,
+"model_p": 0.0011,
+"fair_odds": 89186,
+"edge": -0.0029,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0009,
+"absence_p": 0.0018,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "WAS",
+"entity_name": "Washington Commanders",
+"price": 17500,
+"implied": 0.0057,
+"novig": 0.004,
+"model_p": 0.0004,
+"fair_odds": 227173,
+"edge": -0.0036,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0004,
+"absence_p": 0.0004,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "BAL",
+"entity_name": "Baltimore Ravens",
+"price": 17500,
+"implied": 0.0057,
+"novig": 0.004,
+"model_p": 0.0002,
+"fair_odds": 416567,
+"edge": -0.0038,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0,
+"absence_p": 0.0002,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "LV",
+"entity_name": "Las Vegas Raiders",
+"price": 40000,
+"implied": 0.0025,
+"novig": 0.0017,
+"model_p": 0.0,
+"fair_odds": null,
+"edge": -0.0017,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0,
+"absence_p": 0.0,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "TEN",
+"entity_name": "Tennessee Titans",
+"price": 100000,
+"implied": 0.001,
+"novig": 0.0006,
+"model_p": 0.0,
+"fair_odds": null,
+"edge": -0.0006,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0,
+"absence_p": 0.0,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "ARI",
+"entity_name": "Arizona Cardinals",
+"price": 100000,
+"implied": 0.001,
+"novig": 0.0006,
+"model_p": 0.0,
+"fair_odds": null,
+"edge": -0.0006,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0,
+"absence_p": 0.0,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "IND",
+"entity_name": "Indianapolis Colts",
+"price": 100000,
+"implied": 0.001,
+"novig": 0.0006,
+"model_p": 0.0,
+"fair_odds": null,
+"edge": -0.0006,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0,
+"absence_p": 0.0,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "LAC",
+"entity_name": "Los Angeles Chargers",
+"price": 100000,
+"implied": 0.001,
+"novig": 0.0006,
+"model_p": 0.0,
+"fair_odds": null,
+"edge": -0.0006,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0,
+"absence_p": 0.0,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "NYJ",
+"entity_name": "New York Jets",
+"price": 100000,
+"implied": 0.001,
+"novig": 0.0006,
+"model_p": 0.0,
+"fair_odds": null,
+"edge": -0.0006,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0,
+"absence_p": 0.0,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "MIA",
+"entity_name": "Miami Dolphins",
+"price": 100000,
+"implied": 0.001,
+"novig": 0.0006,
+"model_p": 0.0,
+"fair_odds": null,
+"edge": -0.0006,
+"collected_at": "2026-11-10T19:44:29Z",
+"healthy_p": 0.0,
+"absence_p": 0.0,
+"model_note": null
+},
+{
+"market": "super_bowl_winner",
+"book": "fanduel",
+"entity_kind": "team",
+"entity_id": "PHI",
+"entity_name": "Philadelphia Eagles",
 "price": 100000,
 "implied": 0.001,
 "novig": 0.0006,
@@ -330494,7 +330443,7 @@
 ],
 "injury_uncertainty_count": 104
 },
-"age_hours": 14.2,
+"age_hours": 15.3,
 "stale": false,
 "snapshots_stored": 24,
 "history_append_only": true,
@@ -368330,71 +368279,71 @@
 "season": 2026,
 "week": 11,
 "game_type": "REG",
-"generated_at": "2026-11-23T21:43:35Z",
+"generated_at": "2026-11-23T22:44:11Z",
 "freshness": {
 "schedule": {
-"last": "2026-11-23T21:39:16Z",
-"age_hours": 0.1,
+"last": "2026-11-23T22:42:44Z",
+"age_hours": 0.0,
 "stale": false
 },
 "rosters": {
 "last": "2026-11-23T21:38:42Z",
-"age_hours": 0.1,
+"age_hours": 1.1,
 "stale": false
 },
 "depth": {
 "last": "2026-11-22T02:52:45Z",
-"age_hours": 42.8,
+"age_hours": 43.9,
 "stale": true
 },
 "injuries": {
 "last": "2026-11-23T21:38:45Z",
-"age_hours": 0.1,
+"age_hours": 1.1,
 "stale": false
 },
 "news": {
 "last": "2026-11-23T21:38:46Z",
-"age_hours": 0.1,
+"age_hours": 1.1,
 "stale": false
 },
 "odds": {
-"last": "2026-11-23T21:38:56Z",
-"age_hours": 0.1,
+"last": "2026-11-23T22:42:41Z",
+"age_hours": 0.0,
 "stale": false
 },
 "futures": {
 "last": "2026-11-10T19:44:29Z",
-"age_hours": 314.0,
+"age_hours": 315.0,
 "stale": false
 },
 "weather": {
 "last": "2026-11-23T21:38:49Z",
-"age_hours": 0.1,
+"age_hours": 1.1,
 "stale": false
 },
 "stats": {
-"last": "2026-11-23T21:39:23Z",
-"age_hours": 0.1,
+"last": "2026-11-23T22:42:44Z",
+"age_hours": 0.0,
 "stale": false
 },
 "projections": {
 "last": "2026-11-23T21:39:39Z",
-"age_hours": 0.1,
+"age_hours": 1.1,
 "stale": false
 },
 "season_sim": {
 "last": "2026-11-23T07:28:33Z",
-"age_hours": 14.2,
+"age_hours": 15.3,
 "stale": false
 },
 "transactions": {
 "last": "2026-11-23T21:38:45Z",
-"age_hours": 0.1,
+"age_hours": 1.1,
 "stale": false
 }
 },
 "alerts": [
-"depth: 43h old",
+"depth: 44h old",
 "odds: 828 closing-line conflict(s) \u2014 see duplicate_odds diagnostic",
 "WARN closing-line capture: 9 Official(s) in 6 game(s) kicked off in the last 48h with no FanDuel close captured (CLV coverage gap)"
 ],
@@ -369331,7 +369280,7 @@
 "news_articles": 11617,
 "news_entities": 21366,
 "news_impacts": 41309,
-"odds_snapshots": 679260,
+"odds_snapshots": 679262,
 "parlay_legs": 0,
 "player_aliases": 53858,
 "player_game_settlement": 220263,
@@ -369364,9 +369313,24 @@
 "weeks": 254
 },
 "provider_state": {
+"refresh-weather": {
+"status": "ok",
+"at": "2026-11-23T21:38:49Z",
+"errors": []
+},
+"refresh-odds": {
+"status": "ok",
+"at": "2026-11-23T21:38:56Z",
+"errors": []
+},
 "refresh-schedule": {
 "status": "ok",
-"at": "2026-11-23T21:39:16Z",
+"at": "2026-11-23T22:42:44Z",
+"errors": []
+},
+"refresh-stats": {
+"status": "ok",
+"at": "2026-11-23T22:42:44Z",
 "errors": []
 },
 "refresh-injuries": {
@@ -369382,21 +369346,6 @@
 "refresh-news": {
 "status": "ok",
 "at": "2026-11-23T21:38:46Z",
-"errors": []
-},
-"refresh-weather": {
-"status": "ok",
-"at": "2026-11-23T21:38:49Z",
-"errors": []
-},
-"refresh-odds": {
-"status": "ok",
-"at": "2026-11-23T21:38:56Z",
-"errors": []
-},
-"refresh-stats": {
-"status": "ok",
-"at": "2026-11-23T21:39:23Z",
 "errors": []
 },
 "refresh-depth-charts": {
@@ -369569,7 +369518,7 @@
 "usage_by_sportsbook_note": "credits of every request that included the book; a request costs the same whichever books it lists",
 "avg_credits_per_refresh": 105.78,
 "failed_calls_month": 46,
-"updated_at": "2026-11-23T21:43:35Z"
+"updated_at": "2026-11-23T22:44:11Z"
 },
 "odds_refresh_state": {
 "futures": "2026-11-10T19:44:29.196919+00:00",
@@ -370020,13 +369969,13 @@
 }
 }
 },
-"graded_at": "2026-11-23T21:39:32Z",
+"graded_at": "2026-11-23T22:42:53Z",
 "coverage": {
 "scheduled": 135,
 "final": 41,
-"frozen_games": 41,
+"frozen_games": 42,
 "graded_games": 18,
-"pending_games": 23,
+"pending_games": 24,
 "props_frozen": {
 "A_beneficiary_ypt_cap": 84,
 "B_backup_qb_first_start": 240
@@ -370176,17 +370125,17 @@
 "log_loss_improvement": 0.007
 }
 },
-"graded_at": "2026-11-23T21:39:32Z",
+"graded_at": "2026-11-23T22:42:53Z",
 "coverage": {
 "scheduled": 58,
 "final": 41,
-"frozen_games": 41,
+"frozen_games": 42,
 "graded_games": 41,
-"pending_games": 0,
-"resimulated_games": 40,
-"dropped_players": 146,
-"props_frozen": 2473,
-"props_moved": 2296,
+"pending_games": 1,
+"resimulated_games": 41,
+"dropped_players": 149,
+"props_frozen": 2539,
+"props_moved": 2362,
 "void_dnp": 86,
 "push": 0
 },
@@ -370238,7 +370187,7 @@
 "Tay Martin (DET WR4)",
 "Xavier Gipson (NYG WR5)"
 ],
-"frozen_props": 739
+"frozen_props": 805
 }
 },
 "rb_return_shadow": {
@@ -370285,17 +370234,17 @@
 "log_loss_improvement": 0.0197
 }
 },
-"graded_at": "2026-11-23T21:39:32Z",
+"graded_at": "2026-11-23T22:42:53Z",
 "coverage": {
 "scheduled": 120,
 "final": 26,
-"frozen_games": 26,
+"frozen_games": 27,
 "graded_games": 11,
-"pending_games": 15,
-"resimulated_games": 11,
-"returners": 15,
-"props_frozen": 68,
-"props_moved": 68,
+"pending_games": 16,
+"resimulated_games": 12,
+"returners": 16,
+"props_frozen": 75,
+"props_moved": 75,
 "void_dnp": 6,
 "push": 0
 },
@@ -370314,7 +370263,7 @@
 "Kyle Monangai (CHI RB, game 1 back)",
 "Travis Etienne (NO RB, game 2 back)"
 ],
-"frozen_props": 33
+"frozen_props": 40
 }
 }
 },
@@ -370448,8 +370397,8 @@
 "workflow": "scheduler"
 },
 "next_refresh_estimate": {
-"credits": 0,
-"requests": 0,
+"credits": 15,
+"requests": 2,
 "approved": true,
 "policy": "NORMAL"
 },
@@ -370482,7 +370431,7 @@
 "usage_by_sportsbook_note": "credits of every request that included the book; a request costs the same whichever books it lists",
 "avg_credits_per_refresh": 105.78,
 "failed_calls_month": 46,
-"updated_at": "2026-11-23T21:43:38Z",
+"updated_at": "2026-11-23T22:44:15Z",
 "credit_checks": [
 {
 "at": "2026-11-19T14:02:48Z",
@@ -371349,7 +371298,7 @@
 "detail": "build ran inside GitHub Actions",
 "where": "https://github.com/amercado19/nfl-pipeline/actions",
 "health": "healthy",
-"health_detail": "probe 271 ms at 2026-11-23T15:29:48Z"
+"health_detail": "probe 274 ms at 2026-11-23T21:44:30Z"
 },
 {
 "name": "Database Connected",
@@ -371370,7 +371319,7 @@
 "closing-line value"
 ],
 "health": "healthy",
-"health_detail": "probe 162 ms at 2026-11-23T15:29:47Z"
+"health_detail": "probe 177 ms at 2026-11-23T21:44:30Z"
 },
 {
 "name": "Weather Provider",
@@ -371378,7 +371327,7 @@
 "detail": "Open-Meteo (no key required); last run 2026-11-23T21:38:49Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 233 ms at 2026-11-23T15:29:47Z"
+"health_detail": "probe 196 ms at 2026-11-23T21:44:29Z"
 },
 {
 "name": "News Provider",
@@ -371386,7 +371335,7 @@
 "detail": "ESPN / CBS / PFT RSS (no key required); last run 2026-11-23T21:38:46Z",
 "where": "no credential needed",
 "health": "healthy",
-"health_detail": "probe 36 ms at 2026-11-23T15:29:47Z"
+"health_detail": "probe 98 ms at 2026-11-23T21:44:29Z"
 },
 {
 "name": "Deployment Token",
@@ -371397,7 +371346,7 @@
 "automatic dashboard publish to amercado19/nfl-dashboard"
 ],
 "health": "healthy",
-"health_detail": "last publish succeeded at 2026-11-23T15:30:41Z"
+"health_detail": "last publish succeeded at 2026-11-23T21:45:28Z"
 },
 {
 "name": "Dashboard Publisher",
@@ -371405,7 +371354,7 @@
 "detail": "reusable workflow publishes site/ to amercado19/nfl-dashboard (GitHub Pages)",
 "where": "https://amercado19.github.io/nfl-dashboard/",
 "health": "healthy",
-"health_detail": "last publish succeeded at 2026-11-23T15:30:41Z"
+"health_detail": "last publish succeeded at 2026-11-23T21:45:28Z"
 }
 ],
 "setup": {
@@ -371446,7 +371395,7 @@
 "note": "The dashboard keeps working on projections and public data while credentials are missing; only the listed features are blocked."
 },
 "runs": {
-"n_recorded": 623,
+"n_recorded": 624,
 "workflows": [
 {
 "workflow": "backtest-models",
@@ -371480,15 +371429,15 @@
 },
 {
 "workflow": "scheduler",
-"runs": 621,
+"runs": 622,
 "failures_14d": 25,
 "last": {
-"at": "2026-11-23T15:30:41Z",
+"at": "2026-11-23T21:45:28Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/45203911536",
-"duration_s": 300
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/45270701211",
+"duration_s": 408
 },
-"last_success": "2026-11-23T15:30:41Z",
+"last_success": "2026-11-23T21:45:28Z",
 "last_failure": {
 "at": "2026-11-18T07:07:42Z",
 "url": "https://github.com/amercado19/nfl-pipeline/actions/runs/44255922496",
@@ -372469,7 +372418,7 @@
 }
 ],
 "currently_failing": [],
-"last_successful_run": "2026-11-23T15:30:41Z",
+"last_successful_run": "2026-11-23T21:45:28Z",
 "status": "ok",
 "note": "one row per GitHub Actions execution (scheduler + manual); written by the run-summary step before the store is committed"
 },
@@ -372477,15 +372426,15 @@
 "phase_now": "game_day",
 "watchdog": {
 "last_expected_run_utc": "2026-11-23T21:15Z",
-"last_actual_start_utc": "2026-11-23T15:25Z",
+"last_actual_start_utc": "2026-11-23T21:38Z",
 "window_hours": 26,
 "tolerances": {
 "delayed_after_min": 20,
 "missed_after_min": 90
 },
-"expected_firings": 45,
-"on_time": 2,
-"delayed": 4,
+"expected_firings": 41,
+"on_time": 1,
+"delayed": 5,
 "missed": 8,
 "rows": [
 {
@@ -372718,7 +372667,7 @@
 "expected_to_run": true,
 "started_utc": null,
 "delay_min": null,
-"status": "MISSED_STALE"
+"status": "MISSED_RECOVERED"
 },
 {
 "due_utc": "2026-11-23T17:30Z",
@@ -372750,7 +372699,7 @@
 "expected_to_run": true,
 "started_utc": null,
 "delay_min": null,
-"status": "MISSED_STALE"
+"status": "MISSED_RECOVERED"
 },
 {
 "due_utc": "2026-11-23T19:40Z",
@@ -372780,9 +372729,9 @@
 "due_utc": "2026-11-23T20:30Z",
 "slot": "prekick_30m",
 "expected_to_run": false,
-"started_utc": null,
-"delay_min": null,
-"status": "PENDING"
+"started_utc": "2026-11-23T21:38Z",
+"delay_min": 69,
+"status": "DELAYED"
 },
 {
 "due_utc": "2026-11-23T20:40Z",
@@ -372790,7 +372739,7 @@
 "expected_to_run": false,
 "started_utc": null,
 "delay_min": null,
-"status": "PENDING"
+"status": "SKIPPED_BY_GATE"
 },
 {
 "due_utc": "2026-11-23T20:52Z",
@@ -372798,7 +372747,7 @@
 "expected_to_run": false,
 "started_utc": null,
 "delay_min": null,
-"status": "PENDING"
+"status": "SKIPPED_BY_GATE"
 },
 {
 "due_utc": "2026-11-23T21:15Z",
@@ -372809,9 +372758,9 @@
 "status": "PENDING"
 }
 ],
-"missed_stale": 2,
-"recovered": 6,
-"state": "MISSED_STALE",
+"missed_stale": 0,
+"recovered": 8,
+"state": "RECOVERED",
 "note": "GitHub Actions cron is best-effort: events routinely arrive late and are sometimes skipped under load. A MISSED/DELAYED row here is a SCHEDULING problem (data goes stale until the next slot), never a pipeline failure \u2014 those are tracked separately from recorded run statuses."
 },
 "next_kick": "2026-11-24T01:15:00+00:00",
@@ -373100,23 +373049,23 @@
 "dashboard_repo": "https://github.com/amercado19/nfl-dashboard",
 "site_url": "https://amercado19.github.io/nfl-dashboard/",
 "version": "nfl-picks 0.52.0",
-"commit": "6f3740b62c0c",
+"commit": "9cf54eade603",
 "branch": "main",
 "tag": null,
 "dashboard_commit": {
 "ok": true,
-"sha": "cda67899c661",
-"message": "Auto-publish NFL 2026-11-23 15:29 UTC",
-"date": "2026-11-23T15:29:40Z",
-"url": "https://github.com/amercado19/nfl-dashboard/commit/cda67899c661c15477b81728a7938f6f2ae94c27"
+"sha": "1f160f6e4069",
+"message": "Auto-publish NFL 2026-11-23 21:44 UTC",
+"date": "2026-11-23T21:44:23Z",
+"url": "https://github.com/amercado19/nfl-dashboard/commit/1f160f6e4069fd9cab4abf33f46068435301fd5d"
 },
 "pages": {
 "reachable": true,
 "status": 200,
-"latency_ms": 129,
+"latency_ms": 178,
 "live_version": "0.52.0",
-"live_build": "65b44c937f10",
-"live_generated_at": "2026-11-23T15:29:28Z",
+"live_build": "6f3740b62c0c",
+"live_generated_at": "2026-11-23T21:44:12Z",
 "in_sync": false
 },
 "method": "GitHub Actions (scheduler) \u2192 SSH deploy key \u2192 amercado19/nfl-dashboard \u2192 GitHub Pages",
@@ -373134,15 +373083,15 @@
 "kind": "rate_limit",
 "ok": true,
 "status": 200,
-"latency_ms": 271,
+"latency_ms": 274,
 "bytes": 1232,
 "rate_limit": {
 "remaining": "4999",
 "limit": "5000"
 },
 "authenticated": true,
-"probed_at": "2026-11-23T15:29:48Z",
-"run_id": "45203911536"
+"probed_at": "2026-11-23T21:44:30Z",
+"run_id": "45270701211"
 },
 "latest_workflow": null,
 "latest_completed_workflow": null,
@@ -373155,15 +373104,15 @@
 },
 "publish": {
 "last": {
-"recorded_at": "2026-11-23T15:30:41Z",
+"recorded_at": "2026-11-23T21:45:28Z",
 "workflow": "scheduler",
-"run_id": "45203911536",
+"run_id": "45270701211",
 "attempt": "1",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/45203911536",
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/45270701211",
 "trigger": "schedule",
 "status": "success",
-"started_at": "2026-11-23T15:25:42Z",
-"duration_s": 300,
+"started_at": "2026-11-23T21:38:40Z",
+"duration_s": 408,
 "steps": [
 "python -m nfl_picks refresh schedule",
 "python -m nfl_picks refresh rosters",
@@ -373188,7 +373137,7 @@
 "simulate-season"
 ],
 "alerts": [
-"depth: 37h old",
+"depth: 43h old",
 "odds: 828 closing-line conflict(s) \u2014 see duplicate_odds diagnostic",
 "WARN closing-line capture: 9 Official(s) in 6 game(s) kicked off in the last 48h with no FanDuel close captured (CLV coverage gap)"
 ],
@@ -373196,29 +373145,29 @@
 "odds_key_present": true,
 "deploy_key_present": true,
 "push_token_present": false,
-"odds_estimated_credits": 7,
-"credits_month_nfl": 8725,
+"odds_estimated_credits": 0,
+"credits_month_nfl": 8780,
 "publish_status": "success",
-"publish_duration_s": 119,
+"publish_duration_s": 169,
 "publish_verify": {
 "ok": true,
 "checks": 196,
 "failed": [],
-"build_id": "65b44c937f10"
+"build_id": "6f3740b62c0c"
 },
 "phase": null,
 "group": null
 },
 "last_success": {
-"recorded_at": "2026-11-23T15:30:41Z",
+"recorded_at": "2026-11-23T21:45:28Z",
 "workflow": "scheduler",
-"run_id": "45203911536",
+"run_id": "45270701211",
 "attempt": "1",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/45203911536",
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/45270701211",
 "trigger": "schedule",
 "status": "success",
-"started_at": "2026-11-23T15:25:42Z",
-"duration_s": 300,
+"started_at": "2026-11-23T21:38:40Z",
+"duration_s": 408,
 "steps": [
 "python -m nfl_picks refresh schedule",
 "python -m nfl_picks refresh rosters",
@@ -373243,7 +373192,7 @@
 "simulate-season"
 ],
 "alerts": [
-"depth: 37h old",
+"depth: 43h old",
 "odds: 828 closing-line conflict(s) \u2014 see duplicate_odds diagnostic",
 "WARN closing-line capture: 9 Official(s) in 6 game(s) kicked off in the last 48h with no FanDuel close captured (CLV coverage gap)"
 ],
@@ -373251,15 +373200,15 @@
 "odds_key_present": true,
 "deploy_key_present": true,
 "push_token_present": false,
-"odds_estimated_credits": 7,
-"credits_month_nfl": 8725,
+"odds_estimated_credits": 0,
+"credits_month_nfl": 8780,
 "publish_status": "success",
-"publish_duration_s": 119,
+"publish_duration_s": 169,
 "publish_verify": {
 "ok": true,
 "checks": 196,
 "failed": [],
-"build_id": "65b44c937f10"
+"build_id": "6f3740b62c0c"
 },
 "phase": null,
 "group": null
@@ -373377,18 +373326,18 @@
 "phase": null,
 "group": null
 },
-"n": 522,
-"latest_duration_s": 119,
+"n": 523,
+"latest_duration_s": 169,
 "result": "success",
 "verify": {
 "ok": true,
 "checks": 196,
 "failed": [],
-"build_id": "65b44c937f10"
+"build_id": "6f3740b62c0c"
 }
 },
 "runs": {
-"n_recorded": 623,
+"n_recorded": 624,
 "workflows": [
 {
 "workflow": "backtest-models",
@@ -373422,15 +373371,15 @@
 },
 {
 "workflow": "scheduler",
-"runs": 621,
+"runs": 622,
 "failures_14d": 25,
 "last": {
-"at": "2026-11-23T15:30:41Z",
+"at": "2026-11-23T21:45:28Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/45203911536",
-"duration_s": 300
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/45270701211",
+"duration_s": 408
 },
-"last_success": "2026-11-23T15:30:41Z",
+"last_success": "2026-11-23T21:45:28Z",
 "last_failure": {
 "at": "2026-11-18T07:07:42Z",
 "url": "https://github.com/amercado19/nfl-pipeline/actions/runs/44255922496",
@@ -374411,7 +374360,7 @@
 }
 ],
 "currently_failing": [],
-"last_successful_run": "2026-11-23T15:30:41Z",
+"last_successful_run": "2026-11-23T21:45:28Z",
 "status": "ok",
 "note": "one row per GitHub Actions execution (scheduler + manual); written by the run-summary step before the store is committed"
 },
@@ -374431,23 +374380,23 @@
 "fix": "HTTP 404"
 }
 ],
-"checked_at": "2026-11-23T21:43:40Z",
+"checked_at": "2026-11-23T22:44:17Z",
 "checked_in_actions": true
 },
 "providers": {
 "odds_api": {
 "label": "The Odds API",
 "health": "healthy",
-"latency_ms": 162,
+"latency_ms": 177,
 "latency_ms_median": 166,
-"last_probe": "2026-11-23T15:29:47Z",
-"last_success": "2026-11-23T15:29:47Z",
+"last_probe": "2026-11-23T21:44:30Z",
+"last_success": "2026-11-23T21:44:30Z",
 "last_failure": null,
 "success_rate": 0.995,
-"probes": 605,
+"probes": 606,
 "rate_limit": {
-"remaining": "91172",
-"used": "8828",
+"remaining": "91117",
+"used": "8883",
 "last_cost": "0"
 },
 "status": 200,
@@ -374460,17 +374409,17 @@
 "espn": {
 "label": "ESPN",
 "health": "healthy",
-"latency_ms": 95,
+"latency_ms": 91,
 "latency_ms_median": 139,
-"last_probe": "2026-11-23T15:29:47Z",
-"last_success": "2026-11-23T15:29:47Z",
+"last_probe": "2026-11-23T21:44:29Z",
+"last_success": "2026-11-23T21:44:29Z",
 "last_failure": null,
 "success_rate": 1.0,
-"probes": 605,
+"probes": 606,
 "rate_limit": null,
 "status": 200,
 "error": null,
-"last_job_success": "2026-11-23T21:39:16Z",
+"last_job_success": "2026-11-23T22:42:44Z",
 "last_job_failure": null,
 "next_refresh": "2026-11-23T23:15:00Z",
 "credential": "none required"
@@ -374478,21 +374427,21 @@
 "nflverse": {
 "label": "nflverse",
 "health": "healthy",
-"latency_ms": 92,
+"latency_ms": 77,
 "latency_ms_median": 216,
-"last_probe": "2026-11-23T15:29:47Z",
-"last_success": "2026-11-23T15:29:47Z",
+"last_probe": "2026-11-23T21:44:29Z",
+"last_success": "2026-11-23T21:44:29Z",
 "last_failure": {
 "at": "2026-10-07T05:42:33Z",
 "error": "HTTP 404",
 "status": 404
 },
 "success_rate": 0.998,
-"probes": 605,
+"probes": 606,
 "rate_limit": null,
 "status": 200,
 "error": null,
-"last_job_success": "2026-11-23T21:39:23Z",
+"last_job_success": "2026-11-23T22:42:44Z",
 "last_job_failure": null,
 "next_refresh": "2026-11-23T23:15:00Z",
 "credential": "none required"
@@ -374500,17 +374449,17 @@
 "open_meteo": {
 "label": "Open-Meteo (weather)",
 "health": "healthy",
-"latency_ms": 233,
-"latency_ms_median": 521,
-"last_probe": "2026-11-23T15:29:47Z",
-"last_success": "2026-11-23T15:29:47Z",
+"latency_ms": 196,
+"latency_ms_median": 520,
+"last_probe": "2026-11-23T21:44:29Z",
+"last_success": "2026-11-23T21:44:29Z",
 "last_failure": {
 "at": "2026-11-17T19:21:46Z",
 "error": "<urlopen error _ssl.c:1001: The handshake operation timed out>",
 "status": null
 },
 "success_rate": 0.979,
-"probes": 605,
+"probes": 606,
 "rate_limit": null,
 "status": 200,
 "error": null,
@@ -374522,13 +374471,13 @@
 "rss": {
 "label": "RSS news",
 "health": "healthy",
-"latency_ms": 36,
+"latency_ms": 98,
 "latency_ms_median": 71,
-"last_probe": "2026-11-23T15:29:47Z",
-"last_success": "2026-11-23T15:29:47Z",
+"last_probe": "2026-11-23T21:44:29Z",
+"last_success": "2026-11-23T21:44:29Z",
 "last_failure": null,
 "success_rate": 1.0,
-"probes": 605,
+"probes": 606,
 "rate_limit": null,
 "status": 202,
 "error": null,
@@ -374540,17 +374489,17 @@
 "github_api": {
 "label": "GitHub API",
 "health": "healthy",
-"latency_ms": 271,
+"latency_ms": 274,
 "latency_ms_median": 277,
-"last_probe": "2026-11-23T15:29:48Z",
-"last_success": "2026-11-23T15:29:48Z",
+"last_probe": "2026-11-23T21:44:30Z",
+"last_success": "2026-11-23T21:44:30Z",
 "last_failure": {
 "at": "2026-09-02T01:30:14Z",
 "error": "HTTP 502",
 "status": 502
 },
 "success_rate": 0.995,
-"probes": 605,
+"probes": 606,
 "rate_limit": {
 "remaining": "4999",
 "limit": "5000"
@@ -374565,13 +374514,13 @@
 "github_pages": {
 "label": "GitHub Pages (live site)",
 "health": "healthy",
-"latency_ms": 65,
+"latency_ms": 46,
 "latency_ms_median": 111,
-"last_probe": "2026-11-23T15:29:48Z",
-"last_success": "2026-11-23T15:29:48Z",
+"last_probe": "2026-11-23T21:44:30Z",
+"last_success": "2026-11-23T21:44:30Z",
 "last_failure": null,
 "success_rate": 1.0,
-"probes": 605,
+"probes": 606,
 "rate_limit": null,
 "status": 200,
 "error": null,
@@ -374585,12 +374534,12 @@
 "app_version": "nfl-picks 0.52.0",
 "pipeline_version": "0.52.0",
 "dashboard_version": "0.52.0",
-"git_commit": "6f3740b62c0c",
+"git_commit": "9cf54eade603",
 "git_tag": null,
-"build_timestamp": "2026-11-23T21:44:11Z",
+"build_timestamp": "2026-11-23T22:44:18Z",
 "data_timestamp": null,
 "prediction_timestamp": "2026-11-23T21:39:39Z",
-"prediction_run_id": "proj-2026-w11-20261123T213939Z-492ea",
+"prediction_run_id": "proj-2026-w11-20261123T224322Z-d8736",
 "n_projection_rows": 1285290,
 "model_version": "game-ridge-v1-2018-2026-202609151720",
 "feature_version": "team-v1",
@@ -374598,24 +374547,24 @@
 "explain_version": "explain-v1",
 "calibration_version": "2026-11-10T20:07:39Z",
 "calibration_method": "isotonic (PAVA), out-of-sample walk-forward rows only; applied inside the fitted support and only when the week-blocked cross-fit Brier improves on the raw probability",
-"last_deployment": "2026-11-23T15:30:41Z",
-"last_publish_attempt": "2026-11-23T15:30:41Z",
+"last_deployment": "2026-11-23T21:45:28Z",
+"last_publish_attempt": "2026-11-23T21:45:28Z",
 "last_publish_result": "success",
 "latest_workflow": {
-"at": "2026-11-23T15:30:41Z",
+"at": "2026-11-23T21:45:28Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/45203911536",
-"duration_s": 300
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/45270701211",
+"duration_s": 408
 },
-"last_successful_run": "2026-11-23T15:30:41Z",
+"last_successful_run": "2026-11-23T21:45:28Z",
 "last_commands": {
-"grade": "2026-11-23T15:30:41Z",
+"grade": "2026-11-23T21:45:28Z",
 "calibration-report": "2026-11-18T17:01:31Z",
 "retrain": "2026-11-10T20:14:21Z",
-"project": "2026-11-23T15:30:41Z",
+"project": "2026-11-23T21:45:28Z",
 "attribute-errors": "2026-11-23T02:00:54Z",
 "evaluate-week": "2026-11-23T02:00:54Z",
-"refresh": "2026-11-23T15:30:41Z"
+"refresh": "2026-11-23T21:45:28Z"
 },
 "python_version": "3.11.18",
 "schema_version": 14,
@@ -374653,12 +374602,12 @@
 "app_version": "nfl-picks 0.52.0",
 "pipeline_version": "0.52.0",
 "dashboard_version": "0.52.0",
-"git_commit": "6f3740b62c0c",
+"git_commit": "9cf54eade603",
 "git_tag": null,
-"build_timestamp": "2026-11-23T21:44:11Z",
-"data_timestamp": "2026-11-23T21:39:39Z",
+"build_timestamp": "2026-11-23T22:44:18Z",
+"data_timestamp": "2026-11-23T22:42:44Z",
 "prediction_timestamp": "2026-11-23T21:39:39Z",
-"prediction_run_id": "proj-2026-w11-20261123T213939Z-492ea",
+"prediction_run_id": "proj-2026-w11-20261123T224322Z-d8736",
 "n_projection_rows": 1285290,
 "model_version": "game-ridge-v1-2018-2026-202609151720",
 "feature_version": "team-v1",
@@ -374666,24 +374615,24 @@
 "explain_version": "explain-v1",
 "calibration_version": "2026-11-10T20:07:39Z",
 "calibration_method": "isotonic (PAVA), out-of-sample walk-forward rows only; applied inside the fitted support and only when the week-blocked cross-fit Brier improves on the raw probability",
-"last_deployment": "2026-11-23T15:30:41Z",
-"last_publish_attempt": "2026-11-23T15:30:41Z",
+"last_deployment": "2026-11-23T21:45:28Z",
+"last_publish_attempt": "2026-11-23T21:45:28Z",
 "last_publish_result": "success",
 "latest_workflow": {
-"at": "2026-11-23T15:30:41Z",
+"at": "2026-11-23T21:45:28Z",
 "status": "success",
-"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/45203911536",
-"duration_s": 300
+"url": "https://github.com/amercado19/nfl-pipeline/actions/runs/45270701211",
+"duration_s": 408
 },
-"last_successful_run": "2026-11-23T15:30:41Z",
+"last_successful_run": "2026-11-23T21:45:28Z",
 "last_commands": {
-"grade": "2026-11-23T15:30:41Z",
+"grade": "2026-11-23T21:45:28Z",
 "calibration-report": "2026-11-18T17:01:31Z",
 "retrain": "2026-11-10T20:14:21Z",
-"project": "2026-11-23T15:30:41Z",
+"project": "2026-11-23T21:45:28Z",
 "attribute-errors": "2026-11-23T02:00:54Z",
 "evaluate-week": "2026-11-23T02:00:54Z",
-"refresh": "2026-11-23T15:30:41Z"
+"refresh": "2026-11-23T21:45:28Z"
 },
 "python_version": "3.11.18",
 "schema_version": 14,
@@ -374719,20 +374668,20 @@
 "attribution": {
 "season": 2026,
 "mode": "LIVE",
-"n": 941,
+"n": 948,
 "status": "OK",
-"generated_at": "2026-11-23T01:58:35Z",
+"generated_at": "2026-11-23T22:43:19Z",
 "model_versions": [
 "game-ridge-v1-2018-2025-202608281538",
 "game-ridge-v1-2018-2026-202609151720"
 ],
 "significant_z": 1.5,
-"total_abs_error": 28643.147,
+"total_abs_error": 28765.139,
 "avoidable_n": 33,
 "by_category": {
 "Unexpected injury": {
 "n": 39,
-"share": 0.0414,
+"share": 0.0411,
 "mean_abs_error": 35.175,
 "mean_abs_z": 2.476,
 "total_abs_error": 1371.819,
@@ -374743,7 +374692,7 @@
 },
 "Unexpected inactive": {
 "n": 232,
-"share": 0.2465,
+"share": 0.2447,
 "mean_abs_error": 26.196,
 "mean_abs_z": 2.173,
 "total_abs_error": 6077.553,
@@ -374754,7 +374703,7 @@
 },
 "Role change": {
 "n": 31,
-"share": 0.0329,
+"share": 0.0327,
 "mean_abs_error": 33.722,
 "mean_abs_z": 2.352,
 "total_abs_error": 1045.389,
@@ -374776,7 +374725,7 @@
 },
 "Quarterback change": {
 "n": 75,
-"share": 0.0797,
+"share": 0.0791,
 "mean_abs_error": 41.453,
 "mean_abs_z": 2.628,
 "total_abs_error": 3108.963,
@@ -374786,41 +374735,41 @@
 "measurable": true
 },
 "Game script": {
-"n": 182,
-"share": 0.1934,
-"mean_abs_error": 27.175,
-"mean_abs_z": 2.608,
-"total_abs_error": 4945.85,
+"n": 185,
+"share": 0.1951,
+"mean_abs_error": 26.855,
+"mean_abs_z": 2.601,
+"total_abs_error": 4968.159,
 "avoidable_n": 0,
-"over_n": 148,
+"over_n": 151,
 "secondary_n": 120,
 "measurable": true
 },
 "Blowout": {
-"n": 69,
-"share": 0.0733,
-"mean_abs_error": 41.633,
-"mean_abs_z": 2.415,
-"total_abs_error": 2872.681,
+"n": 71,
+"share": 0.0749,
+"mean_abs_error": 41.401,
+"mean_abs_z": 2.392,
+"total_abs_error": 2939.502,
 "avoidable_n": 0,
-"over_n": 55,
-"secondary_n": 47,
+"over_n": 57,
+"secondary_n": 49,
 "measurable": true
 },
 "Garbage time": {
-"n": 44,
-"share": 0.0468,
-"mean_abs_error": 27.05,
-"mean_abs_z": 2.53,
-"total_abs_error": 1190.194,
+"n": 46,
+"share": 0.0485,
+"mean_abs_error": 26.588,
+"mean_abs_z": 2.542,
+"total_abs_error": 1223.056,
 "avoidable_n": 0,
-"over_n": 41,
+"over_n": 43,
 "secondary_n": 15,
 "measurable": true
 },
 "Turnovers": {
 "n": 36,
-"share": 0.0383,
+"share": 0.038,
 "mean_abs_error": 27.652,
 "mean_abs_z": 2.352,
 "total_abs_error": 995.475,
@@ -374831,7 +374780,7 @@
 },
 "Overtime": {
 "n": 51,
-"share": 0.0542,
+"share": 0.0538,
 "mean_abs_error": 29.051,
 "mean_abs_z": 2.768,
 "total_abs_error": 1481.612,
@@ -374842,7 +374791,7 @@
 },
 "Explosive plays": {
 "n": 34,
-"share": 0.0361,
+"share": 0.0359,
 "mean_abs_error": 59.886,
 "mean_abs_z": 2.776,
 "total_abs_error": 2036.138,
@@ -374853,18 +374802,18 @@
 },
 "Target redistribution": {
 "n": 38,
-"share": 0.0404,
+"share": 0.0401,
 "mean_abs_error": 27.321,
 "mean_abs_z": 2.501,
 "total_abs_error": 1038.213,
 "avoidable_n": 0,
 "over_n": 36,
-"secondary_n": 53,
+"secondary_n": 54,
 "measurable": true
 },
 "Carry redistribution": {
 "n": 4,
-"share": 0.0043,
+"share": 0.0042,
 "mean_abs_error": 44.544,
 "mean_abs_z": 6.492,
 "total_abs_error": 178.178,
@@ -374875,7 +374824,7 @@
 },
 "Variance": {
 "n": 80,
-"share": 0.085,
+"share": 0.0844,
 "mean_abs_error": 18.95,
 "mean_abs_z": 1.93,
 "total_abs_error": 1516.005,
@@ -374886,7 +374835,7 @@
 },
 "Unknown": {
 "n": 19,
-"share": 0.0202,
+"share": 0.02,
 "mean_abs_error": 33.35,
 "mean_abs_z": 4.699,
 "total_abs_error": 633.641,
@@ -374942,16 +374891,16 @@
 },
 "by_market": {
 "interceptions": {
-"n": 27,
-"share": 0.0287,
-"mean_abs_error": 1.734,
-"mean_abs_z": 2.508,
-"total_abs_error": 46.811,
+"n": 28,
+"share": 0.0295,
+"mean_abs_error": 1.722,
+"mean_abs_z": 2.484,
+"total_abs_error": 48.23,
 "avoidable_n": 1,
-"over_n": 27,
+"over_n": 28,
 "categories": {
 "Unexpected inactive": 8,
-"Game script": 6,
+"Game script": 7,
 "Variance": 6,
 "Overtime": 2,
 "Quarterback change": 2,
@@ -374961,16 +374910,16 @@
 }
 },
 "passing_attempts": {
-"n": 77,
-"share": 0.0818,
-"mean_abs_error": 15.808,
-"mean_abs_z": 2.493,
-"total_abs_error": 1217.207,
+"n": 78,
+"share": 0.0823,
+"mean_abs_error": 15.819,
+"mean_abs_z": 2.496,
+"total_abs_error": 1233.907,
 "avoidable_n": 3,
-"over_n": 38,
+"over_n": 39,
 "categories": {
 "Unexpected inactive": 23,
-"Game script": 20,
+"Game script": 21,
 "Unexpected injury": 7,
 "Quarterback change": 7,
 "Overtime": 5,
@@ -374983,7 +374932,7 @@
 },
 "passing_completions": {
 "n": 69,
-"share": 0.0733,
+"share": 0.0728,
 "mean_abs_error": 11.469,
 "mean_abs_z": 2.269,
 "total_abs_error": 791.364,
@@ -375004,7 +374953,7 @@
 },
 "passing_tds": {
 "n": 57,
-"share": 0.0606,
+"share": 0.0601,
 "mean_abs_error": 1.858,
 "mean_abs_z": 1.891,
 "total_abs_error": 105.927,
@@ -375024,7 +374973,7 @@
 },
 "passing_yards": {
 "n": 30,
-"share": 0.0319,
+"share": 0.0316,
 "mean_abs_error": 173.417,
 "mean_abs_z": 1.966,
 "total_abs_error": 5202.518,
@@ -375043,23 +374992,23 @@
 }
 },
 "receiving_yards": {
-"n": 254,
-"share": 0.2699,
-"mean_abs_error": 55.441,
-"mean_abs_z": 2.449,
-"total_abs_error": 14081.99,
+"n": 256,
+"share": 0.27,
+"mean_abs_error": 55.366,
+"mean_abs_z": 2.442,
+"total_abs_error": 14173.751,
 "avoidable_n": 7,
-"over_n": 250,
+"over_n": 252,
 "categories": {
 "Unexpected inactive": 65,
 "Game script": 35,
 "Explosive plays": 26,
-"Blowout": 24,
+"Blowout": 25,
 "Quarterback change": 22,
 "Variance": 17,
 "Target redistribution": 15,
+"Garbage time": 13,
 "Overtime": 12,
-"Garbage time": 12,
 "Turnovers": 11,
 "Role change": 8,
 "Depth chart error": 3,
@@ -375068,23 +375017,23 @@
 }
 },
 "receptions": {
-"n": 279,
-"share": 0.2965,
-"mean_abs_error": 3.889,
-"mean_abs_z": 2.265,
-"total_abs_error": 1085.029,
+"n": 282,
+"share": 0.2975,
+"mean_abs_error": 3.891,
+"mean_abs_z": 2.268,
+"total_abs_error": 1097.141,
 "avoidable_n": 12,
-"over_n": 233,
+"over_n": 236,
 "categories": {
 "Unexpected inactive": 71,
-"Game script": 54,
+"Game script": 55,
 "Target redistribution": 23,
 "Variance": 23,
 "Quarterback change": 20,
 "Overtime": 19,
-"Garbage time": 16,
+"Garbage time": 17,
+"Blowout": 15,
 "Unexpected injury": 14,
-"Blowout": 14,
 "Role change": 13,
 "Turnovers": 6,
 "Depth chart error": 3,
@@ -375105,7 +375054,7 @@
 },
 "rushing_yards": {
 "n": 147,
-"share": 0.1562,
+"share": 0.1551,
 "mean_abs_error": 41.527,
 "mean_abs_z": 3.319,
 "total_abs_error": 6104.498,
@@ -375132,7 +375081,7 @@
 "by_position": {
 "HB": {
 "n": 10,
-"share": 0.0106,
+"share": 0.0105,
 "mean_abs_error": 25.989,
 "mean_abs_z": 2.694,
 "total_abs_error": 259.887,
@@ -375148,7 +375097,7 @@
 },
 "Insufficient Data": {
 "n": 73,
-"share": 0.0776,
+"share": 0.077,
 "mean_abs_error": 29.348,
 "mean_abs_z": 2.351,
 "total_abs_error": 2142.412,
@@ -375160,15 +375109,15 @@
 }
 },
 "QB": {
-"n": 297,
-"share": 0.3156,
-"mean_abs_error": 26.827,
-"mean_abs_z": 2.697,
-"total_abs_error": 7967.524,
+"n": 299,
+"share": 0.3154,
+"mean_abs_error": 26.708,
+"mean_abs_z": 2.694,
+"total_abs_error": 7985.643,
 "avoidable_n": 8,
-"over_n": 194,
+"over_n": 196,
 "categories": {
-"Game script": 79,
+"Game script": 81,
 "Unexpected inactive": 49,
 "Variance": 34,
 "Blowout": 24,
@@ -375185,7 +375134,7 @@
 },
 "RB": {
 "n": 226,
-"share": 0.2402,
+"share": 0.2384,
 "mean_abs_error": 33.229,
 "mean_abs_z": 2.581,
 "total_abs_error": 7509.709,
@@ -375211,7 +375160,7 @@
 },
 "TE": {
 "n": 99,
-"share": 0.1052,
+"share": 0.1044,
 "mean_abs_error": 25.284,
 "mean_abs_z": 2.268,
 "total_abs_error": 2503.068,
@@ -375234,20 +375183,20 @@
 }
 },
 "WR": {
-"n": 236,
-"share": 0.2508,
-"mean_abs_error": 35.002,
-"mean_abs_z": 2.201,
-"total_abs_error": 8260.547,
+"n": 241,
+"share": 0.2542,
+"mean_abs_error": 34.707,
+"mean_abs_z": 2.199,
+"total_abs_error": 8364.42,
 "avoidable_n": 7,
-"over_n": 213,
+"over_n": 218,
 "categories": {
-"Game script": 42,
+"Game script": 43,
 "Unexpected inactive": 40,
-"Blowout": 21,
+"Blowout": 23,
+"Garbage time": 19,
 "Explosive plays": 18,
 "Quarterback change": 18,
-"Garbage time": 17,
 "Overtime": 15,
 "Target redistribution": 15,
 "Variance": 15,
@@ -375263,7 +375212,7 @@
 {
 "category": "Unexpected inactive",
 "total_abs_error": 6077.553,
-"share_of_total_abs_error": 0.2122,
+"share_of_total_abs_error": 0.2113,
 "total_abs_z": 504.224,
 "n": 232,
 "avoidable_n": 0,
@@ -375281,28 +375230,28 @@
 },
 {
 "category": "Game script",
-"total_abs_error": 4945.85,
+"total_abs_error": 4968.159,
 "share_of_total_abs_error": 0.1727,
-"total_abs_z": 474.727,
-"n": 182,
+"total_abs_z": 481.182,
+"n": 185,
 "avoidable_n": 0,
-"mean_abs_z": 2.608,
+"mean_abs_z": 2.601,
 "by_market_abs_error": {
 "receiving_yards": 2014.911,
 "rushing_yards": 1080.898,
 "passing_yards": 1039.945,
-"passing_attempts": 322.597,
-"receptions": 227.654,
+"passing_attempts": 339.297,
+"receptions": 231.844,
 "passing_completions": 221.437,
 "passing_tds": 18.783,
-"interceptions": 11.822,
+"interceptions": 13.241,
 "rushing_attempts": 7.803
 }
 },
 {
 "category": "Quarterback change",
 "total_abs_error": 3108.963,
-"share_of_total_abs_error": 0.1085,
+"share_of_total_abs_error": 0.1081,
 "total_abs_z": 197.076,
 "n": 75,
 "avoidable_n": 17,
@@ -375320,19 +375269,19 @@
 },
 {
 "category": "Blowout",
-"total_abs_error": 2872.681,
-"share_of_total_abs_error": 0.1003,
-"total_abs_z": 166.654,
-"n": 69,
+"total_abs_error": 2939.502,
+"share_of_total_abs_error": 0.1022,
+"total_abs_z": 169.853,
+"n": 71,
 "avoidable_n": 0,
-"mean_abs_z": 2.415,
+"mean_abs_z": 2.392,
 "by_market_abs_error": {
-"receiving_yards": 1566.627,
+"receiving_yards": 1630.289,
 "passing_yards": 571.318,
 "rushing_yards": 536.264,
 "passing_attempts": 67.074,
 "passing_completions": 62.884,
-"receptions": 53.792,
+"receptions": 56.951,
 "passing_tds": 12.337,
 "interceptions": 2.385
 }
@@ -375340,7 +375289,7 @@
 {
 "category": "Explosive plays",
 "total_abs_error": 2036.138,
-"share_of_total_abs_error": 0.0711,
+"share_of_total_abs_error": 0.0708,
 "total_abs_z": 94.368,
 "n": 34,
 "avoidable_n": 0,
@@ -375354,7 +375303,7 @@
 {
 "category": "Variance",
 "total_abs_error": 1516.005,
-"share_of_total_abs_error": 0.0529,
+"share_of_total_abs_error": 0.0527,
 "total_abs_z": 154.395,
 "n": 80,
 "avoidable_n": 0,
@@ -375373,7 +375322,7 @@
 {
 "category": "Overtime",
 "total_abs_error": 1481.612,
-"share_of_total_abs_error": 0.0517,
+"share_of_total_abs_error": 0.0515,
 "total_abs_z": 141.16,
 "n": 51,
 "avoidable_n": 0,
@@ -375392,7 +375341,7 @@
 {
 "category": "Unexpected injury",
 "total_abs_error": 1371.819,
-"share_of_total_abs_error": 0.0479,
+"share_of_total_abs_error": 0.0477,
 "total_abs_z": 96.549,
 "n": 39,
 "avoidable_n": 9,
@@ -375409,24 +375358,24 @@
 },
 {
 "category": "Garbage time",
-"total_abs_error": 1190.194,
-"share_of_total_abs_error": 0.0416,
-"total_abs_z": 111.32,
-"n": 44,
+"total_abs_error": 1223.056,
+"share_of_total_abs_error": 0.0425,
+"total_abs_z": 116.945,
+"n": 46,
 "avoidable_n": 0,
-"mean_abs_z": 2.53,
+"mean_abs_z": 2.542,
 "by_market_abs_error": {
-"receiving_yards": 766.222,
+"receiving_yards": 794.321,
 "rushing_yards": 293.465,
+"receptions": 63.823,
 "passing_attempts": 61.616,
-"receptions": 59.06,
 "passing_completions": 9.831
 }
 },
 {
 "category": "Role change",
 "total_abs_error": 1045.389,
-"share_of_total_abs_error": 0.0365,
+"share_of_total_abs_error": 0.0363,
 "total_abs_z": 72.907,
 "n": 31,
 "avoidable_n": 0,
@@ -375444,7 +375393,7 @@
 {
 "category": "Target redistribution",
 "total_abs_error": 1038.213,
-"share_of_total_abs_error": 0.0362,
+"share_of_total_abs_error": 0.0361,
 "total_abs_z": 95.021,
 "n": 38,
 "avoidable_n": 0,
@@ -375457,7 +375406,7 @@
 {
 "category": "Turnovers",
 "total_abs_error": 995.475,
-"share_of_total_abs_error": 0.0348,
+"share_of_total_abs_error": 0.0346,
 "total_abs_z": 84.655,
 "n": 36,
 "avoidable_n": 0,
@@ -375475,7 +375424,7 @@
 {
 "category": "Unknown",
 "total_abs_error": 633.641,
-"share_of_total_abs_error": 0.0221,
+"share_of_total_abs_error": 0.022,
 "total_abs_z": 89.29,
 "n": 19,
 "avoidable_n": 0,
@@ -376454,17 +376403,17 @@
 },
 "sources": {
 "games": 272,
-"team_game_stats": 320,
-"player_game_stats": 3123,
-"injuries": 6915,
-"weather_observations": 627,
+"team_game_stats": 324,
+"player_game_stats": 3169,
+"injuries": 6930,
+"weather_observations": 716,
 "depth_chart_snapshots": 1,
 "pbp_garbage_time": "cached play-by-play",
 "market_mae_proxy_from": "none",
-"rows_evaluated": 10409
+"rows_evaluated": 10559
 },
 "skipped": {
-"binary_market": 2202,
+"binary_market": 2236,
 "no_game": 0,
 "no_sd": 7
 }
@@ -382318,7 +382267,7 @@
 "season": 2026,
 "method": "Opponent-adjusted EPA/play allowed: ridge regression (lambda=40) on offense + defense indicators. Regular season; garbage time (win prob <5% or >95%), kneels, spikes and 2-pt tries excluded. Rush = designed runs; pass = dropbacks incl. sacks and scrambles. Rank 1 = toughest of 32.",
 "source": "nflverse play_by_play_2026",
-"generated_at": "2026-11-23T21:44:11Z",
+"generated_at": "2026-11-23T22:44:18Z",
 "backtest": {
 "generated": "2026-10-30",
 "script": "scripts/research/defense_matchup_backtest.py",
@@ -383062,148 +383011,36 @@
 "season": 2026,
 "week": 11,
 "status": "OK",
-"generated_at": "2026-11-23T01:58:22Z",
+"generated_at": "2026-11-23T22:43:08Z",
 "mode": "LIVE",
-"rows_projected": 492,
-"rows_dnp": 425,
-"dnp_rate": 0.8638,
-"by_market": {
-"receptions": {
-"n": 13,
-"mae": 1.424,
-"bias": -0.8669,
-"rmse": 2.223,
-"coverage_80": 0.8462,
-"mean_pred": 1.9792,
-"mean_actual": 2.8462
-},
-"targets": {
-"n": 15,
-"mae": 2.1152,
-"bias": -1.4866,
-"rmse": 2.8854,
-"coverage_80": 0.8,
-"mean_pred": 3.1134,
-"mean_actual": 4.6
-},
-"receiving_yards": {
-"n": 13,
-"mae": 23.1918,
-"bias": -17.3005,
-"rmse": 32.5817,
-"coverage_80": 0.7692,
-"mean_pred": 20.5456,
-"mean_actual": 37.8462
-},
-"rushing_attempts": {
-"n": 6,
-"mae": 4.8216,
-"bias": -2.0096,
-"rmse": 6.4261,
-"coverage_80": 0.5,
-"mean_pred": 6.6571,
-"mean_actual": 8.6667
-},
-"rushing_yards": {
-"n": 7,
-"mae": 22.9822,
-"bias": -22.9822,
-"rmse": 32.529,
-"coverage_80": 0.5714,
-"mean_pred": 16.1607,
-"mean_actual": 39.1429
-},
-"passing_yards": {
-"n": 2,
-"status": "INSUFFICIENT DATA"
-},
-"passing_attempts": {
-"n": 2,
-"status": "INSUFFICIENT DATA"
-},
-"passing_completions": {
-"n": 2,
-"status": "INSUFFICIENT DATA"
-},
-"passing_tds": {
-"n": 2,
-"status": "INSUFFICIENT DATA"
-},
-"interceptions": {
-"n": 2,
-"status": "INSUFFICIENT DATA"
-},
-"rush_rec_yards": {
-"n": 3,
-"status": "INSUFFICIENT DATA"
-}
-},
-"by_position": {
-"?": {
-"n": 67,
-"mae": 12.0116,
-"bias": -10.1889,
-"rmse": 24.8707,
-"coverage_80": 0.7463,
-"mean_pred": 17.7364,
-"mean_actual": 27.9254
-}
-},
-"confidence_buckets": {
-"65+": {
-"n": 21,
-"mae": 18.9366,
-"bias": -18.2676,
-"rmse": 36.2456,
-"coverage_80": 0.619,
-"mean_pred": 22.8753,
-"mean_actual": 41.1429
-},
-"45-65": {
-"n": 34,
-"mae": 10.6266,
-"bias": -7.6533,
-"rmse": 19.809,
-"coverage_80": 0.8235,
-"mean_pred": 19.9349,
-"mean_actual": 27.5882
-},
-"30-45": {
-"n": 10,
-"mae": 2.3652,
-"bias": -2.3652,
-"rmse": 3.9045,
-"coverage_80": 0.8,
-"mean_pred": 2.1348,
-"mean_actual": 4.5
-},
-"0-30": {
-"n": 2,
-"status": "INSUFFICIENT DATA"
-}
-},
+"rows_projected": 128,
+"rows_dnp": 128,
+"dnp_rate": 1.0,
+"by_market": {},
+"by_position": {},
+"confidence_buckets": {},
 "pit_histogram": {
 "bins": 10,
 "counts": [
-1,
-2,
-3,
-1,
 0,
-9,
-7,
-15,
-3,
-20
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
 ],
-"n": 61,
+"n": 0,
 "note": "flat \u21d2 projected distributions are calibrated; U-shape \u21d2 too narrow; hump \u21d2 too wide"
 },
 "games": {
 "n_margin": 0,
 "margin_mae": null,
 "margin_bias": null,
-"total_mae": 19.5444,
+"total_mae": null,
 "brier_home": null
 },
 "model_version": "game-ridge-v1-2018-2026-202609151720",
@@ -383220,6 +383057,17 @@
 "rec_yds_mae": 19.0457,
 "rec_yds_cov": 0.8125,
 "rush_att_bias": -1.0541
+},
+{
+"season": 2026,
+"week": 11,
+"rows": 128,
+"dnp_rate": 1.0,
+"margin_mae": null,
+"brier_home": null,
+"rec_yds_mae": null,
+"rec_yds_cov": null,
+"rush_att_bias": null
 }
 ]
 },
@@ -395134,12 +394982,17 @@ null,
 "2026-11-23T21:38:41Z",
 null,
 -304
+],
+[
+"2026-11-23T22:42:41Z",
+null,
+-291
 ]
 ],
 "current": {
 "line": null,
-"price": -304,
-"at": "2026-11-23T21:38:41Z"
+"price": -291,
+"at": "2026-11-23T22:42:41Z"
 }
 },
 "2026_11_CIN_WAS|moneyline|WAS|home|draftkings@espn": {
@@ -395218,12 +395071,17 @@ null,
 "2026-11-23T21:38:41Z",
 null,
 247
+],
+[
+"2026-11-23T22:42:41Z",
+null,
+238
 ]
 ],
 "current": {
 "line": null,
-"price": 247,
-"at": "2026-11-23T21:38:41Z"
+"price": 238,
+"at": "2026-11-23T22:42:41Z"
 }
 },
 "2026_11_CIN_WAS|spread|CIN|away|draftkings@espn": {
@@ -402847,7 +402705,7 @@ null,
 }
 ],
 "missing_credentials": [],
-"checked_at": "2026-11-23T21:44:12Z"
+"checked_at": "2026-11-23T22:44:19Z"
 },
 "model_changelog": [
 {
@@ -411864,15 +411722,15 @@ null,
 "weekly Aggressive"
 ],
 "invariants": {
-"checked_tickets": 1,
-"checked_legs": 3,
+"checked_tickets": 0,
+"checked_legs": 0,
 "withheld": 0,
 "violations": []
 },
 "frozen": {
-"games_locked": 0,
-"shown_from_record": 0,
-"not_recorded": 0,
+"games_locked": 1,
+"shown_from_record": 1,
+"not_recorded": 1,
 "week_locked": 1
 },
 "switch": "NFL_PARLAYS_V2=0 restores the v0.40 parlay products",
@@ -412213,16 +412071,10 @@ null,
 ],
 "first_kickoff_utc": "2026-11-24T01:15:00Z",
 "lock_time_utc": "2026-11-23T22:15:00Z",
-"status": "NO_QUALIFYING_BET",
-"rule": "S1",
+"status": "NOT_RECORDED",
 "legs": [],
-"games": [
-"2026_11_CIN_WAS"
-],
-"official": false,
-"why": "NO PICK: the best bet priced +100..+103 that is not an under is rated below 40% by the model, so nothing is shown. The stake carries.",
-"no_pick": true,
-"starters_only": true
+"locked": true,
+"why": "Locked before a pre-lock ladder ticket was recorded (or nothing qualified). Nothing is recomposed after a lock; the stake carries."
 }
 ],
 "assumptions": [
@@ -412339,9 +412191,9 @@ null,
 "violations": []
 },
 "frozen": {
-"windows_locked": 4,
+"windows_locked": 5,
 "shown_from_record": 4,
-"not_recorded": 0
+"not_recorded": 1
 },
 "ledger": {
 "current_streak": 0,
@@ -679316,7 +679168,7 @@ null,
 "complete": true
 },
 "published": true,
-"graded_at": "2026-11-23T21:39:34Z",
+"graded_at": "2026-11-23T22:42:55Z",
 "grading_policy_version": 2,
 "corrections": [
 {
@@ -696403,7 +696255,7 @@ null,
 "complete": false
 },
 "published": false,
-"graded_at": "2026-11-23T21:39:32Z",
+"graded_at": "2026-11-23T22:42:52Z",
 "grading_policy_version": 2,
 "corrections": [],
 "state": "in_progress",
@@ -710849,7 +710701,7 @@ null,
 }
 }
 ],
-"generated_at": "2026-11-23T21:44:16Z"
+"generated_at": "2026-11-23T22:44:23Z"
 },
 "audit_shadows": {
 "season": 2026,
@@ -710968,8 +710820,8 @@ null,
 ]
 },
 "ticket_history_capture": {
-"pending": 1,
-"frozen": 0,
+"pending": 0,
+"frozen": 1,
 "skipped_locked_without_pending": 0,
 "dropped_superseded": 0,
 "week_started": 1
@@ -711015,8 +710867,149 @@ null,
 "results_detail": {
 "version": 1,
 "season": 2026,
-"generated_at": "2026-11-23T21:44:18Z",
+"generated_at": "2026-11-23T22:44:25Z",
 "props": [
+{
+"game_id": "2026_11_CIN_WAS",
+"week": 11,
+"kickoff_utc": "2026-11-24T01:15:00Z",
+"matchup": "CIN @ WAS",
+"player_id": "00-0036410",
+"player": "Tee Higgins",
+"team": "CIN",
+"opponent": "WAS",
+"market": "anytime_td",
+"side": "yes",
+"line": null,
+"projection": null,
+"model_probability": 0.4121,
+"actual": null,
+"result": "PENDING",
+"key": "2026_11_CIN_WAS|00-0036410|anytime_td|yes|0.5",
+"sources": [
+"TD"
+],
+"prices": [
+{
+"source": "TD",
+"price": -105,
+"collected_at": "2026-11-23T21:38:55Z"
+}
+],
+"tickets": [
+{
+"id": "GAME_TD3|2026|11|2026_11_CIN_WAS",
+"label": "GAME TD PARLAY",
+"leg": 2,
+"ticket_result": "PENDING"
+}
+],
+"position": "WR",
+"price": -105,
+"price_source": "TD"
+},
+{
+"game_id": "2026_11_CIN_WAS",
+"week": 11,
+"kickoff_utc": "2026-11-24T01:15:00Z",
+"matchup": "CIN @ WAS",
+"player_id": "00-0036900",
+"player": "Ja'Marr Chase",
+"team": "CIN",
+"opponent": "WAS",
+"market": "anytime_td",
+"side": "yes",
+"line": null,
+"projection": null,
+"model_probability": 0.5569,
+"actual": null,
+"result": "PENDING",
+"key": "2026_11_CIN_WAS|00-0036900|anytime_td|yes|0.5",
+"sources": [
+"WEEK_TD",
+"TD"
+],
+"prices": [
+{
+"source": "WEEK_TD",
+"price": -150,
+"collected_at": "2026-11-19T18:30:39Z"
+},
+{
+"source": "TD",
+"price": -155,
+"collected_at": "2026-11-23T21:38:55Z"
+}
+],
+"tickets": [
+{
+"id": "WEEK_TD|2026|11|week",
+"label": "FULL-WEEK TD PARLAY",
+"leg": 7,
+"ticket_result": "LOSS"
+},
+{
+"id": "GAME_TD3|2026|11|2026_11_CIN_WAS",
+"label": "GAME TD PARLAY",
+"leg": 1,
+"ticket_result": "PENDING"
+}
+],
+"position": "WR",
+"price": -150,
+"price_source": "WEEK_TD"
+},
+{
+"game_id": "2026_11_CIN_WAS",
+"week": 11,
+"kickoff_utc": "2026-11-24T01:15:00Z",
+"matchup": "CIN @ WAS",
+"player_id": "00-0038597",
+"player": "Chase Brown",
+"team": "CIN",
+"opponent": "WAS",
+"market": "anytime_td",
+"side": "yes",
+"line": null,
+"projection": null,
+"model_probability": 0.5439,
+"actual": null,
+"result": "PENDING",
+"key": "2026_11_CIN_WAS|00-0038597|anytime_td|yes|0.5",
+"sources": [
+"WEEK_TD",
+"TD"
+],
+"prices": [
+{
+"source": "WEEK_TD",
+"price": -130,
+"collected_at": "2026-11-19T18:30:39Z"
+},
+{
+"source": "TD",
+"price": -130,
+"collected_at": "2026-11-23T21:38:55Z"
+}
+],
+"tickets": [
+{
+"id": "WEEK_TD|2026|11|week",
+"label": "FULL-WEEK TD PARLAY",
+"leg": 4,
+"ticket_result": "LOSS"
+},
+{
+"id": "GAME_TD3|2026|11|2026_11_CIN_WAS",
+"label": "GAME TD PARLAY",
+"leg": 0,
+"ticket_result": "PENDING"
+}
+],
+"position": "RB",
+"price": -130,
+"price_source": "WEEK_TD"
+},
 {
 "game_id": "2026_11_MIN_SF",
 "week": 11,
@@ -901205,87 +901198,100 @@ null,
 "position": "WR",
 "price": -113,
 "price_source": "PICK"
-},
-{
-"game_id": "2026_11_CIN_WAS",
-"week": 11,
-"kickoff_utc": null,
-"matchup": "CIN @ WAS",
-"player_id": "00-0036900",
-"player": "Ja'Marr Chase",
-"team": "CIN",
-"opponent": "WAS",
-"market": "anytime_td",
-"side": "yes",
-"line": null,
-"projection": null,
-"model_probability": 0.5569,
-"actual": null,
-"result": "PENDING",
-"key": "2026_11_CIN_WAS|00-0036900|anytime_td|yes|0.5",
-"sources": [
-"WEEK_TD"
-],
-"prices": [
-{
-"source": "WEEK_TD",
-"price": -150,
-"collected_at": "2026-11-19T18:30:39Z"
 }
 ],
 "tickets": [
 {
-"id": "WEEK_TD|2026|11|week",
-"label": "FULL-WEEK TD PARLAY",
-"leg": 7,
-"ticket_result": "LOSS"
-}
-],
-"position": "WR",
-"price": -150,
-"price_source": "WEEK_TD"
-},
-{
-"game_id": "2026_11_CIN_WAS",
+"id": "GAME_TD3|2026|11|2026_11_CIN_WAS",
+"type": "GAME_TD3",
 "week": 11,
-"kickoff_utc": null,
+"game_ids": [
+"2026_11_CIN_WAS"
+],
 "matchup": "CIN @ WAS",
+"kickoff_utc": "2026-11-24T01:15:00Z",
+"frozen_at": "2026-11-23T22:44:23Z",
+"published_at": "2026-11-23T21:44:12Z",
+"official": false,
+"provenance": "RECORDED - last publication before lock (2026-11-23T21:44:12Z)",
+"recovered": false,
+"joint_p": 0.1313,
+"legs": [
+{
+"key": "2026_11_CIN_WAS|00-0038597|anytime_td|yes|0.5",
+"game_id": "2026_11_CIN_WAS",
 "player_id": "00-0038597",
 "player": "Chase Brown",
 "team": "CIN",
-"opponent": "WAS",
 "market": "anytime_td",
 "side": "yes",
 "line": null,
+"price": -130,
+"book": "fanduel",
+"collected_at": "2026-11-23T21:38:55Z",
+"p_model": 0.5595,
 "projection": null,
-"model_probability": 0.5439,
 "actual": null,
 "result": "PENDING",
-"key": "2026_11_CIN_WAS|00-0038597|anytime_td|yes|0.5",
-"sources": [
-"WEEK_TD"
-],
-"prices": [
+"reason": null
+},
 {
-"source": "WEEK_TD",
-"price": -130,
-"collected_at": "2026-11-19T18:30:39Z"
-}
-],
-"tickets": [
+"key": "2026_11_CIN_WAS|00-0036900|anytime_td|yes|0.5",
+"game_id": "2026_11_CIN_WAS",
+"player_id": "00-0036900",
+"player": "Ja'Marr Chase",
+"team": "CIN",
+"market": "anytime_td",
+"side": "yes",
+"line": null,
+"price": -155,
+"book": "fanduel",
+"collected_at": "2026-11-23T21:38:55Z",
+"p_model": 0.5533,
+"projection": null,
+"actual": null,
+"result": "PENDING",
+"reason": null
+},
 {
-"id": "WEEK_TD|2026|11|week",
-"label": "FULL-WEEK TD PARLAY",
-"leg": 4,
-"ticket_result": "LOSS"
+"key": "2026_11_CIN_WAS|00-0036410|anytime_td|yes|0.5",
+"game_id": "2026_11_CIN_WAS",
+"player_id": "00-0036410",
+"player": "Tee Higgins",
+"team": "CIN",
+"market": "anytime_td",
+"side": "yes",
+"line": null,
+"price": -105,
+"book": "fanduel",
+"collected_at": "2026-11-23T21:38:55Z",
+"p_model": 0.4121,
+"projection": null,
+"actual": null,
+"result": "PENDING",
+"reason": null
 }
 ],
-"position": "RB",
-"price": -130,
-"price_source": "WEEK_TD"
-}
-],
-"tickets": [
+"result": "PENDING",
+"reduced": false,
+"stored_result": null,
+"result_mismatch": false,
+"legs_won": 0,
+"legs_lost": 0,
+"legs_total": 3,
+"losing_legs": [],
+"stored_price": null,
+"estimate": {
+"decimal": 5.6827,
+"american": 468,
+"counted": 3,
+"missing": 0,
+"label": "ESTIMATED FROM RECORDED LEG ODDS",
+"reduced": false
+},
+"family": "TD",
+"label": "GAME TD PARLAY"
+},
 {
 "id": "LADDER|2026|11|SNF",
 "type": "LADDER",
@@ -979570,11 +979576,11 @@ null,
 "00-0041562": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/umygvel2pumkyvxt3jm9"
 },
 "meta": {
-"n_props": 4406,
-"n_tickets": 404,
+"n_props": 4407,
+"n_tickets": 405,
 "n_superseded_tickets": 168,
 "superseded_rule": "One version, one size (v0.40.0): per game one Likely + one Upside TD path at the featured length; per week the first-frozen week TD ticket plus the 4- and 8-leg ladder rungs frozen with it. Extra versions and sizes recorded under the earlier every-option rule are kept here, unchanged and still graded, but are not counted on the main list.",
-"n_priced_props": 2694,
+"n_priced_props": 2695,
 "leg_result_mismatches": 1,
 "stored_combined_prices": 0,
 "sources": [
@@ -979590,11 +979596,11 @@ null,
 }
 },
 "results_meta": {
-"n_props": 4406,
-"n_tickets": 404,
+"n_props": 4407,
+"n_tickets": 405,
 "n_superseded_tickets": 168,
 "superseded_rule": "One version, one size (v0.40.0): per game one Likely + one Upside TD path at the featured length; per week the first-frozen week TD ticket plus the 4- and 8-leg ladder rungs frozen with it. Extra versions and sizes recorded under the earlier every-option rule are kept here, unchanged and still graded, but are not counted on the main list.",
-"n_priced_props": 2694,
+"n_priced_props": 2695,
 "leg_result_mismatches": 1,
 "stored_combined_prices": 0,
 "sources": [
@@ -979609,8 +979615,8 @@ null,
 "canonical_identity": "game_id | player_id | market | side | line (milestone T+ = OVER T-0.5)"
 },
 "research_board_capture": {
-"games_frozen": 0,
-"props": 0
+"games_frozen": 1,
+"props": 430
 },
 "pnl": {
 "season": 2026,
